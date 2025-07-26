@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: course1
+title: Intro to Coding with Python with a Screenreader
+level: beginner
+description: This course will teach Eric Matthes’ Python Crash Course 3rd Ed.
+  using a screenreader.
+cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
+contacts:
+  - displayName: Michael R. Hunsaker
+    pictureUrl: https://avatars.githubusercontent.com/u/3277946?v=4
+    homePageUrl: https://github.com/mrhunsaker
+units:
+  - id: unit1
+    title: Unit 1
+    lessons:
+      - id: lesson1
+        title: Lesson 1
+        lessonParts:
+          - id: lessonpart1
+            title: Page 1
