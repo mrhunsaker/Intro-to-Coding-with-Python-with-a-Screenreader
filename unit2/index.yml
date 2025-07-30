@@ -3,3 +3,6 @@ id: unit2
 title: "Unit 1: Foundations of Computing and Getting Started with Python"
 lessons:
   - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml

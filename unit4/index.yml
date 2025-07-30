@@ -3,3 +3,7 @@ id: unit4
 title: "Unit 3: Control Flow: Decisions and Loops"
 lessons:
   - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml
