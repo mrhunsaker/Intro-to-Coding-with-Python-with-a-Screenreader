@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Materials
+content: >-
+  Lesson 5.1: How the input() Function Works
+      • Student Materials:
+          ◦ Outline:
+              ▪ Recap of input() for getting user data.
+              ▪ Confirming that input() always returns a string, regardless of what the user types.
+              ▪ Importance of type conversion (int(), float()) when numeric input is needed.
+              ▪ Handling prompts and making them clear for screen reader users.
+          ◦ Skills Checklist:
+              ▪ [ ] I can effectively use input() to get user data.
+              ▪ [ ] I can confirm that input()'s return value is always a string.
+              ▪ [ ] I can convert user input to a numeric type when necessary.
+              ▪ [ ] I can write clear and concise prompts for user input.
