@@ -10,6 +10,7 @@ contacts:
     pictureUrl: https://avatars.githubusercontent.com/u/3277946?v=4
     homePageUrl: https://github.com/mrhunsaker
 units:
+  - unit15/index.yml
   - unit1/index.yml
   - unit2/index.yml
   - unit3/index.yml
@@ -23,3 +24,5 @@ units:
   - unit11/index.yml
   - unit12/index.yml
   - unit13/index.yml
+  - unit16/index.yml
+  - unit14/index.yml

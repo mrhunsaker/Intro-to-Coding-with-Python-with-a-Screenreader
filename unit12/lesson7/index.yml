@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson7
+title: Accessible Personal Data Manager Skeleton and Instructions
+lessonParts:
+  - lessonpart1.yml

@@ -1,0 +1,314 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart10
+title: Unit 10
+content: >-
+  ## Unit 10: Project-Based Learning: Building Text-Based Applications
+
+  ## Lesson 10.1: Designing Your Project
+      • Proofreading Assignment (No code to proofread in this conceptual lesson).
+  ## Lesson 10.2: Building a Text-Based Adventure Game (Part 1)
+      • Proofreading Assignment:
+          ◦ Scenario: You're setting up your game's rooms and movement, but making dictionary access or conditional errors.
+          ◦ Code to Proofread:
+  ```python
+
+  rooms = {
+      "start": {"description": "You are in a dimly lit cave.", "exits": {"north": "forest", "east": "river"}},
+      "forest": {"description": "You are in a dense forest.", "exits": {"south": "start"}},
+      "river": {"description": "A river flows quickly here.", "exits": {"west": "start"}
+      # Missing closing curly brace for 'river' room and for 'rooms' dictionary
+  }
+
+
+  current_room = "start"
+
+
+  while True:
+      room_info = rooms[current_room]
+      print(room_info["desc"]) # KeyError: 'desc' instead of 'description'
+      print("Exits:", list(room_info["exits"].keys()))
+
+      command = input("What do you do? ").lower()
+      if command in room_info["exits"]:
+          current_room = room_info.exits[command] # AttributeError: 'dict' object has no attribute 'exits'
+      elif command == "quit":
+          break
+      else:
+          print("Invalid command.")
+  ```
+          ◦ Errors to Find:
+              1. SyntaxError: Missing closing curly brace(s) for the river room and the rooms dictionary.
+              2. KeyError: room_info["desc"] should be room_info["description"].
+              3. AttributeError: room_info.exits[command] should be room_info["exits"][command].
+          ◦ Goal: Fix all SyntaxError, KeyError, and AttributeError issues.
+      • Documentation Assignment:
+          ◦ Scenario: This code sets up a simple game room and allows the player to look around.
+          ◦ Code to Document:
+  ```python
+
+  game_rooms = {
+      "hall": {
+          "description": "You are in a grand hall with high ceilings.",
+          "exits": {"north": "kitchen", "south": "garden"}
+      }
+  }
+
+  player_location = "hall"
+
+
+  print(f"Current location: {player_location}")
+
+  current_room_details = game_rooms[player_location]
+
+  print(current_room_details["description"])
+
+  print(f"Available exits: {', '.join(current_room_details['exits'].keys())}")
+
+  ```
+          ◦ Task: Add a docstring explaining the structure of game_rooms. Add inline comments for player_location, accessing room details, and displaying the description and exits.
+          ◦ Goal: Document the setup and basic description of a game room.
+  ## Lesson 10.3: Building a Text-Based Adventure Game (Part 2)
+      • Proofreading Assignment:
+          ◦ Scenario: You're adding inventory and item interaction to your game, but mismanaging list/dictionary operations or conditional logic.
+          ◦ Code to Proofread:
+  ```python
+
+  rooms = {
+      "start": {"description": "A dark cave.", "items": ["torch", "rock"], "exits": {"north": "forest"}},
+      "forest": {"description": "A dense forest.", "items": [], "exits": {"south": "start"}}
+  }
+
+  player_inventory = []
+
+  current_room = "start"
+
+
+  while True:
+      room_items = rooms[current_room]["items"]
+      print(f"You see: {', '.join(room_items) if room_items else 'nothing'}.")
+      command = input("Action? ").lower().split()
+
+      if len(command) < 2:
+          print("Need more info.")
+          continue
+
+      action = command[0]
+      item_name = command[1]
+
+      if action == "take":
+          if item_name in room_items:
+              room_items.remove(item_name) # This modifies the original room_items in dict
+              player_inventory.append(item_name)
+              print(f"You took the {item_name}.")
+          else:
+              print("That item is not here.")
+      elif action == "drop":
+          if item_name in player_inventory:
+              player_inventory.remove(item_name)
+              rooms[current_room]["items"].add(item_name) # AttributeError: 'list' object has no attribute 'add'
+              print(f"You dropped the {item_name}.")
+          else:
+              print("You don't have that item.")
+      elif action == "go":
+          if item_name in rooms[current_room]["exits"]:
+              current_room = rooms[current_room]["exits"][item_name]
+          else:
+              print("You can't go that way.")
+      else:
+          print("Unknown command.")
+      print(f"Your inventory: {', '.join(player_inventory) if player_inventory else 'empty'}.")
+  ```
+          ◦ Errors to Find:
+              1. AttributeError: rooms[current_room]["items"].add(item_name) should be append() because it's a list.
+          ◦ Goal: Fix the AttributeError. Explain that list.add() is not a method and list.append() should be used.
+      • Documentation Assignment:
+          ◦ Scenario: This code simulates picking up and dropping an item in a simple game.
+          ◦ Code to Document:
+  ```python
+
+  current_room_items = ["key", "map"]
+
+  player_inventory = []
+
+
+  item_to_take = "key"
+
+  if item_to_take in current_room_items:
+      current_room_items.remove(item_to_take)
+      player_inventory.append(item_to_take)
+      print(f"You took the {item_to_take}.")
+  else:
+      print("Item not found in room.")
+
+  print(f"Room items now: {current_room_items}")
+
+  print(f"Your inventory: {player_inventory}")
+
+
+  item_to_drop = "map"
+
+  if item_to_drop in player_inventory:
+      player_inventory.remove(item_to_drop)
+      current_room_items.append(item_to_drop)
+      print(f"You dropped the {item_to_drop}.")
+  else:
+      print("Item not in your inventory.")
+  ```
+          ◦ Task: Add a docstring for the script. Add inline comments explaining the "take" and "drop" logic, including list .remove() and .append() methods.
+          ◦ Goal: Document basic item interaction in a game.
+  ## Lesson 10.4: Developing a Command-Line Tool
+      • Proofreading Assignment:
+          ◦ Scenario: You're building a to-do list tool, but persistence is broken due to incorrect JSON handling or file modes.
+          ◦ Code to Proofread:
+  ```python
+
+  import json
+
+
+  TODOS_FILE = "todos.json"
+
+
+  def load_todos():
+      try:
+          with open(TODOS_FILE, "r") as f:
+              return json.load(f)
+      except FileNotFoundError:
+          return []
+      except json.JSONDecodeError:
+          print("Warning: Corrupted todos.json, starting with empty list.")
+          return []
+
+  def save_todos(todos):
+      with open(TODOS_FILE, "a") as f: # Should be "w" to overwrite, not append
+          json.dump(todos, f, indent=4)
+
+  todos = load_todos()
+
+
+  while True:
+      print("\n--- To-Do List ---")
+      print("1. Add To-Do")
+      print("2. View To-Dos")
+      print("3. Save and Quit")
+      choice = input("Enter choice: ")
+
+      if choice == "1":
+          task = input("Enter new task: ")
+          todos.append(task)
+          print("Task added.")
+      elif choice == "2":
+          if not todos:
+              print("No to-dos yet.")
+          for i, task in enumerate(todos):
+              print(f"{i+1}. {task}")
+      elif choice == "3":
+          save_todos(todos)
+          break
+      else:
+          print("Invalid choice.")
+  ```
+          ◦ Errors to Find:
+              1. Logical Error: save_todos uses "a" mode for writing JSON. This will append the entire JSON structure to the file, creating invalid JSON. It should be "w" to overwrite.
+          ◦ Goal: Correct the file mode in save_todos to "w" and explain why appending JSON directly can lead to corrupted files.
+      • Documentation Assignment:
+          ◦ Scenario: This code provides the core functions for a simple contact manager: adding and viewing contacts.
+          ◦ Code to Document:
+  ```python
+
+  contacts = []
+
+
+  def add_contact(name, phone):
+      """Adds a new contact to the global contacts list."""
+      new_contact = {"name": name, "phone": phone}
+      contacts.append(new_contact)
+      print(f"Contact '{name}' added.")
+
+  def view_contacts():
+      """Displays all contacts currently stored."""
+      if not contacts:
+          print("No contacts available.")
+          return
+
+      print("\n--- Your Contacts ---")
+      for i, contact in enumerate(contacts):
+          print(f"{i+1}. Name: {contact['name']}, Phone: {contact['phone']}")
+
+  # Main loop (simplified for documentation)
+
+  add_contact("Alice", "123-4567")
+
+  add_contact("Bob", "987-6543")
+
+  view_contacts()
+
+  ```
+          ◦ Task: Add docstrings for add_contact (explaining parameters and action) and view_contacts (explaining its display logic). Add inline comments explaining dictionary creation and list appending in add_contact, and the enumerate loop in view_contacts.
+          ◦ Goal: Document core functions for a command-line tool.
+  ## Lesson 10.5: Refinement and User Experience
+      • Proofreading Assignment:
+          ◦ Scenario: You're adding input validation and better error messages, but there are logical flaws or unhandled edge cases.
+          ◦ Code to Proofread:
+  ```python
+
+  def get_positive_number(prompt):
+      while True:
+          try:
+              num_str = input(prompt)
+              num = int(num_str)
+              if num > 0:
+                  return num
+              else:
+                  print("Please enter a positive number.")
+          except ValueError:
+              print("Invalid input. Please enter a whole number.")
+          # Missing handling for empty input, which also raises ValueError
+          # or for just pressing Enter
+  def main():
+      age = get_positive_number("Enter your age: ")
+      print(f"You entered age: {age}")
+
+      # Example of trying to use an invalid choice
+      print("\nMenu: A. Option A, B. Option B")
+      choice = input("Select an option (A/B): ").upper()
+      if choice == "A":
+          print("Option A selected.")
+      elif choice == "B":
+          print("Option B selected.")
+      else:
+          pass # This doesn't inform the user of an invalid choice
+  main()
+
+  ```
+          ◦ Errors to Find:
+              1. Logical Error: get_positive_number has an except ValueError but doesn't explicitly handle empty input or just hitting Enter, which would re-raise ValueError or enter an infinite loop if not handled correctly.
+              2. Logical Error: In main, the else: pass for invalid menu choice doesn't provide feedback to the user.
+          ◦ Goal: Modify get_positive_number to ensure int() conversion happens before num > 0 check. For the else: pass in main, replace pass with a meaningful message to the user.
+      • Documentation Assignment:
+          ◦ Scenario: This code asks for a user's age and provides feedback, ensuring the input is a valid positive number.
+          ◦ Code to Document:
+  ```python
+
+  def get_valid_age():
+      """
+      Prompts the user for their age and ensures it's a positive integer.
+      Continues prompting until valid input is received.
+      """
+      while True:
+          try:
+              age_str = input("Please enter your age: ")
+              age = int(age_str)
+              if age > 0:
+                  return age
+              else:
+                  print("Age must be a positive number. Please try again.")
+          except ValueError:
+              print("Invalid input. Please enter a whole number.")
+
+  user_age = get_valid_age()
+
+  print(f"Your age is: {user_age}")
+
+  ```
+          ◦ Task: Ensure the docstring for get_valid_age is thorough (explaining its purpose, input, output, and behavior). Add inline comments within the try and except blocks explaining their roles in validation.
+          ◦ Goal: Document robust user input validation with clear feedback.

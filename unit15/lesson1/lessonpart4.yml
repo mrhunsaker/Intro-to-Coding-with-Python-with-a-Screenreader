@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart4
+title: Unit 4
+content: >-
+  # Unit 4: Data Structures: Lists and Dictionaries
+
+  ## Independent Practice:
+      1. Multiple Choice: Which method would you use to add an element to the end of an existing list? a) insert() b) remove() c) append() d) pop()
+      2. True/False: Once a list is created, its elements cannot be changed or reordered.
+      3. Yes/No: Is my_tuple = (1, 2, 3) an example of an immutable data structure?
+      4. Multiple Choice: Which of the following best describes a dictionary in Python? a) An ordered collection of items, accessed by index. b) An unordered collection of items stored as key-value pairs. c) A fixed-size collection of numeric data. d) A way to store multiple lines of text.
+      5. True/False: You can access a value in a dictionary using its key, like my_dict["key_name"].
+
+   
+  ## Potential Assessment Questions:
+      1. Multiple Choice: If data = [1, 2, 3] and you execute data.pop(), what will data be afterwards? a) [1, 2, 3] b) [1, 2] c) [3] d) [2, 3]
+      2. True/False: The sorted() function modifies the original list in place.
+      3. Yes/No: Can a dictionary have duplicate keys?
+      4. Multiple Choice: Given person = {"name": "Bob", "age": 30}, how would you get the value associated with the key "name"? a) person.name b) person[0] c) person["name"] d) person.get(0)

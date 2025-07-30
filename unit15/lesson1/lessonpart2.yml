@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Unit 2
+content: >-
+  # Unit 2: Writing Simple Programs and Numeric Computations
+
+  ## Independent Practice:
+      1. Multiple Choice: In the software development process, which phase typically comes after designing the solution? a) Testing b) Problem Solving c) Implementation (coding) d) Maintenance
+      2. True/False: The input() function in Python always returns data as a string, even if the user types a number.
+      3. Yes/No: If you want to perform multiplication with numbers stored as strings, do you need to convert them to numeric types first?
+      4. Multiple Choice: What is the result of 10 / 3 in Python 3? a) 3 b) 3.3333333333333335 c) 3.0 d) Error
+      5. True/False: int(5.9) will result in 6.
+  ## Potential Assessment Questions:
+      1. Multiple Choice: You are writing a program to calculate the area of a circle. Which step is part of the design phase? a) Typing radius = input("Enter radius: ") b) Deciding to use the formula Area = pi * radius^2 c) Running the program to see if it works. d) Fixing a typo in the print statement.
+      2. True/False: float("3.14") successfully converts the string "3.14" into a floating-point number.
+      3. Yes/No: Can you directly use math.sqrt() without importing the math module?
+      4. Multiple Choice: If x = 5 and y = 2, what is the value of x // y? a) 2.5 b) 2 c) 3 d) Error

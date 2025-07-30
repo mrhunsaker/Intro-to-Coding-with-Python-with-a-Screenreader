@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson2
+title: Proofreading and Documentation Assignments
+objectives: >-
+  These assignments are designed to:
+      • Develop Proofreading Skills: Train students to identify common syntax and logical errors without visual cues, relying on screen reader feedback and careful code review.
+      • Emphasize Accessibility Tools: Highlight how features like indentation announcements (from Unit 0), line-by-line navigation, and braille output can aid in precise code inspection.
+      • Foster Documentation Habits: Teach the importance of clear, concise comments and docstrings for code readability and maintainability.
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml
+  - lessonpart4.yml
+  - lessonpart5.yml
+  - lessonpart6.yml
+  - lessonpart7.yml
+  - lessonpart8.yml
+  - lessonpart9.yml
+  - lessonpart10.yml

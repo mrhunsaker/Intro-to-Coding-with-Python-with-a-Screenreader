@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart10
+title: Unit 10
+content: >-
+  # Unit 10: Project-Based Learning: Building Text-Based Applications
+
+  (Note: These questions are more conceptual and design-focused, as the primary
+  assessment here is the project itself.)
+
+  ## Independent Practice:
+      1. Multiple Choice: When designing a text-based adventure game, what would be a good approach to represent different locations the player can visit? a) A single long string variable. b) A separate variable for each room. c) A class for Room objects, each with descriptions and exits. d) A list of numbers.
+      2. True/False: Modular programming encourages breaking down a large problem into smaller, manageable pieces (like functions or classes).
+      3. Yes/No: For a command-line tool that stores user data, is it important to consider how that data will be saved and loaded between program runs?
+      4. Multiple Choice: In a text-based application, what is the best way to ensure clarity for a screen reader user when asking for input? a) Just wait for input without any prompt. b) Provide a very short, cryptic prompt. c) Provide clear, descriptive prompts that explain what input is expected. d) Play a loud sound every time input is needed.
+      5. True/False: A well-designed text-based application should provide clear feedback to the user after they perform an action.
+  ## Potential Assessment Questions:
+      1. Multiple Choice: You are building a to-do list application. Which Python concept would be most appropriate for representing each individual task (e.g., its description, due date, completion status)? a) A simple string. b) A single integer. c) A dictionary or a custom class (e.g., Task). d) A random number.
+      2. True/False: When developing a large project, it's generally best to write all the code at once without testing until the very end.
+      3. Yes/No: Could you use a while loop to manage the main game loop of a text-based adventure game, continuously taking player commands until the game ends?
+      4. Multiple Choice: If your text-based application needs to store a list of items and their current quantities, which data structure would be most efficient? a) A list of strings. b) A tuple of numbers. c) A dictionary where keys are item names and values are quantities. d) A set of item names.

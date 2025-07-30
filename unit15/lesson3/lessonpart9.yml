@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart9
+title: Unit 8
+content: >-
+  # Unit 8: Files and Exceptions
+
+  ## Emphasis/Resources:
+      • with open(...): Stress the importance of the with statement for automatic file closing.
+      • Common Exceptions: List common exceptions (FileNotFoundError, ValueError, ZeroDivisionError, KeyError, IndexError) and their causes.
+      • JSON Structure: Explain JSON as key-value pairs and arrays, relating it directly to Python dictionaries and lists. Provide examples of simple JSON files and how they map to Python data.
+          ◦ Resource: json.org (visual, but concepts can be explained audibly). Focus on the examples and the "object" and "array" definitions.
+          ◦ Strategy: Provide small, simple JSON files for them to json.load() and print specific parts of the resulting Python data structure.
+  ## Challenge Projects:
+      1. "The Missing File Reader":
+          ◦ Scenario: You want to read a list of names from names.txt, but the file might not exist. Your program crashes if it doesn't.
+          ◦ Code (missing error handling):
+  ```python
+
+  # names.txt might not exist
+
+  with open("names.txt", "r") as f:
+      for line in f:
+          print(line.strip())
+  ```
+          ◦ Task: Wrap the file reading code in a try-except block to gracefully handle a FileNotFoundError. If the file doesn't exist, print a friendly message like "Names file not found."
+      2. "The Broken JSON Loader":
+          ◦ Scenario: You saved some data to a JSON file, but when you try to load it, you get a json.JSONDecodeError. This might happen if the file was manually edited incorrectly.
+          ◦ Code (corrupted JSON simulated):
+  ```python
+
+  # Imagine data.json looks like this (missing closing bracket):
+
+  # {"item1": 10, "item2": 20
+
+  import json
+
+  DATA_FILE = "corrupted_data.json" # Student will be given this file
+
+
+  try:
+      with open(DATA_FILE, "r") as f:
+          data = json.load(f)
+          print("Loaded data:", data)
+  except Exception as e: # Too broad!
+      print("An error occurred:", e)
+  ```
+          ◦ Task:
+              1. Correct the (simulated) error in corrupted_data.json to make it valid JSON (e.g., add } if missing, fix misplaced commas, ensure strings are double-quoted).
+              2. Change the except block to specifically catch json.JSONDecodeError and print a more informative message.
