@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: unit12
+title: "Unit 11: Capstone Project - Accessible Personal Data Manager"
+lessons:
+  - lesson1/index.yml

@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: unit1
+title: "Unit 0: Setting Up Your Accessible Python Development Environment"
+objectives: To enable students to install necessary software and configure their
+  development environment for Python programming with screen reader support
+lessons:
+  - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml

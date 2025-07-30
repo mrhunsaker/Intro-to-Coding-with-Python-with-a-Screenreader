@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: unit4
+title: "Unit 3: Control Flow: Decisions and Loops"
+lessons:
+  - lesson1/index.yml

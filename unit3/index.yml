@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: unit3
+title: "Unit 2: Writing Simple Programs and Numeric Computations"
+lessons:
+  - lesson1/index.yml

@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: unit5
+title: "Unit 4: Data Structures: Lists and Dictionaries"
+lessons:
+  - lesson1/index.yml

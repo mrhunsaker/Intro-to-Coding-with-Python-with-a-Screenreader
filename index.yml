@@ -10,11 +10,16 @@ contacts:
     pictureUrl: https://avatars.githubusercontent.com/u/3277946?v=4
     homePageUrl: https://github.com/mrhunsaker
 units:
-  - id: unit1
-    title: Unit 1
-    lessons:
-      - id: lesson1
-        title: Lesson 1
-        lessonParts:
-          - id: lessonpart1
-            title: Page 1
+  - unit1/index.yml
+  - unit2/index.yml
+  - unit3/index.yml
+  - unit4/index.yml
+  - unit5/index.yml
+  - unit6/index.yml
+  - unit7/index.yml
+  - unit8/index.yml
+  - unit9/index.yml
+  - unit10/index.yml
+  - unit11/index.yml
+  - unit12/index.yml
+  - unit13/index.yml

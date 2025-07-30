@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: unit8
+title: "Unit 7: Classes and Object-Oriented Programming"
+lessons:
+  - lesson1/index.yml

@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: unit10
+title: "Unit 9: Testing Your Code and Introduction to Data Analysis"
+lessons:
+  - lesson1/index.yml
