@@ -1,10 +1,25 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit1
 title: "Unit 0: Setting Up Your Accessible Python Development Environment"
-objectives: To enable students to install necessary software and configure their
-  development environment for Python programming with screen reader support
+description: This unit will guide you through installing all necessary software
+  and configuring your development environment (VS Code and your screen reader)
+  to be efficient and accessible for Python programming. By the end of this
+  unit, you will be able to launch VS Code, navigate its interface, create a
+  Python file, and run it, all with screen reader support.
+objectives: >-
+  Learning Objectives:
+      • Install Python and Visual Studio Code (VS Code).
+      • Understand and configure basic screen reader settings for VS Code.
+      • Install essential VS Code extensions for Python development.
+      • Navigate the VS Code interface effectively using keyboard shortcuts and screen reader commands.
+      • Understand and use both the system terminal (command prompt/PowerShell/Terminal) and the integrated VS Code terminal.
+      • Create and manage Python virtual environments.
+  Prerequisites:
+      • A working computer (Windows, macOS, or Linux).
+      • An installed and functional screen reader (NVDA for Windows, JAWS for Windows, VoiceOver for macOS). You should be familiar with its basic navigation commands (reading lines, words, characters, navigating by heading/link).
 lessons:
   - lesson1/index.yml
   - lesson2/index.yml
   - lesson3/index.yml
   - lesson4/index.yml
+  - lesson5/index.yml

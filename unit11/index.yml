@@ -1,5 +1,15 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit11
 title: "Unit 10: Project-Based Learning: Building Text-Based Applications"
+description: This unit focuses on integrating learned concepts into larger,
+  text-based applications. While specific projects may differ from those in the
+  textbooks (e.g., text-based adventure games instead of graphical games), the
+  underlying principles of design and modularity are covered.
+objectives: Integrate learned concepts to build a larger, interactive text-based
+  application
 lessons:
   - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml

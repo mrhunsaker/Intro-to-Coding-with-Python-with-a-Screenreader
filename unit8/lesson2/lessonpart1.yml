@@ -1,3 +1,15 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Page
+content: >
+  &#x20;   ◦ Zelle: Chapter 10, pages 248-254
+
+
+  (for example class definitions like MSDie).
+
+
+  &#x20;   ◦ Matthes: Chapter 9, pages 158-162
+
+
+  (on "Creating a Dog Class", the \_\_init\_\_() method, and creating
+  instances).Enter your content here

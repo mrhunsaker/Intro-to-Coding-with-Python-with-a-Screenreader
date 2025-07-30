@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson2
+title: "Lesson 11.2: Data Model and Storage"
+description: Covers designing the Python class for data items, managing
+  collections of items (list of objects/dictionaries), and implementing
+  load_data() and save_data() functions with error handling (e.g.,
+  json.JSONDecodeError, FileNotFoundError)
+lessonParts:
+  - lessonpart1.yml

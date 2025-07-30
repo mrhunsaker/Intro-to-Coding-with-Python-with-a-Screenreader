@@ -1,5 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit10
 title: "Unit 9: Testing Your Code and Introduction to Data Analysis"
+objectives: "Learning Objectives: Write simple unit tests, understand data
+  generation/manipulation, and explore text-based data analysis"
 lessons:
   - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml

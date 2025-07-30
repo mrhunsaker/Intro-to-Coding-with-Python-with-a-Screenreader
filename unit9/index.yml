@@ -1,5 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit9
 title: "Unit 8: Files and Exceptions"
+objectives: Enable students to interact with files for persistent data storage
+  and handle common programming errors gracefully
 lessons:
   - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml

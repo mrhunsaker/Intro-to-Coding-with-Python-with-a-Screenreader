@@ -1,3 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Page
+content: |
+  &#x20;   ◦ Zelle: Chapter 6, pages 137-142
+
+  (on "The Function of Functions" and "Functions, Informally").
+
+  &#x20;   ◦ Matthes: Chapter 8, pages 129-130
+
+  (on "Defining a Function").Enter your content here

@@ -1,3 +1,8 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: Page
+title: Reading
+content: >
+  **Matthes**: **Appendix B, pages 469-476** (for detailed information on text
+  editors and IDEs, including VS Code); **Appendix C, pages 477-482** (for
+  general guidance on getting help and finding documentation, which would
+  include screen reader specific settings).

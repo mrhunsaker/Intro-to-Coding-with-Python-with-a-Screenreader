@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Lesson
+content: >-
+  This lesson gets you coding and understanding how Python runs in different
+  contexts.
+
+  A. Creating Your First Python File:
+      1. Ensure Explorer is focused: Ctrl + Shift + E.
+      2. Create New File: With your PythonProjects folder selected in the Explorer, press Ctrl + N to create a new untitled file.
+      3. Save the file: Press Ctrl + S. Type hello.py and press Enter. Ensure you are saving it inside your PythonProjects folder.
+      4. Write your first code: In the editor, type:
+  ```python 
+
+  print("Hello from VS Code!")
+
+  ```
+
+  B. Using the System Terminal (Command Prompt / PowerShell / Terminal):
+
+  This is the standard way to interact with your operating system's command
+  line.
+      1. Open your system terminal: (As learned in Lesson 0.1)
+          ◦ Windows: Windows Key + R, cmd or powershell
+          ◦ macOS: Command + Spacebar, terminal
+          ◦ Linux: Ctrl+Alt+T
+      2. Navigate to your project folder: Use the cd (change directory) command.
+          ◦ Example (Windows): cd C:\Users\YourUsername\Documents\PythonProjects
+          ◦ Example (macOS/Linux): cd ~/Documents/PythonProjects
+          ◦ Tip: You can type cd (with a space) and then drag your PythonProjects folder icon from your file manager directly into the terminal window. This will paste the full path. Press Enter.
+      3. Run your Python script:
+          ◦ Type python3 hello.py and press Enter.
+          ◦ Listen for the output: You should hear "Hello from VS Code!"
+  C. Using the Integrated Terminal in VS Code:
+
+  The integrated terminal is extremely convenient because it's right within your
+  editor.
+      1. Open the Integrated Terminal:
+          ◦ Shortcut: Ctrl + ` (that's Control plus the backtick key, usually above Tab).
+          ◦ Alternatively: Go to Terminal menu, then New Terminal.
+      2. Listen for the prompt: You should hear your current directory path, usually C:\Users\YourUsername\Documents\PythonProjects> (Windows) or /Users/YourUsername/Documents/PythonProjects$ (macOS/Linux). This means the terminal is already in your project folder!
+      3. Run your Python script:
+          ◦ Type python3 hello.py and press Enter.
+          ◦ Listen for the output: You should hear "Hello from VS Code!".
+  D. Managing Python Environments (Virtual Environments):
+
+  Virtual environments are crucial for keeping your projects' dependencies
+  separate. This prevents conflicts if different projects need different
+  versions of the same library.
+      1. Understanding the Problem: Imagine Project A needs Library X version 1, and Project B needs Library X version 2. If you install them globally, they will conflict. Virtual environments solve this by creating isolated "bubbles" for each project.
+      2. Creating a Virtual Environment:
+          ◦ Ensure your Integrated Terminal is open and in your PythonProjects folder.
+          ◦ Type: python3 -m venv .venv and press Enter.
+              ▪ python3: Invokes Python.
+              ▪ -m venv: Tells Python to run the venv module (for creating virtual environments).
+              ▪ .venv: This is the name of the new virtual environment folder. The dot . means it's a hidden folder, common convention.
+          ◦ Listen for completion: There might be no immediate audible output, but it usually completes quickly.
+      3. Activating the Virtual Environment:
+          ◦ Windows (Command Prompt): .\.venv\Scripts\activate.bat and Enter
+          ◦ Windows (PowerShell): .\.venv\Scripts\Activate.ps1 and Enter (you might need to run Set-ExecutionPolicy RemoteSigned -Scope CurrentUser once if you get an error)
+          ◦ macOS / Linux: source ./.venv/bin/activate and Enter
+          ◦ Listen for the change: Your terminal prompt will change. You'll hear (.venv) or similar at the beginning of the prompt. This confirms the environment is active.
+      4. Deactivating the Virtual Environment:
+          ◦ Type: deactivate and press Enter.
+          ◦ Listen for the change: The (.venv) will disappear from your prompt.
+      5. Selecting the Interpreter in VS Code:
+          ◦ VS Code needs to know which Python interpreter (which environment) to use for your current project.
+          ◦ Open Command Palette: Ctrl + Shift + P.
+          ◦ Type: "Python: Select Interpreter" and press Enter.
+          ◦ Navigate the list: You'll hear various Python installations. Find the one that says "Python 3.x.x ('venv')" or "Python 3.x.x (.venv)" and select it. This tells VS Code to use the Python inside your project's virtual environment.
+          ◦ Listen to Status Bar: The status bar (bottom left) should now show Python 3.x.x (.venv) or similar, confirming your selection.
+  E. Installing Packages into Your Virtual Environment:
+
+  Now that your virtual environment is active and selected, you can install
+  Python packages (libraries) into it without affecting your global Python
+  installation.
+      1. Ensure your .venv is active in the Integrated Terminal.
+      2. Install a package (e.g., requests for web requests):
+          ◦ Type pip install requests and press Enter.
+          ◦ Listen for output: You'll hear messages about collecting and installing the package. If successful, you'll hear "Successfully installed requests...".
+      3. Verify installation:
+          ◦ Type pip list and press Enter.
+          ◦ Listen for requests in the list of installed packages.
+      4. Deactivate your environment when you're done with a project or before starting a new one that might need different versions.

@@ -13,3 +13,4 @@ description: >-
   Python's reliance on indentation
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml
