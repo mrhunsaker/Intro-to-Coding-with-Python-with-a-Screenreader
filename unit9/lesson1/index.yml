@@ -10,3 +10,4 @@ description: >-
   Focuses on FileNotFoundError and AttributeError
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml

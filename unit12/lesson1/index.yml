@@ -10,3 +10,4 @@ description: This unit involves building a GUI application using NiceGUI.
   for data visualization accessibility
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml

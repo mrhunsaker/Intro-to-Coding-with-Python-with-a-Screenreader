@@ -10,3 +10,4 @@ description: >-
   Includes proofreading assignment for JSON handling and file modes
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml

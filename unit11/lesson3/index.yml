@@ -9,3 +9,4 @@ description: >-
   Includes proofreading assignment for list/dictionary method errors
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml

@@ -9,3 +9,5 @@ description: >-
   No code proofreading assignment for this lesson
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

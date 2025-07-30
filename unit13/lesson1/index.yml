@@ -6,3 +6,4 @@ description: This lesson highlights leveraging AI tools like Microsoft CoPilot
   proofreading and testing AI-generated code
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml

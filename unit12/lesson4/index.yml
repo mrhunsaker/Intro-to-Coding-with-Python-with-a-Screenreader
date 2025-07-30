@@ -6,3 +6,4 @@ description: Teaches dynamically updating the GUI to display all items from the
   ui.label, ui.card, ui.select)
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml

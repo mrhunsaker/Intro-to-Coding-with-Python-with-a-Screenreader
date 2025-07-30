@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Materials
+content: >-
+  Lesson 0.2: Configuring Your Screen Reader for VS Code
+      • Student Materials:
+          ◦ Outline:
+              ▪ Introduction to VS Code's "Screen Reader Optimized Mode" and how to toggle it.
+              ▪ Understanding the "Accessible View" and its purpose (Shift + Alt + F2).
+              ▪ Emphasizing keyboard-first navigation: using Tab, Shift+Tab, and Arrow keys.
+              ▪ The importance of the Status Bar and how to access its information.
+              ▪ Specific, step-by-step instructions for configuring indentation announcement (or beeps) in NVDA, JAWS, and VoiceOver.
+              ▪ Practice navigating code with indentation to hear the screen reader feedback.
+          ◦ Skills Checklist:
+              ▪ [ ] I can identify and toggle VS Code's "Screen Reader Optimized Mode" using the Command Palette.
+              ▪ [ ] I can open and close the "Accessible View" to access hidden information.
+              ▪ [ ] I can navigate between different VS Code panes (editor, sidebar, panel) using Tab and Shift+Tab.
+              ▪ [ ] I can navigate line by line and character by character within the editor using arrow keys.
+              ▪ [ ] I can locate and listen to information in the VS Code Status Bar.
+              ▪ [ ] I can configure my specific screen reader (NVDA/JAWS/VoiceOver) to announce or beep on indentation changes.
+              ▪ [ ] I can confidently interpret my screen reader's feedback regarding code indentation.

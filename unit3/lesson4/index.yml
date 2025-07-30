@@ -10,3 +10,5 @@ description: >-
   assignments
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

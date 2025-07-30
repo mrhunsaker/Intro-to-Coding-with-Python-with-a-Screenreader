@@ -6,3 +6,4 @@ description: Covers pre-populating edit forms with selected item data, updating
   feedback
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml

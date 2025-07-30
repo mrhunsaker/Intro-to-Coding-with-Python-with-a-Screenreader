@@ -6,3 +6,4 @@ description: Focuses on connecting GUI input fields to Python variables,
   list, clearing fields, and providing accessible feedback
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml
