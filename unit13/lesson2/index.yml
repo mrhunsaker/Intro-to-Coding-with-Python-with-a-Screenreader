@@ -7,3 +7,4 @@ description: This lesson explains the importance of version control (like Git)
 lessonParts:
   - lessonpart1.yml
   - lessonpart2.yml
+  - lessonpart3.yml

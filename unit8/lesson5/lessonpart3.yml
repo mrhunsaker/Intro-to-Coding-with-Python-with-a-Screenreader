@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Materials
+content: >-
+  Lesson 7.5: Instances as Attributes
+      • Student Materials:
+          ◦ Outline:
+              ▪ The concept of "composition": one class containing an instance of another class as an attribute.
+              ▪ When to use composition vs. inheritance (is-a vs. has-a relationship).
+              ▪ Examples: A Car object might have a Engine object.
+              ▪ Accessing attributes and methods of the nested instance.
+          ◦ Skills Checklist:
+              ▪ [ ] I can explain the concept of composition in OOP.
+              ▪ [ ] I can identify scenarios where composition is more appropriate than inheritance.
+              ▪ [ ] I can create an instance of one class and assign it as an attribute to another class.
+              ▪ [ ] I can access attributes and call methods of a nested object.

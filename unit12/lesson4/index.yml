@@ -7,3 +7,4 @@ description: Teaches dynamically updating the GUI to display all items from the
 lessonParts:
   - lessonpart1.yml
   - lessonpart2.yml
+  - lessonpart3.yml
