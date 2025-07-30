@@ -1,6 +1,8 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit4
 title: "Unit 3: Control Flow: Decisions and Loops"
+description: Understand definite and indefinite loops, programming patterns, and
+  design solutions using loops
 lessons:
   - lesson1/index.yml
   - lesson2/index.yml

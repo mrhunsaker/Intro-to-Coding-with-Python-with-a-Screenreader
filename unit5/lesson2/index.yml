@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "Lesson 5.1: How the input() Function Works"
+id: lesson2
+title: "Lesson 4.2: Organizing Lists"
 description: >-
-  Revisits input() focusing on type handling, leading to TypeError if not
-  converted
+  Explores permanent sorting (.sort()), temporary sorting (sorted()), reversing
+  order (.reverse()), and finding length (len())
 
 
   Includes proofreading and documentation assignments

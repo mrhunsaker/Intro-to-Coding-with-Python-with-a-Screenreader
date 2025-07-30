@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "Lesson 5.1: How the input() Function Works"
+id: lesson3
+title: "Lesson 4.3: Tuples: Immutable Lists"
 description: >-
-  Revisits input() focusing on type handling, leading to TypeError if not
-  converted
+  Explains tuples as immutable lists and their properties, including common
+  TypeError when attempting modification
 
 
   Includes proofreading and documentation assignments

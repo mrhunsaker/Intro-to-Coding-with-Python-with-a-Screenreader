@@ -1,5 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit5
 title: "Unit 4: Data Structures: Lists and Dictionaries"
+description: Provide a deeper understanding of lists and introduce dictionaries
+  for storing and organizing data
 lessons:
   - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml

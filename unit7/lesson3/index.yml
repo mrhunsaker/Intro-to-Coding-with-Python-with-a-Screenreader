@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "Lesson 5.1: How the input() Function Works"
+id: lesson3
+title: "Lesson 6.3: Return Values"
 description: >-
-  Revisits input() focusing on type handling, leading to TypeError if not
-  converted
+  Focuses on getting values back from functions using return, and common logical
+  errors when print() is used instead of return
 
 
   Includes proofreading and documentation assignments

@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "Lesson 5.1: How the input() Function Works"
+id: lesson3
+title: "Lesson 5.3: Using Flags and break to Exit Loops"
 description: >-
-  Revisits input() focusing on type handling, leading to TypeError if not
-  converted
+  Teaches controlling loops with flags and the break statement, addressing
+  syntax and logical errors in their placement
 
 
   Includes proofreading and documentation assignments

@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "Lesson 5.1: How the input() Function Works"
+id: lesson5
+title: "Lesson 7.5: Instances as Attributes"
 description: >-
-  Revisits input() focusing on type handling, leading to TypeError if not
-  converted
+  Covers composition (using instances of one class as attributes in another) and
+  accessing attributes/methods of nested objects
 
 
   Includes proofreading and documentation assignments

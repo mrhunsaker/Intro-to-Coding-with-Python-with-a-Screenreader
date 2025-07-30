@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "Lesson 5.1: How the input() Function Works"
+id: lesson2
+title: "Lesson 7.2: Creating and Using a Class"
 description: >-
-  Revisits input() focusing on type handling, leading to TypeError if not
-  converted
+  Covers defining a class, using __init__ for initialization, and
+  creating/accessing attributes (self.attribute) and methods
 
 
   Includes proofreading and documentation assignments

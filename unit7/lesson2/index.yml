@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "Lesson 5.1: How the input() Function Works"
+id: lesson2
+title: "Lesson 6.2: Passing Arguments"
 description: >-
-  Revisits input() focusing on type handling, leading to TypeError if not
-  converted
+  Distinguishes between parameters and arguments, covering positional arguments
+  and keyword arguments
 
 
   Includes proofreading and documentation assignments

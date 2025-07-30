@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "Lesson 5.1: How the input() Function Works"
+id: lesson5
+title: "Lesson 6.5: Arbitrary Number of Arguments"
 description: >-
-  Revisits input() focusing on type handling, leading to TypeError if not
-  converted
+  Covers using *args and **kwargs for functions accepting an arbitrary number of
+  arguments, and common syntax/type errors
 
 
   Includes proofreading and documentation assignments

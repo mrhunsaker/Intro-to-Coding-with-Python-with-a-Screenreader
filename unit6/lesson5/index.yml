@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "Lesson 5.1: How the input() Function Works"
+id: lesson5
+title: "Lesson 5.5: Avoiding Infinite Loops"
 description: >-
-  Revisits input() focusing on type handling, leading to TypeError if not
-  converted
+  Emphasizes identifying and fixing infinite loops caused by missing increments,
+  incorrect conditions, or variable resets
 
 
   Includes proofreading and documentation assignments
