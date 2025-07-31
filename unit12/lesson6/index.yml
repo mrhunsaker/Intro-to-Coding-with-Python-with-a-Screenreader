@@ -10,6 +10,4 @@ description: >-
   Evaluated on functionality, code quality, accessibility, user experience, and
   documentation
 lessonParts:
-  - lessonpart1.yml
   - lessonpart2.yml
-  - lessonpart3.yml

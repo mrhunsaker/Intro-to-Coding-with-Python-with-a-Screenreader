@@ -1,3 +1,48 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >+
+  # Lesson: Introduction to NiceGUI GUI):
+
+
+  * Concept: Event-driven programming. How GUI elements trigger Python
+  functions.
+
+
+  * Skeleton Overview: Walkthrough of the provided app.py skeleton, explaining
+  the basic ui.button, ui.input, ui.label, and ui.column/ui.row elements.
+  Explain the ui.run() function.
+
+
+  * Accessibility in GUI: Discuss how the skeleton uses basic elements that are
+  inherently accessible and how proper labels and feedback are crucial.
+  Demonstrate interacting with the skeleton using a screen reader.
+
+
+  * **Task 1: Understand the Skeleton.**
+    Start by running the `app_skeleton.py` file with the command `python app_skeleton.py`. Don't add any code yet! Just interact with the non-functional interface.
+
+    * Use your mouse to click on the different tabs and buttons.
+
+    * Now, use your keyboard and a screen reader (like NVDA on Windows or VoiceOver on macOS). Navigate the interface using the `Tab` key. Listen to how the screen reader announces each element.
+
+    * This step is crucial. It helps you understand what the skeleton is already doing for you in terms of accessibility (`aria_label` attributes) and where you need to add your own code.
+
+  * **Task 2: Define Your Data Model.**
+    The skeleton uses a simple list of dictionaries (`all_items`). For this project, you will create a class to represent a single data item. This is an application of your object-oriented programming knowledge.
+
+    * Choose one of the project options (e.g., Contact Manager, Book Tracker).
+
+    * In `app_skeleton.py`, define a new class (e.g., `Contact`) with an `__init__` method that accepts all the necessary attributes (e.g., `name`, `phone`, `email`, `notes`).
+
+    * This class will serve as the blueprint for every item you add, ensuring consistency in your data.
+
+  * **Task 3: Implement Data Persistence.**
+    Your data needs to be saved and loaded from a file. You will complete the `load_data()` and `save_data()` functions.
+
+    * In `save_data()`, use the `json` module to write your `all_items` list to the `data.json` file. Remember that `json.dump()` is the function you need. Use `indent=4` to make the file readable.
+
+    * In `load_data()`, use `json.load()` to read data from `data.json`.
+
+    * **Crucial step:** Notice the `try...except` blocks in `load_data()`. They are already set up to handle file not found or corrupted file errors. Ensure your implementation works within this robust structure.
+

@@ -23,22 +23,22 @@ content: >
   ## Learning Objectives:
 
 
-  • Integrate knowledge of data structures (lists, dictionaries, classes).
+  - Integrate knowledge of data structures (lists, dictionaries, classes).
 
 
-  • Apply function and object-oriented programming principles.
+  - Apply function and object-oriented programming principles.
 
 
-  • Implement file I/O (JSON) for persistent data storage.
+  - Implement file I/O (JSON) for persistent data storage.
 
 
-  • Understand event-driven programming within a GUI context.
+  - Understand event-driven programming within a GUI context.
 
 
-  • Develop a user-friendly and accessible application experience.
+  - Develop a user-friendly and accessible application experience.
 
 
-  • Practice debugging and problem-solving in a larger project.
+  - Practice debugging and problem-solving in a larger project.
 
 
   ## Project Overview: Accessible Personal Data Manager
@@ -48,19 +48,20 @@ content: >
   items. This could be a:
 
 
-  • Contact Manager: Name, Phone, Email, Notes
+  - Contact Manager: Name, Phone, Email, Notes
 
 
-  • Book/Movie Tracker: Title, Author/Director, Genre, Status (Read/Watched)
+  - Book/Movie Tracker: Title, Author/Director, Genre, Status (Read/Watched)
 
 
-  • Simple To-Do List: Task Description, Due Date, Status (Pending/Complete)
+  - Simple To-Do List: Task Description, Due Date, Status (Pending/Complete)
 
 
-  • Simple Inventory: Item Name, Quantity, Location, Notes
+  - Simple Inventory: Item Name, Quantity, Location, Notes
 
 
   The **core functionality** will include:
+
 
   1 Add New Item: A form to input details for a new item.
 
@@ -90,55 +91,7 @@ content: >
 
   These "lessons" will be less about lecturing and more about providing
   scaffolding and guidance for the project.
-
-
-  1 Introduction to NiceGUI (or choStudents will develop a fully functional,
-  screen-reader-accessible graphical application to manage structured personal
-  data, integrating all learned conceptssen GUI):
-
-  	◦ Concept: Event-driven programming. How GUI elements trigger Python functions.
-
-  	◦ Skeleton Overview: Walkthrough of the provided app.py skeleton, explaining the basic ui.button, ui.input, ui.label, and ui.column/ui.row elements. Explain the ui.run() function.
-
-  	◦ Accessibility in GUI: Discuss how the skeleton uses basic elements that are inherently accessible and how proper labels and feedback are crucial. Demonstrate interacting with the skeleton using a screen reader.
-
-  	◦ Task: Run the skeleton app, explore its basic (non-functional) interface with a screen reader. Identify the provided components.
-
-
-      
-  2 Data Model and Storage:
-
-  	◦ Concept: Designing a Python class to represent a single data item (e.g., Contact, Book). How to store multiple items (list of objects/dictionaries).
-
-  	◦ File I/O Review: Remind students of JSON dump and load for persistent storage.
-
-  	◦ Task: Define the Item class (or similar) with attributes. Create functions to load\_data() and save\_data() from/to a JSON file.
-
-
-      
-  3 Implementing "Add Item" Functionality:
-
-  	◦ Concept: Connecting GUI input fields to Python variables. Handling button clicks.
-
-  	◦ Task: Connect the input fields (e.g., ui.input("Name")) to variables. Implement the logic in the "Add" button's click handler to create a new Item object and add it to the main data list. Clear input fields after submission. Provide accessible feedback (e.g., ui.notify("Item added successfully!")).
-
-
-      
-  4 Displaying and Managing Items:
-
-  	◦ Concept: Dynamically updating GUI elements (e.g., a list of labels or cards). Identifying and selecting items for editing/deletion.
-
-  	◦ NiceGUI Approach: Using ui.column or ui.row with clear() and add\_card()/add\_label() in a loop to display items.
-
-  	◦ Task: Implement a function display\_items() that clears the existing list display and re-renders all items from the data list. Each item should be displayed clearly (e.g., ui.label for each attribute or a simple ui.card). Implement a way to select an item (e.g., a button next to each item, or a separate ui.select dropdown populated with item names).
-  5 Implementing "Edit" and "Delete" Functionality:
-
-  	◦ Concept: Using the selected item's data to pre-populate edit forms. Removing items from the list.
-
-  	◦ Task: Implement the "Edit" button's logic to load the selected item's data into the input fields. Implement an "Update" button to save changes back to the item. Implement the "Delete" button to remove the selected item from the data list and re-display the updated list. Provide accessible feedback for all actions.
-
-
-      
+    
   ## Assessment: Capstone Project Submission and Demonstration
 
 
@@ -153,59 +106,63 @@ content: >
 
   3 README.md: A text file (Markdown) that includes:
 
-  	◦ Project Title and Student Name.
+  - Project Title and Student Name.
 
-  	◦ A brief description of the application's purpose and features.
+  - A brief description of the application's purpose and features.
 
-  	◦ Instructions on how to run the application (e.g., python app.py).
+  - Instructions on how to run the application (e.g., python app.py).
 
-  	◦ Instructions on how to interact with the application using a screen reader (e.g., "Use Tab to navigate between elements, Enter to activate buttons, etc.").
+  - Instructions on how to interact with the application using a screen reader
+  (e.g., "Use Tab to navigate between elements, Enter to activate buttons,
+  etc.").
 
-  	◦ A reflection on the challenges faced and how they were overcome, particularly concerning accessibility.
+  - A reflection on the challenges faced and how they were overcome,
+  particularly concerning accessibility.
+      
   ### Assessment Criteria:
 
 
-  • Functionality (60%):
+  - Functionality (60%):
 
-      ◦ Ability to add new items with all specified attributes.
+      - Ability to add new items with all specified attributes.
 
-  	◦ Correct display of all current items.
+  	- Correct display of all current items.
 
-  	◦ Correct editing of existing items.
+  	- Correct editing of existing items.
 
-  	◦ Correct deletion of items.
+  	- Correct deletion of items.
 
-  	◦ Accurate saving and loading of data to/from data.json.
+  	- Accurate saving and loading of data to/from data.json.
 
-  	◦ No major bugs or crashes during typical usage.
+  	- No major bugs or crashes during typical usage.
 
-  • Code Quality & Structure (20%):
+  - Code Quality & Structure (20%):
 
-  	◦ Clear and concise Python code.
+  	- Clear and concise Python code.
 
-  	◦ Appropriate use of functions and/or classes for organization.
+  	- Appropriate use of functions and/or classes for organization.
 
-  	◦ Meaningful variable and function names.
+  	- Meaningful variable and function names.
 
-  	◦ Adequate comments where complex logic exists.
+  	- Adequate comments where complex logic exists.
 
-  	◦ Proper indentation.
+  	- Proper indentation.
 
-  • Accessibility & User Experience (15%):
+  - Accessibility & User Experience (15%):
 
-  	◦ All interactive elements are correctly labeled and navigable by a screen reader (as verified by instructor using a screen reader).
+  	- All interactive elements are correctly labeled and navigable by a screen reader (as verified by instructor using a screen reader).
 
-  	◦ Clear and consistent user feedback (e.g., ui.notify).
+  	- Clear and consistent user feedback (e.g., ui.notify).
 
-  	◦ Logical flow and presentation of information.
+  	- Logical flow and presentation of information.
 
-  	◦ Absence of visual-only cues for critical information.
+  	- Absence of visual-only cues for critical information.
 
-  • README and Reflection (5%):
+  - README and Reflection (5%):
 
-  	◦ Completeness and clarity of the README.
+  	- Completeness and clarity of the README.
 
-  	◦ Thoughtful reflection on the development process and accessibility challenges.
+  	- Thoughtful reflection on the development process and accessibility challenges.
   Demonstration: The student will demonstrate their working application, ideally
   sharing their screen (or describing their interaction) and navigating the GUI
   using their preferred screen reader. They will walk through adding, viewing,
@@ -531,17 +488,17 @@ content: >
 
   3 Explain the Code: Walk through the skeleton code, highlighting:
 
-  	◦ The all\_items global list (where data resides in memory).
+  	- The all\_items global list (where data resides in memory).
 
-  	◦ The placeholder helper functions (add\_item\_logic, edit\_selected\_item\_logic, delete\_selected\_item\_logic, update\_item\_logic).
+  	- The placeholder helper functions (add\_item\_logic, edit\_selected\_item\_logic, delete\_selected\_item\_logic, update\_item\_logic).
 
-  	◦ The update\_item\_display() function, which is crucial for refreshing the UI.
+  	- The update\_item\_display() function, which is crucial for refreshing the UI.
 
-  	◦ How ui.button, ui.input, ui.label, ui.select are used.
+  	- How ui.button, ui.input, ui.label, ui.select are used.
 
-  	◦ The on\_click and on\_change event handlers.
+  	- The on\_click and on\_change event handlers.
 
-  	◦ The aria\_label properties for screen reader clarity.
+  	- The aria\_label properties for screen reader clarity.
   4 Emphasize Iteration: Encourage students to implement one function at a time,
   test it thoroughly with their screen reader, and debug.
 
