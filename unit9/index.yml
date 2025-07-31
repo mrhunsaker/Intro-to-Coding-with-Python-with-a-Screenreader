@@ -1,8 +1,13 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit9
 title: "Unit 8: Files and Exceptions"
-objectives: Enable students to interact with files for persistent data storage
-  and handle common programming errors gracefully
+description: This unit covers how to interact with text files for reading and
+  writing data, how to handle common programming errors gracefully using
+  exceptions, and how to store and load data using JSON.
+objectives: |-
+  - Read from and write to text files.
+  - Handle common programming errors (exceptions).
+  - Store and load data using JSON.
 lessons:
   - lesson1/index.yml
   - lesson2/index.yml

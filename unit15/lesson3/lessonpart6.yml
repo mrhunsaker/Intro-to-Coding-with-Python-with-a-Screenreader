@@ -1,18 +1,33 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart6
 title: Unit 5
-content: >-
+content: >+
   # Unit 5: User Input and while Loops
 
+
   ## Emphasis/Resources:
-      • Infinite Loop Debugging: How to recognize an infinite loop (program doesn't terminate, keeps printing/asking for input) and how to stop it (Ctrl+C in terminal).
-      • Loop Control Flow (break, continue): Use simple scenarios to explain each:
-          ◦ break: "Stop immediately, I found what I needed."
-          ◦ continue: "Skip this one, but keep going with the rest."
+
+
+  * Infinite Loop Debugging: How to recognize an infinite loop (program doesn't
+  terminate, keeps printing/asking for input) and how to stop it (Ctrl+C in
+  terminal).
+
+
+  * Loop Control Flow (break, continue): Use simple scenarios to explain each:
+
+    * break: "Stop immediately, I found what I needed."
+
+    * continue: "Skip this one, but keep going with the rest."
+
   ## Challenge Projects:
-      1. "The Endless Chatbot":
-          ◦ Scenario: You're building a simple chatbot that should stop when the user types "quit", but it just keeps going.
-          ◦ Code (infinite loop):
+
+
+  1. "The Endless Chatbot":
+
+     * Scenario: You're building a simple chatbot that should stop when the user types "quit", but it just keeps going.
+
+     * Code (infinite loop):
+
   ```python
 
   while True:
@@ -21,10 +36,18 @@ content: >-
           print("Hi there!")
       # Missing break condition
   ```
-          ◦ Task: Add the necessary code so the loop breaks when the user types "quit".
-      2. "The Skipping Counter":
-          ◦ Scenario: You want to count from 1 to 5, but skip the number 3.
-          ◦ Code (without correct skip logic):
+
+
+  * Task: Add the necessary code so the loop breaks when the user types "quit".
+
+
+  2\. "The Skipping Counter":
+
+  \- Scenario: You want to count from 1 to 5, but skip the number 3.
+
+  \- Code (without correct skip logic):
+
+
   ```python
 
   count = 0
@@ -35,4 +58,7 @@ content: >-
           # What goes here?
       print(count)
   ```
-          ◦ Task: Use a continue statement to skip printing the number 3.
+
+
+  * Task: Use a continue statement to skip printing the number 3.
+

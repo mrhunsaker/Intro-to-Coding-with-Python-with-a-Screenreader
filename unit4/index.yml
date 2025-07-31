@@ -1,8 +1,13 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit4
 title: "Unit 3: Control Flow: Decisions and Loops"
-description: Understand definite and indefinite loops, programming patterns, and
-  design solutions using loops
+description: This unit introduces how programs make decisions using if
+  statements and perform repetitive tasks with for loops, along with fundamental
+  string manipulation techniques.
+objectives: |-
+  - Implement conditional logic using if, elif, and else statements.
+  - Control program flow with definite loops (for loops).
+  - Understand string manipulation techniques.
 lessons:
   - lesson1/index.yml
   - lesson2/index.yml

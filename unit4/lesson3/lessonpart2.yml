@@ -1,3 +1,98 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >+
+  # Lesson: Introduction to Lists
+
+
+  ## Creating, accessing, and modifying lists.
+
+
+  Lists in Python are ordered collections of items, enclosed in square brackets.
+  Elements are accessed by their index (zero-indexed).
+
+
+  ## Explicit Examples
+
+
+  ## Example 3.3.1: Creating and Accessing a List
+
+
+  ```python
+
+  colors = ["red", "blue", "green", "yellow"]
+
+  print("My favorite colors are:", colors)
+
+  print("The first color is:", colors[0])
+
+  print("The third color is:", colors[2])
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  My favorite colors are: ['red', 'blue', 'green', 'yellow']
+
+  The first color is: red
+
+  The third color is: green
+
+  ```
+
+
+  ## Example 3.3.2: Modifying List Elements
+
+
+  ```python
+
+  fruits = ["apple", "banana", "cherry"]
+
+  print("Original fruits:", fruits)
+
+  fruits[1] = "grape" # Change 'banana' to 'grape'
+
+  print("Modified fruits:", fruits)
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  Original fruits: ['apple', 'banana', 'cherry']
+
+  Modified fruits: ['apple', 'grape', 'cherry']
+
+  ```
+
+
+  ## Activities
+
+
+  1. **Activity 3.3.1: My Top 3 Hobbies**
+
+     1. Create `my_hobbies.py`.
+     2. Create a list named hobbies with three favorite hobbies.
+     3. Print the entire list.
+     4. Print your second hobby.
+     5. Change your third hobby and print the updated list.
+
+     * Purpose: Practice list creation, indexing, and modification.
+
+  2. **Activity 3.3.2: Guest List (Basic)**
+
+     1. Create `guest_list.py`.
+     2. Create a list of 3-4 people to invite to dinner.
+     3. Print personalized invitations.
+     4. Remove one guest and add a new one.
+     5. Print new invitations.
+
+     * Purpose: Practice managing collections with lists.
+

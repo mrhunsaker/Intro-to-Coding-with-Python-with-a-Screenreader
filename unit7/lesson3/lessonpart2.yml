@@ -1,3 +1,54 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: |+
+  # Lesson: Return Values
+
+  ## Functions that produce a result
+
+  Use `return` to send a value back to the caller.
+
+  ## Explicit Examples
+
+  ## Example 6.3.1: Function Returning a Sum
+
+  ```python
+  def add_numbers(num1, num2):
+     sum_result = num1 + num2
+     return sum_result
+
+  total = add_numbers(10, 5)
+  print(f"The sum is: {total}")
+
+  print(f"Another sum: {add_numbers(7, 3)}")
+  ```
+
+  Expected Output:
+
+  ```
+  The sum is: 15
+  Another sum: 10
+  ```
+
+  ## Activities
+
+  1. **Activity 6.3.1: Product Calculator Function**
+
+  * Create `product_calc.py`.
+
+  * Write a function `calculate_product(a, b)`.
+
+  * Return the product.
+
+  * Call and print the result.
+
+  1. **Activity 6.3.2: Largest Number in List Function**
+
+  * Create `largest_number.py`.
+
+  * Write a function `find_largest(numbers)`.
+
+  * Return the largest number.
+
+  * Call and print the result.
+

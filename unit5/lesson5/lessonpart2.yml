@@ -1,3 +1,119 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >+
+  # Lesson: Looping Through Dictionaries
+
+
+  ## Iterating through keys, values, and key-value pairs
+
+
+  Use `for` loops to iterate through dictionaries.
+
+
+  ## Explicit Examples
+
+
+  ## Example 4.5.1: Iterating Through Keys, Values, and Items
+
+
+  ```python
+
+  inventory = {
+     "apples": 50,
+     "bananas": 30,
+     "oranges": 40
+  }
+
+
+  print("--- Inventory Keys ---")
+
+  for item_name in inventory:
+     print(item_name)
+
+  print("\n--- Inventory Values ---")
+
+  for count in inventory.values():
+     print(count)
+
+  print("\n--- Inventory Items (Key-Value Pairs) ---")
+
+  for item_name, count in inventory.items():
+     print(f"{item_name}: {count} in stock")
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  --- Inventory Keys ---
+
+  apples
+
+  bananas
+
+  oranges
+
+
+  --- Inventory Values ---
+
+  50
+
+  30
+
+  40
+
+
+  --- Inventory Items (Key-Value Pairs) ---
+
+  apples: 50 in stock
+
+  bananas: 30 in stock
+
+  oranges: 40 in stock
+
+  ```
+
+
+  ## Activities
+
+
+  1. **Activity 4.5.1: Favorite Languages Report**
+
+
+  * Create `fav_languages.py`.
+
+
+  * Create a dictionary of student names and favorite programming languages.
+
+
+  * Loop through the dictionary to print each student's name and favorite
+  language.
+
+
+  * Loop through values to print all favorite languages.
+
+
+  * (Challenge) Print a list of unique favorite languages.
+
+
+  1. **Activity 4.5.2: Simple Inventory System**
+
+
+  * Create `simple_inventory.py`.
+
+
+  * Start with an inventory dictionary.
+
+
+  * Print the current inventory.
+
+
+  * Prompt the user for an item to "add" and the quantity. Update and print
+  inventory.
+
+
+  * Prompt for an item to "remove" and the quantity. Update and print inventory.
+

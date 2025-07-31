@@ -1,3 +1,90 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >+
+  # Lesson: Your First Python Program: "Hello World!"
+
+
+  The `print()` function serves as Python's primary method for communicating
+  with the user.
+
+
+  ## Explicit Examples
+
+
+  ## Example 1.2.1: Simple Greeting
+
+
+  ```python
+
+  # This program prints a classic greeting.
+
+  print("Hello, World!")
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  Hello, World!
+
+  ```
+
+
+  ## Example 1.2.2: Personalized Message
+
+
+  ```python
+
+  # This program prints a message with your name.
+
+  print("Hello, Alice!")
+
+  print("Welcome to Python programming!")
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  Hello, Alice!
+
+  Welcome to Python programming!
+
+  ```
+
+
+  ## Activities
+
+
+  1. **Activity 1.2.1: My First Message**
+
+     1. Open VS Code and confirm that the PythonProjects folder is open.
+     2. Create a new file as `my_message.py`.
+     3. Type the following code, replacing with personal favorites:
+
+        ```python
+        print("My favorite color is blue.")
+        print("My favorite animal is dog.")
+        ```
+     4. Save and run the file.
+     5. Listen to the output.
+
+  2. **Activity 1.2.2: Exploring Print Statements**
+
+     1. Modify `my_message.py` or create `print_explorer.py`.
+     2. Experiment with:
+
+        * Printing numbers: `print(123)`
+
+        * Printing sentences with punctuation.
+
+        * Omitting quotes: `print(Hello)` (expect error)
+     3. Save, run, and listen to output/errors.
+

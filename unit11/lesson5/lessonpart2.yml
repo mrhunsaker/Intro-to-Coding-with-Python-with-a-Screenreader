@@ -1,3 +1,15 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >-
+  # Lesson: Refinement and User Experience
+
+
+  ## Making your text-based programs more user-friendly for screen reader users.
+
+
+  ## Activities
+
+
+  1. **Activity 10.5.1: Refine Your Project's User Experience**
+    - Review and improve prompts, output, formatting, and error messages for accessibility.

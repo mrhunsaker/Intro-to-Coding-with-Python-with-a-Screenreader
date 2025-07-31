@@ -1,3 +1,111 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >+
+  # Lesson: Input and Output Revisited
+
+
+  ## Getting input from the user with input() and formatting output.
+
+
+  The `input()` function pauses program execution and waits for the user to type
+  something and press Enter. All input is read as a string. For mathematical
+  operations, convert input to `int()` or `float()`. Use f-strings for readable
+  output.
+
+
+  ## Explicit Examples
+
+
+  ## Example 2.3.1: Basic Input
+
+
+  ```python
+
+  # Get user's name and greet them.
+
+  user_name = input("What is your name? ")
+
+  print(f"Hello, {user_name}! Nice to meet you.")
+
+  ```
+
+
+  Expected Console Interaction:
+
+
+  ```
+
+  What is your name?
+
+  Hello, Sam! Nice to meet you.
+
+  ```
+
+
+  ## Example 2.3.2: Numeric Input and Calculation
+
+
+  ```python
+
+  # Get two numbers, add them, and print the sum.
+
+  num1_str = input("Enter the first number: ")
+
+  num1 = int(num1_str) # Convert string to integer
+
+
+  num2_str = input("Enter the second number: ")
+
+  num2 = int(num2_str) # Convert string to integer
+
+
+  sum_result = num1 + num2
+
+  print(f"The sum of {num1} and {num2} is {sum_result}.")
+
+  ```
+
+
+  Expected Console Interaction:
+
+
+  ```
+
+  Enter the first number: 5
+
+  Enter the second number: 3
+
+  The sum of 5 and 3 is 8.
+
+  ```
+
+
+  ## Activities
+
+
+  1. **Activity 2.3.1: Temperature Converter**
+
+     1. Create `temp_converter.py`.
+     2. Prompt for temperature in Fahrenheit. Convert to Celsius: `C = (F - 32) * 5 / 9`.
+     3. Print both Fahrenheit and Celsius temperatures.
+     4. Prompt for temperature in Celsius. Convert to Fahrenheit: `F = C * 9 / 5 + 32`.
+     5. Print both Celsius and Fahrenheit temperatures.
+
+     * Purpose: Practice with input(), type conversion, and arithmetic.
+
+  2. **Activity 2.3.2: Future Value Calculator**
+
+     1. Create `future_value.py`.
+     2. Prompt for:
+
+        * Initial investment amount
+
+        * Annual interest rate
+
+        * Number of years
+     3. Calculate future value: `future_value = initial_investment * (1 + annual_rate) ** num_years`
+     4. Print all inputs and the calculated future value.
+
+     * Purpose: Practice with more complex numeric input and calculations.
+

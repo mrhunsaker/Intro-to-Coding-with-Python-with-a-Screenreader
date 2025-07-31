@@ -1,3 +1,46 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: |+
+  # Lesson: Reading from a File
+
+  ## Opening, reading, and closing files. Using with statements.
+
+  ## Example 8.1.1: Reading Entire File
+
+  ```python
+  with open('my_notes.txt', 'r') as file_object:
+     contents = file_object.read()
+  print("--- Entire File Content ---")
+  print(contents)
+  ```
+
+  ## Example 8.1.2: Reading Line by Line
+
+  ```python
+  with open('my_notes.txt', 'r') as file_object:
+     print("\n--- File Content Line by Line ---")
+     for line in file_object:
+         print(line.strip())
+
+  with open('my_notes.txt', 'r') as file_object:
+     lines = file_object.readlines()
+  print("\n--- File Content as List of Lines ---")
+  for line in lines:
+     print(line.strip())
+  ```
+
+  ## Activities
+
+  1. **Activity 8.1.1: Learning Python from File**
+
+  * Create `learning_python.txt` and `read_learning.py`.
+
+  * Read and print file contents in different ways.
+
+  1. **Activity 8.1.2: Guest Book**
+
+  * Create `guest_book.txt` and `guest_book_reader.py`.
+
+  * Read and print each line.
+

@@ -1,3 +1,117 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >+
+  # Lesson: Developing a Command-Line Tool
+
+
+  ## Creating a utility that performs a specific task.
+
+
+  ## Example 10.4.1: Simple To-Do List Tool (Pseudocode)
+
+
+  ```python
+
+  import json
+
+
+  TODO_FILE = 'todos.json'
+
+  todos = []
+
+
+  def load_todos():
+     global todos
+     try:
+         with open(TODO_FILE, 'r') as f:
+             todos = json.load(f)
+         print("Tasks loaded successfully.")
+     except FileNotFoundError:
+         print("No existing tasks found. Starting fresh.")
+         todos = []
+
+  def save_todos():
+     with open(TODO_FILE, 'w') as f:
+         json.dump(todos, f, indent=4)
+     print("Tasks saved.")
+
+  def add_task(task_description):
+     todos.append({"description": task_description, "completed": False})
+     print(f"Task '{task_description}' added.")
+
+  def view_tasks():
+     if not todos:
+         print("No tasks in your list.")
+         return
+     print("\n--- Your To-Do List ---")
+     for i, task in enumerate(todos):
+         status = "[X]" if task["completed"] else "[ ]"
+         print(f"{i + 1}. {status} {task['description']}")
+     print("-----------------------")
+
+  def mark_completed(task_number):
+     try:
+         index = int(task_number) - 1
+         if 0 <= index < len(todos):
+             todos[index]["completed"] = True
+             print(f"Task '{todos[index]['description']}' marked as complete.")
+         else:
+             print("Invalid task number.")
+     except ValueError:
+         print("Please enter a valid number.")
+
+  def main_menu():
+     print("\n--- To-Do List Menu ---")
+     print("1. Add Task")
+     print("2. View Tasks")
+     print("3. Mark Task Complete")
+     print("4. Save Tasks")
+     print("5. Load Tasks")
+     print("6. Quit")
+     print("-----------------------")
+
+  load_todos()
+
+
+  while True:
+     main_menu()
+     choice = input("Enter your choice (1-6): ")
+
+     if choice == '1':
+         desc = input("Enter task description: ")
+         add_task(desc)
+     elif choice == '2':
+         view_tasks()
+     elif choice == '3':
+         view_tasks()
+         task_num = input("Enter task number to mark complete: ")
+         mark_completed(task_num)
+     elif choice == '4':
+         save_todos()
+     elif choice == '5':
+         load_todos()
+     elif choice == '6':
+         save_todos()
+         print("Goodbye!")
+         break
+     else:
+         print("Invalid choice. Please try again.")
+  ```
+
+
+  ## Activities
+
+
+  1. **Activity 10.4.1: Simple Contact Manager**
+
+
+  * Create a contact manager tool with add, view, search, save, load, and quit
+  features.
+
+
+  1. **Activity 10.4.2: Basic Calculator with History**
+
+
+  * Implement a calculator with history and error handling.
+

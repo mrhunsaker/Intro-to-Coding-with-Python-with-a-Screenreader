@@ -1,3 +1,136 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >+
+  # Lesson: More on Lists
+
+
+  ## Modifying, adding (append, insert), and removing (del, pop, remove)
+  elements
+
+
+  Python lists are highly flexible and allow for dynamic modification of their
+  contents. Elements can be added to a list in several ways: `append(item)` adds
+  an item to the end of the list, while `insert(index, item)` inserts an item at
+  a specific index, shifting existing elements to the right. Elements can also
+  be removed from a list using different methods: `del list[index]` permanently
+  deletes an item at a specific index; `.pop(index)` removes an item at a
+  specific index (or the last item if no index is provided) and returns the
+  removed item; `.remove(value)` removes only the first occurrence of a specific
+  value from the list.
+
+
+  ## Explicit Examples
+
+
+  ## Example 4.1.1: Adding and Removing from a To-Do List
+
+
+  ```python
+
+  todo_list = ["Buy groceries", "Walk the dog"]
+
+  print("Initial list:", todo_list)
+
+
+  todo_list.append("Call grandma") # Add to end
+
+  print("After append:", todo_list)
+
+
+  todo_list.insert(0, "Wake up early") # Insert at beginning
+
+  print("After insert:", todo_list)
+
+
+  del todo_list[1] # Delete "Buy groceries" (now at index 1)
+
+  print("After del:", todo_list)
+
+
+  completed_task = todo_list.pop() # Pop the last item ("Call grandma")
+
+  print("After pop:", todo_list)
+
+  print("Completed task:", completed_task)
+
+
+  todo_list.remove("Walk the dog") # Remove by value
+
+  print("After remove:", todo_list)
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  Initial list: ['Buy groceries', 'Walk the dog']
+
+  After append: ['Buy groceries', 'Walk the dog', 'Call grandma']
+
+  After insert: ['Wake up early', 'Buy groceries', 'Walk the dog', 'Call
+  grandma']
+
+  After del: ['Wake up early', 'Walk the dog', 'Call grandma']
+
+  After pop: ['Wake up early', 'Walk the dog']
+
+  Completed task: Call grandma
+
+  After remove: ['Wake up early']
+
+  ```
+
+
+  ## Activities
+
+
+  1. **Activity 4.1.1: Managing a Shopping Cart**
+
+
+  * Create `shopping_cart.py`.
+
+
+  * Initialize a list named cart with 3-4 initial items (e.g., `["milk",
+  "bread", "eggs"]`).
+
+
+  * Add two new items to the end of the cart using `append()`. Print the updated
+  cart.
+
+
+  * Insert "butter" at the second position (index 1) using `insert()`. Print the
+  updated cart.
+
+
+  * Remove the first item using `del`. Print the cart.
+
+
+  * Use `pop()` to remove the last item and store it in `last_item_removed`.
+  Print both the cart and `last_item_removed`.
+
+
+  * Remove a specific item by value using `remove()`. Print the cart.
+
+
+  1. **Activity 4.1.2: Shrinking Guest List**
+
+
+  * Start with the guest\_list created in Unit 3.
+
+
+  * Print a message indicating only two people can be invited.
+
+
+  * Use a while loop (or multiple `pop()` calls) to remove guests until only two
+  remain. For each person removed, print a message.
+
+
+  * Print invitation messages for the remaining guests.
+
+
+  * Use `del` to empty the list. Print the empty list.
+

@@ -1,15 +1,25 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart10
 title: Unit 10
-content: >-
+content: >+
   ## Unit 10: Project-Based Learning: Building Text-Based Applications
 
+
   ## Lesson 10.1: Designing Your Project
-      • Proofreading Assignment (No code to proofread in this conceptual lesson).
+
+
+  * Proofreading Assignment (No code to proofread in this conceptual lesson).
+
+
   ## Lesson 10.2: Building a Text-Based Adventure Game (Part 1)
-      • Proofreading Assignment:
-          ◦ Scenario: You're setting up your game's rooms and movement, but making dictionary access or conditional errors.
-          ◦ Code to Proofread:
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're setting up your game's rooms and movement, but making dictionary access or conditional errors.
+
+    * Code to Proofread:
+
   ```python
 
   rooms = {
@@ -36,14 +46,25 @@ content: >-
       else:
           print("Invalid command.")
   ```
-          ◦ Errors to Find:
-              1. SyntaxError: Missing closing curly brace(s) for the river room and the rooms dictionary.
-              2. KeyError: room_info["desc"] should be room_info["description"].
-              3. AttributeError: room_info.exits[command] should be room_info["exits"][command].
-          ◦ Goal: Fix all SyntaxError, KeyError, and AttributeError issues.
-      • Documentation Assignment:
-          ◦ Scenario: This code sets up a simple game room and allows the player to look around.
-          ◦ Code to Document:
+
+
+  * Errors to Find:
+
+    * SyntaxError: Missing closing curly brace(s) for the river room and the rooms dictionary.
+
+    * KeyError: room\_info\["desc"] should be room\_info\["description"].
+
+    * AttributeError: room\_info.exits\[command] should be room\_info\["exits"]\[command].
+
+  * Goal: Fix all SyntaxError, KeyError, and AttributeError issues.
+
+
+  - Documentation Assignment:
+
+    * Scenario: This code sets up a simple game room and allows the player to look around.
+
+    * Code to Document:
+
   ```python
 
   game_rooms = {
@@ -65,12 +86,25 @@ content: >-
   print(f"Available exits: {', '.join(current_room_details['exits'].keys())}")
 
   ```
-          ◦ Task: Add a docstring explaining the structure of game_rooms. Add inline comments for player_location, accessing room details, and displaying the description and exits.
-          ◦ Goal: Document the setup and basic description of a game room.
+
+
+  * Task: Add a docstring explaining the structure of game\_rooms. Add inline
+  comments for player\_location, accessing room details, and displaying the
+  description and exits.
+
+
+  * Goal: Document the setup and basic description of a game room.
+
+
   ## Lesson 10.3: Building a Text-Based Adventure Game (Part 2)
-      • Proofreading Assignment:
-          ◦ Scenario: You're adding inventory and item interaction to your game, but mismanaging list/dictionary operations or conditional logic.
-          ◦ Code to Proofread:
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're adding inventory and item interaction to your game, but mismanaging list/dictionary operations or conditional logic.
+
+    * Code to Proofread:
+
   ```python
 
   rooms = {
@@ -118,12 +152,22 @@ content: >-
           print("Unknown command.")
       print(f"Your inventory: {', '.join(player_inventory) if player_inventory else 'empty'}.")
   ```
-          ◦ Errors to Find:
-              1. AttributeError: rooms[current_room]["items"].add(item_name) should be append() because it's a list.
-          ◦ Goal: Fix the AttributeError. Explain that list.add() is not a method and list.append() should be used.
-      • Documentation Assignment:
-          ◦ Scenario: This code simulates picking up and dropping an item in a simple game.
-          ◦ Code to Document:
+
+
+  * Errors to Find:
+
+    * AttributeError: rooms\[current\_room]\["items"].add(item\_name) should be append() because it's a list.
+
+  * Goal: Fix the AttributeError. Explain that list.add() is not a method and
+  list.append() should be used.
+
+
+  - Documentation Assignment:
+
+    * Scenario: This code simulates picking up and dropping an item in a simple game.
+
+    * Code to Document:
+
   ```python
 
   current_room_items = ["key", "map"]
@@ -154,12 +198,24 @@ content: >-
   else:
       print("Item not in your inventory.")
   ```
-          ◦ Task: Add a docstring for the script. Add inline comments explaining the "take" and "drop" logic, including list .remove() and .append() methods.
-          ◦ Goal: Document basic item interaction in a game.
+
+
+  * Task: Add a docstring for the script. Add inline comments explaining the
+  "take" and "drop" logic, including list .remove() and .append() methods.
+
+
+  * Goal: Document basic item interaction in a game.
+
+
   ## Lesson 10.4: Developing a Command-Line Tool
-      • Proofreading Assignment:
-          ◦ Scenario: You're building a to-do list tool, but persistence is broken due to incorrect JSON handling or file modes.
-          ◦ Code to Proofread:
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're building a to-do list tool, but persistence is broken due to incorrect JSON handling or file modes.
+
+    * Code to Proofread:
+
   ```python
 
   import json
@@ -207,12 +263,22 @@ content: >-
       else:
           print("Invalid choice.")
   ```
-          ◦ Errors to Find:
-              1. Logical Error: save_todos uses "a" mode for writing JSON. This will append the entire JSON structure to the file, creating invalid JSON. It should be "w" to overwrite.
-          ◦ Goal: Correct the file mode in save_todos to "w" and explain why appending JSON directly can lead to corrupted files.
-      • Documentation Assignment:
-          ◦ Scenario: This code provides the core functions for a simple contact manager: adding and viewing contacts.
-          ◦ Code to Document:
+
+
+  * Errors to Find:
+
+    * Logical Error: save\_todos uses "a" mode for writing JSON. This will append the entire JSON structure to the file, creating invalid JSON. It should be "w" to overwrite.
+
+  * Goal: Correct the file mode in save\_todos to "w" and explain why appending
+  JSON directly can lead to corrupted files.
+
+
+  - Documentation Assignment:
+
+    * Scenario: This code provides the core functions for a simple contact manager: adding and viewing contacts.
+
+    * Code to Document:
+
   ```python
 
   contacts = []
@@ -243,12 +309,26 @@ content: >-
   view_contacts()
 
   ```
-          ◦ Task: Add docstrings for add_contact (explaining parameters and action) and view_contacts (explaining its display logic). Add inline comments explaining dictionary creation and list appending in add_contact, and the enumerate loop in view_contacts.
-          ◦ Goal: Document core functions for a command-line tool.
+
+
+  * Task: Add docstrings for add\_contact (explaining parameters and action) and
+  view\_contacts (explaining its display logic). Add inline comments explaining
+  dictionary creation and list appending in add\_contact, and the enumerate loop
+  in view\_contacts.
+
+
+  * Goal: Document core functions for a command-line tool.
+
+
   ## Lesson 10.5: Refinement and User Experience
-      • Proofreading Assignment:
-          ◦ Scenario: You're adding input validation and better error messages, but there are logical flaws or unhandled edge cases.
-          ◦ Code to Proofread:
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're adding input validation and better error messages, but there are logical flaws or unhandled edge cases.
+
+    * Code to Proofread:
+
   ```python
 
   def get_positive_number(prompt):
@@ -280,13 +360,25 @@ content: >-
   main()
 
   ```
-          ◦ Errors to Find:
-              1. Logical Error: get_positive_number has an except ValueError but doesn't explicitly handle empty input or just hitting Enter, which would re-raise ValueError or enter an infinite loop if not handled correctly.
-              2. Logical Error: In main, the else: pass for invalid menu choice doesn't provide feedback to the user.
-          ◦ Goal: Modify get_positive_number to ensure int() conversion happens before num > 0 check. For the else: pass in main, replace pass with a meaningful message to the user.
-      • Documentation Assignment:
-          ◦ Scenario: This code asks for a user's age and provides feedback, ensuring the input is a valid positive number.
-          ◦ Code to Document:
+
+
+  * Errors to Find:
+
+    * Logical Error: get\_positive\_number has an except ValueError but doesn't explicitly handle empty input or just hitting Enter, which would re-raise ValueError or enter an infinite loop if not handled correctly.
+
+    * Logical Error: In main, the else: pass for invalid menu choice doesn't provide feedback to the user.
+
+  * Goal: Modify get\_positive\_number to ensure int() conversion happens before
+  num > 0 check. For the else: pass in main, replace pass with a meaningful
+  message to the user.
+
+
+  - Documentation Assignment:
+
+    * Scenario: This code asks for a user's age and provides feedback, ensuring the input is a valid positive number.
+
+    * Code to Document:
+
   ```python
 
   def get_valid_age():
@@ -310,5 +402,12 @@ content: >-
   print(f"Your age is: {user_age}")
 
   ```
-          ◦ Task: Ensure the docstring for get_valid_age is thorough (explaining its purpose, input, output, and behavior). Add inline comments within the try and except blocks explaining their roles in validation.
-          ◦ Goal: Document robust user input validation with clear feedback.
+
+
+  * Task: Ensure the docstring for get\_valid\_age is thorough (explaining its
+  purpose, input, output, and behavior). Add inline comments within the try and
+  except blocks explaining their roles in validation.
+
+
+  * Goal: Document robust user input validation with clear feedback.
+

@@ -1,3 +1,116 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >+
+  # Lesson: Basic String Operations
+
+
+  ## Concatenation, length (`len()`), string methods (`.upper()`, `.lower()`,
+  `.strip()`).
+
+
+  Concatenation joins strings with `+`. `len()` returns the number of
+  characters. String methods perform actions on strings.
+
+
+  ## Explicit Examples
+
+
+  ## Example 3.5.1: String Length and Case Conversion
+
+
+  ```python
+
+  message = "  Hello Python  "
+
+  print(f"Original: '{message}'")
+
+  print(f"Length: {len(message)}")
+
+  print(f"Uppercase: '{message.upper()}'")
+
+  print(f"Lowercase: '{message.lower()}'")
+
+  print(f"Stripped: '{message.strip()}'")
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  Original: '  Hello Python  '
+
+  Length: 16
+
+  Uppercase: '  HELLO PYTHON  '
+
+  Lowercase: '  hello python  '
+
+  Stripped: 'Hello Python'
+
+  ```
+
+
+  ## Example 3.5.2: Combining Strings
+
+
+  ```python
+
+  first_name = "Alice"
+
+  last_name = "Smith"
+
+  full_name = first_name + " " + last_name
+
+  print(f"Full name: {full_name}")
+
+
+  greeting = "Welcome"
+
+  language = "Python"
+
+  combined = f"{greeting} to {language}!"
+
+  print(combined)
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  Full name: Alice Smith
+
+  Welcome to Python!
+
+  ```
+
+
+  ## Activities
+
+
+  1. **Activity 3.5.1: Name Formatter**
+
+     1. Create `name_formatter.py`.
+     2. Prompt for first and last name.
+     3. Print full name.
+     4. Print full name in uppercase.
+     5. Print total number of characters in full name.
+
+     * Purpose: Practice string concatenation, `.upper()`, and `len()`.
+
+  2. **Activity 3.5.2: Quote Stripper**
+
+     1. Create `quote_stripper.py`.
+     2. Store a famous quote with extra spaces/newlines.
+     3. Print the original quote.
+     4. Print the quote after `.strip()`.
+     5. Discuss why `.strip()` is useful for user input.
+
+     * Purpose: Practice cleaning text data with `.strip()`.
+

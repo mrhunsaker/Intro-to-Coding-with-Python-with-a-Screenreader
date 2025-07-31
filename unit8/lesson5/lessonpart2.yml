@@ -1,3 +1,59 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: |+
+  # Lesson: Instances as Attributes
+
+  ## Composing classes.
+
+  ## Example 7.5.1: Car with a Battery Attribute
+
+  ```python
+  class Battery:
+     def __init__(self, battery_size=75):
+         self.battery_size = battery_size
+
+     def describe_battery(self):
+         print(f"This car has a {self.battery_size}-kWh battery.")
+
+     def get_range(self):
+         if self.battery_size == 75:
+             range_miles = 260
+         elif self.battery_size == 100:
+             range_miles = 310
+         else:
+             range_miles = 200
+         print(f"This battery provides about {range_miles} miles of range.")
+
+  class ElectricCar:
+     def __init__(self, make, model, year):
+         self.make = make
+         self.model = model
+         self.year = year
+         self.odometer_reading = 0
+         self.battery = Battery()
+
+     def get_descriptive_name(self):
+         return f"{self.year} {self.make} {self.model}".title()
+
+     def read_odometer(self):
+         print(f"This car has {self.odometer_reading} miles on it.")
+
+  my_tesla = ElectricCar('tesla', 'model s', 2023)
+  print(my_tesla.get_descriptive_name())
+  my_tesla.battery.describe_battery()
+  my_tesla.battery.get_range()
+  ```
+
+  ## Activities
+
+  1. **Activity 7.5.1: Book with Author**
+
+  * Create Author and Book classes.
+
+  * Use an Author instance as an attribute of Book.
+
+  1. **Activity 7.5.2: Restaurant with Menu**
+
+  * Create MenuItem and add to Restaurant's menu list.
+

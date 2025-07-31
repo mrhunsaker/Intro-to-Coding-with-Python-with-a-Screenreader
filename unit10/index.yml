@@ -1,8 +1,12 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit10
 title: "Unit 9: Testing Your Code and Introduction to Data Analysis"
-objectives: "Learning Objectives: Write simple unit tests, understand data
-  generation/manipulation, and explore text-based data analysis"
+description: This unit introduces the crucial practice of testing code to ensure
+  its correctness and explores basic text-based data analysis techniques.
+objectives: |-
+  - Write simple unit tests for functions and classes.
+  - Understand the basics of data generation and manipulation.
+  - Explore text-based data analysis concepts.
 lessons:
   - lesson1/index.yml
   - lesson2/index.yml

@@ -1,3 +1,59 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: |+
+  # Lesson: The else Block and finally Block
+
+  ## Additional try-except clauses.
+
+  ## Example 8.4.1: try-except-else for File Processing
+
+  ```python
+  filename = 'existing_file.txt'
+  with open(filename, 'w') as f:
+     f.write("This file exists.\n")
+
+  try:
+     with open(filename, 'r') as file_object:
+         contents = file_object.read()
+  except FileNotFoundError:
+     print(f"Sorry, the file {filename} was not found.")
+  else:
+     print(f"\nSuccessfully read {filename}:")
+     print(contents)
+  ```
+
+  ## Example 8.4.2: try-except-finally for Cleanup
+
+  ```python
+  file_handle = None
+  try:
+     file_handle = open('another_file.txt', 'w')
+     file_handle.write("Writing some data.\n")
+  except FileNotFoundError:
+     print("Error: File path invalid.")
+  except Exception as e:
+     print(f"An unexpected error occurred: {e}")
+  finally:
+     if file_handle:
+         file_handle.close()
+         print("File closed in finally block.")
+     else:
+         print("File was not opened, so nothing to close.")
+  print("Program finished.")
+  ```
+
+  ## Activities
+
+  1. **Activity 8.4.1: User Login Simulation**
+
+  * Create `login_sim.py`.
+
+  * Use try-except-else for authentication.
+
+  1. **Activity 8.4.2: Resource Cleanup**
+
+  * Create `resource_cleanup.py`.
+
+  * Simulate resource opening and cleanup with finally.
+

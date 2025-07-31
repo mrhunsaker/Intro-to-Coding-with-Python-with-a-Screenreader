@@ -1,3 +1,53 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: |+
+  # Lesson: Analyzing Text Data
+
+  ## Counting words, frequency analysis, and basic string processing.
+
+  ## Example 9.4.1: Word Count and Character Count
+
+  ```python
+  text = "Python is a powerful and versatile programming language."
+  print(f"Original text: '{text}'")
+
+  words = text.split()
+  word_count = len(words)
+  print(f"Total words: {word_count}")
+
+  char_count = len(text)
+  print(f"Total characters (including spaces): {char_count}")
+
+  char_no_spaces = len(text.replace(" ", ""))
+  print(f"Total characters (excluding spaces): {char_no_spaces}")
+  ```
+
+  ## Example 9.4.2: Simple Word Frequency
+
+  ```python
+  sentence = "the quick brown fox jumps over the lazy dog the quick brown fox"
+  words_in_sentence = sentence.lower().split()
+
+  word_frequencies = {}
+  for word in words_in_sentence:
+     if word in word_frequencies:
+         word_frequencies[word] += 1
+     else:
+         word_frequencies[word] = 1
+
+  print("\nWord Frequencies:")
+  for word, count in word_frequencies.items():
+     print(f"'{word}': {count}")
+  ```
+
+  ## Activities
+
+  1. **Activity 9.4.1: Text File Analyzer**
+
+  * Analyze a text file for word and character counts, and word frequency.
+
+  1. **Activity 9.4.2: Vowel and Consonant Counter**
+
+  * Count vowels and consonants in a sentence.
+

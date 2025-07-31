@@ -104,6 +104,7 @@ content: >
 
   	◦ Task: Run the skeleton app, explore its basic (non-functional) interface with a screen reader. Identify the provided components.
 
+
       
   2 Data Model and Storage:
 
@@ -113,12 +114,14 @@ content: >
 
   	◦ Task: Define the Item class (or similar) with attributes. Create functions to load\_data() and save\_data() from/to a JSON file.
 
+
       
   3 Implementing "Add Item" Functionality:
 
   	◦ Concept: Connecting GUI input fields to Python variables. Handling button clicks.
 
   	◦ Task: Connect the input fields (e.g., ui.input("Name")) to variables. Implement the logic in the "Add" button's click handler to create a new Item object and add it to the main data list. Clear input fields after submission. Provide accessible feedback (e.g., ui.notify("Item added successfully!")).
+
 
       
   4 Displaying and Managing Items:
@@ -133,6 +136,7 @@ content: >
   	◦ Concept: Using the selected item's data to pre-populate edit forms. Removing items from the list.
 
   	◦ Task: Implement the "Edit" button's logic to load the selected item's data into the input fields. Implement an "Update" button to save changes back to the item. Implement the "Delete" button to remove the selected item from the data list and re-display the updated list. Provide accessible feedback for all actions.
+
 
       
   ## Assessment: Capstone Project Submission and Demonstration

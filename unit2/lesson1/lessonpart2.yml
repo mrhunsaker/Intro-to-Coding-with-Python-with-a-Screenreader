@@ -1,4 +1,52 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: Enter your content here
+content: >+
+  # Lesson: Welcome to Computer Science
+
+
+  ## What is computer science? Hardware vs. Software. The role of programming.
+
+
+  Computer science encompasses more than just writing code; it involves
+  problem-solving, designing solutions, and understanding the intricate workings
+  of computers. Hardware refers to the physical components of a computer system
+  that one can touch, such as the keyboard, speaker, processor, and memory. To
+  illustrate this, consider a kitchen: the stove, refrigerator, and pots are
+  analogous to hardware. Software, on the other hand, consists of the
+  instructions that direct the hardware on what actions to perform, like a game,
+  a word processor, or a screen reader. Continuing the kitchen analogy, a recipe
+  for cookies serves as the software; it provides precise steps for the
+  "hardware" (the person) to follow to achieve the desired outcome. Programs are
+  sets of instructions written in a programming language, such as Python, that a
+  computer can interpret and execute.
+
+
+  For example, imagine a task like baking cookies. The oven, mixing bowls, and
+  ingredients are comparable to computer hardware. The cookie recipe functions
+  as the computer software, dictating the exact actions to perform with the
+  hardware to achieve the desired result. Similarly, a screen reader, such as
+  NVDA, JAWS, or VoiceOver, is a piece of software. It operates on the
+  computer's hardware, including the processor and memory, to convert text into
+  audible speech.
+
+
+  ## Activities
+
+
+  1. **Activity 1.1.1: "Human Computer" Role-Play**
+
+     * Instructions: In pairs or small groups, one student assumes the role of the "computer" while the other acts as the "programmer." The programmer provides simple, precise, step-by-step instructions, a "program," for a common task, such as "make a peanut butter and jelly sandwich" or "walk to the door." The "computer" must follow only the instructions given, exactly as written, without making any assumptions.
+
+     * Purpose: Illustrate the critical need for precise, unambiguous instructions in programming.
+
+     * Accessibility: Fully verbal/conceptual.
+
+  2. **Activity 1.1.2: Identify Hardware and Software**
+
+     * Instructions: List five items you use daily. For each, identify whether it is hardware or software and explain your choice.
+
+     * Purpose: Reinforce the distinction between hardware and software.
+
+     * Accessibility: Type answers or discuss verbally.ntent here
+

@@ -1,3 +1,45 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: |+
+  # Lesson: Exceptions: Handling Errors
+
+  ## Using try-except blocks to gracefully handle errors.
+
+  ## Example 8.3.1: Handling ZeroDivisionError
+
+  ```python
+  try:
+     result = 10 / 0
+  except ZeroDivisionError:
+     print("Error: You cannot divide by zero!")
+  print("Program continues after error handling.")
+  ```
+
+  ## Example 8.3.2: Handling ValueError for Invalid Input
+
+  ```python
+  prompt = "Enter a number: "
+  try:
+     num_str = input(prompt)
+     number = int(num_str)
+     print(f"You entered the number: {number}")
+  except ValueError:
+     print("Error: That was not a valid whole number. Please try again.")
+  print("End of input example.")
+  ```
+
+  ## Activities
+
+  1. **Activity 8.3.1: Simple Division Calculator with Error Handling**
+
+  * Create `safe_division.py`.
+
+  * Prompt for two numbers and handle errors.
+
+  1. **Activity 8.3.2: File Not Found Handler**
+
+  * Create `file_reader_safe.py`.
+
+  * Prompt for a filename and handle FileNotFoundError.
+

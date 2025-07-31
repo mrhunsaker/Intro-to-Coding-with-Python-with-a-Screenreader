@@ -1,3 +1,47 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: |+
+  # Lesson: Passing Arguments
+
+  ## Positional arguments, keyword arguments
+
+  Arguments can be passed by position or by keyword.
+
+  ## Explicit Examples
+
+  ## Example 6.2.1: Positional vs. Keyword Arguments
+
+  ```python
+  def describe_animal(animal_type, animal_name):
+     print(f"I have a {animal_type} named {animal_name}.")
+
+  print("Using positional arguments:")
+  describe_animal("dog", "Buddy")
+
+  print("\nUsing keyword arguments:")
+  describe_animal(animal_name="Max", animal_type="cat")
+  ```
+
+  Expected Output:
+
+  ```
+  Using positional arguments:
+  I have a dog named Buddy.
+
+  Using keyword arguments:
+  I have a cat named Max.
+  ```
+
+  ## Activities
+
+  1. **Activity 6.2.1: City and Country**
+
+  * Create `city_country.py`.
+
+  * Define a function `describe_city(city, country)`.
+
+  * Print a sentence.
+
+  * Call the function three times, using keyword arguments at least once.
+

@@ -1,17 +1,30 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart8
 title: Unit 7
-content: >-
+content: >+
   # Unit 7: Classes and Object-Oriented Programming
 
+
   ## Emphasis/Resources:
-      • Analogy: Use real-world analogies for classes and objects (e.g., "cookie cutter" for class, "cookies" for objects; "car blueprint" for class, "individual cars" for objects).
-      • self parameter: Explain self as the reference to the current instance of the object.
-      • Method Calls: Differentiate between calling a function and calling a method on an object.
+
+
+  * Analogy: Use real-world analogies for classes and objects (e.g., "cookie
+  cutter" for class, "cookies" for objects; "car blueprint" for class,
+  "individual cars" for objects).
+
+    * self parameter: Explain self as the reference to the current instance of the object.
+
+    * Method Calls: Differentiate between calling a function and calling a method on an object.
+
   ## Challenge Projects:
-      1. "The Uninitialized Object":
-          ◦ Scenario: You created a class for a Pet, but when you try to create a pet, you get an error because the attributes aren't set up.
-          ◦ Code (missing __init__ implementation):
+
+
+  1. "The Uninitialized Object":
+
+     * Scenario: You created a class for a Pet, but when you try to create a pet, you get an error because the attributes aren't set up.
+
+     * Code (missing __init__ implementation):
+
   ```python
 
   class Pet:
@@ -25,10 +38,20 @@ content: >-
   my_pet.make_sound()
 
   ```
-          ◦ Task: Add an __init__ method to the Pet class that takes name and species as parameters and assigns them to instance attributes.
-      2. "The Attribute Assignment Error":
-          ◦ Scenario: You're trying to update an object's attribute, but it's not working as expected.
-          ◦ Code (incorrect attribute update):
+
+
+  * Task: Add an __init__ method to the Pet class that takes name and species as
+  parameters and assigns them to instance attributes.
+
+
+  2\. "The Attribute Assignment Error":
+
+  \- Scenario: You're trying to update an object's attribute, but it's not
+  working as expected.
+
+  \- Code (incorrect attribute update):
+
+
   ```python
 
   class Car:
@@ -47,4 +70,7 @@ content: >-
   print(my_car.speed) # Will print 0
 
   ```
-          ◦ Task: Fix the accelerate method so that it correctly updates my_car.speed.
+
+
+  * Task: Fix the accelerate method so that it correctly updates
+

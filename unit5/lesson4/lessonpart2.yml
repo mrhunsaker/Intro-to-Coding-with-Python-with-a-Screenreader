@@ -1,3 +1,120 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
+content: >+
+  # Lesson: Introducing Dictionaries
+
+
+  ## Creating, accessing, and modifying dictionaries
+
+
+  Dictionaries are collections of key-value pairs, enclosed in curly braces.
+
+
+  ## Explicit Examples
+
+
+  ## Example 4.4.1: Creating and Accessing a Dictionary
+
+
+  ```python
+
+  student_profile = {
+     "name": "Emily",
+     "age": 13,
+     "grade": "7th",
+     "favorite_subject": "Science"
+  }
+
+  print("Student Profile:", student_profile)
+
+  print("Student's name:", student_profile["name"])
+
+  print("Student's age:", student_profile["age"])
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  Student Profile: {'name': 'Emily', 'age': 13, 'grade': '7th',
+  'favorite_subject': 'Science'}
+
+  Student's name: Emily
+
+  Student's age: 13
+
+  ```
+
+
+  ## Example 4.4.2: Adding and Modifying Dictionary Entries
+
+
+  ```python
+
+  student_profile["city"] = "Springfield"
+
+  print("After adding city:", student_profile)
+
+
+  student_profile["favorite_subject"] = "Math"
+
+  print("After changing subject:", student_profile)
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  After adding city: {'name': 'Emily', 'age': 13, 'grade': '7th',
+  'favorite_subject': 'Science', 'city': 'Springfield'}
+
+  After changing subject: {'name': 'Emily', 'age': 13, 'grade': '7th',
+  'favorite_subject': 'Math', 'city': 'Springfield'}
+
+  ```
+
+
+  ## Activities
+
+
+  1. **Activity 4.4.1: Book Information Dictionary**
+
+
+  * Create `book_info.py`.
+
+
+  * Create a dictionary called `my_book` with keys: "title", "author",
+  "publication\_year", "genre".
+
+
+  * Print each piece of information.
+
+
+  * Add a new entry for "number\_of\_pages". Print the updated dictionary.
+
+
+  * Change the "genre". Print the dictionary again.
+
+
+  1. **Activity 4.4.2: Simple Glossary**
+
+
+  * Create `simple_glossary.py`.
+
+
+  * Create a dictionary with five programming terms and definitions.
+
+
+  * Print each term and its definition.
+
+
+  * Prompt the user to enter a term. If found, print its definition; otherwise,
+  print "Term not found."
+
