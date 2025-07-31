@@ -6,4 +6,4 @@ objectives: Understanding basic computer science concepts, setting up the Python
 lessons:
   - lesson1/index.yml
   - lesson2/index.yml
-  - lesson4/index.yml
+  - lesson3/index.yml
