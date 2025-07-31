@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson2
-title: Exam - Proofreading Code
+title: Proofreading
 lessonParts:
   - lessonpart1.yml

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: course1
-title: Intro to Coding with Python with a Screenreader
+title: Introduction to Computer Science with Python for Visually Impaired Students
 level: beginner
 description: >-
   This curriculum is designed to introduce a student with no vision to computer
@@ -19,6 +19,29 @@ description: >-
       • Error Messages: Teach the student how to navigate and interpret Python error messages, as these are text-based and crucial for debugging.
       • Terminal Interaction: All program execution and output will be through the integrated terminal in VS Code, which is screen reader-friendly.
       • No turtle() Graphics: All graphical exercises from Zelle's curriculum will be replaced with text-based alternatives or concepts from Matthes that focus on data manipulation and console output.
+
+  Target Audience: Students with no prior programming experience, relying on
+  screen readers for all computer interactions.
+
+
+  Tools:
+      • Python 3 (latest stable version)
+      • VS Code (Visual Studio Code)
+      • A screen reader (NVDA, JAWS, or VoiceOver)
+      • Recommended VS Code Extensions:
+          ◦ Python (Official Microsoft extension)
+          ◦ Pylance (for IntelliSense, type checking)
+          ◦ Python Indent (for consistent indentation, though primary reliance is on good habits)
+          ◦ Better Comments (for highlighted comments - may or may not be useful depending on screen reader configuration)
+          ◦ Code Runner (for quick execution of Python files)
+
+  Resources:
+
+  Matthes, E. (2023). Python crash course: A hands-on, project-based
+  introduction to programming (3rd ed.). No Starch Press.
+
+  Zelle, J. M. (2017). Python programming: An introduction to computer science
+  (3rd ed.). Franklin, Beedle & Associates.
 prerequisites: Access to a Desktop or Laptop computer capable of accessing a
   browser, run a screenreader (JAWS, NVDA, WIndows Narrator, Mac OS VocieOver),
   and itnerest

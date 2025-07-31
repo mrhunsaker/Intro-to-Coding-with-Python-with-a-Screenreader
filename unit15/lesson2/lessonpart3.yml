@@ -1,13 +1,18 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Unit 3
-content: >-
-  # Unit 3: Control Flow: Decisions and Loops
+content: >+
+  ## Unit 3: Control Flow: Decisions and Loops
 
-  ## Lesson 3.1: Boolean Expressions and if Statements
-      • Proofreading Assignment:
-          ◦ Scenario: You're writing a conditional statement, but indentation and comparison operators are causing issues. Listen for "indentation error" messages.
-          ◦ Code to Proofread: 
+
+  ### Lesson 3.1: Boolean Expressions and if Statements
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're writing a conditional statement, but indentation and comparison operators are causing issues. Listen for "indentation error" messages.
+
+    * Code to Proofread:
 
   ```python
 
@@ -32,14 +37,23 @@ content: >-
       print("Not Alice.") # SyntaxError: missing colon
   ```
 
-         ◦ Errors to Find:
-              1. IndentationError: First print is incorrectly indented.
-              2. SyntaxError (or NameError depending on context): if score = 85 should be ==.
-              3. SyntaxError: if name != "Alice" is missing a colon.
-          ◦ Goal: Fix all errors so the program runs and the conditional logic works as intended.
-      • Documentation Assignment:
-          ◦ Scenario: This code checks if a number is positive.
-          ◦ Code to Document:
+
+  * Errors to Find:
+
+    1. IndentationError: First print is incorrectly indented.
+    2. SyntaxError (or NameError depending on context): if score = 85 should be ==.
+    3. SyntaxError: if name != "Alice" is missing a colon.
+
+  * Goal: Fix all errors so the program runs and the conditional logic works as
+  intended.
+
+
+  * Documentation Assignment:
+
+    * Scenario: This code checks if a number is positive.
+
+    * Code to Document:
+
   ```python
 
   number = -5
@@ -49,12 +63,23 @@ content: >-
   else:
       print("The number is not positive.")
   ```
-          ◦ Task: Add a docstring explaining the script's purpose. Add inline comments for the if and else blocks, explaining their conditions and actions.
-          ◦ Goal: Document the conditional check for a positive number.
-  ## Lesson 3.2: Chained Conditionals (elif, else)
-      • Proofreading Assignment:
-          ◦ Scenario: You're building a grading system, but the chained conditionals are messy due to indentation or logical errors.
-          ◦ Code to Proofread: 
+
+
+  * Task: Add a docstring explaining the script's purpose. Add inline comments
+  for the if and else blocks, explaining their conditions and actions.
+
+
+  * Goal: Document the conditional check for a positive number.
+
+
+  ### Lesson 3.2: Chained Conditionals (elif, else)
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're building a grading system, but the chained conditionals are messy due to indentation or logical errors.
+
+    * Code to Proofread:
 
   ```python
 
@@ -84,13 +109,22 @@ content: >-
       print("Cold or not raining.")
   ```
 
-         ◦ Errors to Find:
-              1. IndentationError: print("Grade: B") is incorrectly indented.
-              2. SyntaxError (or NameError): is_raining = True in the if condition should be ==.
-          ◦ Goal: Correct all errors, including the indentation and comparison operator, to ensure correct grading and weather condition checks.
-      • Documentation Assignment:
-          ◦ Scenario: This code checks the time of day and prints a greeting.
-          ◦ Code to Document:
+
+  * Errors to Find:
+
+    1. IndentationError: print("Grade: B") is incorrectly indented.
+    2. SyntaxError (or NameError): is\_raining = True in the if condition should be ==.
+
+  * Goal: Correct all errors, including the indentation and comparison operator,
+  to ensure correct grading and weather condition checks.
+
+
+  * Documentation Assignment:
+
+    * Scenario: This code checks the time of day and prints a greeting.
+
+    * Code to Document:
+
   ```python
 
   hour = 14 # 2 PM
@@ -102,12 +136,24 @@ content: >-
   else:
       print("Good evening!")
   ```
-          ◦ Task: Add a docstring for the script. Add inline comments explaining the conditions for "Good morning," "Good afternoon," and "Good evening."
-          ◦ Goal: Document the time-based greeting logic.
-  ## Lesson 3.3: Introduction to Lists
-      • Proofreading Assignment:
-          ◦ Scenario: You're creating and accessing lists, but common mistakes with brackets and indexing are causing issues.
-          ◦ Code to Proofread: 
+
+
+  * Task: Add a docstring for the script. Add inline comments explaining the
+  conditions for "Good morning," "Good afternoon," and "Good evening."
+
+
+  * Goal: Document the time-based greeting logic.
+
+
+  ### Lesson 3.3: Introduction to Lists
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're creating and accessing lists, but common mistakes with brackets and indexing are causing issues.
+
+    * Code to Proofread:
+
   ```python
 
   fruits = ["apple", "banana", "cherry" # Missing closing bracket
@@ -135,13 +181,23 @@ content: >-
   print(fruits)
 
   ```
-         ◦ Errors to Find:
-              1. SyntaxError: fruits list is missing a closing bracket.
-              2. IndexError: fruits[len(fruits)] attempts to access an index out of bounds.
-          ◦ Goal: Fix the syntax error and the IndexError so the program runs and list operations are correct.
-      • Documentation Assignment:
-          ◦ Scenario: This code defines a list of colors and prints the second color.
-          ◦ Code to Document:
+
+
+  * Errors to Find:
+
+    1. SyntaxError: fruits list is missing a closing bracket.
+    2. IndexError: fruits\[len(fruits)] attempts to access an index out of bounds.
+
+  * Goal: Fix the syntax error and the IndexError so the program runs and list
+  operations are correct.
+
+
+  * Documentation Assignment:
+
+    * Scenario: This code defines a list of colors and prints the second color.
+
+    * Code to Document:
+
   ```python
 
   colors = ["red", "green", "blue", "yellow"]
@@ -149,12 +205,24 @@ content: >-
   print(colors[1])
 
   ```
-          ◦ Task: Add a docstring explaining the list's purpose. Add an inline comment next to the print() statement explaining what colors[1] accesses.
-          ◦ Goal: Document list creation and element access.
-  ## Lesson 3.4: Iterating with for Loops
-      • Proofreading Assignment:
-          ◦ Scenario: Your for loops aren't iterating correctly due to indentation, missing colons, or incorrect range() usage.
-          ◦ Code to Proofread: 
+
+
+  * Task: Add a docstring explaining the list's purpose. Add an inline comment
+  next to the print() statement explaining what colors\[1] accesses.
+
+
+  * Goal: Document list creation and element access.
+
+
+  ### Lesson 3.4: Iterating with for Loops
+
+
+  * Proofreading Assignment:
+
+    * Scenario: Your for loops aren't iterating correctly due to indentation, missing colons, or incorrect range() usage.
+
+    * Code to Proofread:
+
   ```python
 
   items = ["pen", "notebook", "eraser"]
@@ -179,25 +247,47 @@ content: >-
   for k in range(3):
       print(f"K is {k}")
   ```
-         ◦ Errors to Find:
-              1. SyntaxError: Missing colons after for statements.
-              2. IndentationError: Code blocks under for are incorrectly indented.
-              3. Logical Error: range(1, 1) results in an empty sequence.
-          ◦ Goal: Fix all errors so both loops run correctly and the indentation is proper.
-      • Documentation Assignment:
-          ◦ Scenario: This code prints numbers from 0 to 4 using a for loop.
-          ◦ Code to Document:
+
+
+  * Errors to Find:
+
+    1. SyntaxError: Missing colons after for statements.
+    2. IndentationError: Code blocks under for are incorrectly indented.
+    3. Logical Error: range(1, 1) results in an empty sequence.
+
+  * Goal: Fix all errors so both loops run correctly and the indentation is
+  proper.
+
+
+  * Documentation Assignment:
+
+    * Scenario: This code prints numbers from 0 to 4 using a for loop.
+
+    * Code to Document:
+
   ```python
 
   for number in range(5):
       print(number)
   ```
-          ◦ Task: Add a docstring for the script. Add an inline comment explaining what range(5) does and what the loop iterates over.
-          ◦ Goal: Document a basic for loop with range().
-  ## Lesson 3.5: Basic String Operations
-      • Proofreading Assignment:
-          ◦ Scenario: You're working with strings, but method calls, assignments, or concatenation are causing problems.
-          ◦ Code to Proofread: 
+
+
+  * Task: Add a docstring for the script. Add an inline comment explaining what
+  range(5) does and what the loop iterates over.
+
+
+  * Goal: Document a basic for loop with range().
+
+
+  ### Lesson 3.5: Basic String Operations
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're working with strings, but method calls, assignments, or concatenation are causing problems.
+
+    * Code to Proofread:
+
   ```python
 
   message = "   Hello Python!   "
@@ -242,15 +332,25 @@ content: >-
   of one item
 
   print(len_of_msg)
-   ```
-         ◦ Errors to Find:
-              1. TypeError or AttributeError: message.strip needs ().
-              2. AttributeError: long_text.toupper() should be long_text.upper().
-              3. TypeError: len[message] should be len(message).
-          ◦ Goal: Fix all errors so string operations work as intended.
-      • Documentation Assignment:
-          ◦ Scenario: This code cleans and capitalizes a user's input.
-          ◦ Code to Document:
+
+  ```
+
+
+  * Errors to Find:
+
+    1. TypeError or AttributeError: message.strip needs ().
+    2. AttributeError: long\_text.toupper() should be long\_text.upper().
+    3. TypeError: len\[message] should be len(message).
+
+  * Goal: Fix all errors so string operations work as intended.
+
+
+  * Documentation Assignment:
+
+    * Scenario: This code cleans and capitalizes a user's input.
+
+    * Code to Document:
+
   ```python
 
   user_input = input("Enter a phrase: ")
@@ -260,5 +360,12 @@ content: >-
   print(f"Cleaned and capitalized: {cleaned_input}")
 
   ```
-          ◦ Task: Add a docstring explaining the script's purpose. Add inline comments explaining the steps of getting input, stripping whitespace, and converting to uppercase.
-          ◦ Goal: Document string cleaning and transformation.
+
+
+  * Task: Add a docstring explaining the script's purpose. Add inline comments
+  explaining the steps of getting input, stripping whitespace, and converting to
+  uppercase.
+
+
+  * Goal: Document string cleaning and transformation.
+

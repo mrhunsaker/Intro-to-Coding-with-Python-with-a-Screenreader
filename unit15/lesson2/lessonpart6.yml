@@ -1,13 +1,21 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart6
 title: Unit 6
-content: >-
+content: >+
   # Unit 6: Functions
 
+
   ## Lesson 6.1: Defining Functions
-      • Proofreading Assignment:
-          ◦ Scenario: You're defining functions, but misusing def, forgetting parameters, or having indentation issues.
-          ◦ Code to Proofread:
+
+
+  ```
+
+  • Proofreading Assignment:
+      ◦ Scenario: You're defining functions, but misusing def, forgetting parameters, or having indentation issues.
+      ◦ Code to Proofread:
+  ```
+
+
   ```python
 
   # Function 1
@@ -36,15 +44,21 @@ content: >-
   my_function() # NameError: my_function not defined
 
   ```
-          ◦ Errors to Find:
-              1. SyntaxError: def greet name: needs (name):.
-              2. IndentationError: print("Hello there!") is incorrectly indented.
-              3. SyntaxError: my_function(): is missing def.
-              4. NameError: Resulting from the previous syntax error.
-          ◦ Goal: Fix all syntax and indentation errors so all functions are correctly defined and callable.
-      • Documentation Assignment:
-          ◦ Scenario: This code defines a simple greeting function.
-          ◦ Code to Document:
+
+
+  ```
+      ◦ Errors to Find:
+          1. SyntaxError: def greet name: needs (name):.
+          2. IndentationError: print("Hello there!") is incorrectly indented.
+          3. SyntaxError: my_function(): is missing def.
+          4. NameError: Resulting from the previous syntax error.
+      ◦ Goal: Fix all syntax and indentation errors so all functions are correctly defined and callable.
+  • Documentation Assignment:
+      ◦ Scenario: This code defines a simple greeting function.
+      ◦ Code to Document:
+  ```
+
+
   ```python
 
   def display_greeting(person_name):
@@ -56,12 +70,25 @@ content: >-
   display_greeting("World")
 
   ```
-          ◦ Task: Ensure the docstring for display_greeting is clear. Add an inline comment for the print statement and the function call.
-          ◦ Goal: Document a basic function definition and call.
+
+
+  ```
+      ◦ Task: Ensure the docstring for display_greeting is clear. Add an inline comment for the print statement and the function call.
+      ◦ Goal: Document a basic function definition and call.
+  ```
+
+
   ## Lesson 6.2: Passing Arguments
-      • Proofreading Assignment:
-          ◦ Scenario: You're calling functions, but passing arguments incorrectly (positional vs. keyword, too many/few).
-          ◦ Code to Proofread:
+
+
+  ```
+
+  • Proofreading Assignment:
+      ◦ Scenario: You're calling functions, but passing arguments incorrectly (positional vs. keyword, too many/few).
+      ◦ Code to Proofread:
+  ```
+
+
   ```python
 
   def describe_pet(animal_type, pet_name):
@@ -90,14 +117,20 @@ content: >-
   arguments
 
   ```
-          ◦ Errors to Find:
-              1. SyntaxError: describe_pet(pet_name="Lucy", "cat") has a positional argument after a keyword.
-              2. TypeError: describe_pet("parrot") is missing an argument.
-              3. TypeError: make_shirt(...) has too many arguments.
-          ◦ Goal: Fix all TypeError and SyntaxError issues by providing the correct number and type of arguments or correcting the argument passing style.
-      • Documentation Assignment:
-          ◦ Scenario: This code calculates the area of a rectangle.
-          ◦ Code to Document:
+
+
+  ```
+      ◦ Errors to Find:
+          1. SyntaxError: describe_pet(pet_name="Lucy", "cat") has a positional argument after a keyword.
+          2. TypeError: describe_pet("parrot") is missing an argument.
+          3. TypeError: make_shirt(...) has too many arguments.
+      ◦ Goal: Fix all TypeError and SyntaxError issues by providing the correct number and type of arguments or correcting the argument passing style.
+  • Documentation Assignment:
+      ◦ Scenario: This code calculates the area of a rectangle.
+      ◦ Code to Document:
+  ```
+
+
   ```python
 
   def calculate_rectangle_area(length, width):
@@ -112,12 +145,25 @@ content: >-
   print(f"The room area is: {room_area}")
 
   ```
-          ◦ Task: Ensure the docstring is clear and explains parameters. Add inline comments explaining the calculation and the function call.
-          ◦ Goal: Document a function with parameters and its usage.
+
+
+  ```
+      ◦ Task: Ensure the docstring is clear and explains parameters. Add inline comments explaining the calculation and the function call.
+      ◦ Goal: Document a function with parameters and its usage.
+  ```
+
+
   ## Lesson 6.3: Return Values
-      • Proofreading Assignment:
-          ◦ Scenario: You're trying to get values back from functions, but misusing return or expecting print() to return.
-          ◦ Code to Proofread:
+
+
+  ```
+
+  • Proofreading Assignment:
+      ◦ Scenario: You're trying to get values back from functions, but misusing return or expecting print() to return.
+      ◦ Code to Proofread:
+  ```
+
+
   ```python
 
   def add_numbers(a, b):
@@ -145,13 +191,19 @@ content: >-
   print(f"Final greeting: {final_greeting}") # This will print None
 
   ```
-          ◦ Errors to Find:
-              1. Logical Error: add_numbers prints but doesn't return, so result1 will be None.
-              2. Logical Error: get_greeting is missing a return statement, so final_greeting will be None.
-          ◦ Goal: Modify add_numbers and get_greeting to correctly return their calculated values, so the print statements show the intended output.
-      • Documentation Assignment:
-          ◦ Scenario: This code defines a function to capitalize a string and return it.
-          ◦ Code to Document:
+
+
+  ```
+      ◦ Errors to Find:
+          1. Logical Error: add_numbers prints but doesn't return, so result1 will be None.
+          2. Logical Error: get_greeting is missing a return statement, so final_greeting will be None.
+      ◦ Goal: Modify add_numbers and get_greeting to correctly return their calculated values, so the print statements show the intended output.
+  • Documentation Assignment:
+      ◦ Scenario: This code defines a function to capitalize a string and return it.
+      ◦ Code to Document:
+  ```
+
+
   ```python
 
   def capitalize_string(text):
@@ -167,12 +219,25 @@ content: >-
   print(f"Original: {my_text}, Capitalized: {capitalized}")
 
   ```
-          ◦ Task: Ensure the docstring for capitalize_string clearly explains what it returns. Add inline comments for the return statement and the function call.
-          ◦ Goal: Document a function with a return value.
+
+
+  ```
+      ◦ Task: Ensure the docstring for capitalize_string clearly explains what it returns. Add inline comments for the return statement and the function call.
+      ◦ Goal: Document a function with a return value.
+  ```
+
+
   ## Lesson 6.4: Functions with Lists and Dictionaries
-      • Proofreading Assignment:
-          ◦ Scenario: You're passing lists/dictionaries to functions, but unexpected modifications or incorrect copies are happening.
-          ◦ Code to Proofread:
+
+
+  ```
+
+  • Proofreading Assignment:
+      ◦ Scenario: You're passing lists/dictionaries to functions, but unexpected modifications or incorrect copies are happening.
+      ◦ Code to Proofread:
+  ```
+
+
   ```python
 
   def add_item_to_list(my_list_param, item):
@@ -213,14 +278,20 @@ content: >-
   30]
 
   ```
-          ◦ Errors to Find:
-              1. Logical Error: add_item_to_list directly modifies data_list (lists are mutable).
-              2. Logical Error: process_dict directly modifies config (dictionaries are mutable).
-              3. Logical Error: new_list = original_list creates a reference, not a copy.
-          ◦ Goal: Explain the logical errors related to mutability. Modify append_to_copy to use original_list[:] to truly create a copy. Discuss how to explicitly copy lists/dictionaries if the original should remain unchanged.
-      • Documentation Assignment:
-          ◦ Scenario: This code defines a function that takes a list of numbers and returns a new list with each number doubled.
-          ◦ Code to Document:
+
+
+  ```
+      ◦ Errors to Find:
+          1. Logical Error: add_item_to_list directly modifies data_list (lists are mutable).
+          2. Logical Error: process_dict directly modifies config (dictionaries are mutable).
+          3. Logical Error: new_list = original_list creates a reference, not a copy.
+      ◦ Goal: Explain the logical errors related to mutability. Modify append_to_copy to use original_list[:] to truly create a copy. Discuss how to explicitly copy lists/dictionaries if the original should remain unchanged.
+  • Documentation Assignment:
+      ◦ Scenario: This code defines a function that takes a list of numbers and returns a new list with each number doubled.
+      ◦ Code to Document:
+  ```
+
+
   ```python
 
   def double_numbers_in_list(numbers_list):
@@ -239,12 +310,25 @@ content: >-
   print(f"Original: {my_nums}, Doubled: {doubled_result}")
 
   ```
-          ◦ Task: Ensure the docstring for double_numbers_in_list is clear about input, output, and side effects. Add inline comments explaining the loop and appending to the new list.
-          ◦ Goal: Document a function that processes a list and returns a new list.
+
+
+  ```
+      ◦ Task: Ensure the docstring for double_numbers_in_list is clear about input, output, and side effects. Add inline comments explaining the loop and appending to the new list.
+      ◦ Goal: Document a function that processes a list and returns a new list.
+  ```
+
+
   ## Lesson 6.5: Arbitrary Number of Arguments
-      • Proofreading Assignment:
-          ◦ Scenario: You're using *args and **kwargs, but misplacing them or forgetting the correct number of asterisks.
-          ◦ Code to Proofread:
+
+
+  ```
+
+  • Proofreading Assignment:
+      ◦ Scenario: You're using *args and **kwargs, but misplacing them or forgetting the correct number of asterisks.
+      ◦ Code to Proofread:
+  ```
+
+
   ```python
 
   def sum_all_numbers(*nums):
@@ -278,13 +362,19 @@ content: >-
   got unexpected keyword argument 'user'
 
   ```
-          ◦ Errors to Find:
-              1. SyntaxError: create_profile call has a positional argument after a keyword argument within the **details part.
-              2. TypeError: log_info function definition is missing ** for kwargs.
-          ◦ Goal: Fix the SyntaxError by correcting the argument passing for create_profile. Fix the TypeError by adding ** to args in log_info's definition.
-      • Documentation Assignment:
-          ◦ Scenario: This code defines a function that can accept any number of ingredients and print them.
-          ◦ Code to Document:
+
+
+  ```
+      ◦ Errors to Find:
+          1. SyntaxError: create_profile call has a positional argument after a keyword argument within the **details part.
+          2. TypeError: log_info function definition is missing ** for kwargs.
+      ◦ Goal: Fix the SyntaxError by correcting the argument passing for create_profile. Fix the TypeError by adding ** to args in log_info's definition.
+  • Documentation Assignment:
+      ◦ Scenario: This code defines a function that can accept any number of ingredients and print them.
+      ◦ Code to Document:
+  ```
+
+
   ```python
 
   def make_salad(*ingredients):
@@ -300,5 +390,10 @@ content: >-
   make_salad("spinach", "feta")
 
   ```
-          ◦ Task: Ensure the docstring for make_salad clearly explains the use of *ingredients. Add an inline comment explaining how *ingredients collects arguments.
-          ◦ Goal: Document a function that uses *args.
+
+
+  ```
+      ◦ Task: Ensure the docstring for make_salad clearly explains the use of *ingredients. Add an inline comment explaining how *ingredients collects arguments.
+      ◦ Goal: Document a function that uses *args.
+  ```
+

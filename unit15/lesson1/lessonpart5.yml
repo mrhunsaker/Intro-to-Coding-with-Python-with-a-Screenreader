@@ -1,28 +1,64 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart5
 title: Unit 5
-content: >-
-  # Unit 5: User Input and while Loops
-
+content: >+
   ## Independent Practice:
-      1. Multiple Choice: If you want a program to repeatedly ask for user input until a specific keyword is entered, which type of loop is most appropriate? a) for loop b) while loop c) if-else statement d) try-except block
-      2. True/False: A while True: loop will run indefinitely unless a break statement is encountered.
-      3. Yes/No: Does the continue statement cause a loop to exit entirely?
-      4. Multiple Choice: What is the primary purpose of a "flag" in a while loop? a) To display an image. b) To store a boolean value that controls loop termination. c) To highlight syntax errors. d) To make the loop run faster.
-      5. True/False: The input() function can cause an infinite loop if not used carefully within a while loop.
+
+
+  1. Multiple Choice: If you want a program to repeatedly ask for user input
+  until a specific keyword is entered, which type of loop is most appropriate?\
+     a) for loop\
+     b) while loop\
+     c) if-else statement\
+     d) try-except block
+
+  2. True/False: A `while True:` loop will run indefinitely unless a break
+  statement is encountered.
+
+
+  3. Yes/No: Does the continue statement cause a loop to exit entirely?
+
+
+  4. Multiple Choice: What is the primary purpose of a "flag" in a while loop?\
+     a) To display an image.\
+     b) To store a boolean value that controls loop termination.\
+     c) To highlight syntax errors.\
+     d) To make the loop run faster.
+
+  5. True/False: The `input()` function can cause an infinite loop if not used
+  carefully within a while loop.
+
+
   ## Potential Assessment Questions:
-      1. Multiple Choice: Consider the code:
-  ``python
 
-  count = 0
 
-  while count < 3:
-      print(count)
-      count += 1
-  ```
+  1. Multiple Choice: Consider the code:
 
-  What will be printed? a) 0 1 2 (each on a new line) b) 0 1 2 3 (each on a new
-  line) c) Nothing (infinite loop) d) Error
-      2. True/False: If you type "5" at an input() prompt, the program receives the integer 5.
-      3. Yes/No: Can a while loop be used to iterate over items in a list, similar to a for loop?
-      4. Multiple Choice: Which statement will immediately exit the current iteration of a loop and move to the next iteration? a) break b) exit() c) continue d) return
+     ```python
+     count = 0
+     while count < 3:
+         print(count)
+         count += 1
+     ```
+
+     What will be printed?\
+     a) 0 1 2 (each on a new line)\
+     b) 0 1 2 3 (each on a new line)\
+     c) Nothing (infinite loop)\
+     d) Error
+
+  2. True/False: If you type "5" at an `input()` prompt, the program receives
+  the integer 5.
+
+
+  3. Yes/No: Can a while loop be used to iterate over items in a list, similar
+  to a for loop?
+
+
+  4. Multiple Choice: Which statement will immediately exit the current
+  iteration of a loop and move to the next iteration?\
+     a) break\
+     b) exit()\
+     c) continue\
+     d) return
+

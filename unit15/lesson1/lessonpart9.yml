@@ -1,17 +1,72 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart9
 title: Unit 9
-content: >-
+content: >+
   # Unit 9: Testing Your Code and Introduction to Data Analysis
 
+
   ## Independent Practice:
-      1. Multiple Choice: What is the primary goal of unit testing? a) To make your code longer. b) To verify that individual parts (units) of a program work correctly. c) To create visual charts of data. d) To hide errors from the user.
-      2. True/False: The unittest module is a built-in Python library for writing tests.
-      3. Yes/No: Does random.randint(1, 5) generate a random integer that includes both 1 and 5?
-      4. Multiple Choice: If you are counting the occurrences of words in a large text file, which Python data structure would be most suitable to store the word counts? a) A list b) A tuple c) A dictionary d) A set
-      5. True/False: Analyzing text data often involves counting characters, words, or specific phrases.
+
+
+  1. Multiple Choice: What is the primary goal of unit testing?&#x20;
+
+     * a) To make your code longer.&#x20;
+
+     * b) To verify that individual parts (units) of a program work correctly.&#x20;
+
+     * c) To create visual charts of data.&#x20;
+
+     * d) To hide errors from the user.
+  2. True/False: The unittest module is a built-in Python library for writing
+  tests.
+
+  3. Yes/No: Does random.randint(1, 5) generate a random integer that includes
+  both 1 and 5?
+
+  4. Multiple Choice: If you are counting the occurrences of words in a large
+  text file, which Python data structure would be most suitable to store the
+  word counts?&#x20;
+
+     * a) A list&#x20;
+
+     * b) A tuple&#x20;
+
+     * c) A dictionary&#x20;
+
+     * d) A set
+  5. True/False: Analyzing text data often involves counting characters, words,
+  or specific phrases.
+
+
   ## Potential Assessment Questions:
-      1. Multiple Choice: You have a function add_numbers(a, b) that should return the sum of a and b. Which assertion would you use in a unittest to check if add_numbers(2, 3) returns 5? a) self.assertFalse(add_numbers(2, 3) == 5) b) self.assertEqual(add_numbers(2, 3), 5) c) self.assertTrue(add_numbers(2, 3) != 5) d) self.assertNotEqual(add_numbers(2, 3), 5)
-      2. True/False: To test a class, you typically create an instance of the class in your test method and then call its methods.
-      3. Yes/No: If a test case fails, does it necessarily mean the entire program is broken?
-      4. Multiple Choice: When reading data from a CSV file (Comma Separated Values), how are individual values typically separated from each other on a line? a) Semicolons (;) b) Tabs (\t) c) Commas (,) d) Spaces ( )
+
+
+  1. Multiple Choice: You have a function add\_numbers(a, b) that should return
+  the sum of a and b. Which assertion would you use in a unittest to check if
+  add\_numbers(2, 3) returns 5?&#x20;
+
+     * a) self.assertFalse(add\_numbers(2, 3) == 5)&#x20;
+
+     * b) self.assertEqual(add\_numbers(2, 3), 5)&#x20;
+
+     * c) self.assertTrue(add\_numbers(2, 3) != 5)&#x20;
+
+     * d) self.assertNotEqual(add\_numbers(2, 3), 5)
+  2. True/False: To test a class, you typically create an instance of the class
+  in your test method and then call its methods.
+
+  3. Yes/No: If a test case fails, does it necessarily mean the entire program
+  is broken?
+
+  4. Multiple Choice: When reading data from a CSV file (Comma Separated
+  Values), how are individual values typically separated from each other on a
+  line?&#x20;
+
+     * a) Semicolons (;)&#x20;
+
+     * b) Tabs (\t)&#x20;
+
+     * c) Commas (,)&#x20;
+
+     * d) Spaces ( )
+

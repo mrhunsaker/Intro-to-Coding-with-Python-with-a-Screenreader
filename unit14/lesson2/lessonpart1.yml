@@ -15,32 +15,34 @@ content: >+
 
   Your corrected code should:
 
-  1\. Run without errors.
 
-  2\. Function as intended (i.e., display a window with a button and a label,
+  1. Run without errors.
+
+  2. Function as intended (i.e., display a window with a button and a label,
   update the label when the button is clicked, manage an entry field, and handle
   a second, simpler window).
 
-  3\. Be well-documented with clear docstrings and inline comments.
+  3. Be well-documented with clear docstrings and inline comments.
 
-  4\. Adhere to good Python practices, especially regarding indentation (fix any
+  4. Adhere to good Python practices, especially regarding indentation (fix any
   that look like copy-paste mishaps).
 
 
   Common Error Types to Look For:
 
-  • Syntax Errors: Missing colons, parentheses, brackets, incorrect keywords.
 
-  • Indentation Errors: Lines improperly indented (treat these as simple
+  * Syntax Errors: Missing colons, parentheses, brackets, incorrect keywords.
+
+  * Indentation Errors: Lines improperly indented (treat these as simple
   copy-paste mishaps).
 
-  • Name Errors: Variables or functions not defined, or misspelled.
+  * Name Errors: Variables or functions not defined, or misspelled.
 
-  • Attribute Errors: Trying to access a non-existent method or attribute.
+  * Attribute Errors: Trying to access a non-existent method or attribute.
 
-  • Type Errors: Operations on incompatible data types.
+  * Type Errors: Operations on incompatible data types.
 
-  • Logical Errors: Code runs but doesn't do what's expected (e.g., wrong
+  * Logical Errors: Code runs but doesn't do what's expected (e.g., wrong
   comparison, infinite loop, incorrect variable update).
 
 

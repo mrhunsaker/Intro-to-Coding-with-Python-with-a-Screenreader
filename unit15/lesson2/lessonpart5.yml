@@ -1,13 +1,21 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart5
 title: Unit 5
-content: >-
+content: >+
   # Unit 5: User Input and while Loops
 
+
   ## Lesson 5.1: How the input() Function Works
-      • Proofreading Assignment:
-          ◦ Scenario: You're taking user input, but not handling types correctly, leading to crashes.
-          ◦ Code to Proofread:
+
+
+  • Proofreading Assignment:
+
+  ◦ Scenario: You're taking user input, but not handling types correctly,
+  leading to crashes.
+
+  ◦ Code to Proofread:
+
+
   ```python
 
   name = input("Enter your name ") # Missing colon/space for prompt style
@@ -29,14 +37,27 @@ content: >-
   print(f"Your favorite number is {fav_num}.")
 
   ```
-          ◦ Errors to Find:
-              1. Stylistic: Missing colon/space in first input() prompt.
-              2. TypeError: age_str + 1 needs age_str converted to int.
-              3. Stylistic: Missing space in third input() prompt.
-          ◦ Goal: Fix the TypeError and improve the stylistic prompts for better user experience.
-      • Documentation Assignment:
-          ◦ Scenario: This code asks the user for two numbers and prints their sum.
-          ◦ Code to Document:
+
+
+  ```
+
+  ◦ Errors to Find:
+      1. Stylistic: Missing colon/space in first input() prompt.
+      2. TypeError: age_str + 1 needs age_str converted to int.
+      3. Stylistic: Missing space in third input() prompt.
+  ◦ Goal: Fix the TypeError and improve the stylistic prompts for better user
+  experience.
+
+  ```
+
+
+  • Documentation Assignment:
+
+  ◦ Scenario: This code asks the user for two numbers and prints their sum.
+
+  ◦ Code to Document:
+
+
   ```python
 
   num1_str = input("Enter the first number: ")
@@ -52,12 +73,29 @@ content: >-
   print(f"The sum is: {total}")
 
   ```
-          ◦ Task: Add a docstring for the script. Add inline comments explaining the purpose of each input() call, the type conversions, and the calculation.
-          ◦ Goal: Document the process of taking numeric input from the user.
+
+
+  ```
+
+  ◦ Task: Add a docstring for the script. Add inline comments explaining the
+  purpose of each input() call, the type conversions, and the calculation.
+
+  ◦ Goal: Document the process of taking numeric input from the user.
+
+  ```
+
+
   ## Lesson 5.2: The while Loop in Action
-      • Proofreading Assignment:
-          ◦ Scenario: Your while loop isn't behaving as expected, either running infinitely or not at all, due to condition errors or forgotten updates.
-          ◦ Code to Proofread:
+
+
+  • Proofreading Assignment:
+
+  ◦ Scenario: Your while loop isn't behaving as expected, either running
+  infinitely or not at all, due to condition errors or forgotten updates.
+
+  ◦ Code to Proofread:
+
+
   ```python
 
   count = 0
@@ -82,14 +120,27 @@ content: >-
       print("Score is too high.")
       score -= 1
   ```
-          ◦ Errors to Find:
-              1. SyntaxError: Missing colon after while condition.
-              2. Logical Error: The first while loop is missing an increment and will be infinite.
-              3. Logical Error: The third while loop's condition is score > 10, but score starts at 10, so it never runs.
-          ◦ Goal: Fix the SyntaxError and the logical errors so both while loops run as intended (one for 3 iterations, one for 0 iterations).
-      • Documentation Assignment:
-          ◦ Scenario: This code counts down from 5 and prints "Blastoff!".
-          ◦ Code to Document:
+
+
+  ```
+
+  ◦ Errors to Find:
+      1. SyntaxError: Missing colon after while condition.
+      2. Logical Error: The first while loop is missing an increment and will be infinite.
+      3. Logical Error: The third while loop's condition is score > 10, but score starts at 10, so it never runs.
+  ◦ Goal: Fix the SyntaxError and the logical errors so both while loops run as
+  intended (one for 3 iterations, one for 0 iterations).
+
+  ```
+
+
+  • Documentation Assignment:
+
+  ◦ Scenario: This code counts down from 5 and prints "Blastoff!".
+
+  ◦ Code to Document:
+
+
   ```python
 
   countdown = 5
@@ -100,12 +151,29 @@ content: >-
   print("Blastoff!")
 
   ```
-          ◦ Task: Add a docstring for the script. Add inline comments explaining the loop's condition, the print() statement, and the decrement.
-          ◦ Goal: Document a basic countdown while loop.
+
+
+  ```
+
+  ◦ Task: Add a docstring for the script. Add inline comments explaining the
+  loop's condition, the print() statement, and the decrement.
+
+  ◦ Goal: Document a basic countdown while loop.
+
+  ```
+
+
   ## Lesson 5.3: Using Flags and break to Exit Loops
-      • Proofreading Assignment:
-          ◦ Scenario: You're trying to control a loop with a flag or break, but syntax errors or logical mistakes are preventing it from working.
-          ◦ Code to Proofread:
+
+
+  • Proofreading Assignment:
+
+  ◦ Scenario: You're trying to control a loop with a flag or break, but syntax
+  errors or logical mistakes are preventing it from working.
+
+  ◦ Code to Proofread:
+
+
   ```python
 
   active = True
@@ -128,13 +196,26 @@ content: >-
   print("You guessed correctly!")
 
   ```
-          ◦ Errors to Find:
-              1. SyntaxError: Missing colon after if command == "quit".
-              2. Logical Error: The print("This line should not be reached...") will be printed before the loop breaks.
-          ◦ Goal: Fix the SyntaxError. Explain why the logical error occurs and how break behaves (it exits immediately, so the print after else won't run).
-      • Documentation Assignment:
-          ◦ Scenario: This code keeps asking for input until the user types "stop".
-          ◦ Code to Document:
+
+
+  ```
+
+  ◦ Errors to Find:
+      1. SyntaxError: Missing colon after if command == "quit".
+      2. Logical Error: The print("This line should not be reached...") will be printed before the loop breaks.
+  ◦ Goal: Fix the SyntaxError. Explain why the logical error occurs and how
+  break behaves (it exits immediately, so the print after else won't run).
+
+  ```
+
+
+  • Documentation Assignment:
+
+  ◦ Scenario: This code keeps asking for input until the user types "stop".
+
+  ◦ Code to Document:
+
+
   ```python
 
   while True:
@@ -145,12 +226,29 @@ content: >-
   print("Program ended.")
 
   ```
-          ◦ Task: Add a docstring for the script. Add inline comments explaining the while True loop, the if condition, and the break statement.
-          ◦ Goal: Document a while True loop with a break condition.
+
+
+  ```
+
+  ◦ Task: Add a docstring for the script. Add inline comments explaining the
+  while True loop, the if condition, and the break statement.
+
+  ◦ Goal: Document a while True loop with a break condition.
+
+  ```
+
+
   ## Lesson 5.4: Using continue in Loops
-      • Proofreading Assignment:
-          ◦ Scenario: You're using continue to skip certain iterations, but it's not quite working due to syntax or logical placement.
-          ◦ Code to Proofread:
+
+
+  • Proofreading Assignment:
+
+  ◦ Scenario: You're using continue to skip certain iterations, but it's not
+  quite working due to syntax or logical placement.
+
+  ◦ Code to Proofread:
+
+
   ```python
 
   numbers = [1, 2, 3, 4, 5, 6]
@@ -171,13 +269,26 @@ content: >-
           continue
       print(f"Current value: {i}") # This prints 3
   ```
-          ◦ Errors to Find:
-              1. SyntaxError: Missing colon after if num % 2 != 0.
-              2. Logical Error: In the while loop, print(f"Current value: {i}") is inside the if block, so it will print 3 before continue is reached, or the print statement is indented too far. It should be after the if block, but not affected by continue. The print should be at the same indentation level as the if.
-          ◦ Goal: Fix the SyntaxError. Correct the logical flow of the while loop so that 3 is skipped entirely from the print output.
-      • Documentation Assignment:
-          ◦ Scenario: This code processes numbers, skipping negatives.
-          ◦ Code to Document:
+
+
+  ```
+
+  ◦ Errors to Find:
+      1. SyntaxError: Missing colon after if num % 2 != 0.
+      2. Logical Error: In the while loop, print(f"Current value: {i}") is inside the if block, so it will print 3 before continue is reached, or the print statement is indented too far. It should be after the if block, but not affected by continue. The print should be at the same indentation level as the if.
+  ◦ Goal: Fix the SyntaxError. Correct the logical flow of the while loop so
+  that 3 is skipped entirely from the print output.
+
+  ```
+
+
+  • Documentation Assignment:
+
+  ◦ Scenario: This code processes numbers, skipping negatives.
+
+  ◦ Code to Document:
+
+
   ```python
 
   data = [10, -3, 5, -8, 20]
@@ -188,12 +299,29 @@ content: >-
           continue
       print(f"Processing positive number: {item}")
   ```
-          ◦ Task: Add a docstring for the script. Add inline comments explaining the if condition for skipping and the continue statement's effect.
-          ◦ Goal: Document the use of continue in a loop.
+
+
+  ```
+
+  ◦ Task: Add a docstring for the script. Add inline comments explaining the if
+  condition for skipping and the continue statement's effect.
+
+  ◦ Goal: Document the use of continue in a loop.
+
+  ```
+
+
   ## Lesson 5.5: Avoiding Infinite Loops
-      • Proofreading Assignment:
-          ◦ Scenario: You've written some while loops, but one or more are designed to be infinite. Your task is to identify which one and explain why.
-          ◦ Code to Proofread:
+
+
+  • Proofreading Assignment:
+
+  ◦ Scenario: You've written some while loops, but one or more are designed to
+  be infinite. Your task is to identify which one and explain why.
+
+  ◦ Code to Proofread:
+
+
   ```python
 
   # Loop 1
@@ -224,14 +352,29 @@ content: >-
           game_on = False # This condition will never be met inside the loop
       print("Game running...")
   ```
-          ◦ Errors to Find:
-              1. Logical Error: Loop 1 is missing counter += 1, leading to an infinite loop.
-              2. Logical Error: Loop 2's if condition doesn't end the loop; it just prints a message. The loop condition (user_input != "exit") does work, so it's not strictly infinite if "exit" is typed, but the quit logic is flawed. The real problem is if they type anything other than "exit", the loop continues indefinitely.
-              3. Logical Error: Loop 3's player_hp is reset to 100 on each iteration, so player_hp <= 0 is never met, leading to an infinite loop.
-          ◦ Goal: Identify the two truly infinite loops and explain why. Fix them by adding the necessary statements (counter += 1, break or user_input.lower() check, updating player_hp outside the loop or decrementing it).
-      • Documentation Assignment:
-          ◦ Scenario: This code simulates a program running indefinitely until stopped manually.
-          ◦ Code to Document:
+
+
+  ```
+
+  ◦ Errors to Find:
+      1. Logical Error: Loop 1 is missing counter += 1, leading to an infinite loop.
+      2. Logical Error: Loop 2's if condition doesn't end the loop; it just prints a message. The loop condition (user_input != "exit") does work, so it's not strictly infinite if "exit" is typed, but the quit logic is flawed. The real problem is if they type anything other than "exit", the loop continues indefinitely.
+      3. Logical Error: Loop 3's player_hp is reset to 100 on each iteration, so player_hp <= 0 is never met, leading to an infinite loop.
+  ◦ Goal: Identify the two truly infinite loops and explain why. Fix them by
+  adding the necessary statements (counter += 1, break or user_input.lower()
+  check, updating player_hp outside the loop or decrementing it).
+
+  ```
+
+
+  • Documentation Assignment:
+
+  ◦ Scenario: This code simulates a program running indefinitely until stopped
+  manually.
+
+  ◦ Code to Document:
+
+
   ```python
 
   # This loop will run forever until you stop it (e.g., Ctrl+C in terminal)
@@ -243,5 +386,15 @@ content: >-
       import time
       time.sleep(1) # Wait for 1 second
   ```
-          ◦ Task: Add a docstring to clearly state this is an example of an infinite loop and how to stop it. Add an inline comment explaining while True.
-          ◦ Goal: Document the concept and handling of an intentional infinite loop for demonstration.
+
+
+  ```
+
+  ◦ Task: Add a docstring to clearly state this is an example of an infinite
+  loop and how to stop it. Add an inline comment explaining while True.
+
+  ◦ Goal: Document the concept and handling of an intentional infinite loop for
+  demonstration.
+
+  ```
+

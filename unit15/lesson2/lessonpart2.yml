@@ -1,15 +1,22 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Unit 2
-content: >-
-  # Unit 2: Writing Simple Programs and Numeric Computations
-
+content: >+
   ## Lesson 2.1: The Software Development Process
-      • Proofreading Assignment (No code to proofread in this conceptual lesson).
+
+
+  * Proofreading Assignment (No code to proofread in this conceptual lesson).
+
+
   ## Lesson 2.2: Elements of Programs: Expressions and Assignment
-      • Proofreading Assignment:
-          ◦ Scenario: You're trying to perform some calculations and store results, but Python is complaining about syntax or undefined variables.
-          ◦ Code to Proofread:
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're trying to perform some calculations and store results, but Python is complaining about syntax or undefined variables.
+
+    * Code to Proofread:
+
   ```python
 
   x = 10
@@ -38,15 +45,26 @@ content: >-
   print(current_score)
 
   ```
-          ◦ Errors to Find:
-              1. NameError: Total should be total.
-              2. SyntaxError: Assignment target error (another_value + 7 = 15).
-          ◦ Goal: Fix the NameError and SyntaxError so the program runs without crashing.
+
+
+  * Errors to Find:
+
+    1. NameError: Total should be total.
+    2. SyntaxError: Assignment target error (another\_value + 7 = 15).
+
+  * Goal: Fix the NameError and SyntaxError so the program runs without
+  crashing.
+
 
   ## Lesson 2.3: Input and Output Revisited
-      • Proofreading Assignment:
-          ◦ Scenario: You're building a small program to greet the user, but something's off with the input or output formatting.
-          ◦ Code to Proofread:
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're building a small program to greet the user, but something's off with the input or output formatting.
+
+    * Code to Proofread:
+
   ```python
 
   name = input("Enter your name: ")
@@ -63,14 +81,24 @@ content: >-
   TypeError if age isn't converted
 
   ```
-          ◦ Errors to Find:
-              1. A stylistic/clarity error: age = input("Enter your age") should have a colon and space for better readability.
-              2. SyntaxError: print("Hello, " name) needs a + or a comma.
-              3. TypeError: age + 1 will fail because age is a string.
-          ◦ Goal: Correct all errors to ensure the program runs, accepts input, and prints correctly formatted messages.
-      • Documentation Assignment:
-          ◦ Scenario: The following code works, but it's not clear what each part does or what the overall purpose is.
-          ◦ Code to Document:
+
+
+  * Errors to Find:
+
+    1. A stylistic/clarity error: age = input("Enter your age") should have a colon and space for better readability.
+    2. SyntaxError: print("Hello, " name) needs a + or a comma.
+    3. TypeError: age + 1 will fail because age is a string.
+
+  * Goal: Correct all errors to ensure the program runs, accepts input, and
+  prints correctly formatted messages.
+
+
+  * Documentation Assignment:
+
+    * Scenario: The following code works, but it's not clear what each part does or what the overall purpose is.
+
+    * Code to Document:
+
   ```python
 
   user_name = input("What is your name? ")
@@ -80,13 +108,25 @@ content: >-
   print(f"Hello, {user_name} from {user_city}!")
 
   ```
-          ◦ Task: Add a docstring for the entire script (at the very top) describing its purpose. Add inline comments explaining what each input() line does and what the print() statement achieves.
-          ◦ Goal: Make the code understandable to someone reading it for the first time.
+
+
+  * Task: Add a docstring for the entire script (at the very top) describing its
+  purpose. Add inline comments explaining what each input() line does and what
+  the print() statement achieves.
+
+
+  * Goal: Make the code understandable to someone reading it for the first time.
+
 
   ## Lesson 2.4: Computing with Numbers and Type Conversions
-      • Proofreading Assignment:
-          ◦ Scenario: You're trying to create a simple calculator, but type issues and operator precedence are causing incorrect results or crashes.
-          ◦ Code to Proofread:
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're trying to create a simple calculator, but type issues and operator precedence are causing incorrect results or crashes.
+
+    * Code to Proofread:
+
   ```python
 
   num_str1 = input("Enter first number: ")
@@ -114,13 +154,23 @@ content: >-
   print(f"Final value: {final_val}")
 
   ```
-          ◦ Errors to Find:
-              1. Logical Error: sum_result performs string concatenation.
-              2. TypeError and Logical Error: incorrect_avg tries to add strings then divide.
-          ◦ Goal: Fix the logical errors so sum_result and incorrect_avg perform correct numeric calculations.
-      • Documentation Assignment:
-          ◦ Scenario: This code converts temperatures, but it's not well-explained.
-          ◦ Code to Document:
+
+
+  * Errors to Find:
+
+    1. Logical Error: sum\_result performs string concatenation.
+    2. TypeError and Logical Error: incorrect\_avg tries to add strings then divide.
+
+  * Goal: Fix the logical errors so sum\_result and incorrect\_avg perform
+  correct numeric calculations.
+
+
+  * Documentation Assignment:
+
+    * Scenario: This code converts temperatures, but it's not well-explained.
+
+    * Code to Document:
+
   ```python
 
   celsius_str = input("Enter temperature in Celsius: ")
@@ -132,12 +182,24 @@ content: >-
   print(f"{celsius_float}°C is {fahrenheit}°F")
 
   ```
-          ◦ Task: Add a docstring to explain the script's overall function. Add inline comments explaining each step: input, conversion, calculation, and output.
-          ◦ Goal: Clearly document the temperature conversion process.
+
+
+  * Task: Add a docstring to explain the script's overall function. Add inline
+  comments explaining each step: input, conversion, calculation, and output.
+
+
+  * Goal: Clearly document the temperature conversion process.
+
+
   ## Lesson 2.5: Using the Math Library
-      • Proofreading Assignment:
-          ◦ Scenario: You're using the math module, but you're making mistakes with importing, function calls, or arguments.
-          ◦ Code to Proofread:
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're using the math module, but you're making mistakes with importing, function calls, or arguments.
+
+    * Code to Proofread:
+
   ```python
 
   import math
@@ -174,14 +236,24 @@ content: >-
   print(f"Ceiling: {result_ceil}")
 
   ```
-          ◦ Errors to Find:
-              1. AttributeError: math.squareroot (should be sqrt).
-              2. AttributeError: math.PI (should be math.pi).
-              3. TypeError: math.ceil() called with a string.
-          ◦ Goal: Fix all errors so the program runs and performs the intended mathematical operations.
-      • Documentation Assignment:
-          ◦ Scenario: The following code calculates the hypotenuse of a right triangle.
-          ◦ Code to Document:
+
+
+  * Errors to Find:
+
+    1. AttributeError: math.squareroot (should be sqrt).
+    2. AttributeError: math.PI (should be math.pi).
+    3. TypeError: math.ceil() called with a string.
+
+  * Goal: Fix all errors so the program runs and performs the intended
+  mathematical operations.
+
+
+  * Documentation Assignment:
+
+    * Scenario: The following code calculates the hypotenuse of a right triangle.
+
+    * Code to Document:
+
   ```python
 
   import math
@@ -196,5 +268,12 @@ content: >-
   print(f"The hypotenuse is: {hypotenuse}")
 
   ```
-          ◦ Task: Add a docstring explaining the script's purpose (using Pythagorean theorem). Add inline comments for the import, variable definitions, and the hypotenuse calculation line.
-          ◦ Goal: Clearly document the calculation of the hypotenuse.
+
+
+  * Task: Add a docstring explaining the script's purpose (using Pythagorean
+  theorem). Add inline comments for the import, variable definitions, and the
+  hypotenuse calculation line.
+
+
+  * Goal: Clearly document the calculation of the hypotenuse.
+
