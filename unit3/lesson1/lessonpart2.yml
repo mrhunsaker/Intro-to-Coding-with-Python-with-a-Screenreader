@@ -77,3 +77,6 @@ content: >+
 
      * Accessibility: Use a text editor to document variable states and predictions. Compare with actual terminal output.
 
+showEditor: true
+editors:
+  - course1/unit2/lesson4/lessonpart2/lesson2_1.py
