@@ -88,3 +88,7 @@ content: >+
         * Omitting quotes: `print(Hello)` (expect error)
      3. Save, run, and listen to output/errors.
 
+showEditor: true
+editors:
+  - course1/unit2/lesson2/lessonpart2/lesson1.2py
+  - course1/lesson1.2.py

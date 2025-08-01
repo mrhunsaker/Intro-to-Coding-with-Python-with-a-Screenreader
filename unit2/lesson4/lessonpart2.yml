@@ -136,3 +136,6 @@ content: >+
   | float (Floating-point) | Numbers with decimals  | 3.14, 9.99, 0.0   | +, -,
   \*, /                        |
 
+showEditor: true
+editors:
+  - course1/unit2/lesson4/lessonpart2/Lesson1.3.py
