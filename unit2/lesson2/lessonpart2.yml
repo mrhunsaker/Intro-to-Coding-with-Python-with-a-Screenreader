@@ -90,5 +90,4 @@ content: >+
 
 showEditor: true
 editors:
-  - course1/unit2/lesson2/lessonpart2/lesson1.2py
-  - course1/lesson1.2.py
+  - course1/unit2/lesson2/lessonpart2/lesson1_2.py

@@ -50,3 +50,6 @@ content: >+
 
      * Accessibility: Type answers or discuss verbally.
 
+showEditor: true
+editors:
+  - course1/unit2/lesson1/lessonpart2/Lesson1_1.txt
