@@ -8,25 +8,17 @@ description: >-
   inventory). The core GUI structure and initial accessibility features will be
   provided as a skeleton, and students will implement the underlying logic, data
   handling, and interaction.
-
-
   Framework Choice: NiceGUI is highly recommended over PySide6 for this capstone
   due to its simpler event-driven model, direct Python-to-web-frontend approach,
   and often better out-of-the-box accessibility with standard HTML elements.
   PySide6 offers more granular control but comes with a steeper learning curve
   for GUI layout and explicit accessibility considerations.
 objectives: |-
-  
 - Integrate knowledge of data structures (lists, dictionaries, classes).
-      
 - Apply function and object-oriented programming principles.
-      
 - Implement file I/O (JSON) for persistent data storage.
-      
-- Understand event-driven programming within a GUI context.
-      
+- Understand event-driven programming within a GUI context.      
 - Develop a user-friendly and accessible application experience.
-      
 - Practice debugging and problem-solving in a larger project.
 lessons:
   - lesson7/index.yml
