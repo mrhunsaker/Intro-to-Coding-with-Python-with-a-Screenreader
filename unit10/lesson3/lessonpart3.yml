@@ -2,16 +2,4 @@
 id: lessonpart3
 title: Materials
 content: |-
-  Lesson 9.3: Introduction to Random Numbers
-      • Student Materials:
-          ◦ Outline:
-              ▪ The concept of randomness in computing (pseudo-randomness).
-              ▪ The random module: import random.
-              ▪ Generating random integers: random.randint(a, b) (inclusive).
-              ▪ Generating random floats: random.random() (0.0 to 1.0).
-              ▪ Choosing random elements from a list: random.choice(list).
-          ◦ Skills Checklist:
-              ▪ [ ] I can import the random module.
-              ▪ [ ] I can generate a random integer within a specified range.
-              ▪ [ ] I can generate a random floating-point number.
-              ▪ [ ] I can select a random item from a list.
+  Lesson 9.3: Introduction to Random Numbers • Student Materials: ◦ Outline: ▪ The concept of randomness in computing (pseudo-randomness). ▪ The random module: import random. ▪ Generating random integers: random.randint(a, b) (inclusive). ▪ Generating random floats: random.random() (0.0 to 1.0). ▪ Choosing random elements from a list: random.choice(list). ◦ Skills Checklist: ▪ [ ] I can import the random module. ▪ [ ] I can generate a random integer within a specified range. ▪ [ ] I can generate a random floating-point number. ▪ [ ] I can select a random item from a list.

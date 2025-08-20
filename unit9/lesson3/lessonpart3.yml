@@ -1,34 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: >-
-  Lesson 8.3: Exceptions: Handling Errors
-      • Student Materials:
-          ◦ Outline:
-              ▪ What is an "exception" (an error that occurs during program execution).
-              ▪ Why handle exceptions (prevent crashes, provide graceful feedback).
-              ▪ The try-except block:
-                  • Code that might cause an error goes in the try block.
-                  • Code to handle the error goes in the except block.
-              ▪ Common exception types: ValueError, ZeroDivisionError, FileNotFoundError.
-              ▪ Catching specific exception types.
-          ◦ Skills ChecLesson 8.2: Writing to a File
-      • Student Materials:
-          ◦ Outline:
-              ▪ Opening a file for writing ("w" mode) and appending ("a" mode).
-                  • "w" mode: creates a new file or overwrites an existing one.
-                  • "a" mode: adds content to the end of an existing file without deleting it.
-              ▪ Writing strings to a file using .write().
-              ▪ Adding newline characters (\n) for proper formatting.
-              ▪ Writing multiple lines from a list using .writelines().
-          ◦ Skills Checklist:
-              ▪ [ ] I can open a file for writing (overwriting) using "w" mode.
-              ▪ [ ] I can open a file for appending using "a" mode.
-              ▪ [ ] I can write a string to a file.
-              ▪ [ ] I can add new lines to a file.
-          ◦ [ ] I can write multiple lines from a list to a file.klist:
-              ▪ [ ] I can explain what an exception is in programming.
-              ▪ [ ] I can explain why it's important to handle exceptions.
-              ▪ [ ] I can write a try-except block.
-              ▪ [ ] I can catch specific types of exceptions (e.g., ValueError).
-              ▪ [ ] I can provide a helpful message to the user when an error occurs.
+content: |-
+  Lesson 8.3: Exceptions: Handling Errors • Student Materials: ◦ Outline: ▪ What is an "exception" (an error that occurs during program execution). ▪ Why handle exceptions (prevent crashes, provide graceful feedback). ▪ The try-except block: • Code that might cause an error goes in the try block. • Code to handle the error goes in the except block. ▪ Common exception types: ValueError, ZeroDivisionError, FileNotFoundError. ▪ Catching specific exception types. ◦ Skills ChecLesson 8.2: Writing to a File • Student Materials: ◦ Outline: ▪ Opening a file for writing ("w" mode) and appending ("a" mode). • "w" mode: creates a new file or overwrites an existing one. • "a" mode: adds content to the end of an existing file without deleting it. ▪ Writing strings to a file using .write(). ▪ Adding newline characters (\n) for proper formatting. ▪ Writing multiple lines from a list using .writelines(). ◦ Skills Checklist: ▪ [ ] I can open a file for writing (overwriting) using "w" mode. ▪ [ ] I can open a file for appending using "a" mode. ▪ [ ] I can write a string to a file. ▪ [ ] I can add new lines to a file. ◦ [ ] I can write multiple lines from a list to a file.klist: ▪ [ ] I can explain what an exception is in programming. ▪ [ ] I can explain why it's important to handle exceptions. ▪ [ ] I can write a try-except block. ▪ [ ] I can catch specific types of exceptions (e.g., ValueError). ▪ [ ] I can provide a helpful message to the user when an error occurs.

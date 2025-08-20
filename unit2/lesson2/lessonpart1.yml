@@ -3,11 +3,13 @@ id: lessonpart1
 title: Reading
 content: |
   &#x20;       ◦ Zelle: Chapter 1, pages 7-13
-
+  
   (covering "The Magic of Python" and "Inside a Python Program").
-
+  
   &#x20;   ◦ Matthes: Chapter 1, pages 3-14
-
+  
+  ```python
   (for writing, saving, and running a basic print() statement
-
+  ```
+  
   ).

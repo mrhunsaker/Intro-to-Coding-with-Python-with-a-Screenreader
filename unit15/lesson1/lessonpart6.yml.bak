@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart6
+title: Unit 6
+content: >+
+  ## Independent Practice:
+
+
+  1. Multiple Choice: What is the main benefit of using functions in
+  programming?
+
+     * a) They make programs run faster.
+
+     * b) They allow code to be reused and organized.
+
+     * c) They automatically fix errors.
+
+     * d) They eliminate the need for variables.
+
+  2. True/False: A function can accept arguments but cannot return a value.
+
+
+  3. Yes/No: When you call a function, do the arguments you pass always have to
+  be in the exact same order as the parameters defined in the function?
+
+
+  4. Multiple Choice: What keyword is used to define a function in Python?
+
+     * a) function
+
+     * b) define
+
+     * c) fun
+
+     * d) def
+
+  5. True/False: Variables defined inside a function are generally only
+  accessible within that function.
+
+
+  ## Potential Assessment Questions:
+
+
+  1. Multiple Choice: Consider the function:
+
+     ```python
+     def greet(name):
+         return "Hello, " + name + "!"
+     ```
+
+     What will `print(greet("Eve"))` output?
+
+     * a) greet("Eve")
+
+     * b) Hello, Eve!
+
+     * c) Hello, name!
+
+     * d) Error
+
+  2. True/False: A function can have multiple return statements, but only one
+  will be executed when the function is called.
+
+
+  3. Yes/No: Can you pass a list as an argument to a function?
+
+
+  4. Multiple Choice: What is the purpose of the return statement in a function?
+
+     * a) To print a message to the console.
+
+     * b) To stop the execution of the program.
+
+     * c) To send a value back to the caller of the function.
+
+     * d) To define a new variable.
+

@@ -1,0 +1,408 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart7
+title: Unit 7
+content: >+
+  # Unit 7: Classes and Object-Oriented Programming
+
+
+  ## Lesson 7.1: Why Learn About Classes?
+
+
+  * Proofreading Assignment (No code to proofread in this conceptual lesson).
+
+
+  ## Lesson 7.2: Creating and Using a Class
+
+
+  **Proofreading Assignment:**
+
+
+  * Scenario: You're defining functions, but misusing def, forgetting
+  parameters, or having indentation issues.
+
+
+  * Code to Proofread:
+
+
+  ```python
+
+  class Car: # Missing colon
+      def __init__(self, make, model):
+          self.make = make
+          model = model # This 'model' is a local variable, not an attribute
+
+      def display_info(self):
+          print(f"Make: {self.make}, Model: {self.model}") # NameError: self.model not defined
+
+  my_car = Car("Toyota", "Camry")
+
+  my_car.display_info()
+
+  ```
+
+
+  * Errors to Find:
+
+    * SyntaxError: Missing colon after class Car.
+
+    * Logical Error: model = model in __init__ means self.model is never created.
+
+    * AttributeError (or NameError depending on Python version): self.model accessed in display\_info but not defined.
+
+  * Goal: Fix the SyntaxError and the logical error in __init__ to correctly
+  assign self.model.
+
+
+  **Documentation Assignment:**
+
+
+  * Scenario: This code defines a Dog class and creates a dog object.
+
+
+  * Code to Document:
+
+
+  ```python
+
+  class Dog:
+      """
+      Represents a dog with a name and age.
+      """
+      def __init__(self, name, age):
+          self.name = name
+          self.age = age
+
+      def bark(self):
+          """
+          Makes the dog bark.
+          """
+          print(f"{self.name} says Woof!")
+
+  my_dog = Dog("Buddy", 3)
+
+  my_dog.bark()
+
+  ```
+
+
+  * Task: Ensure the docstring for the Dog class explains its purpose. Ensure
+  the docstring for bark explains what it does. Add inline comments explaining
+  attribute assignment in __init__ and the object creation/method call.
+
+
+  * Goal: Document a simple class with attributes and methods.
+
+
+  ## Lesson 7.3: Working with Attributes and Methods
+
+
+  **Proofreading Assignment:**
+
+
+  * Scenario: You're calling functions, but passing arguments incorrectly
+  (positional vs. keyword, too many/few).
+
+
+  * Code to Proofread:
+
+
+  ```python
+
+  class Robot:
+      def __init__(self, name):
+          self.name = name
+          self.power = 100
+
+      def decrease_power(amount): # Missing self parameter
+          power -= amount # NameError: power not defined
+          print(f"{self.name} power is now {self.power}") # AttributeError: self not defined
+
+      def get_name(): # Missing self parameter
+          return name # NameError: name not defined
+
+  my_robot = Robot("R2D2")
+
+  print(my_robot.name)
+
+  my_robot.decrease_power(10)
+
+  print(my_robot.get_name())
+
+  ```
+
+
+  * Errors to Find:
+
+    * TypeError: decrease\_power and get\_name are missing the self parameter.
+
+    * NameError: Inside decrease\_power, power should be self.power.
+
+    * NameError: Inside get\_name, name should be self.name.
+
+  * Goal: Fix all methods by adding self as the first parameter and using
+  self.attribute when accessing attributes.
+
+
+  **Documentation Assignment:**
+
+
+  * Scenario: This code defines a Circle class with methods to calculate area
+  and circumference.
+
+
+  * Code to Document:
+
+
+  ```python
+
+  import math
+
+
+  class Circle:
+      """
+      Represents a circle and provides methods for calculations.
+      """
+      def __init__(self, radius):
+          self.radius = radius
+
+      def calculate_area(self):
+          """
+          Calculates the area of the circle.
+          """
+          return math.pi * self.radius**2
+
+      def calculate_circumference(self):
+          """
+          Calculates the circumference of the circle.
+          """
+          return 2 * math.pi * self.radius
+
+  my_circle = Circle(5)
+
+  print(f"Area: {my_circle.calculate_area()}")
+
+  ```
+
+
+  * Task: Ensure docstrings for Circle, calculate\_area, and
+  calculate\_circumference are clear. Add inline comments explaining attribute
+  assignment in __init__ and the calculation formulas.
+
+
+  * Goal: Document a class with mathematical methods.
+
+
+  ## Lesson 7.4: Inheritance
+
+
+  **Proofreading Assignment:**
+
+
+  * Scenario: You're trying to get values back from functions, but misusing
+  return or expecting print() to return.
+
+
+  * Code to Proofread:
+
+
+  ```python
+
+  class Animal:
+      def __init__(self, name):
+          self.name = name
+
+      def speak(self):
+          return "Unknown sound"
+
+  class Dog(Animal):
+      def __init__(self, name, breed):
+          super().__init__(name)
+          self.breed = breed
+
+      def speak(self):
+          return "Woof!"
+
+  class Cat(Animal):
+      def __init__(self, name, color):
+          self.name = name # Forgetting super().__init__()
+          self.color = color
+
+      def speak(self):
+          return "Meow!"
+
+  my_dog = Dog("Buddy", "Golden Retriever")
+
+  print(my_dog.speak())
+
+
+  my_cat = Cat("Whiskers", "black")
+
+  print(my_cat.speak())
+
+  print(my_cat.name) # This will work, but it's not ideal for inheritance
+
+  print(my_dog.breed)
+
+  ```
+
+
+  * Errors to Find:
+
+    * Logical Error/Best Practice: In Cat's __init__, self.name = name directly assigns rather than calling super().__init__(name). While this doesn't cause an error for name, it bypasses any other initialization Animal might have. It's a common oversight.
+
+  * Goal: Modify Cat's __init__ to correctly use super().__init__(name) for
+  proper inheritance. Explain why super() is preferred.
+
+
+  **Documentation Assignment:**
+
+
+  * Scenario: This code defines a Vehicle class and a Car class that inherits
+  from Vehicle.
+
+
+  * Code to Document:
+
+
+  ```python
+
+  class Vehicle:
+      """
+      A generic class to represent a vehicle.
+      """
+      def __init__(self, brand):
+          self.brand = brand
+
+      def get_brand(self):
+          """Returns the brand of the vehicle."""
+          return self.brand
+
+  class Car(Vehicle):
+      """
+      Represents a car, inheriting from Vehicle.
+      """
+      def __init__(self, brand, model):
+          super().__init__(brand) # Initialize parent class
+          self.model = model
+
+      def get_model(self):
+          """Returns the model of the car."""
+          return self.model
+
+  my_car = Car("Toyota", "Camry")
+
+  print(f"Brand: {my_car.get_brand()}, Model: {my_car.get_model()}")
+
+  ```
+
+
+  * Task: Ensure docstrings are present for both classes and their methods. Add
+  an inline comment explaining super().__init__() in the Car class.
+
+
+  * Goal: Document a basic inheritance setup.
+
+
+  ## Lesson 7.5: Instances as Attributes
+
+
+  **Proofreading Assignment:**
+
+
+  * Scenario: You're passing lists/dictionaries to functions, but unexpected
+  modifications or incorrect copies are happening.
+
+
+  * Code to Proofread:
+
+
+  ```python
+
+  class Engine:
+      def __init__(self, fuel_type):
+          self.fuel_type = fuel_type
+
+      def start(self):
+          return f"Engine running on {self.fuel_type}."
+
+  class Car:
+      def __init__(self, make, model, engine_type):
+          self.make = make
+          self.model = model
+          self.engine = Engine(engine_type) # Correct composition
+
+      def get_engine_fuel(): # Missing self parameter
+          return self.engine.fuel_type # AttributeError: self not defined
+
+      def car_start_sound(self):
+          return self.engine.start # Missing parentheses for method call
+
+  my_car = Car("Honda", "Civic", "Gasoline")
+
+  print(f"Car engine fuel: {my_car.get_engine_fuel()}")
+
+  print(f"Car starts: {my_car.car_start_sound()}")
+
+  ```
+
+
+  * Errors to Find:
+
+    * TypeError: get\_engine\_fuel is missing self.
+
+    * AttributeError: If previous error fixed, self.engine.start is missing () for the method call.
+
+  * Goal: Fix the TypeError by adding self to get\_engine\_fuel. Fix the
+  AttributeError by adding () to self.engine.start.
+
+
+  **Documentation Assignment:**
+
+
+  * Scenario: This code models a Book that has an Author.
+
+
+  * Code to Document:
+
+
+  ```python
+
+  class Author:
+      """
+      Represents an author with a name.
+      """
+      def __init__(self, name):
+          self.name = name
+
+      def get_name(self):
+          """Returns the author's name."""
+          return self.name
+
+  class Book:
+      """
+      Represents a book with a title and an Author instance.
+      """
+      def __init__(self, title, author_name):
+          self.title = title
+          self.author = Author(author_name) # Composition: Book 'has a' Author
+
+      def get_book_info(self):
+          """Returns information about the book and its author."""
+          return f"'{self.title}' by {self.author.get_name()}"
+
+  author1 = Author("Jane Austen")
+
+  book1 = Book("Pride and Prejudice", author1.name)
+
+  print(book1.get_book_info())
+
+  ```
+
+
+  * Task: Ensure docstrings for both classes and their methods are clear. Add an
+  inline comment explaining the composition in Book.__init__ and how
+  self.author.get\_name() accesses the nested object's method.
+
+
+  * Goal: Document a class demonstrating composition.
+

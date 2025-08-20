@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Reading
+content: |
+  &#x20;   ◦ Zelle: Chapter 9, pages 223-225
+
+
+  (on "Pseudo Random Numbers").
+
+
+  &#x20;   ◦ Matthes: Chapter 15, pages 312-314, 320-322
+
+
+  (on generating random data, e.g., random walks and dice rolls, focusing on the
+  random module rather than visualization).

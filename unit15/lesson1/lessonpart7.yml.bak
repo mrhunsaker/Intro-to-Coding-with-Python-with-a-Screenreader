@@ -1,0 +1,72 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart7
+title: Unit 7
+content: >+
+  ## Independent Practice:
+
+
+  1. Multiple Choice: Which of the following best describes an object in
+  Object-Oriented Programming?
+
+     * a) A blueprint for creating data.
+
+     * b) An instance of a class.
+
+     * c) A function that performs a task.
+
+     * d) A type of variable.
+
+  2. True/False: The `__init__` method in a class is automatically called when a
+  new object of that class is created.
+
+
+  3. Yes/No: Can an object have multiple attributes?
+
+
+  4. Multiple Choice: What is a method in the context of a class?
+
+     * a) A variable that stores data.
+
+     * b) A special type of function that belongs to a class.
+
+     * c) An error message.
+
+     * d) The name of the class.
+
+  5. True/False: Inheritance allows a new class to reuse and extend the
+  functionality of an existing class.
+
+
+  ## Potential Assessment Questions:
+
+
+  1. Multiple Choice: If you have a class `Dog` and create an object `my_dog =
+  Dog()`, what is `my_dog`?
+
+     * a) A class.
+
+     * b) A method.
+
+     * c) An instance (object) of the Dog class.
+
+     * d) An attribute.
+
+  2. True/False: All attributes of a class must be defined within the `__init__`
+  method.
+
+
+  3. Yes/No: Can a child class (subclass) override a method defined in its
+  parent class (superclass)?
+
+
+  4. Multiple Choice: Which concept describes the bundling of data (attributes)
+  and methods that operate on the data into a single unit (an object)?
+
+     * a) Inheritance
+
+     * b) Polymorphism
+
+     * c) Encapsulation
+
+     * d) Abstraction
+

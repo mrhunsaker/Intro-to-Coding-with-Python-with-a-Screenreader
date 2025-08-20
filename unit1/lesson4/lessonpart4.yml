@@ -1,29 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart4
 title: Materials
-content: >-
-  Lesson 0.4: Python Environments and Terminal Usage
-      • Student Materials:
-          ◦ Outline:
-              ▪ How to create, save, and open a new Python file (.py).
-              ▪ Running a basic Python script (print("Hello!")) using the system terminal.
-              ▪ Running the same script using the integrated terminal within VS Code.
-              ▪ The concept of Python virtual environments: why they are important for project isolation.
-              ▪ Step-by-step instructions for creating a virtual environment using python3 -m venv .venv.
-              ▪ Instructions for activating the virtual environment on Windows (Command Prompt/PowerShell) and macOS/Linux.
-              ▪ How to deactivate a virtual environment.
-              ▪ Crucially, how to "Select Interpreter" in VS Code to ensure it uses your virtual environment's Python.
-              ▪ Installing Python packages (libraries) like requests using pip within the active virtual environment.
-              ▪ Verifying installed packages using pip list.
-          ◦ Skills Checklist:
-              ▪ [ ] I can create a new Python file (.py) in VS Code.
-              ▪ [ ] I can save a Python file into my project folder.
-              ▪ [ ] I can write a simple print() statement in a Python file.
-              ▪ [ ] I can run a Python script from my system terminal.
-              ▪ [ ] I can open and run a Python script from the integrated terminal in VS Code.
-              ▪ [ ] I understand why virtual environments are useful.
-              ▪ [ ] I can create a new virtual environment within my project folder.
-              ▪ [ ] I can activate and deactivate a virtual environment specific to my operating system.
-              ▪ [ ] I can select the correct Python interpreter (my virtual environment) within VS Code.
-              ▪ [ ] I can install Python packages using pip into my active virtual environment.
-              ▪ [ ] I can list installed packages using pip list.
+content: |-
+  Lesson 0.4: Python Environments and Terminal Usage • Student Materials: ◦ Outline: ▪ How to create, save, and open a new Python file (.py). ▪ Running a basic Python script (print("Hello!")) using the system terminal. ▪ Running the same script using the integrated terminal within VS Code. ▪ The concept of Python virtual environments: why they are important for project isolation. ▪ Step-by-step instructions for creating a virtual environment using python3 -m venv .venv. ▪ Instructions for activating the virtual environment on Windows (Command Prompt/PowerShell) and macOS/Linux. ▪ How to deactivate a virtual environment. ▪ Crucially, how to "Select Interpreter" in VS Code to ensure it uses your virtual environment's Python. ▪ Installing Python packages (libraries) like requests using pip within the active virtual environment. ▪ Verifying installed packages using pip list. ◦ Skills Checklist: ▪ [ ] I can create a new Python file (.py) in VS Code. ▪ [ ] I can save a Python file into my project folder. ▪ [ ] I can write a simple print() statement in a Python file. ▪ [ ] I can run a Python script from my system terminal. ▪ [ ] I can open and run a Python script from the integrated terminal in VS Code. ▪ [ ] I understand why virtual environments are useful. ▪ [ ] I can create a new virtual environment within my project folder. ▪ [ ] I can activate and deactivate a virtual environment specific to my operating system. ▪ [ ] I can select the correct Python interpreter (my virtual environment) within VS Code. ▪ [ ] I can install Python packages using pip into my active virtual environment. ▪ [ ] I can list installed packages using pip list.

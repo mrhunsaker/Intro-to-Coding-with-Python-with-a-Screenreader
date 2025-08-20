@@ -1,20 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: >-
-  Lesson 9.5: Working with CSV Data (Text-based)
-      • Student Materials:
-          ◦ Outline:
-              ▪ Introduction to CSV (Comma Separated Values) as a common tabular data format.
-              ▪ Understanding that each line is a record, and values are separated by commas.
-              ▪ Reading CSV files line by line using basic file I/O.
-              ▪ Manually splitting lines by comma (.split(',')).
-              ▪ Accessing specific "columns" (parts of the split line).
-              ▪ Performing simple calculations or filtering on CSV data.
-              ▪ (Optional, if time permits) Introduction to the csv module for more robust parsing.
-          ◦ Skills Checklist:
-              ▪ [ ] I can explain what CSV data is.
-              ▪ [ ] I can read a CSV file line by line.
-              ▪ [ ] I can split a line of CSV data into individual values.
-              ▪ [ ] I can access specific values from a CSV record based on their position.
-              ▪ [ ] I can perform basic analysis (e.g., sum, count) on numeric data from a CSV file.
+content: |-
+  Lesson 9.5: Working with CSV Data (Text-based) • Student Materials: ◦ Outline: ▪ Introduction to CSV (Comma Separated Values) as a common tabular data format. ▪ Understanding that each line is a record, and values are separated by commas. ▪ Reading CSV files line by line using basic file I/O. ▪ Manually splitting lines by comma (.split(',')). ▪ Accessing specific "columns" (parts of the split line). ▪ Performing simple calculations or filtering on CSV data. ▪ (Optional, if time permits) Introduction to the csv module for more robust parsing. ◦ Skills Checklist: ▪ [ ] I can explain what CSV data is. ▪ [ ] I can read a CSV file line by line. ▪ [ ] I can split a line of CSV data into individual values. ▪ [ ] I can access specific values from a CSV record based on their position. ▪ [ ] I can perform basic analysis (e.g., sum, count) on numeric data from a CSV file.

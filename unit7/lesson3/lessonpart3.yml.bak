@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Materials
+content: |-
+  Lesson 6.3: Return Values
+      • Student Materials:
+          ◦ Outline:
+              ▪ Understanding that functions can produce a result.
+              ▪ The return statement: sending a value back from a function.
+              ▪ Difference between print() (displays) and return (sends back for use).
+              ▪ Storing returned values in variables.
+              ▪ Functions that don't explicitly return a value implicitly return None.
+          ◦ Skills Checklist:
+              ▪ [ ] I can use the return statement to send a value back from a function.
+              ▪ [ ] I can explain the difference between print() and return.
+              ▪ [ ] I can store the returned value of a function in a variable.
+              ▪ [ ] I understand that functions without a return statement implicitly return None.
+  Lesson 6.4: Functions 

@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Units 0-1
+content: >+
+  # Unit 0: Foundations of Computing and Getting Started with Python
+
+
+  ## Independent Practice:
+
+
+  1. Multiple Choice: Which of the following best describes the role of a
+  program in computer science?
+
+     * a) A piece of hardware that stores data.
+
+     * b) A set of instructions that a computer follows to perform a task.
+
+     * c) The physical components of a computer system.
+
+     * d) The person who writes code.
+  2. True/False: Python is considered a low-level programming language.
+
+  3. Yes/No: When you write print("Hello!") in Python, will "Hello!" appear in
+  the terminal?
+
+  4. Multiple Choice: What is a variable primarily used for in programming?
+
+     * a) To perform mathematical calculations.
+
+     * b) To store a value that can be referred to later.
+
+     * c) To display text on the screen.
+
+     * d) To create a new program file.
+  5. True/False: my\_name = "Alice" assigns the string "Alice" to the variable
+  my\_name.
+
+
+  ## Potential Assessment Questions:
+
+
+  1. Multiple Choice: A user types 3 + 5 into a Python interactive shell and
+  presses Enter. What will the shell likely output?
+
+     * a) 3 + 5
+
+     * b) 8
+
+     * c) Error
+
+     * d) None
+  2. True/False: A screen reader is a software application that helps visually
+  impaired users interpret content displayed on a computer screen.
+
+  3. Yes/No: Is print a keyword that Python understands for displaying output?
+
+  4. Multiple Choice: Which of the following is a valid Python variable name?
+
+     * a) 1st\_number
+
+     * b) my-variable
+
+     * c) total\_count
+
+     * d) for
+

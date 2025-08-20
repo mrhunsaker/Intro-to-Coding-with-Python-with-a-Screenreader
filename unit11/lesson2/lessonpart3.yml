@@ -1,18 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: >-
-  Lesson 10.2: Building a Text-Based Adventure Game (Part 1)
-      • Student Materials:
-          ◦ Outline:
-              ▪ Representing game "rooms" using classes or dictionaries (e.g., description, exits).
-              ▪ Implementing player movement between rooms (e.g., "north", "south").
-              ▪ Managing the player's current location.
-              ▪ Basic command parsing from user input.
-              ▪ Displaying room descriptions clearly to the user.
-          ◦ Skills Checklist:
-              ▪ [ ] I can design a way to represent different locations in a text-based game.
-              ▪ [ ] I can implement player movement based on user commands.
-              ▪ [ ] I can update and track the player's current location.
-              ▪ [ ] I can parse simple commands from user input.
-              ▪ [ ] I can clearly describe the player's surroundings to them.
+content: |-
+  Lesson 10.2: Building a Text-Based Adventure Game (Part 1) • Student Materials: ◦ Outline: ▪ Representing game "rooms" using classes or dictionaries (e.g., description, exits). ▪ Implementing player movement between rooms (e.g., "north", "south"). ▪ Managing the player's current location. ▪ Basic command parsing from user input. ▪ Displaying room descriptions clearly to the user. ◦ Skills Checklist: ▪ [ ] I can design a way to represent different locations in a text-based game. ▪ [ ] I can implement player movement based on user commands. ▪ [ ] I can update and track the player's current location. ▪ [ ] I can parse simple commands from user input. ▪ [ ] I can clearly describe the player's surroundings to them.
