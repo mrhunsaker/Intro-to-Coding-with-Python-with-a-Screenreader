@@ -51,7 +51,6 @@ content: >-
     - Create `user_profile.py`.
     - Define a class `User` with attributes.
     - Create instances and print their details.
-
 showEditor: true
 editors:
   - course1/unit8/lesson2/lessonpart2/Lesson7_2.py

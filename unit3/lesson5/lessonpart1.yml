@@ -1,9 +1,19 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
+<<<<<<< HEAD
 content: |
   &#x20;   
 	- Zelle: Chapter 3, pages 49-51
   
   
   (introducing "The Python math library" and "Some math library functions").Enter your content here
+=======
+content: >
+  &#x20;   ◦ Zelle: Chapter 3, pages 49-51
+
+
+
+  (introducing "The Python math library" and "Some math library
+  functions").Enter your content here
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

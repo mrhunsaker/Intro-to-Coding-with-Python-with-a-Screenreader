@@ -2,7 +2,12 @@
 id: lessonpart1
 title: Reading
 content: |
+<<<<<<< HEAD
   &#x20;   
 	- Applies concepts from Unit 7 (Classes)
   
+=======
+  &#x20;   ◦ Applies concepts from Unit 7 (Classes)
+
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
   and Unit 6 (Functions)

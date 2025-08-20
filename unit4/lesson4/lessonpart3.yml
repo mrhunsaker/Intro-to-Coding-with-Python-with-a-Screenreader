@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
+<<<<<<< HEAD
 content: |
   #file:lessonpart3.yml
   
@@ -19,3 +20,15 @@ content: |
 		-  [ ] I can use the range() function to control how many times a loop runs. 
 		-  [ ] I can correctly indent the code block belonging to a for loop.
   
+=======
+content: "Lesson 3.4: Iterating with for Loops • Student Materials: ◦ Outline: ▪
+  The concept of iteration: performing an action repeatedly for each item in a
+  sequence. ▪ The for loop: iterating over elements in a list or characters in a
+  string. ▪ The range() function for generating a sequence of numbers to loop a
+  specific number of times. ▪ Understanding the indentation of the code block
+  under for. ▪ Using the loop variable. ◦ Skills Checklist: ▪ [ ] I can explain
+  the purpose of a for loop. ▪ [ ] I can write a for loop to iterate over items
+  in a list. ▪ [ ] I can write a for loop to iterate over characters in a
+  string. ▪ [ ] I can use the range() function to control how many times a loop
+  runs. ▪ [ ] I can correctly indent the code block belonging to a for loop."
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

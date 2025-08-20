@@ -1,8 +1,0 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lessonpart1
-title: Reading
-content: |
-  &#x20;   
-	- Matthes: Chapter 10, pages 194-195
-
-  (on the else and finally blocks).

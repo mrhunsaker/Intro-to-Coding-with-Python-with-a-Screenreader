@@ -2,7 +2,12 @@
 id: lessonpart1
 title: Reading
 content: |
+<<<<<<< HEAD
   &#x20;   
 	- Zelle: Chapter 2, pages 24-26
   
+=======
+  &#x20;   ◦ Zelle: Chapter 2, pages 24-26
+
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
   (on "Names" and "Expressions").

@@ -2,16 +2,27 @@
 id: lessonpart1
 title: Reading
 content: |
+<<<<<<< HEAD
   &#x20;   
 	- Zelle: Chapter 2, pages 27-28
   
+=======
+  &#x20;   ◦ Zelle: Chapter 2, pages 27-28
+
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
   (on "Output Statements"); Chapter 7, pages 177-179
-  
+
   (on "Handling Exceptional Cases" for robust input).
+<<<<<<< HEAD
   
   &#x20;   
 	- Matthes: Chapter 7, pages 114-115
   
+=======
+
+  &#x20;   ◦ Matthes: Chapter 7, pages 114-115
+
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
   (on writing clear prompts); Chapter 10, pages 192-199
-  
+
   (for graceful error handling).Enter your content here

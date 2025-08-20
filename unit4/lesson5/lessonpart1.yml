@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
+<<<<<<< HEAD
 content: |
   &#x20;   
 	- Zelle: Chapter 5, pages 99-102
@@ -17,3 +18,25 @@ content: |
   
   
   (on "Strings", string methods like lower() and upper(), and string formatting).Enter your content here
+=======
+content: >
+  &#x20;   ◦ Zelle: Chapter 5, pages 99-102
+
+
+
+  (on "The String Data Type" and "Simple String Processing", including len());
+  pages 111-115
+
+
+
+  (on "String Methods").
+
+
+
+  &#x20;   ◦ Matthes: Chapter 2, pages 19-25
+
+
+
+  (on "Strings", string methods like lower() and upper(), and string
+  formatting).Enter your content here
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

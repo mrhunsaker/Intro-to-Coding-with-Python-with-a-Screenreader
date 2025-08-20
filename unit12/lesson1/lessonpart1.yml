@@ -1,9 +1,18 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
+content: >
   Enter your content here
+<<<<<<< HEAD
   
   
   &#x20;   
 	- This lesson introduces GUI concepts and the NiceGUI framework. This material is not from the Zelle or Matthes textbooks. It relies on a provided skeleton application (app\_skeleton.py) for the student to work with
+=======
+
+
+
+  &#x20;   ◦ This lesson introduces GUI concepts and the NiceGUI framework. This
+  material is not from the Zelle or Matthes textbooks. It relies on a provided
+  skeleton application (app\_skeleton.py) for the student to work with
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

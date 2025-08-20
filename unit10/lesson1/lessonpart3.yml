@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
+<<<<<<< HEAD
 content: |
   #file:lessonpart3.yml
   
@@ -22,3 +23,18 @@ content: |
 		-  [ ] I can use self.assertTrue() and self.assertFalse() for boolean conditions. 
 		-  [ ] I can run unit tests from the terminal.
   
+=======
+content: "Lesson 9.1: Testing a Function • Student Materials: ◦ Outline: ▪ The
+  importance of testing: ensuring code works as expected, catching bugs early. ▪
+  Introduction to unit testing: testing individual functions or small code
+  units. ▪ The unittest module: Python's built-in testing framework. ▪ Basic
+  structure of a test class inheriting from unittest.TestCase. ▪ Test methods
+  starting with test_. ▪ Assertion methods: self.assertEqual(a, b),
+  self.assertTrue(condition), self.assertFalse(condition). ▪ Running tests from
+  the terminal (python -m unittest my_tests.py). ◦ Skills Checklist: ▪ [ ] I can
+  explain why testing is important in programming. ▪ [ ] I can create a basic
+  test class using unittest.TestCase. ▪ [ ] I can define test methods within a
+  test class. ▪ [ ] I can use self.assertEqual() to check for expected results.
+  ▪ [ ] I can use self.assertTrue() and self.assertFalse() for boolean
+  conditions. ▪ [ ] I can run unit tests from the terminal."
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

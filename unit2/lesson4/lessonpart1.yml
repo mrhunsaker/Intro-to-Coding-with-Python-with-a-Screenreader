@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
+<<<<<<< HEAD
 content: |
   &#x20;   
 	- Zelle: Chapter 2, pages 24-26
@@ -14,3 +15,20 @@ content: |
   
   
   (covering "Variables and Simple Data Types", "Naming and Using Variables", "Strings", and "Numbers").
+=======
+content: >
+  &#x20;   ◦ Zelle: Chapter 2, pages 24-26
+
+
+
+  (introducing "Names" and "Expressions").
+
+
+
+  &#x20;   ◦ Matthes: Chapter 2, pages 15-32
+
+
+
+  (covering "Variables and Simple Data Types", "Naming and Using Variables",
+  "Strings", and "Numbers").
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
+<<<<<<< HEAD
 content: |
   #file:lessonpart3.yml
   
@@ -19,3 +20,16 @@ content: |
 		-  [ ] I can return a list or a dictionary from a function. 
 		-  [ ] I can create a copy of a list or dictionary to avoid unintended modifications.
   
+=======
+content: "Lesson 6.4: Functions with Lists and Dictionaries • Student Materials:
+  ◦ Outline: ▪ Passing lists as arguments to functions. ▪ Understanding that
+  changes made to a list inside a function will affect the original list
+  (because lists are mutable). ▪ Passing dictionaries as arguments to functions.
+  ▪ Returning lists or dictionaries from functions. ▪ Making a copy of a list
+  (list[:]) or dictionary (dict.copy()) if you don't want the original to be
+  modified. ◦ Skills Checklist: ▪ [ ] I can pass a list as an argument to a
+  function. ▪ [ ] I can pass a dictionary as an argument to a function. ▪ [ ] I
+  understand that modifying a list/dictionary inside a function affects the
+  original. ▪ [ ] I can return a list or a dictionary from a function. ▪ [ ] I
+  can create a copy of a list or dictionary to avoid unintended modifications."
+>>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
