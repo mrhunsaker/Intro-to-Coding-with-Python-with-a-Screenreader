@@ -1,5 +1,19 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 9.2: Testing a Class • Student Materials: ◦ Outline: ▪ Applying unit testing principles to classes. ▪ Creating an instance of the class within a test method. ▪ Testing class attributes and methods using assertions. ▪ The setUp() method: runs before each test method to set up test fixtures. ◦ Skills Checklist: ▪ [ ] I can write tests for a Python class. ▪ [ ] I can create an object of the class being tested within a test method. ▪ [ ] I can test the attributes and methods of an object. ▪ [ ] I can use the setUp() method to prepare my tests.
+content: |
+  #file:lessonpart3.yml
+  
+  - Lesson 9.2: Testing a Class 
+- Student Materials: 
+	- Outline: 
+		-  Applying unit testing principles to classes. 
+		-  Creating an instance of the class within a test method. 
+		-  Testing class attributes and methods using assertions. 
+		-  The setUp() method: runs before each test method to set up test fixtures. 
+	- Skills Checklist: 
+		-  [ ] I can write tests for a Python class. 
+		-  [ ] I can create an object of the class being tested within a test method. 
+		-  [ ] I can test the attributes and methods of an object. 
+		-  [ ] I can use the setUp() method to prepare my tests.
+  

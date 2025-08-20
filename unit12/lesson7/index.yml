@@ -9,16 +9,20 @@ description: >-
   items. This could be a:
 
 
-  • Contact Manager: Name, Phone, Email, Notes
+  
+- Contact Manager: Name, Phone, Email, Notes
 
 
-  • Book/Movie Tracker: Title, Author/Director, Genre, Status (Read/Watched)
+  
+- Book/Movie Tracker: Title, Author/Director, Genre, Status (Read/Watched)
 
 
-  • Simple To-Do List: Task Description, Due Date, Status (Pending/Complete)
+  
+- Simple To-Do List: Task Description, Due Date, Status (Pending/Complete)
 
 
-  • Simple Inventory: Item Name, Quantity, Location, Notes
+  
+- Simple Inventory: Item Name, Quantity, Location, Notes
 
 
   The **core functionality** will include:

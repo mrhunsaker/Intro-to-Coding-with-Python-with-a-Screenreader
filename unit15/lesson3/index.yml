@@ -8,10 +8,14 @@ description: By integrating these supplementary materials and targeted challenge
   audible cues and clear textual feedback will be paramount.
 objectives: >-
   These materials aim to:
-      • Emphasize Difficult Concepts: Provide deeper dives and alternative explanations.
-      • Provide Additional Resources: Point to accessible external tools or documentation.
-      • Address Accessibility Challenges: Specifically tackle issues like indentation for screen reader users.
-      • Offer Targeted Practice: Create scenarios that mimic real-world debugging without visual aids.
+      
+- Emphasize Difficult Concepts: Provide deeper dives and alternative explanations.
+      
+- Provide Additional Resources: Point to accessible external tools or documentation.
+      
+- Address Accessibility Challenges: Specifically tackle issues like indentation for screen reader users.
+      
+- Offer Targeted Practice: Create scenarios that mimic real-world debugging without visual aids.
 lessonParts:
   - lessonpart1.yml
   - lessonpart2.yml

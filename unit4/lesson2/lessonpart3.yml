@@ -1,5 +1,21 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 3.2: Chained Conditionals (elif, else) • Student Materials: ◦ Outline: ▪ The else statement: executing code if the if condition is False. ▪ The elif statement: checking multiple conditions sequentially. ▪ Understanding the order of if, elif, and else blocks. ▪ Logical operators: and, or, not for combining Boolean expressions. ◦ Skills Checklist: ▪ [ ] I can use an else statement to provide an alternative path for an if condition. ▪ [ ] I can use elif to check multiple conditions in order. ▪ [ ] I can use the and operator to combine conditions where both must be true. ▪ [ ] I can use the or operator to combine conditions where at least one must be true. ▪ [ ] I can use the not operator to negate a Boolean expression. ▪ [ ] I can write code that makes decisions based on multiple conditions.
+content: |
+  #file:lessonpart3.yml
+  
+  - Lesson 3.2: Chained Conditionals (elif, else) 
+- Student Materials: 
+	- Outline: 
+		-  The else statement: executing code if the if condition is False. 
+		-  The elif statement: checking multiple conditions sequentially. 
+		-  Understanding the order of if, elif, and else blocks. 
+		-  Logical operators: and, or, not for combining Boolean expressions. 
+	- Skills Checklist: 
+		-  [ ] I can use an else statement to provide an alternative path for an if condition. 
+		-  [ ] I can use elif to check multiple conditions in order. 
+		-  [ ] I can use the and operator to combine conditions where both must be true. 
+		-  [ ] I can use the or operator to combine conditions where at least one must be true. 
+		-  [ ] I can use the not operator to negate a Boolean expression. 
+		-  [ ] I can write code that makes decisions based on multiple conditions.
+  

@@ -2,7 +2,8 @@
 id: lessonpart1
 title: Reading
 content: |
-  &#x20;   ◦ Matthes: Chapter 6, pages 105-111
+  &#x20;   
+	- Matthes: Chapter 6, pages 105-111
   
   
   (for advanced data structuring with nested lists/dictionaries); Chapter 7, pages 118-123

@@ -1,5 +1,23 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 7.2: Creating and Using a Class • Student Materials: ◦ Outline: ▪ Syntax for defining a simple class using the class keyword. ▪ Class naming conventions (CamelCase). ▪ The __init__ method: special method called when an object is created. • Its purpose: to initialize the object's attributes (data). • The self parameter: referring to the current instance of the object. ▪ Defining attributes (variables) within __init__ using self.attribute_name. ▪ Creating an instance (object) of a class. ◦ Skills Checklist: ▪ [ ] I can define a basic Python class. ▪ [ ] I can define the __init__ method within a class. ▪ [ ] I understand the purpose of the self parameter in class methods. ▪ [ ] I can define attributes for an object within the __init__ method. ▪ [ ] I can create an instance (object) of a class.
+content: |
+  #file:lessonpart3.yml
+  
+  - Lesson 7.2: Creating and Using a Class 
+- Student Materials: 
+	- Outline: 
+		-  Syntax for defining a simple class using the class keyword. 
+		-  Class naming conventions (CamelCase). 
+		-  The __init__ method: special method called when an object is created. 
+- Its purpose: to initialize the object's attributes (data). 
+- The self parameter: referring to the current instance of the object. 
+		-  Defining attributes (variables) within __init__ using self.attribute_name. 
+		-  Creating an instance (object) of a class. 
+	- Skills Checklist: 
+		-  [ ] I can define a basic Python class. 
+		-  [ ] I can define the __init__ method within a class. 
+		-  [ ] I understand the purpose of the self parameter in class methods. 
+		-  [ ] I can define attributes for an object within the __init__ method. 
+		-  [ ] I can create an instance (object) of a class.
+  

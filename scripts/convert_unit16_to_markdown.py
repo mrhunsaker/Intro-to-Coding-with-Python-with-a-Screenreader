@@ -76,7 +76,9 @@ def convert_block(block_lines):
             out.extend(code_lines)
             out.append('```')
             continue
-        # Bullet list markers • or ◦ -> convert to -
+        # Bullet list markers 
+- or 
+	- -> convert to -
         m2 = re.match(r"^\s*[•◦]\s*(.*)$", line)
         if m2:
             out.append('- ' + m2.group(1).strip())

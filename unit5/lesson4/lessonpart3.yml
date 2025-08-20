@@ -1,5 +1,24 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 4.4: Introducing Dictionaries • Student Materials: ◦ Outline: ▪ What is a dictionary: an unordered collection of key-value pairs. ▪ Creating dictionaries using curly braces {}. ▪ Understanding keys (unique identifiers) and values (the data associated with the key). ▪ Accessing values using their keys (e.g., my_dict["key"]). ▪ Adding new key-value pairs to a dictionary. ▪ Modifying existing values. ▪ Removing key-value pairs using del. ◦ Skills Checklist: ▪ [ ] I can create a dictionary in Python. ▪ [ ] I can explain what a key-value pair is. ▪ [ ] I can access a value in a dictionary using its key. ▪ [ ] I can add a new key-value pair to an existing dictionary. ▪ [ ] I can modify the value associated with an existing key. ▪ [ ] I can remove a key-value pair from a dictionary using del.
+content: |
+  #file:lessonpart3.yml
+  
+  - Lesson 4.4: Introducing Dictionaries 
+- Student Materials: 
+	- Outline: 
+		-  What is a dictionary: an unordered collection of key-value pairs. 
+		-  Creating dictionaries using curly braces {}. 
+		-  Understanding keys (unique identifiers) and values (the data associated with the key). 
+		-  Accessing values using their keys (e.g., my_dict["key"]). 
+		-  Adding new key-value pairs to a dictionary. 
+		-  Modifying existing values. 
+		-  Removing key-value pairs using del. 
+	- Skills Checklist: 
+		-  [ ] I can create a dictionary in Python. 
+		-  [ ] I can explain what a key-value pair is. 
+		-  [ ] I can access a value in a dictionary using its key. 
+		-  [ ] I can add a new key-value pair to an existing dictionary. 
+		-  [ ] I can modify the value associated with an existing key. 
+		-  [ ] I can remove a key-value pair from a dictionary using del.
+  

@@ -1,19 +1,21 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 10.1: Designing Your Project
-      • Student Materials:
-          ◦ Outline:
-              ▪ The importance of project planning before coding.
-              ▪ Breaking down a large problem into smaller, manageable sub-problems (modules, functions, classes).
-              ▪ Defining project features and user interactions.
-              ▪ Planning data structures (which lists, dictionaries, or classes will be needed).
-              ▪ Designing the overall program flow.
-              ▪ Thinking about accessible input/output design for screen readers.
-          ◦ Skills Checklist:
-              ▪ [ ] I can break down a larger problem into smaller, manageable parts.
-              ▪ [ ] I can identify the key features required for a project.
-              ▪ [ ] I can plan which data structures will be most suitable for my project's data.
-              ▪ [ ] I can outline the main steps or flow of my program.
-              ▪ [ ] I can consider user interaction and feedback during the design phase.
+content: |
+  #file:lessonpart3.yml
+  
+  Lesson 10.1: Designing Your Project 
+- Student Materials: 
+	- Outline: 
+		-  The importance of project planning before coding. 
+		-  Breaking down a large problem into smaller, manageable sub-problems (modules, functions, classes). 
+		-  Defining project features and user interactions. 
+		-  Planning data structures (which lists, dictionaries, or classes will be needed). 
+		-  Designing the overall program flow. 
+		-  Thinking about accessible input/output design for screen readers. 
+	- Skills Checklist: 
+		-  [ ] I can break down a larger problem into smaller, manageable parts. 
+		-  [ ] I can identify the key features required for a project. 
+		-  [ ] I can plan which data structures will be most suitable for my project's data. 
+		-  [ ] I can outline the main steps or flow of my program. 
+		-  [ ] I can consider user interaction and feedback during the design phase.

@@ -17,11 +17,13 @@ content: >+
   1\. Use Screen Reader Mode:
 
 
-  ◦ VS Code Command: Press Ctrl + Shift + P to open the Command Palette. Type
+  
+	- VS Code Command: Press Ctrl + Shift + P to open the Command Palette. Type
   "Toggle Screen Reader Optimized" and press Enter.
 
 
-  ◦ What it does: This mode optimizes VS Code's UI for screen readers, disabling
+  
+	- What it does: This mode optimizes VS Code's UI for screen readers, disabling
   features that might interfere and enabling others that help. It should be on
   by default if a screen reader is detected. You can toggle it off and on to
   hear the difference.
@@ -30,11 +32,13 @@ content: >+
   2\. Accessible View:
 
 
-  ◦ VS Code Command: Press Shift + Alt + F2 (Windows/Linux) or Shift + Option +
+  
+	- VS Code Command: Press Shift + Alt + F2 (Windows/Linux) or Shift + Option +
   F2 (macOS).
 
 
-  ◦ What it does: This opens a special pane that provides a flat, text-based
+  
+	- What it does: This opens a special pane that provides a flat, text-based
   representation of content that might otherwise be difficult for a screen
   reader to access (e.g., hover tooltips, complex UI elements, certain error
   messages). Use Esc to close it.
@@ -43,15 +47,18 @@ content: >+
   3\. Keyboard-First Navigation:
 
 
-  ◦ VS Code is designed for keyboard navigation. Always prioritize keyboard
+  
+	- VS Code is designed for keyboard navigation. Always prioritize keyboard
   shortcuts over mouse.
 
 
-  ◦ Tab and Shift+Tab: Use these to move focus between UI elements (sidebar,
+  
+	- Tab and Shift+Tab: Use these to move focus between UI elements (sidebar,
   editor, panel, status bar).
 
 
-  ◦ Arrow Keys: Use within active panes (e.g., moving line by line in the
+  
+	- Arrow Keys: Use within active panes (e.g., moving line by line in the
   editor, item by item in a list).
 
 
@@ -71,25 +78,31 @@ content: >+
   1\. NVDA (Windows):
 
 
-  ◦ Open NVDA Menu: Press NVDA Key + N.
+  
+	- Open NVDA Menu: Press NVDA Key + N.
 
 
-  ◦ Preferences > Settings: Activate this.
+  
+	- Preferences > Settings: Activate this.
 
 
-  ◦ Document Formatting: In the settings dialog, find and activate "Document
+  
+	- Document Formatting: In the settings dialog, find and activate "Document
   Formatting" (you might type D to jump to it).
 
 
-  ◦ Indentation Reporting: Locate "Indentation" and set it to "Say all" or
+  
+	- Indentation Reporting: Locate "Indentation" and set it to "Say all" or
   "Beeps". "Say all" is generally recommended as it announces the exact number
   of spaces/tabs.
 
 
-  ◦ Save: Activate "OK".
+  
+	- Save: Activate "OK".
 
 
-  ◦ Verify: Open a Python file, create an indented block (like an if statement
+  
+	- Verify: Open a Python file, create an indented block (like an if statement
   or a loop), and use arrow keys to move between indented and unindented lines.
   Listen for the indentation announcement.
 
@@ -97,29 +110,35 @@ content: >+
   2\. JAWS (Windows):
 
 
-  ◦ Open JAWS Options: Press JAWS Key + J, then Alt+O for Options, then B for
+  
+	- Open JAWS Options: Press JAWS Key + J, then Alt+O for Options, then B for
   Basics.
 
 
-  ◦ Text Processing: Find "Text Processing" or similar.
+  
+	- Text Processing: Find "Text Processing" or similar.
 
 
-  ◦ Indentation Options: Look for options related to "Indent Detection" or
+  
+	- Indentation Options: Look for options related to "Indent Detection" or
   "Announce Indents". Configure it to your preference (e.g., announce number of
   spaces).
 
 
-  ◦ Save: Activate "OK".
+  
+	- Save: Activate "OK".
 
 
   3\. VoiceOver (macOS):
 
 
-  ◦ VoiceOver generally handles indentation well by default, often announcing "4
+  
+	- VoiceOver generally handles indentation well by default, often announcing "4
   spaces" or "tab" as you navigate.
 
 
-  ◦ VoiceOver Utility: You can fine-tune in VoiceOver Utility (Command + F5 to
+  
+	- VoiceOver Utility: You can fine-tune in VoiceOver Utility (Command + F5 to
   open, then VoiceOver Utility). Check "Verbosity" and "Text" settings, ensuring
   "Speak characters by type" or similar options are enabled.VS Code is highly
   accessible, but knowing specific screen reader commands and configuration tips
@@ -132,11 +151,13 @@ content: >+
   1\. Use Screen Reader Mode:
 
 
-  ◦ VS Code Command: Press Ctrl + Shift + P to open the Command Palette. Type
+  
+	- VS Code Command: Press Ctrl + Shift + P to open the Command Palette. Type
   "Toggle Screen Reader Optimized" and press Enter.
 
 
-  ◦ What it does: This mode optimizes VS Code's UI for screen readers, disabling
+  
+	- What it does: This mode optimizes VS Code's UI for screen readers, disabling
   features that might interfere and enabling others that help. It should be on
   by default if a screen reader is detected. You can toggle it off and on to
   hear the difference.
@@ -145,11 +166,13 @@ content: >+
   2\. Accessible View:
 
 
-  ◦ VS Code Command: Press Shift + Alt + F2 (Windows/Linux) or Shift + Option +
+  
+	- VS Code Command: Press Shift + Alt + F2 (Windows/Linux) or Shift + Option +
   F2 (macOS).
 
 
-  ◦ What it does: This opens a special pane that provides a flat, text-based
+  
+	- What it does: This opens a special pane that provides a flat, text-based
   representation of content that might otherwise be difficult for a screen
   reader to access (e.g., hover tooltips, complex UI elements, certain error
   messages). Use Esc to close it.
@@ -158,15 +181,18 @@ content: >+
   3\. Keyboard-First Navigation:
 
 
-  ◦ VS Code is designed for keyboard navigation. Always prioritize keyboard
+  
+	- VS Code is designed for keyboard navigation. Always prioritize keyboard
   shortcuts over mouse.
 
 
-  ◦ Tab and Shift+Tab: Use these to move focus between UI elements (sidebar,
+  
+	- Tab and Shift+Tab: Use these to move focus between UI elements (sidebar,
   editor, panel, status bar).
 
 
-  ◦ Arrow Keys: Use within active panes (e.g., moving line by line in the
+  
+	- Arrow Keys: Use within active panes (e.g., moving line by line in the
   editor, item by item in a list).
 
 
@@ -186,25 +212,31 @@ content: >+
   1\. NVDA (Windows):
 
 
-  ◦ Open NVDA Menu: Press NVDA Key + N.
+  
+	- Open NVDA Menu: Press NVDA Key + N.
 
 
-  ◦ Preferences > Settings: Activate this.
+  
+	- Preferences > Settings: Activate this.
 
 
-  ◦ Document Formatting: In the settings dialog, find and activate "Document
+  
+	- Document Formatting: In the settings dialog, find and activate "Document
   Formatting" (you might type D to jump to it).
 
 
-  ◦ Indentation Reporting: Locate "Indentation" and set it to "Say all" or
+  
+	- Indentation Reporting: Locate "Indentation" and set it to "Say all" or
   "Beeps". "Say all" is generally recommended as it announces the exact number
   of spaces/tabs.
 
 
-  ◦ Save: Activate "OK".
+  
+	- Save: Activate "OK".
 
 
-  ◦ Verify: Open a Python file, create an indented block (like an if statement
+  
+	- Verify: Open a Python file, create an indented block (like an if statement
   or a loop), and use arrow keys to move between indented and unindented lines.
   Listen for the indentation announcement.
 
@@ -212,29 +244,35 @@ content: >+
   2\. JAWS (Windows):
 
 
-  ◦ Open JAWS Options: Press JAWS Key + J, then Alt+O for Options, then B for
+  
+	- Open JAWS Options: Press JAWS Key + J, then Alt+O for Options, then B for
   Basics.
 
 
-  ◦ Text Processing: Find "Text Processing" or similar.
+  
+	- Text Processing: Find "Text Processing" or similar.
 
 
-  ◦ Indentation Options: Look for options related to "Indent Detection" or
+  
+	- Indentation Options: Look for options related to "Indent Detection" or
   "Announce Indents". Configure it to your preference (e.g., announce number of
   spaces).
 
 
-  ◦ Save: Activate "OK".
+  
+	- Save: Activate "OK".
 
 
   3\. VoiceOver (macOS):
 
 
-  ◦ VoiceOver generally handles indentation well by default, often announcing "4
+  
+	- VoiceOver generally handles indentation well by default, often announcing "4
   spaces" or "tab" as you navigate.
 
 
-  ◦ VoiceOver Utility: You can fine-tune in VoiceOver Utility (Command + F5 to
+  
+	- VoiceOver Utility: You can fine-tune in VoiceOver Utility (Command + F5 to
   open, then VoiceOver Utility). Check "Verbosity" and "Text" settings, ensuring
   "Speak characters by type" or similar options are enabled.
 

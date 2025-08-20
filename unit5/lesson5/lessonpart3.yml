@@ -1,5 +1,19 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 4.5: Looping Through Dictionaries • Student Materials: ◦ Outline: ▪ Iterating over a dictionary's keys using a for loop. ▪ Using .values() to iterate only over the values. ▪ Using .items() to iterate over both keys and values simultaneously (as a pair). ▪ Understanding the order of items when iterating (typically insertion order in modern Python, but not guaranteed in older versions). ◦ Skills Checklist: ▪ [ ] I can loop through all the keys in a dictionary. ▪ [ ] I can loop through all the values in a dictionary. ▪ [ ] I can loop through both the keys and values of a dictionary at the same time. ▪ [ ] I can perform actions for each key, value, or key-value pair in a dictionary.
+content: |
+  #file:lessonpart3.yml
+  
+  - Lesson 4.5: Looping Through Dictionaries 
+- Student Materials: 
+	- Outline: 
+		-  Iterating over a dictionary's keys using a for loop. 
+		-  Using .values() to iterate only over the values. 
+		-  Using .items() to iterate over both keys and values simultaneously (as a pair). 
+		-  Understanding the order of items when iterating (typically insertion order in modern Python, but not guaranteed in older versions). 
+	- Skills Checklist: 
+		-  [ ] I can loop through all the keys in a dictionary. 
+		-  [ ] I can loop through all the values in a dictionary. 
+		-  [ ] I can loop through both the keys and values of a dictionary at the same time. 
+		-  [ ] I can perform actions for each key, value, or key-value pair in a dictionary.
+  

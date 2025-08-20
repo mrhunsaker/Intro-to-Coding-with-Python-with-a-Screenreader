@@ -1,74 +1,34 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Lesson
-content: >+
+content: |
+  #file:lessonpart3.yml
+  
   # Lesson: Building a Text-Based Adventure Game (Part 2)
-
-
+  
   ## Adding items, puzzles, and game state management.
-
-
+  
   ## Example 10.3.1: Item and Puzzle Integration (Pseudocode)
-
-
+  
   ```python
-
-  room_descriptions = {
-     "start_room": {
-         "description": "You are in a dimly lit cave. There's a narrow passage to the NORTH. You see a SHINY KEY on the ground.",
-         "exits": {"north": "locked_door_room"},
-         "items": ["shiny key"]
-     },
-     "locked_door_room": {
-         "description": "You are in a small chamber with a heavy wooden door to the NORTH. It's locked.",
-         "exits": {"south": "start_room"},
-         "items": []
-     }
-  }
-
-
-  current_room = "start_room"
-
-  player_inventory = []
-
-  door_locked = True
-
-
-  while True:
-     print("\n" + room_descriptions[current_room]["description"])
-     if room_descriptions[current_room]["items"]:
-         print(f"You see: {', '.join(room_descriptions[current_room]['items'])}")
-     print(f"Your inventory: {', '.join(player_inventory) if player_inventory else 'empty'}")
-
-     command = input("What do you want to do? ").lower()
-
-     if command == "take shiny key" and "shiny key" in room_descriptions[current_room]["items"]:
-         player_inventory.append("shiny key")
-         room_descriptions[current_room]["items"].remove("shiny key")
-         print("You picked up the shiny key.")
-     elif command == "use shiny key" and current_room == "locked_door_room" and "shiny key" in player_inventory and door_locked:
-         door_locked = False
-         print("You unlocked the door!")
-         room_descriptions["locked_door_room"]["description"] = "You are in a small chamber with a heavy wooden door to the NORTH. It's now unlocked!"
-         room_descriptions["locked_door_room"]["exits"]["north"] = "treasure_room"
-     elif command in room_descriptions[current_room]["exits"]:
-         if command == "north" and current_room == "locked_door_room" and door_locked:
-             print("The door is locked! You need a key.")
-         else:
-             current_room = room_descriptions[current_room]["exits"][command]
-     elif command == "quit":
-         print("Exiting game. Goodbye!")
-         break
-     else:
-         print("I don't understand that command or you can't go that way.")
-  ```
-
-
+  
+  - room_descriptions = { "start_room": { "description": "You are in a dimly lit cave. There's a narrow passage to the NORTH. You see a SHINY KEY on the ground.", "exits": {"north": "locked_door_room"}, "items": ["shiny key"] }, "locked_door_room": { "description": "You are in a small chamber with a heavy wooden door to the NORTH. It's locked.", "exits": {"south": "start_room"}, "items": [] } }
+  
+  - current_room = "start_room"
+  
+  - player_inventory = []
+  
+  - door_locked = True
+  
+  - while True: print("\n" + room_descriptions[current_room]["description"]) if room_descriptions[current_room]["items"]: print(f"You see: {', '.join(room_descriptions[current_room]['items'])}") print(f"Your inventory: {', '.join(player_inventory) if player_inventory else 'empty'}")
+  
+  - command = input("What do you want to do? ").lower()
+  
+  - if command == "take shiny key" and "shiny key" in room_descriptions[current_room]["items"]: player_inventory.append("shiny key") room_descriptions[current_room]["items"].remove("shiny key") print("You picked up the shiny key.") elif command == "use shiny key" and current_room == "locked_door_room" and "shiny key" in player_inventory and door_locked: door_locked = False print("You unlocked the door!") room_descriptions["locked_door_room"]["description"] = "You are in a small chamber with a heavy wooden door to the NORTH. It's now unlocked!" room_descriptions["locked_door_room"]["exits"]["north"] = "treasure_room" elif command in room_descriptions[current_room]["exits"]: if command == "north" and current_room == "locked_door_room" and door_locked: print("The door is locked! You need a key.") else: current_room = room_descriptions[current_room]["exits"][command] elif command == "quit": print("Exiting game. Goodbye!") break else: print("I don't understand that command or you can't go that way.") ```
+  
   ## Activities
-
-
+  
   1. **Activity 10.3.1: Item Collector Game**
-
-
+  
   * Add items and puzzles to your adventure game.
-
+  

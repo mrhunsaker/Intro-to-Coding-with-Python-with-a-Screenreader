@@ -106,11 +106,14 @@ content: >+
 
      * Type: python3 -m venv .venv and press Enter.
 
-       ▪ python3: Invokes Python.
+       
+		-  python3: Invokes Python.
 
-       ▪ -m venv: Tells Python to run the venv module (for creating virtual environments).
+       
+		-  -m venv: Tells Python to run the venv module (for creating virtual environments).
 
-       ▪ .venv: This is the name of the new virtual environment folder. The dot . means it's a hidden folder, common convention.
+       
+		-  .venv: This is the name of the new virtual environment folder. The dot . means it's a hidden folder, common convention.
 
      * Listen for completion: There might be no immediate audible output, but it usually completes quickly.
 

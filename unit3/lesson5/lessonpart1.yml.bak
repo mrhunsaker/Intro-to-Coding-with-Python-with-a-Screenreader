@@ -2,7 +2,8 @@
 id: lessonpart1
 title: Reading
 content: |
-  &#x20;   ◦ Zelle: Chapter 3, pages 49-51
+  &#x20;   
+	- Zelle: Chapter 3, pages 49-51
 
 
   (introducing "The Python math library" and "Some math library

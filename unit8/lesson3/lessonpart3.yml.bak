@@ -1,19 +1,21 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 7.3: Working with Attributes and Methods
-      • Student Materials:
-          ◦ Outline:
-              ▪ Accessing object attributes using dot notation (e.g., my_object.attribute).
-              ▪ Modifying attribute values directly.
-              ▪ Defining methods (functions) within a class.
-                  • Methods always take self as their first parameter.
-                  • Calling methods on an object (e.g., my_object.method()).
-              ▪ Using methods to update attribute values.
-          ◦ Skills Checklist:
-              ▪ [ ] I can access an object's attributes.
-              ▪ [ ] I can modify an object's attribute directly.
-              ▪ [ ] I can define a method within a class.
-              ▪ [ ] I can call a method on an object.
-              ▪ [ ] I can use a method to change an object's attribute.
+content: |
+  #file:lessonpart3.yml
+  
+  Lesson 7.3: Working with Attributes and Methods 
+- Student Materials: 
+	- Outline: 
+		-  Accessing object attributes using dot notation (e.g., my_object.attribute). 
+		-  Modifying attribute values directly. 
+		-  Defining methods (functions) within a class. 
+- Methods always take self as their first parameter. 
+- Calling methods on an object (e.g., my_object.method()). 
+		-  Using methods to update attribute values. 
+	- Skills Checklist: 
+		-  [ ] I can access an object's attributes. 
+		-  [ ] I can modify an object's attribute directly. 
+		-  [ ] I can define a method within a class. 
+		-  [ ] I can call a method on an object. 
+		-  [ ] I can use a method to change an object's attribute.

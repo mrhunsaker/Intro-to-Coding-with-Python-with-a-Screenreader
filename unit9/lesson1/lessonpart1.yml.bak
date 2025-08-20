@@ -2,13 +2,15 @@
 id: lessonpart1
 title: Reading
 content: |
-  &#x20;   ◦ Zelle: Chapter 5, pages 125-127
+  &#x20;   
+	- Zelle: Chapter 5, pages 125-127
 
 
   (on "File Processing" and "Simple File Processing").
 
 
-  &#x20;   ◦ Matthes: Chapter 10, pages 184-189
+  &#x20;   
+	- Matthes: Chapter 10, pages 184-189
 
 
   (on "Reading from a File" and working with file contents).Enter your content

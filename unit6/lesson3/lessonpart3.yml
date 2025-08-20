@@ -1,5 +1,17 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 5.3: Using Flags and break to Exit Loops • Student Materials: ◦ Outline: ▪ Using a "flag" variable (a Boolean variable) to control while loop execution. ▪ The break statement: immediately exiting the current loop, regardless of the condition. ▪ When to use break (e.g., when a specific event occurs, like a "quit" command). ◦ Skills Checklist: ▪ [ ] I can use a Boolean "flag" variable to control a while loop. ▪ [ ] I can use the break statement to exit a loop early. ▪ [ ] I can decide when break is an appropriate tool for loop control.
+content: |
+  #file:lessonpart3.yml
+  
+  - Lesson 5.3: Using Flags and break to Exit Loops 
+- Student Materials: 
+	- Outline: 
+		-  Using a "flag" variable (a Boolean variable) to control while loop execution. 
+		-  The break statement: immediately exiting the current loop, regardless of the condition. 
+		-  When to use break (e.g., when a specific event occurs, like a "quit" command). 
+	- Skills Checklist: 
+		-  [ ] I can use a Boolean "flag" variable to control a while loop. 
+		-  [ ] I can use the break statement to exit a loop early. 
+		-  [ ] I can decide when break is an appropriate tool for loop control.
+  

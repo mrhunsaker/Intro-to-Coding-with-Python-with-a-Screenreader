@@ -1,5 +1,19 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 7.1: Why Learn About Classes? • Student Materials: ◦ Outline: ▪ Introduction to Object-Oriented Programming (OOP) as a programming paradigm. ▪ Analogy: Classes as blueprints or templates, objects as instances built from those blueprints. ▪ Key OOP concepts: objects, classes, encapsulation (bundling data and methods), abstraction (hiding complexity). ▪ Benefits of OOP: code organization, reusability, modularity. ◦ Skills Checklist: ▪ [ ] I can explain the basic idea of Object-Oriented Programming. ▪ [ ] I can describe a class as a blueprint. ▪ [ ] I can describe an object as an instance of a class. ▪ [ ] I can state at least two benefits of using OOP.
+content: |
+  #file:lessonpart3.yml
+  
+  - Lesson 7.1: Why Learn About Classes? 
+- Student Materials: 
+	- Outline: 
+		-  Introduction to Object-Oriented Programming (OOP) as a programming paradigm. 
+		-  Analogy: Classes as blueprints or templates, objects as instances built from those blueprints. 
+		-  Key OOP concepts: objects, classes, encapsulation (bundling data and methods), abstraction (hiding complexity). 
+		-  Benefits of OOP: code organization, reusability, modularity. 
+	- Skills Checklist: 
+		-  [ ] I can explain the basic idea of Object-Oriented Programming. 
+		-  [ ] I can describe a class as a blueprint. 
+		-  [ ] I can describe an object as an instance of a class. 
+		-  [ ] I can state at least two benefits of using OOP.
+  

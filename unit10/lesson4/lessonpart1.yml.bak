@@ -2,11 +2,13 @@
 id: lessonpart1
 title: Reading
 content: |
-  &#x20;   ◦ Zelle: Chapter 11, pages 310-315
+  &#x20;   
+	- Zelle: Chapter 11, pages 310-315
 
   (on "Example Program: Word Frequency").
 
-  &#x20;   ◦ Matthes: Chapter 10, pages 196-199
+  &#x20;   
+	- Matthes: Chapter 10, pages 196-199
 
   (on "Analyzing Text" and counting words); Chapter 15, page 322
 

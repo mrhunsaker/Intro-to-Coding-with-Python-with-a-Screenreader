@@ -17,10 +17,14 @@ content: >-
 
   Every plot tells a story about data. Instead of focusing on colors or exact
   shapes, we focus on:
-      • Variables being plotted: What are the axes representing?
-      • Trends: Is the data generally increasing, decreasing, staying flat?
-      • Clusters/Outliers: Are there groups of data points? Are there points that deviate significantly?
-      • Comparisons: How do different groups of data compare to each other?
+      
+- Variables being plotted: What are the axes representing?
+      
+- Trends: Is the data generally increasing, decreasing, staying flat?
+      
+- Clusters/Outliers: Are there groups of data points? Are there points that deviate significantly?
+      
+- Comparisons: How do different groups of data compare to each other?
   When we describe how a plot "looks" to a sighted individual, we are
   translating its visual features into an interpretation of the underlying data.
 
@@ -33,13 +37,20 @@ content: >-
   temperature changes throughout a day, or stock prices over months.
 
   How it "looks" (interpretation):
-      • X-axis: Represents the independent variable, often time or an ordered sequence (e.g., hours of a day, months). Moving right means advancing through this variable.
-      • Y-axis: Represents the dependent variable, the one being measured (e.g., temperature, price, count). Moving up means an increase, moving down means a decrease.
-      • The Line: Represents the value of the Y-variable at each point on the X-axis.
-          ◦ A line going upwards from left to right indicates an increasing trend.
-          ◦ A line going downwards from left to right indicates a decreasing trend.
-          ◦ A flat line indicates stability or no change.
-          ◦ A jagged or bumpy line indicates fluctuation or variability.
+      
+- X-axis: Represents the independent variable, often time or an ordered sequence (e.g., hours of a day, months). Moving right means advancing through this variable.
+      
+- Y-axis: Represents the dependent variable, the one being measured (e.g., temperature, price, count). Moving up means an increase, moving down means a decrease.
+      
+- The Line: Represents the value of the Y-variable at each point on the X-axis.
+          
+	- A line going upwards from left to right indicates an increasing trend.
+          
+	- A line going downwards from left to right indicates a decreasing trend.
+          
+	- A flat line indicates stability or no change.
+          
+	- A jagged or bumpy line indicates fluctuation or variability.
   Generating a Line Plot:
 
 
@@ -105,16 +116,26 @@ content: >-
   between 70-79, 80-89, etc.?
 
   How it "looks" (interpretation):
-      • X-axis: Represents the range of values for the variable being measured. This axis is divided into "bins" or intervals.
-      • Y-axis: Represents the frequency or count of data points that fall into each bin.
-      • Bars: Each bar corresponds to a specific bin on the X-axis. The height of the bar indicates how many data points are in that bin.
-          ◦ Tall bars: Indicate a high concentration of data points in that range. This is where the data is most common.
-          ◦ Short bars: Indicate fewer data points in that range.
-          ◦ No bar: No data points in that specific range.
-      • Shape of the distribution:
-          ◦ Symmetric (bell-shaped): Data is evenly distributed around the center.
-          ◦ Skewed left/right: More data is concentrated on one side.
-          ◦ Multiple "peaks" (modes): Suggests there might be distinct subgroups in the data.
+      
+- X-axis: Represents the range of values for the variable being measured. This axis is divided into "bins" or intervals.
+      
+- Y-axis: Represents the frequency or count of data points that fall into each bin.
+      
+- Bars: Each bar corresponds to a specific bin on the X-axis. The height of the bar indicates how many data points are in that bin.
+          
+	- Tall bars: Indicate a high concentration of data points in that range. This is where the data is most common.
+          
+	- Short bars: Indicate fewer data points in that range.
+          
+	- No bar: No data points in that specific range.
+      
+- Shape of the distribution:
+          
+	- Symmetric (bell-shaped): Data is evenly distributed around the center.
+          
+	- Skewed left/right: More data is concentrated on one side.
+          
+	- Multiple "peaks" (modes): Suggests there might be distinct subgroups in the data.
 
 
 
@@ -190,11 +211,16 @@ content: >-
 
 
   A.2.4 Important Considerations for Screen Reader Users
-      • Underlying Data is Key: The most important aspect is always the raw data itself (the lists, dictionaries, etc.). This is what the student can directly interact with using their screen reader.
-      • Labels and Titles are Crucial: plt.title(), plt.xlabel(), plt.ylabel() provide the context for the plot, describing what is being visualized. These labels are audibly announced if the Matplotlib figure window provides accessible text.
-      • Descriptive Comments: In your code, continue to use comments to describe the intent of the plot and what specific features (like bins in a histogram) mean.
-      • Focus on Numerical Summaries: For histograms, focus on summary statistics like the mean, median, mode, and range, as these describe the distribution directly. For line plots, focus on the start, end, and peak/trough values.
-      • Alternative Data Representations: For complex plots, consider printing aggregated summaries or specific data points that highlight trends in addition to generating the plot. For instance, for a line plot, print the start value, end value, max value and its corresponding X-value, and min value and its corresponding X-value. For a histogram, print the counts for each bin.
+      
+- Underlying Data is Key: The most important aspect is always the raw data itself (the lists, dictionaries, etc.). This is what the student can directly interact with using their screen reader.
+      
+- Labels and Titles are Crucial: plt.title(), plt.xlabel(), plt.ylabel() provide the context for the plot, describing what is being visualized. These labels are audibly announced if the Matplotlib figure window provides accessible text.
+      
+- Descriptive Comments: In your code, continue to use comments to describe the intent of the plot and what specific features (like bins in a histogram) mean.
+      
+- Focus on Numerical Summaries: For histograms, focus on summary statistics like the mean, median, mode, and range, as these describe the distribution directly. For line plots, focus on the start, end, and peak/trough values.
+      
+- Alternative Data Representations: For complex plots, consider printing aggregated summaries or specific data points that highlight trends in addition to generating the plot. For instance, for a line plot, print the start value, end value, max value and its corresponding X-value, and min value and its corresponding X-value. For a histogram, print the counts for each bin.
   By emphasizing the data, descriptive labels, and the story the plot tells,
   visually impaired students can gain a deep understanding of data visualization
   concepts, even without direct visual access to the charts themselves.

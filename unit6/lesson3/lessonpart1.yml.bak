@@ -2,10 +2,12 @@
 id: lessonpart1
 title: Reading
 content: |
-  &#x20;   ◦ Zelle: Chapter 8, pages 209-211
+  &#x20;   
+	- Zelle: Chapter 8, pages 209-211
 
   (on "The Loop and a Half" and break statements).
 
-  &#x20;   ◦ Matthes: Chapter 7, pages 118-121
+  &#x20;   
+	- Matthes: Chapter 7, pages 118-121
 
   (on using a flag and break to exit a loop).

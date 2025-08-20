@@ -2,7 +2,8 @@
 id: lessonpart1
 title: Reading
 content: |
-  &#x20;   ◦ Zelle: Chapter 5, pages 99-102
+  &#x20;   
+	- Zelle: Chapter 5, pages 99-102
 
 
   (on "The String Data Type" and "Simple String Processing", including len());
@@ -12,7 +13,8 @@ content: |
   (on "String Methods").
 
 
-  &#x20;   ◦ Matthes: Chapter 2, pages 19-25
+  &#x20;   
+	- Matthes: Chapter 2, pages 19-25
 
 
   (on "Strings", string methods like lower() and upper(), and string

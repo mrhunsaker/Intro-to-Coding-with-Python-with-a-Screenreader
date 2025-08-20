@@ -2,10 +2,12 @@
 id: lessonpart1
 title: Reading
 content: |
-  &#x20;   ◦ Zelle: Chapter 8, pages 196-197
+  &#x20;   
+	- Zelle: Chapter 8, pages 196-197
   
   (specifically "Infinite Loop").
   
-  &#x20;   ◦ Matthes: Chapter 7, page 123
+  &#x20;   
+	- Matthes: Chapter 7, page 123
   
   (on "Avoiding Infinite Loops").

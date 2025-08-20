@@ -1,22 +1,24 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 8.5: Storing Data with JSON
-      • Student Materials:
-          ◦ Outline:
-              ▪ Introduction to JSON (JavaScript Object Notation) as a common format for data exchange.
-              ▪ JSON's relationship to Python dictionaries and lists.
-                  • JSON Objects {} map to Python Dictionaries {}.
-                  • JSON Arrays [] map to Python Lists [].
-                  • JSON basic types (string, number, boolean, null) map to Python types.
-              ▪ Using the json module:
-                  • json.dump(data, file_object): Writes Python data to a JSON file.
-                  • json.load(file_object): Reads JSON data from a file into Python.
-              ▪ Saving and loading complex data structures (lists of dictionaries, etc.).
-          ◦ Skills Checklist:
-              ▪ [ ] I can explain what JSON is and why it's used.
-              ▪ [ ] I can relate JSON objects and arrays to Python dictionaries and lists.
-              ▪ [ ] I can use json.dump() to save Python data to a JSON file.
-              ▪ [ ] I can use json.load() to load JSON data from a file into a Python object.
-              ▪ [ ] I can save and load lists of dictionaries using JSON.
+content: |
+  #file:lessonpart3.yml
+  
+  Lesson 8.5: Storing Data with JSON 
+- Student Materials: 
+	- Outline: 
+		-  Introduction to JSON (JavaScript Object Notation) as a common format for data exchange. 
+		-  JSON's relationship to Python dictionaries and lists. 
+- JSON Objects {} map to Python Dictionaries {}. 
+- JSON Arrays [] map to Python Lists []. 
+- JSON basic types (string, number, boolean, null) map to Python types. 
+		-  Using the json module: 
+- json.dump(data, file_object): Writes Python data to a JSON file. 
+- json.load(file_object): Reads JSON data from a file into Python. 
+		-  Saving and loading complex data structures (lists of dictionaries, etc.). 
+	- Skills Checklist: 
+		-  [ ] I can explain what JSON is and why it's used. 
+		-  [ ] I can relate JSON objects and arrays to Python dictionaries and lists. 
+		-  [ ] I can use json.dump() to save Python data to a JSON file. 
+		-  [ ] I can use json.load() to load JSON data from a file into a Python object. 
+		-  [ ] I can save and load lists of dictionaries using JSON.

@@ -1,5 +1,22 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 8.2: Writing to a File • Student Materials: ◦ Outline: ▪ Opening a file for writing ("w" mode) and appending ("a" mode). • "w" mode: creates a new file or overwrites an existing one. • "a" mode: adds content to the end of an existing file without deleting it. ▪ Writing strings to a file using .write(). ▪ Adding newline characters (\n) for proper formatting. ▪ Writing multiple lines from a list using .writelines(). ◦ Skills Checklist: ▪ [ ] I can open a file for writing (overwriting) using "w" mode. ▪ [ ] I can open a file for appending using "a" mode. ▪ [ ] I can write a string to a file. ▪ [ ] I can add new lines to a file. ▪ [ ] I can write multiple lines from a list to a file.
+content: |
+  #file:lessonpart3.yml
+  
+  - Lesson 8.2: Writing to a File 
+- Student Materials: 
+	- Outline: 
+		-  Opening a file for writing ("w" mode) and appending ("a" mode). 
+- "w" mode: creates a new file or overwrites an existing one. 
+- "a" mode: adds content to the end of an existing file without deleting it. 
+		-  Writing strings to a file using .write(). 
+		-  Adding newline characters (\n) for proper formatting. 
+		-  Writing multiple lines from a list using .writelines(). 
+	- Skills Checklist: 
+		-  [ ] I can open a file for writing (overwriting) using "w" mode. 
+		-  [ ] I can open a file for appending using "a" mode. 
+		-  [ ] I can write a string to a file. 
+		-  [ ] I can add new lines to a file. 
+		-  [ ] I can write multiple lines from a list to a file.
+  

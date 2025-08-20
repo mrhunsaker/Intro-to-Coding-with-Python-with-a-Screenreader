@@ -1,19 +1,21 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 3.3: Introduction to Lists
-      • Student Materials:
-          ◦ Outline:
-              ▪ What is a list: an ordered collection of items.
-              ▪ Creating lists using square brackets [].
-              ▪ Items in a list can be of different data types.
-              ▪ Accessing individual items by their index (position), starting from 0.
-              ▪ Accessing items from the end of the list using negative indices.
-              ▪ Modifying items in a list.
-          ◦ Skills Checklist:
-              ▪ [ ] I can create a list in Python.
-              ▪ [ ] I can understand that lists are ordered collections.
-              ▪ [ ] I can access individual items in a list using their index.
-              ▪ [ ] I can access list items from the end using negative indices.
-              ▪ [ ] I can change the value of an item at a specific index in a list.
+content: |
+  #file:lessonpart3.yml
+  
+  Lesson 3.3: Introduction to Lists 
+- Student Materials: 
+	- Outline: 
+		-  What is a list: an ordered collection of items. 
+		-  Creating lists using square brackets []. 
+		-  Items in a list can be of different data types. 
+		-  Accessing individual items by their index (position), starting from 0. 
+		-  Accessing items from the end of the list using negative indices. 
+		-  Modifying items in a list. 
+	- Skills Checklist: 
+		-  [ ] I can create a list in Python. 
+		-  [ ] I can understand that lists are ordered collections. 
+		-  [ ] I can access individual items in a list using their index. 
+		-  [ ] I can access list items from the end using negative indices. 
+		-  [ ] I can change the value of an item at a specific index in a list.
