@@ -1,11 +1,14 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
+content: >
   &#x20;   ◦ Matthes: Chapter 6, pages 105-111
-  
-  
-  (for advanced data structuring with nested lists/dictionaries); Chapter 7, pages 118-123
-  
-  
+
+
+
+  (for advanced data structuring with nested lists/dictionaries); Chapter 7,
+  pages 118-123
+
+
+
   (for user input, loops, and flags for game state management).

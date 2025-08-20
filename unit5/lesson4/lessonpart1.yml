@@ -1,14 +1,19 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
+content: >
   &#x20;   ◦ Zelle: Chapter 11, pages 307-309
-  
-  
-  (on "Non-Sequential Collections", "Dictionary Basics", and "Dictionary Operations").
-  
-  
+
+
+
+  (on "Non-Sequential Collections", "Dictionary Basics", and "Dictionary
+  Operations").
+
+
+
   &#x20;   ◦ Matthes: Chapter 6, pages 91-98
-  
-  
-  (covering "Dictionaries", accessing, adding, modifying, and removing key-value pairs).
+
+
+
+  (covering "Dictionaries", accessing, adding, modifying, and removing key-value
+  pairs).

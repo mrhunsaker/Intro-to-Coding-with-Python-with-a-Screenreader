@@ -1,9 +1,0 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lessonpart1
-title: Reading
-content: |
-  &#x20;   ◦ Applies concepts from Unit 4 (Lists and Dictionaries)
-
-
-  for data modification and removal, and Unit 6 (Functions) for structuring the
-  logic.Enter your content here

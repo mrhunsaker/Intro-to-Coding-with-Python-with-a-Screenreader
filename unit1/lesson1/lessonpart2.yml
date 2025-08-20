@@ -24,49 +24,41 @@ content: >+
 
      ◦ Windows:
 
-     ```
-      ▪ Locate the downloaded .exe file (usually in your Downloads folder). Activate it.
+     ▪ Locate the downloaded .exe file (usually in your Downloads folder). Activate it.
 
-      ▪ CRUCIAL STEP: When the installer window appears, the very first thing you must do is check the "Add Python to PATH" checkbox. This is incredibly important for making Python accessible from your terminal later. Use Tab to navigate through the options until you hear this checkbox, and press Spacebar to check it.
+     ▪ CRUCIAL STEP: When the installer window appears, the very first thing you must do is check the "Add Python to PATH" checkbox. This is incredibly important for making Python accessible from your terminal later. Use Tab to navigate through the options until you hear this checkbox, and press Spacebar to check it.
 
-      ▪ Then, navigate to "Install Now" (or "Customize installation" if you prefer to change the install location, but "Install Now" is fine for most) and activate it.
+     ▪ Then, navigate to "Install Now" (or "Customize installation" if you prefer to change the install location, but "Install Now" is fine for most) and activate it.
 
-      ▪ Follow any further prompts. Once finished, activate "Close".
-     ```
+     ▪ Follow any further prompts. Once finished, activate "Close".
 
      ◦ macOS:
 
-     ```
-      ▪ Locate the downloaded .pkg file. Activate it.
+     ▪ Locate the downloaded .pkg file. Activate it.
 
-      ▪ The standard macOS installer will open. Activate "Continue" through the steps.
+     ▪ The standard macOS installer will open. Activate "Continue" through the steps.
 
-      ▪ Agree to the license terms. Choose the installation location (default is usually fine).
+     ▪ Agree to the license terms. Choose the installation location (default is usually fine).
 
-      ▪ Enter your administrator password when prompted.
+     ▪ Enter your administrator password when prompted.
 
-      ▪ Activate "Install" and then "Close" when finished.
-     ```
+     ▪ Activate "Install" and then "Close" when finished.
 
-     ◦ Linux:
+     ◦ Linux
 
-     ```
-      ▪ Python 3 is often pre-installed on modern Linux distributions. You can verify by opening a terminal (Ctrl+Alt+T usually) and typing python3 --version and pressing Enter.
+     ▪ Python 3 is often pre-installed on modern Linux distributions. You can verify by opening a terminal (Ctrl+Alt+T usually) and typing python3 --version and pressing Enter.
 
-      ▪ If not installed, use your distribution's package manager. For Debian/Ubuntu-based systems: sudo apt update sudo apt install python3 sudo apt install python3-pip (for pip, which we'll use later)
-     ```
+     ▪ If not installed, use your distribution's package manager. For Debian/Ubuntu-based systems: sudo apt update sudo apt install python3 sudo apt install python3-pip (for pip, which we'll use later)
 
   4. Verify Python Installation (Crucial!):
 
      ◦ Open a terminal:
 
-     ```
-      ▪ Windows: Press Windows Key + R, type cmd (for Command Prompt) or powershell (for PowerShell), and press Enter.
+     ▪ Windows: Press Windows Key + R, type cmd (for Command Prompt) or powershell (for PowerShell), and press Enter.
 
-      ▪ macOS: Press Command + Spacebar to open Spotlight, type terminal, and press Enter.
+     ▪ macOS: Press Command + Spacebar to open Spotlight, type terminal, and press Enter.
 
-      ▪ Linux: Press Ctrl+Alt+T or search for "Terminal" in your applications.
-     ```
+     ▪ Linux: Press Ctrl+Alt+T or search for "Terminal" in your applications.
 
      ◦ In the terminal, type: python3 --version and press Enter.
 
@@ -92,40 +84,33 @@ content: >+
 
      ◦ Windows:
 
-     ```
-      ▪ Activate the downloaded .exe file.
+     ▪ Activate the downloaded .exe file.
 
-      ▪ Accept the license agreement.
+     ▪ Accept the license agreement.
 
-      ▪ CRUCIAL STEP: On the "Select Additional Tasks" screen, check all checkboxes for "Add 'Open with Code' action to Windows Explorer context menu", "Add 'Open with Code' action to directory context menu", and "Add to PATH". This last one is vital.
+     ▪ CRUCIAL STEP: On the "Select Additional Tasks" screen, check all checkboxes for "Add 'Open with Code' action to Windows Explorer context menu", "Add 'Open with Code' action to directory context menu", and "Add to PATH". This last one is vital.
 
-      ▪ Activate "Next" and then "Install".
+     ▪ Activate "Next" and then "Install".
 
-      ▪ Activate "Finish" (uncheck "Launch Visual Studio Code" for now, we'll configure it first).
-     ```
+     ▪ Activate "Finish" (uncheck "Launch Visual Studio Code" for now, we'll configure it first).
 
      ◦ macOS:
 
-     ```
-      ▪ Locate the downloaded .zip file. It usually unzips automatically.
+     ▪ Locate the downloaded .zip file. It usually unzips automatically.
 
-      ▪ Drag the "Visual Studio Code" application from your Downloads folder to your "Applications" folder.
-     ```
+     ▪ Drag the "Visual Studio Code" application from your Downloads folder to your "Applications" folder.
 
      ◦ Linux:
 
-     ```
-      ▪ For .deb (Debian/Ubuntu): Open your terminal and navigate to your Downloads folder (e.g., cd Downloads). Then run: sudo dpkg -i code_*.deb (replace * with the version number). You might need to run sudo apt install -f if there are dependency issues.
+     ▪ For .deb (Debian/Ubuntu): Open your terminal and navigate to your Downloads folder (e.g., cd Downloads). Then run: sudo dpkg -i code\_\*.deb (replace \* with the version number). You might need to run sudo apt install -f if there are dependency issues.
 
-      ▪ For .rpm (Fedora/RHEL): Navigate to Downloads and run: sudo dnf install code_*.rpm
-     ```
+     ▪ For .rpm (Fedora/RHEL): Navigate to Downloads and run: sudo dnf install code\_\*.rpm
 
   4. Verify VS Code Installation (Optional but good):
 
      ◦ Open your terminal (Command Prompt/PowerShell/Terminal).
 
      ◦ Type code --version and press Enter. You should hear the version number of VS Code.
-
 
 showEditor: true
 editors:

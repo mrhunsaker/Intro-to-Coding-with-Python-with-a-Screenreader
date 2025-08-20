@@ -1,5 +1,12 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 9.4: Analyzing Text Data • Student Materials: ◦ Outline: ▪ Basic text analysis goals: counting words, characters, specific phrases. ▪ Reading text from files (revisiting file I/O). ▪ Splitting text into words (.split()). ▪ Counting word occurrences using dictionaries. ▪ Basic string cleaning (e.g., removing punctuation). ▪ Printing frequencies or summaries. ◦ Skills Checklist: ▪ [ ] I can read text content from a file. ▪ [ ] I can split a string of text into individual words. ▪ [ ] I can use a dictionary to count the frequency of words or characters. ▪ [ ] I can perform basic cleaning on text data (e.g., removing punctuation).
+content: "Lesson 9.4: Analyzing Text Data • Student Materials: ◦ Outline: ▪
+  Basic text analysis goals: counting words, characters, specific phrases. ▪
+  Reading text from files (revisiting file I/O). ▪ Splitting text into words
+  (.split()). ▪ Counting word occurrences using dictionaries. ▪ Basic string
+  cleaning (e.g., removing punctuation). ▪ Printing frequencies or summaries. ◦
+  Skills Checklist: ▪ [ ] I can read text content from a file. ▪ [ ] I can split
+  a string of text into individual words. ▪ [ ] I can use a dictionary to count
+  the frequency of words or characters. ▪ [ ] I can perform basic cleaning on
+  text data (e.g., removing punctuation)."

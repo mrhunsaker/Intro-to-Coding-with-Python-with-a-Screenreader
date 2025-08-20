@@ -3,7 +3,6 @@ id: lessonpart2
 title: Final Submission
 content: |
   Submit your final code as attachments to am email to ryhunsaker\@dsdmail.net
-  
 showEditor: true
 editors:
   - course1/unit12/lesson6/lessonpart2/Lesson11_6.py

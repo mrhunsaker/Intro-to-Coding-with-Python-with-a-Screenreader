@@ -13,7 +13,6 @@ content: >-
 
   1. **Activity 10.5.1: Refine Your Project's User Experience**
     - Review and improve prompts, output, formatting, and error messages for accessibility.
-
 showEditor: true
 editors:
   - course1/unit11/lesson5/lessonpart2/Lesson10_5.py

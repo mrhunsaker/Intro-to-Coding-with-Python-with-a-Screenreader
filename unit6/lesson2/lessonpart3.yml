@@ -1,5 +1,14 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 5.2: The while Loop in Action • Student Materials: ◦ Outline: ▪ Introduction to while loops: repeating code as long as a condition is true. ▪ Distinction from for loops (definite vs. indefinite iteration). ▪ Defining the loop condition (a Boolean expression). ▪ Ensuring the condition eventually becomes false to avoid infinite loops. ▪ Incrementing/decrementing a counter within the loop to control repetitions. ▪ Understanding the indentation of the code block under while. ◦ Skills Checklist: ▪ [ ] I can explain the difference between a for loop and a while loop. ▪ [ ] I can write a basic while loop. ▪ [ ] I can define the condition that controls a while loop. ▪ [ ] I can make sure my while loop has a way to stop (avoiding infinite loops). ▪ [ ] I can correctly indent the code block belonging to a while loop.
+content: "Lesson 5.2: The while Loop in Action • Student Materials: ◦ Outline: ▪
+  Introduction to while loops: repeating code as long as a condition is true. ▪
+  Distinction from for loops (definite vs. indefinite iteration). ▪ Defining the
+  loop condition (a Boolean expression). ▪ Ensuring the condition eventually
+  becomes false to avoid infinite loops. ▪ Incrementing/decrementing a counter
+  within the loop to control repetitions. ▪ Understanding the indentation of the
+  code block under while. ◦ Skills Checklist: ▪ [ ] I can explain the difference
+  between a for loop and a while loop. ▪ [ ] I can write a basic while loop. ▪ [
+  ] I can define the condition that controls a while loop. ▪ [ ] I can make sure
+  my while loop has a way to stop (avoiding infinite loops). ▪ [ ] I can
+  correctly indent the code block belonging to a while loop."

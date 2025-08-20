@@ -51,7 +51,6 @@ content: |-
   1. **Activity 5.5.1: Spot the Infinite Loop**
     - Create `loop_debug.py`.
     - Examine code snippets and identify/fix infinite loops.
-
 showEditor: true
 editors:
   - course1/unit6/lesson5/lessonpart2/Lesson5_5.py

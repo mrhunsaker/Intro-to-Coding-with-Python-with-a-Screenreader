@@ -1,7 +1,0 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lessonpart1
-title: Reading
-content: |
-  &#x20;   ◦ Applies concepts from Unit 7 (Classes)
-
-  and Unit 6 (Functions)

@@ -1,17 +1,53 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Lesson
-content: |
+content: >
   ## Python as an Advanced Scientific Calculator
-  
-  Python's built-in capabilities, combined with the math module, make it an excellent tool for complex scientific calculations.
-  
+
+
+  Python's built-in capabilities, combined with the math module, make it an
+  excellent tool for complex scientific calculations.
+
+
   ## Basic Operations Revisited
-  
-  You're already familiar with basic arithmetic: +, -, *, /. • Addition: 5 + 3 (Result: 8) • Subtraction: 10 - 4 (Result: 6) • Multiplication: 7 * 6 (Result: 42) • Division: 15 / 4 (Result: 3.75) A.1.2 Exponents
-  
-  Use the double asterisk ** for exponentiation. • 2 ** 3 (2 to the power of 3, Result: 8) • 9 ** 0.5 (Square root of 9, Result: 3.0) A.1.3 Integer Division and Modulo • Integer Division (//): Divides and returns the integer part of the quotient. ◦ 10 // 3 (Result: 3) - How many times does 3 fit into 10 evenly? • Modulo (%): Returns the remainder of a division. ◦ 10 % 3 (Result: 1) - When 10 is divided by 3, what's left over? ◦ Application: Useful for checking if a number is even (number % 2 == 0) or for tasks like converting total minutes into hours and remaining minutes. A.1.4 Using the math Module
-  
-  The math module provides access to mathematical functions and constants. Remember to import math at the beginning of your script. • Constants: ◦ math.pi: The mathematical constant Pi (\\pi), approximately 3.14159. ◦ math.e: The mathematical constant e, approximately 2.71828. • Basic Functions: ◦ math.sqrt(x): Square root of x. ▪ Example: math.sqrt(25) (Result: 5.0) ◦ math.pow(x, y): x raised to the power y (similar to x ** y, but always returns a float). ▪ Example: math.pow(2, 4) (Result: 16.0) ◦ math.log(x, base): Logarithm of x with a specified base. If base is omitted, it's the natural logarithm (base e). ▪ Example: math.log(100, 10) (Log base 10 of 100, Result: 2.0) ▪ Example: math.log(math.e) (Natural log of e, Result: 1.0) ◦ math.exp(x): e raised to the power of x. ▪ Example: math.exp(1) (Result: 2.71828...) • Trigonometric Functions (angles in radians): ◦ math.sin(x), math.cos(x), math.tan(x): Sine, Cosine, Tangent. ◦ math.radians(degrees): Converts degrees to radians. ◦ math.degrees(radians): Converts radians to degrees. ◦ Example: math.sin(math.radians(90)) (Sine of 90 degrees, Result: 1.0) • Ceiling and Floor: ◦ math.ceil(x): Smallest integer greater than or equal to x (rounds up). ▪ Example: math.ceil(4.2) (Result: 5) ◦ math.floor(x): Largest integer less than or equal to x (rounds down). ▪ Example: math.floor(4.8) (Result: 4) A.1.5 Using round()
-  
-  The built-in round() function rounds a number to a specified number of decimal places. • round(3.14159, 2) (Result: 3.14) • round(7.8) (Result: 8) • round(7.2) (Result: 7)
+
+
+  You're already familiar with basic arithmetic: +, -, *, /. • Addition: 5 + 3
+  (Result: 8) • Subtraction: 10 - 4 (Result: 6) • Multiplication: 7 * 6 (Result:
+  42) • Division: 15 / 4 (Result: 3.75) A.1.2 Exponents
+
+
+  Use the double asterisk ** for exponentiation. • 2 ** 3 (2 to the power of 3,
+  Result: 8) • 9 ** 0.5 (Square root of 9, Result: 3.0) A.1.3 Integer Division
+  and Modulo • Integer Division (//): Divides and returns the integer part of
+  the quotient. ◦ 10 // 3 (Result: 3) - How many times does 3 fit into 10
+  evenly? • Modulo (%): Returns the remainder of a division. ◦ 10 % 3 (Result:
+  1) - When 10 is divided by 3, what's left over? ◦ Application: Useful for
+  checking if a number is even (number % 2 == 0) or for tasks like converting
+  total minutes into hours and remaining minutes. A.1.4 Using the math Module
+
+
+  The math module provides access to mathematical functions and constants.
+  Remember to import math at the beginning of your script. • Constants: ◦
+  math.pi: The mathematical constant Pi (\\pi), approximately 3.14159. ◦ math.e:
+  The mathematical constant e, approximately 2.71828. • Basic Functions: ◦
+  math.sqrt(x): Square root of x. ▪ Example: math.sqrt(25) (Result: 5.0) ◦
+  math.pow(x, y): x raised to the power y (similar to x ** y, but always returns
+  a float). ▪ Example: math.pow(2, 4) (Result: 16.0) ◦ math.log(x, base):
+  Logarithm of x with a specified base. If base is omitted, it's the natural
+  logarithm (base e). ▪ Example: math.log(100, 10) (Log base 10 of 100, Result:
+  2.0) ▪ Example: math.log(math.e) (Natural log of e, Result: 1.0) ◦
+  math.exp(x): e raised to the power of x. ▪ Example: math.exp(1) (Result:
+  2.71828...) • Trigonometric Functions (angles in radians): ◦ math.sin(x),
+  math.cos(x), math.tan(x): Sine, Cosine, Tangent. ◦ math.radians(degrees):
+  Converts degrees to radians. ◦ math.degrees(radians): Converts radians to
+  degrees. ◦ Example: math.sin(math.radians(90)) (Sine of 90 degrees, Result:
+  1.0) • Ceiling and Floor: ◦ math.ceil(x): Smallest integer greater than or
+  equal to x (rounds up). ▪ Example: math.ceil(4.2) (Result: 5) ◦ math.floor(x):
+  Largest integer less than or equal to x (rounds down). ▪ Example:
+  math.floor(4.8) (Result: 4) A.1.5 Using round()
+
+
+  The built-in round() function rounds a number to a specified number of decimal
+  places. • round(3.14159, 2) (Result: 3.14) • round(7.8) (Result: 8) •
+  round(7.2) (Result: 7)

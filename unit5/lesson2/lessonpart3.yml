@@ -1,5 +1,13 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 4.2: Organizing Lists • Student Materials: ◦ Outline: ▪ Sorting a list permanently: .sort() method. • Default alphabetical/numerical ascending order. • Sorting in reverse order: .sort(reverse=True). ▪ Sorting a list temporarily: sorted() function. • Returns a new sorted list, leaves original unchanged. ▪ Reversing the order of a list: .reverse(). ▪ Finding the length of a list: len(). ◦ Skills Checklist: ▪ [ ] I can sort a list permanently in ascending order using .sort(). ▪ [ ] I can sort a list permanently in descending order. ▪ [ ] I can get a temporarily sorted version of a list using sorted(). ▪ [ ] I can reverse the current order of a list using .reverse(). ▪ [ ] I can find out how many items are in a list using len().
+content: "Lesson 4.2: Organizing Lists • Student Materials: ◦ Outline: ▪ Sorting
+  a list permanently: .sort() method. • Default alphabetical/numerical ascending
+  order. • Sorting in reverse order: .sort(reverse=True). ▪ Sorting a list
+  temporarily: sorted() function. • Returns a new sorted list, leaves original
+  unchanged. ▪ Reversing the order of a list: .reverse(). ▪ Finding the length
+  of a list: len(). ◦ Skills Checklist: ▪ [ ] I can sort a list permanently in
+  ascending order using .sort(). ▪ [ ] I can sort a list permanently in
+  descending order. ▪ [ ] I can get a temporarily sorted version of a list using
+  sorted(). ▪ [ ] I can reverse the current order of a list using .reverse(). ▪
+  [ ] I can find out how many items are in a list using len()."

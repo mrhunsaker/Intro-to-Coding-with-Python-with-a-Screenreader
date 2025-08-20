@@ -1,5 +1,14 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |-
-  Lesson 10.4: Developing a Command-Line Tool • Student Materials: ◦ Outline: ▪ Choosing a simple, useful utility to build (e.g., a simple to-do list manager, a contact book). ▪ Designing the main menu and options for the tool. ▪ Using loops to keep the tool running until the user quits. ▪ Implementing functions for each major operation (add, view, edit, delete). ▪ Saving and loading data to/from a file (JSON or plain text) for persistence. ◦ Skills Checklist: ▪ [ ] I can choose and define the scope of a simple command-line utility. ▪ [ ] I can design an interactive menu system for a tool. ▪ [ ] I can use a while loop to maintain continuous user interaction. ▪ [ ] I can break down the tool's functionality into separate functions. ▪ [ ] I can implement file I/O to save and load data for my tool.
+content: "Lesson 10.4: Developing a Command-Line Tool • Student Materials: ◦
+  Outline: ▪ Choosing a simple, useful utility to build (e.g., a simple to-do
+  list manager, a contact book). ▪ Designing the main menu and options for the
+  tool. ▪ Using loops to keep the tool running until the user quits. ▪
+  Implementing functions for each major operation (add, view, edit, delete). ▪
+  Saving and loading data to/from a file (JSON or plain text) for persistence. ◦
+  Skills Checklist: ▪ [ ] I can choose and define the scope of a simple
+  command-line utility. ▪ [ ] I can design an interactive menu system for a
+  tool. ▪ [ ] I can use a while loop to maintain continuous user interaction. ▪
+  [ ] I can break down the tool's functionality into separate functions. ▪ [ ] I
+  can implement file I/O to save and load data for my tool."
