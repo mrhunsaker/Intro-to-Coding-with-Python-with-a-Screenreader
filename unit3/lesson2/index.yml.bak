@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson2
+title: "Lesson 2.2: Elements of Programs: Expressions and Assignment"
+description: Covers calculations and storing results, including common NameError
+  and SyntaxError issues in assignments
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

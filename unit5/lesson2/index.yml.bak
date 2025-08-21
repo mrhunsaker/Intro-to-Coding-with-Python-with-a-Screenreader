@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson2
+title: "Lesson 4.2: Organizing Lists"
+description: >-
+  Explores permanent sorting (.sort()), temporary sorting (sorted()), reversing
+  order (.reverse()), and finding length (len())
+
+
+  Includes proofreading and documentation assignments
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson5
+title: "Lesson 7.5: Instances as Attributes"
+description: >-
+  Covers composition (using instances of one class as attributes in another) and
+  accessing attributes/methods of nested objects
+
+
+  Includes proofreading and documentation assignments
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

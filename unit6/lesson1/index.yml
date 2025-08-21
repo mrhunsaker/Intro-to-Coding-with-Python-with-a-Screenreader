@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson1
 title: "Lesson 5.1: How the input() Function Works"
-description: >-
+description: |
   Revisits input() focusing on type handling, leading to TypeError if not
   converted
-
-
+  
+  
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

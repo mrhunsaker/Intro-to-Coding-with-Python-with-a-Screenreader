@@ -1,0 +1,186 @@
+id: course1
+
+title: Introduction to Computer Science with Python for Visually Impaired Students
+
+level: beginner
+
+description: >-
+
+  This curriculum is designed to introduce a student with no vision to computer
+
+  science concepts using Python, leveraging accessible tools and resources. It
+
+  integrates the foundational concepts from Zelle's "Python Programming: An
+
+  Introduction to Computer Science" with the practical, hands-on approach and
+
+  text-based exercises from Eric Matthes' "Python Crash Course, 3rd Edition."
+
+  The key is to focus on text-based output, console interaction, and carefully
+
+  structured code that is easy for a screen reader to navigate.
+
+
+
+
+
+  Accessibility Considerations for the Student:
+
+
+
+
+      • VS Code and Screen Readers: The student will use VS Code with a screen reader (NVDA, JAWS, or VoiceOver). VS Code has excellent accessibility features, including optimized screen reader mode, accessible view (Shift+Alt+F2), and navigation shortcuts (F8/Shift+F8 for errors).
+
+
+
+
+      • Indentation: Python's reliance on indentation is crucial. The Python Indent and Indent Rainbow extensions in VS Code can provide visual cues, but for a screen reader user, consistent formatting and clear explanation of indentation rules are paramount. Encouraging the use of spaces (typically 4) over tabs for consistency is good practice.
+
+
+
+
+      • Code Structure and Comments: Emphasize clear, well-commented code. Docstrings ("""Docstring here""") are excellent for describing functions and classes, and line comments (# Comment) for explaining logic.
+
+
+
+
+      • Error Messages: Teach the student how to navigate and interpret Python error messages, as these are text-based and crucial for debugging.
+
+
+
+
+      • Terminal Interaction: All program execution and output will be through the integrated terminal in VS Code, which is screen reader-friendly.
+
+
+
+
+      • No turtle() Graphics: All graphical exercises from Zelle's curriculum will be replaced with text-based alternatives or concepts from Matthes that focus on data manipulation and console output.
+
+
+
+  Target Audience: Students with no prior programming experience, relying on
+
+  screen readers for all computer interactions.
+
+
+
+
+
+  Tools:
+
+
+
+
+      • Python 3 (latest stable version)
+
+
+
+
+      • VS Code (Visual Studio Code)
+
+
+
+
+      • A screen reader (NVDA, JAWS, or VoiceOver)
+
+
+
+
+      • Recommended VS Code Extensions:
+
+
+
+
+          ◦ Python (Official Microsoft extension)
+
+
+
+
+          ◦ Pylance (for IntelliSense, type checking)
+
+
+
+
+          ◦ Python Indent (for consistent indentation, though primary reliance is on good habits)
+
+
+
+
+          ◦ Better Comments (for highlighted comments - may or may not be useful depending on screen reader configuration)
+
+
+
+
+          ◦ Code Runner (for quick execution of Python files)
+
+
+
+  Resources:
+
+
+
+
+
+
+  Matthes, E. (2023). Python crash course: A hands-on, project-based
+
+  introduction to programming (3rd ed.). No Starch Press.
+
+
+
+
+
+
+  Zelle, J. M. (2017). Python programming: An introduction to computer science
+
+  (3rd ed.). Franklin, Beedle & Associates.
+
+prerequisites: Access to a Desktop or Laptop computer capable of accessing a
+
+  browser, run a screenreader (JAWS, NVDA, WIndows Narrator, Mac OS VocieOver),
+
+  and itnerest
+
+cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
+
+contacts:
+
+  - displayName: Michael Ryan Hunsaker, M.Ed., Ph.D.
+
+    affiliation: Davis School District
+
+    homePageUrl: https://github.com/mrhunsaker
+
+units:
+
+  - unit15/index.yml
+
+  - unit1/index.yml
+
+  - unit2/index.yml
+
+  - unit3/index.yml
+
+  - unit4/index.yml
+
+  - unit5/index.yml
+
+  - unit6/index.yml
+
+  - unit7/index.yml
+
+  - unit8/index.yml
+
+  - unit9/index.yml
+
+  - unit10/index.yml
+
+  - unit11/index.yml
+
+  - unit12/index.yml
+
+  - unit13/index.yml
+  
+  - unit14/index.yml
+
+  - unit16/index.yml

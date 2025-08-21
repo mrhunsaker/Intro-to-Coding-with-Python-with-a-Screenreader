@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit12
 title: "Unit 11: Capstone Project - Accessible Personal Data Manager"
-description: >-
+description: |
   Project Goal: Students will develop a fully functional,
   screen-reader-accessible graphical application that allows users to manage a
   collection of structured personal data (e.g., contacts, notes, simple

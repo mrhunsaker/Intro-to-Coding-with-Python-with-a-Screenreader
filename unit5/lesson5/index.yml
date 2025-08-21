@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson5
 title: "Lesson 4.5: Looping Through Dictionaries"
-description: >-
+description: |
   Covers iterating through keys, values, and key-value pairs using .keys(),
   .values(), and .items() methods
-
-
+  
+  
   Includes proofreading and documentation assignments, highlighting common
   AttributeError and TypeError
 lessonParts:

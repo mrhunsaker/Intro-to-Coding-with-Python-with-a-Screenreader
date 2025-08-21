@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson5
+title: "Lesson 10.5: Refinement and User Experience"
+description: >-
+  Emphasizes clear prompts, consistent output, graceful invalid input handling
+  with exceptions, helpful error messages, and adding "help" commands
+
+
+  Includes proofreading assignment for logical flaws and unhandled edge cases in
+  input validation
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

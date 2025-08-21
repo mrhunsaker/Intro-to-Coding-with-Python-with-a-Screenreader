@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson7
+title: Accessible Personal Data Manager Skeleton and Instructions
+description: |
+  Project overview: Accessible Personal Data Manager
+
+  The student will build a simple application to manage a list of structured
+  items. Example project types include:
+
+  - Contact Manager: name, phone, email, notes
+  - Book/Movie Tracker: title, author/director, genre, status (read/watched)
+  - Simple To-Do List: task description, due date, status (pending/complete)
+  - Simple Inventory: item name, quantity, location, notes
+
+  The core functionality will include:
+
+  1. Add new item: a form to input details for a new item.
+  2. View all items: display items in a clear, accessible list format.
+  3. Edit item: select an existing item and modify its details.
+  4. Delete item: remove an item from the collection.
+  5. Save/load data: persist the data to a JSON file.
+lessonParts:
+  - lessonpart1.yml

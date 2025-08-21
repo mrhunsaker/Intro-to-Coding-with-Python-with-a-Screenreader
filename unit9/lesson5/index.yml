@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson5
 title: "Lesson 8.5: Storing Data with JSON"
-description: >-
+description: |
   Introduces JSON as a data exchange format, its relationship to Python
   dictionaries and lists, and using the json module (json.dump(), json.load())
   for saving and loading data
-
-
+  
+  
   Focuses on json.JSONDecodeError and best practices for writing JSON to files
 lessonParts:
   - lessonpart1.yml

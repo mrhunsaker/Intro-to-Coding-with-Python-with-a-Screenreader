@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: unit11
+title: "Unit 10: Project-Based Learning: Building Text-Based Applications"
+description: This unit culminates the curriculum by guiding students through the
+  process of designing and building larger, interactive text-based applications,
+  integrating all previously learned concepts.
+objectives: |-
+  - Integrate learned concepts to build a larger application.
+  - Practice modular programming and code organization.
+  - Develop a text-based interactive program.
+lessons:
+  - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml

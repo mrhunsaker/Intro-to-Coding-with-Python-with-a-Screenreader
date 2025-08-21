@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson5
 title: "Lesson 6.5: Arbitrary Number of Arguments"
-description: >-
+description: |
   Covers using *args and **kwargs for functions accepting an arbitrary number of
   arguments, and common syntax/type errors
-
-
+  
+  
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

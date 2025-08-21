@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson1
+title: "Lesson 11.1: Introduction to NiceGUI and Project Overview"
+description: This unit involves building a GUI application using NiceGUI.
+  NiceGUI is an external library and is not covered in the provided Zelle or
+  Matthes textbooks. The lessons in this unit apply Python programming concepts
+  learned in previous units within the context of this new framework. The focus
+  is on making the data accessible and interpretable for screen reader users,
+  drawing on the principles outlined in the curriculum's supplementary materials
+  for data visualization accessibility
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

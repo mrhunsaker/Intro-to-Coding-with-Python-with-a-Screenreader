@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson2
+title: 'Lesson 1.2: Your First Python Program: "Hello World!"'
+description: >-
+  Focuses on the print() function, writing and saving a basic "Hello World!"
+  program, and executing it
+
+
+  Includes a proofreading assignment for common typos
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

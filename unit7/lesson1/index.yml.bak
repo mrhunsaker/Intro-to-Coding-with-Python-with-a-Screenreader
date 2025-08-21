@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson1
+title: "Lesson 6.1: Defining Functions"
+description: >-
+  Introduces code reusability, function definition syntax (def), parameters, and
+  the importance of indentation for the function body
+
+
+  Includes proofreading and documentation assignments
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

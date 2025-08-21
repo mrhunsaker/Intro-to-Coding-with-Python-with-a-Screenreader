@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson2
 title: "Lesson 7.2: Creating and Using a Class"
-description: >-
+description: |
   Covers defining a class, using __init__ for initialization, and
   creating/accessing attributes (self.attribute) and methods
-
-
+  
+  
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

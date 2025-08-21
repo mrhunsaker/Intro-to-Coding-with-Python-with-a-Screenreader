@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson3
+title: "Lesson 5.3: Using Flags and break to Exit Loops"
+description: >-
+  Teaches controlling loops with flags and the break statement, addressing
+  syntax and logical errors in their placement
+
+
+  Includes proofreading and documentation assignments
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

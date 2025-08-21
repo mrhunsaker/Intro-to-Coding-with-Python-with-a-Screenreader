@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson1
+title: "Lesson 10.1: Designing Your Project"
+description: >-
+  Emphasizes project planning, breaking down problems into sub-problems,
+  defining features, planning data structures, and accessible I/O design
+
+
+  No code proofreading assignment for this lesson
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

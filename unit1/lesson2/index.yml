@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson2
 title: "Lesson 0.2: Configuring Your Screen Reader for VS Code"
-description: >-
+description: |
   Introduces VS Code's "Screen Reader Optimized Mode" and "Accessible View"
-
-
+  
+  
   Emphasizes keyboard-first navigation and the importance of the Status Bar
-
-
+  
+  
   Provides specific instructions for configuring indentation announcement (e.g.,
   "Say all" or "Beeps") in NVDA, JAWS, and VoiceOver, which is critical for
   Python's reliance on indentation

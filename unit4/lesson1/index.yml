@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson1
 title: "Lesson 3.1: Boolean Expressions and if Statements"
-description: |-
+description: |
   Covers if statements, indentation in conditionals, and comparison operators
-
+  
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

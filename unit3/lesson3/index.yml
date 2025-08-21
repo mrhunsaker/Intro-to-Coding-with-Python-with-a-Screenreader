@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson3
 title: "Lesson 2.3: Input and Output Revisited"
-description: >-
+description: |
   Teaches using the input() function, understanding that it returns a string,
   prompting users, and formatting output with f-strings
-
-
+  
+  
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

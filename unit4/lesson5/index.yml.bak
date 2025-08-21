@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson5
+title: "Lesson 3.5: Basic String Operations"
+description: >-
+  Covers string concatenation, len(), and common string methods (.upper(),
+  .lower(), .strip(), .replace())
+
+
+  Emphasizes that string methods return new strings. 
+
+
+  Includes proofreading and documentation assignments
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

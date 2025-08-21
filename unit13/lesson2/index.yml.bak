@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lesson2
+title: "Git and Version Control:"
+description: This lesson explains the importance of version control (like Git)
+  for tracking changes, reverting to previous states, experimenting without
+  fear, and identifying the source of errors (e.g., from AI or careless pasting)
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
