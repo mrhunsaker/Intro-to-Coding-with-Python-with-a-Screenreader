@@ -4,8 +4,8 @@ title: "Lesson 2.4: Computing with Numbers and Type Conversions"
 description: |
   Reviews integer and float types, type conversion (int(), float(), str()), and
   the importance of conversions for calculations
-  
-  
+
+
   Covers order of operations and includes proofreading and documentation
   assignments
 lessonParts:

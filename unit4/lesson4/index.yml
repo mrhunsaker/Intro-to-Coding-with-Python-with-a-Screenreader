@@ -4,8 +4,8 @@ title: "Lesson 3.4: Iterating with for Loops"
 description: |
   Focuses on using for loops for iteration, addressing indentation, missing
   colons, and range() usage
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

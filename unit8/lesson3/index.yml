@@ -4,8 +4,8 @@ title: "Lesson 7.3: Working with Attributes and Methods"
 description: |
   Focuses on common errors like forgetting the self parameter in methods or
   confusing local variables with instance attributes
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

@@ -5,8 +5,8 @@ description: |
   Introduces JSON as a data exchange format, its relationship to Python
   dictionaries and lists, and using the json module (json.dump(), json.load())
   for saving and loading data
-  
-  
+
+
   Focuses on json.JSONDecodeError and best practices for writing JSON to files
 lessonParts:
   - lessonpart1.yml

@@ -1,26 +1,4 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
-<<<<<<< HEAD
-  &#x20;   
-	- Zelle: Chapter 4, pages 65-67
-  
-=======
-  &#x20;   ◦ Zelle: Chapter 4, pages 65-67
-
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
-  (for "The Object of Objects"); Chapter 10, pages 247-248
-
-  (for "Quick Review of Objects").
-<<<<<<< HEAD
-  
-  &#x20;   
-	- Matthes: Chapter 9, page 157
-  
-=======
-
-  &#x20;   ◦ Matthes: Chapter 9, page 157
-
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
-  (introducing "Classes").Enter your content here
+content: ""

@@ -1,22 +1,4 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
-<<<<<<< HEAD
-  &#x20;   
-	- Zelle: Chapter 6, pages 137-142
-  
-  (on "The Function of Functions" and "Functions, Informally").
-  
-  &#x20;   
-	- Matthes: Chapter 8, pages 129-130
-  
-=======
-  &#x20;   ◦ Zelle: Chapter 6, pages 137-142
-
-  (on "The Function of Functions" and "Functions, Informally").
-
-  &#x20;   ◦ Matthes: Chapter 8, pages 129-130
-
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
-  (on "Defining a Function").Enter your content here
+content: ""

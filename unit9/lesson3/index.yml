@@ -5,8 +5,8 @@ description: |
   Introduces try-except blocks for handling errors like ZeroDivisionError,
   FileNotFoundError, and ValueError, emphasizing catching the correct exception
   types
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

@@ -1,8 +1,0 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: unit15
-title: Independent Practice and Assessment
-lessons:
-  - lesson1/index.yml
-  - lesson2/index.yml
-  - lesson3/index.yml
-  - lesson4/index.yml

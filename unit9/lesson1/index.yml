@@ -5,8 +5,8 @@ description: |
   Introduces persistent storage, opening files for reading ("r" mode), using
   with open(), and methods like .read(), .readline(), .readlines(), and
   iterating over file objects
-  
-  
+
+
   Focuses on FileNotFoundError and AttributeError
 lessonParts:
   - lessonpart1.yml

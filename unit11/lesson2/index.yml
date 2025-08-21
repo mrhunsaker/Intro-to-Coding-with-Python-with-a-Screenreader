@@ -4,8 +4,8 @@ title: "Lesson 10.2: Building a Text-Based Adventure Game (Part 1)"
 description: |
   Focuses on representing game "rooms" (descriptions, exits), player movement,
   managing current location, and basic command parsing
-  
-  
+
+
   Includes proofreading assignment for dictionary access and conditional errors
 lessonParts:
   - lessonpart1.yml

@@ -4,8 +4,8 @@ title: "Lesson 5.3: Using Flags and break to Exit Loops"
 description: |
   Teaches controlling loops with flags and the break statement, addressing
   syntax and logical errors in their placement
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

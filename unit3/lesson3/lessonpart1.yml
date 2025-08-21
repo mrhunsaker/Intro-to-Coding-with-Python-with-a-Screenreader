@@ -1,22 +1,4 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
-<<<<<<< HEAD
-  &#x20;   
-	- Zelle: Chapter 2, pages 27-33
-  
-  (detailing "Output Statements" and "Input Statement").
-  
-  &#x20;   
-	- Matthes: Chapter 7, pages 114-116
-  
-=======
-  &#x20;   ◦ Zelle: Chapter 2, pages 27-33
-
-  (detailing "Output Statements" and "Input Statement").
-
-  &#x20;   ◦ Matthes: Chapter 7, pages 114-116
-
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
-  (explaining the input() function).Enter your content here
+content: ""

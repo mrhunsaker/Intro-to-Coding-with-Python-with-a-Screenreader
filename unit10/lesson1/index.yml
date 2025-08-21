@@ -4,8 +4,8 @@ title: "Lesson 9.1: Testing a Function"
 description: |
   Introduces unit testing with the unittest module, writing tests for functions,
   and correcting incorrect assertions
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

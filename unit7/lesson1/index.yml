@@ -4,8 +4,8 @@ title: "Lesson 6.1: Defining Functions"
 description: |
   Introduces code reusability, function definition syntax (def), parameters, and
   the importance of indentation for the function body
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

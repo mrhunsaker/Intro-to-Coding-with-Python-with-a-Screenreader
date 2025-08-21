@@ -1,19 +1,3 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-<<<<<<< HEAD
-content: |
-  &#x20;   
-	- Matthes: Chapter 8, pages 146-149
-  
-  
-  (on "Passing an Arbitrary Number of Arguments" and "Using Arbitrary Keyword Arguments").
-=======
-content: >
-  &#x20;   ◦ Matthes: Chapter 8, pages 146-149
-
-
-
-  (on "Passing an Arbitrary Number of Arguments" and "Using Arbitrary Keyword
-  Arguments").
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

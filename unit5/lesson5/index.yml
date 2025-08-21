@@ -4,8 +4,8 @@ title: "Lesson 4.5: Looping Through Dictionaries"
 description: |
   Covers iterating through keys, values, and key-value pairs using .keys(),
   .values(), and .items() methods
-  
-  
+
+
   Includes proofreading and documentation assignments, highlighting common
   AttributeError and TypeError
 lessonParts:

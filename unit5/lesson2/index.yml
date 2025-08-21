@@ -4,8 +4,8 @@ title: "Lesson 4.2: Organizing Lists"
 description: |
   Explores permanent sorting (.sort()), temporary sorting (sorted()), reversing
   order (.reverse()), and finding length (len())
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

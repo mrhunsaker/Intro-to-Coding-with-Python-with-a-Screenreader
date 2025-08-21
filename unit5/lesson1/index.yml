@@ -4,8 +4,8 @@ title: "Lesson 4.1: More on Lists"
 description: |
   Details adding elements (.append(), .insert()) and removing elements (del,
   .pop(), .remove()) from lists
-  
-  
+
+
   Includes proofreading and documentation assignments, focusing on
   AttributeError, IndexError, and ValueError
 lessonParts:

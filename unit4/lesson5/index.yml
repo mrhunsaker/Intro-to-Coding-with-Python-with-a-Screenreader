@@ -4,11 +4,11 @@ title: "Lesson 3.5: Basic String Operations"
 description: |
   Covers string concatenation, len(), and common string methods (.upper(),
   .lower(), .strip(), .replace())
-  
-  
+
+
   Emphasizes that string methods return new strings. 
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

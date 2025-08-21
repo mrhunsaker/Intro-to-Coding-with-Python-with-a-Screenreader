@@ -5,8 +5,8 @@ description: |
   Focuses on generating random numbers using the random module
   (random.randint(), random.random(), random.choice()) and common
   AttributeError, TypeError, and ValueError issues
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

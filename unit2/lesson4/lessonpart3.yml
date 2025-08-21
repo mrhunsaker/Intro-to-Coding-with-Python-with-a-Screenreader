@@ -1,44 +1,63 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   #file:lessonpart3.yml
-  
+
+
   # Lesson 1.3: Variables and Simple Data Types
-  
+
+
   * Student Materials:
-  
+
+
   * Outline:
-  
+
+
   * The concept of a variable as a container for storing information.
-  
+
+
   * Rules for naming variables (e.g., no spaces, can't start with a number).
-  
+
+
   * Introduction to string data type (text, enclosed in quotes).
-  
+
+
   * Introduction to integer data type (whole numbers).
-  
+
+
   * Introduction to float data type (numbers with decimal points).
-  
+
+
   * Assigning values to variables using the = operator.
-  
+
+
   * Using print() to display variable values.
-  
+
+
   * Performing simple arithmetic operations (+, -, \*, /) with numbers.
-  
+
+
   * Skills Checklist:
-  
+
+
   * [ ] I can define what a variable is in programming.
-  
+
+
   * [ ] I can create a valid variable name in Python.
-  
+
+
   * [ ] I can assign a string value to a variable.
-  
+
+
   * [ ] I can assign an integer value to a variable.
-  
+
+
   * [ ] I can assign a float value to a variable.
-  
+
+
   * [ ] I can use print() to display the value of a variable.
-  
-  * [ ] I can perform basic addition, subtraction, multiplication, and division with numbers in Python.
-  
+
+
+  * [ ] I can perform basic addition, subtraction, multiplication, and division
+  with numbers in Python.

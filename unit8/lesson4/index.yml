@@ -4,8 +4,8 @@ title: "Lesson 7.4: Inheritance"
 description: |
   Explores implementing inheritance and common mistakes with super() and
   attribute access
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

@@ -4,8 +4,8 @@ title: "Lesson 5.2: The while Loop in Action"
 description: |
   Introduces the while loop, focusing on conditions, increments, and avoiding
   infinite loops
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

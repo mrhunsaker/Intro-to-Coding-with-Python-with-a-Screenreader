@@ -1,9 +1,0 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson1
-title: "AI-Powered Coding Tools and the Human Touch:"
-description: This lesson highlights leveraging AI tools like Microsoft CoPilot
-  for efficiency, but critically emphasizes the human responsibility for
-  proofreading and testing AI-generated code
-lessonParts:
-  - lessonpart1.yml
-  - lessonpart2.yml

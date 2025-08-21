@@ -505,3 +505,6 @@ content: >
   This capstone provides a challenging yet structured opportunity for students
   to apply their full range of Python skills in a real-world, accessible
   application context.
+showEditor: true
+editors:
+  - course1/unit12/lesson7/lessonpart1/app_skeleton.py

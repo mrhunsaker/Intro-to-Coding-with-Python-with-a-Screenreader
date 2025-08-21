@@ -5,8 +5,8 @@ description: |
   Focuses on building a utility (e.g., to-do list, contact book), designing
   interactive menus, using loops for continuous interaction, and saving/loading
   data with files (JSON or plain text)
-  
-  
+
+
   Includes proofreading assignment for JSON handling and file modes
 lessonParts:
   - lessonpart1.yml

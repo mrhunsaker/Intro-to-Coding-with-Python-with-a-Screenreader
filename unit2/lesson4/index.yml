@@ -4,8 +4,8 @@ title: "Lesson 1.3: Variables and Simple Data Types"
 description: |
   Introduces strings and numbers, using variables to store data, and basic
   arithmetic operations
-  
-  
+
+
   Includes a proofreading assignment for type and name errors
 lessonParts:
   - lessonpart1.yml

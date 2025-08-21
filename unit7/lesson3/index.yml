@@ -4,8 +4,8 @@ title: "Lesson 6.3: Return Values"
 description: |
   Focuses on getting values back from functions using return, and common logical
   errors when print() is used instead of return
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

@@ -1,35 +1,3 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-<<<<<<< HEAD
-content: |
-  #file:lessonpart3.yml
-  
-  - Lesson 6.1: Defining Functions 
-- Student Materials: 
-	- Outline: 
-		-  The concept of code reusability and organization. 
-		-  Syntax for defining a function using def keyword. 
-		-  Function naming conventions. 
-		-  Understanding parameters (placeholders for inputs) in the function definition. 
-		-  The importance of indentation for the function body. 
-		-  Calling (executing) a function by its name followed by parentheses. 
-	- Skills Checklist: 
-		-  [ ] I can explain why functions are useful for organizing code. 
-		-  [ ] I can define a simple function in Python. 
-		-  [ ] I can use parameters to specify what inputs a function expects. 
-		-  [ ] I can correctly indent the code block within a function. 
-		-  [ ] I can call (execute) a function by its name.
-  
-=======
-content: "Lesson 6.1: Defining Functions • Student Materials: ◦ Outline: ▪ The
-  concept of code reusability and organization. ▪ Syntax for defining a function
-  using def keyword. ▪ Function naming conventions. ▪ Understanding parameters
-  (placeholders for inputs) in the function definition. ▪ The importance of
-  indentation for the function body. ▪ Calling (executing) a function by its
-  name followed by parentheses. ◦ Skills Checklist: ▪ [ ] I can explain why
-  functions are useful for organizing code. ▪ [ ] I can define a simple function
-  in Python. ▪ [ ] I can use parameters to specify what inputs a function
-  expects. ▪ [ ] I can correctly indent the code block within a function. ▪ [ ]
-  I can call (execute) a function by its name."
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

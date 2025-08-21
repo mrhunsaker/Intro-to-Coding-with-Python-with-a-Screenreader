@@ -1,9 +1,0 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: unit2
-title: "Unit 1: Foundations of Computing and Getting Started with Python"
-objectives: Understanding basic computer science concepts, setting up the Python
-  environment, and writing/executing simple Python programs
-lessons:
-  - lesson1/index.yml
-  - lesson2/index.yml
-  - lesson4/index.yml

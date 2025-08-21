@@ -4,8 +4,8 @@ title: "Lesson 6.4: Functions with Lists and Dictionaries"
 description: |
   Addresses passing mutable data types (lists/dictionaries) to functions,
   unexpected modifications, and creating explicit copies
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

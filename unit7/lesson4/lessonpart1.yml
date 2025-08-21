@@ -1,22 +1,4 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
-<<<<<<< HEAD
-  &#x20;   
-	- Zelle: Chapter 6, pages 151-154
-  
-  (on "Functions that Modify Parameters").
-  
-  &#x20;   
-	- Matthes: Chapter 8, pages 142-146
-  
-=======
-  &#x20;   ◦ Zelle: Chapter 6, pages 151-154
-
-  (on "Functions that Modify Parameters").
-
-  &#x20;   ◦ Matthes: Chapter 8, pages 142-146
-
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
-  (on "Passing a List" and "Modifying a List in a Function").
+content: ""

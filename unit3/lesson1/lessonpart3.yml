@@ -1,36 +1,3 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-<<<<<<< HEAD
-content: |
-  #file:lessonpart3.yml
-  
-  - Lesson 2.1: The Software Development Process 
-- Student Materials: 
-	- Outline: 
-		-  Introduction to the structured approach of building software. 
-		-  Phases of software development: 
-- Problem Solving/Analysis: Understanding what needs to be done. 
-- Design: Planning how to solve the problem (e.g., what steps, what data). 
-- Implementation/Coding: Writing the actual Python code. 
-- Testing: Checking if the code works as expected and finding bugs. 
-- Maintenance: Updating and improving the code over time. 
-		-  Emphasis on iterative development (doing small cycles of these steps). 
-	- Skills Checklist: 
-		-  [ ] I can describe the purpose of the software development process. 
-		-  [ ] I can list and briefly explain the main phases of software development. 
-		-  [ ] I understand that problem-solving and design happen before writing code.
-  
-=======
-content: "Lesson 2.1: The Software Development Process • Student Materials: ◦
-  Outline: ▪ Introduction to the structured approach of building software. ▪
-  Phases of software development: • Problem Solving/Analysis: Understanding what
-  needs to be done. • Design: Planning how to solve the problem (e.g., what
-  steps, what data). • Implementation/Coding: Writing the actual Python code. •
-  Testing: Checking if the code works as expected and finding bugs. •
-  Maintenance: Updating and improving the code over time. ▪ Emphasis on
-  iterative development (doing small cycles of these steps). ◦ Skills Checklist:
-  ▪ [ ] I can describe the purpose of the software development process. ▪ [ ] I
-  can list and briefly explain the main phases of software development. ▪ [ ] I
-  understand that problem-solving and design happen before writing code."
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

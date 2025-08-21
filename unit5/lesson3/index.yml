@@ -4,8 +4,8 @@ title: "Lesson 4.3: Tuples: Immutable Lists"
 description: |
   Explains tuples as immutable lists and their properties, including common
   TypeError when attempting modification
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

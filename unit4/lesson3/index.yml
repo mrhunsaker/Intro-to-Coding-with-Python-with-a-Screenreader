@@ -4,8 +4,8 @@ title: "Lesson 3.3: Introduction to Lists"
 description: |
   Defines lists as ordered collections, creating them, accessing items by index
   (including negative indices), and modifying items
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

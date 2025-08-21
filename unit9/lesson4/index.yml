@@ -4,8 +4,8 @@ title: "Lesson 8.4: The else Block and finally Block"
 description: |
   Explores the else and finally blocks within try-except structures, focusing on
   their correct placement and behavior, and potential NameError issues
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

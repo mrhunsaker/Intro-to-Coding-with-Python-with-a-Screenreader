@@ -4,8 +4,8 @@ title: "Lesson 9.2: Testing a Class"
 description: |
   Covers testing classes, using setUp() for test setup, and common errors like
   missing self in assertions
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

@@ -1,35 +1,3 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-<<<<<<< HEAD
-content: |
-  #file:lessonpart3.yml
-  
-  - Lesson 4.3: Tuples: Immutable Lists 
-- Student Materials: 
-	- Outline: 
-		-  Introduction to tuples: ordered collections similar to lists. 
-		-  Defining tuples using parentheses (). 
-		-  Key difference: tuples are immutable (cannot be changed after creation). 
-		-  When to use tuples (for data that shouldn't change, like coordinates or fixed settings). 
-		-  Accessing items in a tuple by index (same as lists). 
-		-  Iterating over tuples with for loops. 
-	- Skills Checklist: 
-		-  [ ] I can create a tuple in Python. 
-		-  [ ] I can explain the main difference between a list and a tuple (mutability). 
-		-  [ ] I can identify appropriate situations for using a tuple. 
-		-  [ ] I can access items in a tuple by their index. 
-		-  [ ] I can iterate over a tuple using a for loop.
-  
-=======
-content: "Lesson 4.3: Tuples: Immutable Lists • Student Materials: ◦ Outline: ▪
-  Introduction to tuples: ordered collections similar to lists. ▪ Defining
-  tuples using parentheses (). ▪ Key difference: tuples are immutable (cannot be
-  changed after creation). ▪ When to use tuples (for data that shouldn't change,
-  like coordinates or fixed settings). ▪ Accessing items in a tuple by index
-  (same as lists). ▪ Iterating over tuples with for loops. ◦ Skills Checklist: ▪
-  [ ] I can create a tuple in Python. ▪ [ ] I can explain the main difference
-  between a list and a tuple (mutability). ▪ [ ] I can identify appropriate
-  situations for using a tuple. ▪ [ ] I can access items in a tuple by their
-  index. ▪ [ ] I can iterate over a tuple using a for loop."
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073

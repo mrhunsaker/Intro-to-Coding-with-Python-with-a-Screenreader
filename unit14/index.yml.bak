@@ -1,5 +1,0 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: unit14
-title: Comprehensive Proofreading Evaluation
-lessons:
-  - lesson2/index.yml

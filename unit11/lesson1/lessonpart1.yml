@@ -1,22 +1,4 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
-<<<<<<< HEAD
-  &#x20;   
-	- Zelle: Chapter 9, pages 225-235
-  
-  (on "Top-Down Design" and "Summary of the Design Process").
-  
-  &#x20;   
-	- Matthes: Part II: Projects, pages 225-226
-  
-=======
-  &#x20;   ◦ Zelle: Chapter 9, pages 225-235
-
-  (on "Top-Down Design" and "Summary of the Design Process").
-
-  &#x20;   ◦ Matthes: Part II: Projects, pages 225-226
-
->>>>>>> 1103bfc957ccb4a13c6d2d1ca55f4d7ab7498073
-  (overview of project-based learning).
+content: ""

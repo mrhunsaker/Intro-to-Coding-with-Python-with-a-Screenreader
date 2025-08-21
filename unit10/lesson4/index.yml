@@ -5,8 +5,8 @@ description: |
   Covers basic text analysis goals (counting words, characters), reading text
   from files, splitting text (.split()), counting word occurrences using
   dictionaries, and basic string cleaning
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

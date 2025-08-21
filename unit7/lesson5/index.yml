@@ -4,8 +4,8 @@ title: "Lesson 6.5: Arbitrary Number of Arguments"
 description: |
   Covers using *args and **kwargs for functions accepting an arbitrary number of
   arguments, and common syntax/type errors
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

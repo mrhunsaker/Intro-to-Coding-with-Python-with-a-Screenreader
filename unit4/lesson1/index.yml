@@ -3,7 +3,7 @@ id: lesson1
 title: "Lesson 3.1: Boolean Expressions and if Statements"
 description: |
   Covers if statements, indentation in conditionals, and comparison operators
-  
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

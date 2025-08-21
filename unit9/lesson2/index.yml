@@ -5,8 +5,8 @@ description: |
   Covers opening files for writing ("w" mode) and appending ("a" mode,
   highlighting overwrite behavior), using .write(), and adding newline
   characters (\n)
-  
-  
+
+
   Focuses on UnsupportedOperation and logical errors related to modes
 lessonParts:
   - lessonpart1.yml

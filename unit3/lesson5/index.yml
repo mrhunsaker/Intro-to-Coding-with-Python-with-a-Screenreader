@@ -4,8 +4,8 @@ title: "Lesson 2.5: Using the Math Library"
 description: |
   Focuses on using the math module, including importing, function calls (e.g.,
   math.sqrt, math.pow), and common AttributeError and TypeError issues
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

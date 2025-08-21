@@ -4,8 +4,8 @@ title: "Lesson 5.5: Avoiding Infinite Loops"
 description: |
   Emphasizes identifying and fixing infinite loops caused by missing increments,
   incorrect conditions, or variable resets
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

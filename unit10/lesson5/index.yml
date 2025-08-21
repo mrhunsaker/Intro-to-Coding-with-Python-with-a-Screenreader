@@ -4,8 +4,8 @@ title: "Lesson 9.5: Working with CSV Data (Text-based)"
 description: |
   Introduces CSV files, reading them line by line, manually splitting lines by
   comma, and accessing specific columns
-  
-  
+
+
   Includes proofreading and documentation assignments, focusing on incorrect
   delimiters
 lessonParts:

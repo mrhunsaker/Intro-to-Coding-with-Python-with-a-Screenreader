@@ -1,25 +1,30 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: course1
-
 title: Introduction to Computer Science with Python for Visually Impaired Students
-
 level: beginner
-
-description: |
-
+description: >
+  
 
   This curriculum is designed to introduce a student with no vision to computer
 
+
   science concepts using Python, leveraging accessible tools and resources. It
+
 
   integrates the foundational concepts from Zelle's "Python Programming: An
 
+
   Introduction to Computer Science" with the practical, hands-on approach and
+
 
   text-based exercises from Eric Matthes' "Python Crash Course, 3rd Edition."
 
+
   The key is to focus on text-based output, console interaction, and carefully
 
+
   structured code that is easy for a screen reader to navigate.
+
 
 
 
@@ -61,7 +66,9 @@ description: |
 
   Target Audience: Students with no prior programming experience, relying on
 
+
   screen readers for all computer interactions.
+
 
 
 
@@ -123,7 +130,9 @@ description: |
 
 
 
+
   Matthes, E. (2023). Python crash course: A hands-on, project-based
+
 
   introduction to programming (3rd ed.). No Starch Press.
 
@@ -132,56 +141,489 @@ description: |
 
 
 
+
   Zelle, J. M. (2017). Python programming: An introduction to computer science
 
+
   (3rd ed.). Franklin, Beedle & Associates.
-
-prerequisites: Access to a Desktop or Laptop computer capable of accessing a
-
+prerequisites: |-
+  Access to a Desktop or Laptop computer capable of accessing a
   browser, run a screenreader (JAWS, NVDA, WIndows Narrator, Mac OS VocieOver),
-
   and itnerest
-
 cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
-
 contacts:
-
   - displayName: Michael Ryan Hunsaker, M.Ed., Ph.D.
-
     affiliation: Davis School District
-
     homePageUrl: https://github.com/mrhunsaker
+files:
+  - path: course1/unit12/lesson7/lessonpart1/app_skeleton.py
+    content: "import json\r
 
+      from pathlib import Path\r
+
+      \r
+
+      from nicegui import ui, app\r
+
+      \r
+
+      # --- Configuration ---\r
+
+      \r
+
+      DATA_FILE = Path(\"data.json\")\r
+
+      \r
+
+      # Define the structure of your data items.\r
+
+      \r
+
+      # For a Contact Manager:\r
+
+      \r
+
+      ITEM_ATTRIBUTES = [\"name\", \"phone\", \"email\", \"notes\"]\r
+
+      ITEM_TITLE_KEY = \"name\" # The attribute to use as a primary identifier
+      in lists/dropdowns\r
+
+      \r
+
+      # --- Data Model (Student will likely expand this into a class) ---\r
+
+      \r
+
+      # This list will hold all our item dictionaries/objects in memory\r
+
+      \r
+
+      all_items = []\r
+
+      \r
+
+      # --- Helper Functions (Student will implement/complete these) ---\r
+
+      \r
+
+      def load_data():\r
+
+      \"\"\"Loads items from the JSON file into all_items.\"\"\"\r
+
+      global all_items\r
+
+      if DATA_FILE.exists():\r
+
+      try:\r
+
+      with open(DATA_FILE, \"r\") as f:\r
+
+      loaded_data = json.load(f)\r
+
+      # Important: Ensure loaded data matches your expected structure\r
+
+      # For now, just assign. Student might add validation later.\r
+
+      all_items = loaded_data\r
+
+      ui.notify(\"Data loaded successfully!\", type='positive')\r
+
+      except json.JSONDecodeError:\r
+
+      ui.notify(\"Error: Could not decode data.json. Starting fresh.\",
+      type='negative')\r
+
+      all_items = []\r
+
+      except Exception as e:\r
+
+      ui.notify(f\"An unexpected error occurred loading data: {e}\",
+      type='negative')\r
+
+      all_items = []\r
+
+      else:\r
+
+      ui.notify(\"No data file found. Starting with empty data.\",
+      type='info')\r
+
+      all_items = []\r
+
+      update_item_display() # Refresh GUI after loading\r
+
+      \r
+
+      def save_data():\r
+
+      \"\"\"Saves the current all_items list to the JSON file.\"\"\"\r
+
+      try:\r
+
+      with open(DATA_FILE, \"w\") as f:\r
+
+      json.dump(all_items, f, indent=4)\r
+
+      ui.notify(\"Data saved successfully!\", type='positive')\r
+
+      except Exception as e:\r
+
+      ui.notify(f\"Error saving data: {e}\", type='negative')\r
+
+      \r
+
+      def add_item_logic(name_input, phone_input, email_input, notes_input):\r
+
+      \"\"\"Handles adding a new item based on form inputs.\"\"\"\r
+
+      # Student to implement:\r
+
+      # 1. Get values from name_input.value, etc.\r
+
+      # 2. Basic validation (e.g., name cannot be empty).\r
+
+      # 3. Create a new dictionary or object for the item.\r
+
+      #    Example: new_item = {\"name\": name_input.value, \"phone\":
+      phone_input.value, ...}\r
+
+      # 4. Add new_item to the 'all_items' list.\r
+
+      # 5. Call update_item_display() to refresh the list view.\r
+
+      # 6. Clear input fields: name_input.value = \"\", etc.\r
+
+      # 7. Provide feedback: ui.notify(\"Item added!\")\r
+
+      ui.notify(\"Add item functionality to be implemented by student.\",
+      type='warning')\r
+
+      print(\"Add item clicked. Values:\", name_input.value, phone_input.value)
+      # For console debugging\r
+
+      \r
+
+      def edit_selected_item_logic(selected_item_name, name_input, phone_input,
+      email_input, notes_input):\r
+
+      \"\"\"Handles loading selected item into form for editing.\"\"\"\r
+
+      # Student to implement:\r
+
+      # 1. Find the item in 'all_items' that matches 'selected_item_name'.\r
+
+      # 2. Populate name_input.value, phone_input.value, etc. with the item's
+      current data.\r
+
+      ui.notify(f\"Edit item '{selected_item_name}' functionality to be
+      implemented.\", type='warning')\r
+
+      \r
+
+      def update_item_logic(selected_item_name, name_input, phone_input,
+      email_input, notes_input):\r
+
+      \"\"\"Handles updating the selected item with new form data.\"\"\"\r
+
+      # Student to implement:\r
+
+      # 1. Find the item in 'all_items' that matches 'selected_item_name'.\r
+
+      # 2. Update its attributes with new values from name_input.value, etc.\r
+
+      # 3. Call update_item_display().\r
+
+      # 4. Provide feedback: ui.notify(\"Item updated!\")\r
+
+      ui.notify(f\"Update item '{selected_item_name}' functionality to be
+      implemented.\", type='warning')\r
+
+      \r
+
+      def delete_selected_item_logic(selected_item_name):\r
+
+      \"\"\"Handles deleting the selected item.\"\"\"\r
+
+      # Student to implement:\r
+
+      # 1. Find and remove the item from 'all_items' that matches
+      'selected_item_name'.\r
+
+      # 2. Call update_item_display().\r
+
+      # 3. Provide feedback: ui.notify(\"Item deleted!\")\r
+
+      ui.notify(f\"Delete item '{selected_item_name}' functionality to be
+      implemented.\", type='warning')\r
+
+      \r
+
+      # --- GUI Layout and Interaction (Student will primarily interact with
+      these callbacks) ---\r
+
+      \r
+
+      @ui.page('/')\r
+
+      def main_page():\r
+
+      # Variables to hold references to GUI elements for dynamic updates\r
+
+      global items_display_column, item_selection_dropdown,
+      current_selected_item_name\r
+
+      \r
+
+      current_selected_item_name = ui.label(\"No item selected for
+      edit/delete\") # Accessible feedback for selected item\r
+
+      \r
+
+      with ui.header().classes('items-center'):\r
+
+      \    ui.label('Accessible Personal Data Manager').classes('text-h4
+      q-mr-md')\r
+
+      \    ui.button('Load Data', on_click=load_data, aria_label=\"Load data
+      from file\")\r
+
+      \    ui.button('Save Data', on_click=save_data, aria_label=\"Save current
+      data to file\")\r
+
+      \r
+
+      with ui.tabs().props('vertical') as tabs:\r
+
+      \    add_tab = ui.tab('Add New Item', icon='add', aria_label=\"Tab for
+      adding new items\")\r
+
+      \    view_tab = ui.tab('View All Items', icon='list', aria_label=\"Tab for
+      viewing all items\")\r
+
+      \    manage_tab = ui.tab('Manage Items', icon='edit', aria_label=\"Tab for
+      editing and deleting items\")\r
+
+      \r
+
+      with ui.tab_panels(tabs, value=add_tab).classes('w-full'):\r
+
+      \    with ui.tab_panel(add_tab).classes('q-pa-md'):\r
+
+      \        ui.label('Add a New Item').classes('text-h5')\r
+
+      \        # Student to create appropriate input fields based on
+      ITEM_ATTRIBUTES\r
+
+      \        name_input = ui.input(label=\"Name (required)\",
+      placeholder=\"Enter item name\", aria_label=\"Enter the name for the new
+      item\").classes('w-full').props('required')\r
+
+      \        phone_input = ui.input(label=\"Phone\", placeholder=\"Enter phone
+      number\", aria_label=\"Enter the phone number for the new
+      item\").classes('w-full')\r
+
+      \        email_input = ui.input(label=\"Email\", placeholder=\"Enter email
+      address\", aria_label=\"Enter the email address for the new
+      item\").classes('w-full')\r
+
+      \        notes_input = ui.input(label=\"Notes\", placeholder=\"Any
+      additional notes\", aria_label=\"Enter any additional notes for the new
+      item\").classes('w-full')\r
+
+      \r
+
+      \        ui.button('Add Item',\r
+
+      \                  on_click=lambda: add_item_logic(name_input,
+      phone_input, email_input, notes_input),\r
+
+      \                  aria_label=\"Add the new item to your collection\")\r
+
+      \r
+
+      \    with ui.tab_panel(view_tab).classes('q-pa-md'):\r
+
+      \        ui.label('Your Current Items').classes('text-h5')\r
+
+      \        # This column will be dynamically updated to display items\r
+
+      \        items_display_column = ui.column().classes('w-full')\r
+
+      \        # The initial call to display items when the page loads\r
+
+      \        ui.on('page_ready', update_item_display) # Ensures items are
+      displayed after page is ready\r
+
+      \r
+
+      \    with ui.tab_panel(manage_tab).classes('q-pa-md'):\r
+
+      \        ui.label('Edit or Delete Items').classes('text-h5')\r
+
+      \        # Dropdown for selecting an item to manage\r
+
+      \        item_selection_dropdown = ui.select(\r
+
+      \            options=[], # Options will be populated by
+      update_item_display\r
+
+      \            label=\"Select Item to Manage\",\r
+
+      \            on_change=lambda e: (\r
+
+      \                current_selected_item_name.set_text(f\"Selected:
+      {e.value}\"),\r
+
+      \                edit_selected_item_logic(e.value, name_input,
+      phone_input, email_input, notes_input)\r
+
+      \            ),\r
+
+      \            aria_label=\"Select an item from the list to edit or
+      delete\"\r
+
+      \        ).classes('w-full')\r
+
+      \r
+
+      \        # Re-use the same input fields for editing\r
+
+      \        ui.separator()\r
+
+      \        ui.label('Edit Selected Item').classes('text-h6')\r
+
+      \        edit_name_input = ui.input(label=\"Name\", aria_label=\"Edit the
+      name of the selected item\").classes('w-full')\r
+
+      \        edit_phone_input = ui.input(label=\"Phone\", aria_label=\"Edit
+      the phone number of the selected item\").classes('w-full')\r
+
+      \        edit_email_input = ui.input(label=\"Email\", aria_label=\"Edit
+      the email address of the selected item\").classes('w-full')\r
+
+      \        edit_notes_input = ui.input(label=\"Notes\", aria_label=\"Edit
+      the notes for the selected item\").classes('w-full')\r
+
+      \r
+
+      \        with ui.row():\r
+
+      \            ui.button('Update Item',\r
+
+      \                      on_click=lambda:
+      update_item_logic(item_selection_dropdown.value, edit_name_input,
+      edit_phone_input, edit_email_input, edit_notes_input),\r
+
+      \                      aria_label=\"Apply changes to the selected
+      item\")\r
+
+      \            ui.button('Delete Item', color='red',\r
+
+      \                      on_click=lambda:
+      delete_selected_item_logic(item_selection_dropdown.value),\r
+
+      \                      aria_label=\"Delete the selected item
+      permanently\")\r
+
+      \r
+
+      # This function needs to be global or passed as a parameter for
+      items_display_column.clear()\r
+
+      def update_item_display():\r
+
+      \    \"\"\"Updates the list of items displayed and the selection
+      dropdown.\"\"\"\r
+
+      \    items_display_column.clear()\r
+
+      \    if not all_items:\r
+
+      \        items_display_column.add(ui.label(\"No items to display yet. Add
+      some on the 'Add New Item' tab!\").classes('text-italic'))\r
+
+      \    else:\r
+
+      \        for i, item in enumerate(all_items):\r
+
+      \            # Ensure the item has a title key, otherwise use a generic
+      label\r
+
+      \            display_title = item.get(ITEM_TITLE_KEY, f\"Item {i+1}\")\r
+
+      \            with items_display_column:\r
+
+      \                # Creating a card for each item for better visual and
+      screen reader grouping\r
+
+      \                with ui.card().classes('w-full
+      q-mb-md').props(f'aria-labelledby=\"item-title-{i}\"'):\r
+
+      \                    ui.label(display_title).classes('text-lg
+      font-bold').props(f'id=\"item-title-{i}\"')\r
+
+      \                    # Student to iterate through all attributes to
+      display them\r
+
+      \                    for key, value in item.items():\r
+
+      \                        ui.label(f\"{key.capitalize()}:
+      {value}\").classes('text-sm')\r
+
+      \                    ui.separator()\r
+
+      \                    # Add specific accessible elements for actions on
+      each item (optional, or use dropdown)\r
+
+      \                    # ui.button('Quick Edit', on_click=lambda item=item:
+      print(f\"Editing {item['name']}\"), aria_label=f\"Quick edit
+      {item['name']}\")\r
+
+      \r
+
+      \    # Update the options for the dropdown in the 'Manage Items' tab\r
+
+      \    item_selection_dropdown.options = [item.get(ITEM_TITLE_KEY) for item
+      in all_items if item.get(ITEM_TITLE_KEY) is not None]\r
+
+      \    # Clear selected value if the item is no longer in the list\r
+
+      \    if item_selection_dropdown.value not in
+      item_selection_dropdown.options:\r
+
+      \        item_selection_dropdown.set_value(None)\r
+
+      \        current_selected_item_name.set_text(\"No item selected for
+      edit/delete\")\r
+
+      \r
+
+      # Ensure initial data is loaded when the app starts\r
+
+      \r
+
+      # This will be called before ui.run()\r
+
+      \r
+
+      load_data()\r
+
+      \r
+
+      ui.run(title=\"Accessible Data Manager\")"
 units:
-
   - unit15/index.yml
-
   - unit1/index.yml
-
   - unit2/index.yml
-
   - unit3/index.yml
-
   - unit4/index.yml
-
   - unit5/index.yml
-
   - unit6/index.yml
-
   - unit7/index.yml
-
   - unit8/index.yml
-
   - unit9/index.yml
-
   - unit10/index.yml
-
   - unit11/index.yml
-
   - unit12/index.yml
-
   - unit13/index.yml
-  
   - unit14/index.yml
-
   - unit16/index.yml

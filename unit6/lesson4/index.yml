@@ -4,8 +4,8 @@ title: "Lesson 5.4: Using continue in Loops"
 description: |
   Covers using continue to skip iterations, focusing on syntax and logical
   placement within loops
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml

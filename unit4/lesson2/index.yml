@@ -4,8 +4,8 @@ title: "Lesson 3.2: Chained Conditionals (elif, else)"
 description: |
   Explores else and elif statements, their order, and logical operators (and,
   or, not)
-  
-  
+
+
   Includes proofreading and documentation assignments
 lessonParts:
   - lessonpart1.yml
