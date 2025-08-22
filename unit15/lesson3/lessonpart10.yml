@@ -25,7 +25,7 @@ content: |+
 
   1. "The Flawed Test Case":
 
-     * Scenario: You wrote a test for your is\_even function, but the test isn't correctly checking for the expected outcome.
+     * Scenario: You wrote a test for your is_even function, but the test isn't correctly checking for the expected outcome.
 
      * Code (incorrect assertion):
 
@@ -43,11 +43,11 @@ content: |+
   ```
 
 
-  * Task: Correct the assertion in test\_positive\_even so that it correctly
-  passes if is\_even(4) returns True.
+  * Task: Correct the assertion in test_positive_even so that it correctly
+  passes if is_even(4) returns True.
 
 
-  2\. "The Word Counter Bug":
+  2. "The Word Counter Bug":
 
 
   * Scenario: You're trying to count words in a sentence, but your counter isn't
@@ -70,10 +70,13 @@ content: |+
   ```
 
 
-  * Task: Modify the count\_words function to handle punctuation (e.g., using
+  * Task: Modify the count_words function to handle punctuation (e.g., using
   text.replace() or regular expressions if introduced, or simply teaching a more
   robust split strategy for a basic level). A simple fix might be to remove
   common punctuation before splitting.
 
     * Hint: text.replace('!', '').replace('?', '') etc. before splitting.
 
+showEditor: true
+editors:
+    - course1/unit15/lesson3/lessonpart2/Lesson14_3.py

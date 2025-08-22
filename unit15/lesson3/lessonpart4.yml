@@ -66,15 +66,15 @@ content: |+
 
 
   -  Task: Fix the indentation so that "Welcome." is only printed when age >= 18
-  AND has\_id == "yes". Test with different age/ID combinations.
+  AND has_id == "yes". Test with different age/ID combinations.
 
 
-  2\. "The Looping Labyrinth   - For Loop Fix":
+  2. "The Looping Labyrinth   - For Loop Fix":
 
-  \  - Scenario: You tried to print numbers from 1 to 5, but the loop isn't
+    - Scenario: You tried to print numbers from 1 to 5, but the loop isn't
   working right because of indentation.
 
-  \  - Code (with errors):
+    - Code (with errors):
 
 
   ```python
@@ -91,3 +91,6 @@ content: |+
   -  Task: Correct the indentation so that print(i) runs 5 times, and print("Loop
   finished.") runs only once, after the loop completes.
 
+showEditor: true
+editors:
+    - course1/unit15/lesson3/lessonpart2/Lesson14_3.py

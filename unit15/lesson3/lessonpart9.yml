@@ -48,13 +48,13 @@ content: |+
   "Names file not found."
 
 
-  2\. "The Broken JSON Loader":
+  2. "The Broken JSON Loader":
 
-  \  - Scenario: You saved some data to a JSON file, but when you try to load it,
+    - Scenario: You saved some data to a JSON file, but when you try to load it,
   you get a json.JSONDecodeError. This might happen if the file was manually
   edited incorrectly.
 
-  \  - Code (corrupted JSON simulated):
+    - Code (corrupted JSON simulated):
 
 
   ```python
@@ -79,6 +79,9 @@ content: |+
 
   * Task:
 
-    1. Correct the (simulated) error in corrupted\_data.json to make it valid JSON (e.g., add } if missing, fix misplaced commas, ensure strings are double-quoted).
+    1. Correct the (simulated) error in corrupted_data.json to make it valid JSON (e.g., add } if missing, fix misplaced commas, ensure strings are double-quoted).
     2. Change the except block to specifically catch json.JSONDecodeError and print a more informative message.
 
+showEditor: true
+editors:
+    - course1/unit15/lesson3/lessonpart2/Lesson14_3.py
