@@ -2,4 +2,4 @@
 id: lessonpart1
 title: Reading
 content: >
-  Introduction to NiceGUI and Project Overview ◦ This lesson introduces GUI concepts and the NiceGUI framework. This material is not from the Zelle or Matthes textbooks. It relies on a provided skeleton application (app_skeleton.py) for the student to work with .
+  Introduction to NiceGUI and Project Overview - This lesson introduces GUI concepts and the NiceGUI framework. This material is not from the Zelle or Matthes textbooks. It relies on a provided skeleton application (app_skeleton.py) for the student to work with .

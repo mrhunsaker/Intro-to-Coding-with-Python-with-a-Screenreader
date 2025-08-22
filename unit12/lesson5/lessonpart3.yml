@@ -3,12 +3,12 @@ id: lessonpart3
 title: Materials
 content: >-
   Lesson 11.5: Implementing "Edit" and "Delete" Functionality
-    • Student Materials:
-      ◦ Outline:
-        ▪ Implementing edit_selected_item_logic():
-          • Finding the selected item in all_items based on the dropdown's value.
+    - Student Materials:
+      - Outline:
+        - Implementing edit_selected_item_logic():
+          - Finding the selected item in all_items based on the dropdown's value.
              Populating the "Edit Selected Item" input fields with the chosen item's data.
-        ▪ Implementing update_item_logic() for the "Update Item" button:
+        - Implementing update_item_logic() for the "Update Item" button:
              Finding the selected item.
              Updating its attributes with new values from the edit input fields.
              Calling update_item_display() and providing feedback.

@@ -4,5 +4,5 @@ title: Reading
 content: >
   Your First Python Program: "Hello World!" 
   
-  ◦ Zelle: Chapter 1, pages 7-13 (covering "The Magic of Python" and "Inside a Python Program"). 
-  ◦ Matthes: Chapter 1, pages 3-14 (for writing, saving, and running a basic print() statement ).
+  - Zelle: Chapter 1, pages 7-13 (covering "The Magic of Python" and "Inside a Python Program"). 
+  - Matthes: Chapter 1, pages 3-14 (for writing, saving, and running a basic print() statement ).

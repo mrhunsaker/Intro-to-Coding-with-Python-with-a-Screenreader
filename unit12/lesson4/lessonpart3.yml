@@ -3,10 +3,10 @@ id: lessonpart3
 title: Materials
 content: >-
   Lesson 11.4: Displaying and Managing Items
-    • Student Materials:
-      ◦ Outline:
-        ▪ Implementing the update_item_display() function:
-          • Clearing the existing display (items_display_column.clear()).
+    - Student Materials:
+      - Outline:
+        - Implementing the update_item_display() function:
+          - Clearing the existing display (items_display_column.clear()).
              Looping through the all_items list.
              For each item, dynamically creating ui.label or ui.card elements to display its attributes clearly.
              Populating the ui.select dropdown with options (e.g., item names) for selection.

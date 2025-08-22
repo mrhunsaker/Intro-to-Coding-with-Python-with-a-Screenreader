@@ -3,10 +3,10 @@ id: lessonpart3
 title: Materials
 content: >-
   Lesson 11.3: Implementing "Add Item" Functionality
-    • Student Materials:
-      ◦ Outline:
-        ▪ Connecting the ui.input elements from the GUI to Python variables (accessing .value).
-        ▪ Implementing the on_click handler for the "Add Item" button.
+    - Student Materials:
+      - Outline:
+        - Connecting the ui.input elements from the GUI to Python variables (accessing .value).
+        - Implementing the on_click handler for the "Add Item" button.
          Logic:
              Retrieve values from input fields.
              Perform basic input validation (e.g., required fields).
