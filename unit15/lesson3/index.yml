@@ -6,14 +6,10 @@ description: By integrating these supplementary materials and targeted challenge
   conceptual understanding and practical debugging skills, making their journey
   through computer science more successful and less frustrating. The emphasis on
   audible cues and clear textual feedback will be paramount.
-objectives: >  -  These materials aim to:
-      
-  - Emphasize Difficult Concepts: Provide deeper dives and alternative explanations.
-      
+objectives: |  -  These materials aim to:
+  - Emphasize Difficult Concepts: Provide deeper dives and alternative explanations. 
   - Provide Additional Resources: Point to accessible external tools or documentation.
-      
   - Address Accessibility Challenges: Specifically tackle issues like indentation for screen reader users.
-      
   - Offer Targeted Practice: Create scenarios that mimic real-world debugging without visual aids.
 lessonParts:
     - lessonpart1.yml
