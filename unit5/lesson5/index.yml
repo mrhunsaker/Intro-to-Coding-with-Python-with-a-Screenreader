@@ -9,6 +9,6 @@ description: |
   Includes proofreading and documentation assignments, highlighting common
   AttributeError and TypeError
 lessonParts:
-  - lessonpart1.yml
-  - lessonpart2.yml
-  - lessonpart3.yml
+    - lessonpart1.yml
+    - lessonpart2.yml
+    - lessonpart3.yml

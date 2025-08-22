@@ -1,9 +1,8 @@
 id: lessonpart1
-title: |-
-  Resources
+title: |  -  Resources
 content: "## Reading\
 \
-- # Resources for Additional Learning (Middle & High School)
+  # Resources for Additional Learning (Middle & High School)
 
 ## General Computer Science & Programming Concepts
 
@@ -14,7 +13,7 @@ content: "## Reading\
    * Accessibility: Relies on physical activities and verbal explanations. Instructors can guide students through these.
 
    * Link: <https://csunplugged.org/en/>
-2. Khan Academy - Computer Programming:
+2. Khan Academy   - Computer Programming:
 
    * Description: Offers structured courses on computer programming (often JavaScript-based, but the concepts transfer). Their explanations are clear and have a strong focus on \"talk-throughs\" which can be good for screen readers.
 
@@ -86,7 +85,7 @@ content: "## Reading\
 
 * Logic Puzzles (Non-visual): Provide verbal logic puzzles or text-based riddle games that require conditional thinking or iterative processes to solve.
 
-  * Example: \"I'm thinking of a number between 1 and 100. Is it higher or lower than 50? (Continue until guessed)\" - This simulates a binary search, illustrating if/elif/else and while loops.
+  * Example: \"I'm thinking of a number between 1 and 100. Is it higher or lower than 50? (Continue until guessed)\"   - This simulates a binary search, illustrating if/elif/else and while loops.
 
   * Flowchart Concepts (Verbal/Textual): Describe flowcharts verbally (e.g., \"Start -> Is condition A true? -> If yes, do X; if no, do Y -> End\"). This helps visualize control flow without actual visual diagrams.
 
@@ -124,7 +123,7 @@ Then ask questions like: \"What is John's age?\", \"List his courses.\", \"What 
 
 * Online JSON Validators/Formatters: While primarily visual, some online tools allow pasting JSON. Students can paste their own output and listen to the validation message (\"Valid JSON\" or specific error messages).
 
-* Resource: Search \"online json validator\" - ensure it gives clear text feedback.
+* Resource: Search \"online json validator\"   - ensure it gives clear text feedback.
 
 ## Indentation Strategies for Screen Readers (All Units, especially 3, 5, 6, 7)
 

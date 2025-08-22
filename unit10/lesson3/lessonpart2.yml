@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Introduction to Random Numbers
+  # Lesson: Introduction to Random Numbers
 
   ## Using the random module for generating random data.
 
@@ -43,8 +42,6 @@ content: |-
 
   * Generate a password using random.choice.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit10/lesson3/lessonpart2/Lesson9_3.py
+showEditor: true 
+editors:
+  -   course1/unit10/lesson3/lessonpart2/Lesson9_3.py

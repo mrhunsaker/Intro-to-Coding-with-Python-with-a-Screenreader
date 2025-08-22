@@ -3,16 +3,15 @@ id: unit5
 title: "Unit 4: Data Structures: Lists and Dictionaries"
 description: This unit deepens the understanding of lists and introduces
   dictionaries as powerful mechanisms for organizing data.
-objectives: >-
-  - Deepen understanding of lists, including modifying, adding, and removing
+objectives: >  -    - Deepen understanding of lists, including modifying, adding, and removing
   elements.
 
-  - Work with tuples (immutable lists).
+    - Work with tuples (immutable lists).
 
-  - Introduce dictionaries for key-value pair storage.
+    - Introduce dictionaries for key-value pair storage.
 lessons:
-  - lesson1/index.yml
-  - lesson2/index.yml
-  - lesson3/index.yml
-  - lesson4/index.yml
-  - lesson5/index.yml
+    - lesson1/index.yml
+    - lesson2/index.yml
+    - lesson3/index.yml
+    - lesson4/index.yml
+    - lesson5/index.yml

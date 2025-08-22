@@ -1,10 +1,9 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- Analyzing Text Data - Zelle: Chapter 11, pages 310-315 (on "Example Program:
-  Word Frequency"). - Matthes: Chapter 10, pages 196-199 (on "Analyzing Text"
+  - Analyzing Text Data   - Zelle: Chapter 11, pages 310-315 (on "Example Program:
+  Word Frequency").   - Matthes: Chapter 10, pages 196-199 (on "Analyzing Text"
   and counting words); Chapter 15, page 322 (general data generation concepts
   for text).
 

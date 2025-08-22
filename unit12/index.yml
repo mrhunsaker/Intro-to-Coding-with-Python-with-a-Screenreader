@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit12
-title: "Unit 11: Capstone Project - Accessible Personal Data Manager"
+title: "Unit 11: Capstone Project   - Accessible Personal Data Manager"
 description: |
   Project Goal: Students will develop a fully functional,
   screen-reader-accessible graphical application that allows users to manage a
@@ -15,10 +15,10 @@ description: |
   for GUI layout and explicit accessibility considerations.
 objectives: ""
 lessons:
-  - lesson7/index.yml
-  - lesson1/index.yml
-  - lesson2/index.yml
-  - lesson3/index.yml
-  - lesson4/index.yml
-  - lesson5/index.yml
-  - lesson6/index.yml
+    - lesson7/index.yml
+    - lesson1/index.yml
+    - lesson2/index.yml
+    - lesson3/index.yml
+    - lesson4/index.yml
+    - lesson5/index.yml
+    - lesson6/index.yml

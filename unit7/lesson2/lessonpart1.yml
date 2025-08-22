@@ -1,10 +1,9 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- Passing Arguments - Zelle: Chapter 6, pages 144-147 (on "Functions and
-  Parameters: The Exciting Details"). - Matthes: Chapter 8, pages 131-137 (on
+  - Passing Arguments   - Zelle: Chapter 6, pages 144-147 (on "Functions and
+  Parameters: The Exciting Details").   - Matthes: Chapter 8, pages 131-137 (on
   "Passing Information to a Function", "Positional Arguments", and "Keyword
   Arguments").
 

@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Designing Your Project
+  # Lesson: Designing Your Project
 
   ## Breaking down a problem, planning program flow, and module design.
 
@@ -13,8 +12,6 @@ content: |-
 
   * Describe your game's core idea, features, flow, and modules.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit11/lesson1/lessonpart2/Lesson10_1.py
+showEditor: true 
+editors:
+  -   course1/unit11/lesson1/lessonpart2/Lesson10_1.py

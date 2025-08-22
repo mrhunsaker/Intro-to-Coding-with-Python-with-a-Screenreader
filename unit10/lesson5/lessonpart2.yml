@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Working with CSV Data (text-based)
+  # Lesson: Working with CSV Data (text-based)
 
   ## Reading and processing simple CSV files using standard Python libraries.
 
@@ -11,12 +10,12 @@ content: |-
 
   ```python
   filename = 'students.csv'
-  print(f"--- Reading data from {filename} ---")
+  print(f"--  - Reading data from {filename} ---")
   try:
      with open(filename, 'r') as file_object:
          header = file_object.readline().strip()
          print(f"Columns: {header}")
-         print("--- Student Records ---")
+         print("--  - Student Records ---")
          for line in file_object:
              data = line.strip().split(',')
              name = data[0]
@@ -37,8 +36,6 @@ content: |-
 
   * Read and analyze temperature data from a CSV.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit10/lesson5/lessonpart2/Lesson9_5.py
+showEditor: true 
+editors:
+  -   course1/unit10/lesson5/lessonpart2/Lesson9_5.py

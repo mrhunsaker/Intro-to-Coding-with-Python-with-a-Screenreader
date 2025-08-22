@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Testing a Class
+  # Lesson: Testing a Class
 
   ## Writing tests for class methods.
 
@@ -60,8 +59,6 @@ content: |-
 
   * Write and test methods for your Restaurant class.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit10/lesson2/lessonpart2/Lesson9_2.py
+showEditor: true 
+editors:
+  -   course1/unit10/lesson2/lessonpart2/Lesson9_2.py

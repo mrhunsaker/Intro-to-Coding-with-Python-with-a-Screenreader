@@ -1,9 +1,8 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- Working with Attributes and Methods - Zelle: Chapter 10, pages 254-256 (on
-  MSDie class and calling methods). - Matthes: Chapter 9, pages 162-166 (on
+  - Working with Attributes and Methods   - Zelle: Chapter 10, pages 254-256 (on
+  MSDie class and calling methods).   - Matthes: Chapter 9, pages 162-166 (on
   "Working with Attributes and Methods", accessing and modifying attributes).
 

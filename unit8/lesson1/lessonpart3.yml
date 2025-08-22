@@ -3,13 +3,13 @@ id: lessonpart3
 title: Materials
 content: |
   ## Lesson 7.1: Why Learn About Classes?
-  - Student Materials:
-    - Outline:
-      - Introduction to Object-Oriented Programming (OOP) as a programming paradigm.
-      - Benefits of OOP: code organization, reusability, modularity.
-    - Skills Checklist:
-      - [ ] I can explain the basic idea of Object-Oriented Programming.
-      - [ ] I can describe a class as a blueprint.
-      - [ ] I can describe an object as an instance of a class.
-      - [ ] I can state at least two benefits of using OOP.
+    - Student Materials:
+      - Outline:
+        - Introduction to Object-Oriented Programming (OOP) as a programming paradigm.
+        - Benefits of OOP: code organization, reusability, modularity.
+      - Skills Checklist:
+        - [ ] I can explain the basic idea of Object-Oriented Programming.
+        - [ ] I can describe a class as a blueprint.
+        - [ ] I can describe an object as an instance of a class.
+        - [ ] I can state at least two benefits of using OOP.
   

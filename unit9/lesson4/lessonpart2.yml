@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: The else Block and finally Block
+  # Lesson: The else Block and finally Block
 
   ## Additional try-except clauses.
 
@@ -13,7 +12,7 @@ content: |-
   filename = 'existing_file.txt'
   with open(filename, 'w') as f:
      f.write("This file exists.
-- ")
+  - ")
 
   try:
      with open(filename, 'r') as file_object:
@@ -22,7 +21,7 @@ content: |-
      print(f"Sorry, the file {filename} was not found.")
   else:
      print(f"
-- Successfully read {filename}:")
+  - Successfully read {filename}:")
      print(contents)
   ```
 
@@ -33,7 +32,7 @@ content: |-
   try:
      file_handle = open('another_file.txt', 'w')
      file_handle.write("Writing some data.
-- ")
+  - ")
   except FileNotFoundError:
      print("Error: File path invalid.")
   except Exception as e:
@@ -61,8 +60,6 @@ content: |-
 
   * Simulate resource opening and cleanup with finally.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit9/lesson4/lessonpart2/Lesson8_4.py
+showEditor: true 
+editors:
+  -   course1/unit9/lesson4/lessonpart2/Lesson8_4.py

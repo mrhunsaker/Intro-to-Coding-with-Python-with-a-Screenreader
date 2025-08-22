@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Passing Arguments
+  # Lesson: Passing Arguments
 
   ## Positional arguments, keyword arguments
 
@@ -21,7 +20,7 @@ content: |-
   describe_animal("dog", "Buddy")
 
   print("
-- Using keyword arguments:")
+  - Using keyword arguments:")
   describe_animal(animal_name="Max", animal_type="cat")
   ```
 
@@ -47,8 +46,6 @@ content: |-
 
   * Call the function three times, using keyword arguments at least once.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit7/lesson2/lessonpart2/Lesson6_2.py
+showEditor: true 
+editors:
+  -   course1/unit7/lesson2/lessonpart2/Lesson6_2.py

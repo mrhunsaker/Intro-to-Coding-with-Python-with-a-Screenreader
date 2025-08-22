@@ -2,4 +2,4 @@
 id: lesson1
 title: Lesson A.1
 lessonParts:
-  - lessonpart1.yml
+    - lessonpart1.yml

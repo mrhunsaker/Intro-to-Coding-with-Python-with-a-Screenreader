@@ -10,6 +10,6 @@ description: |
 
   Focuses on UnsupportedOperation and logical errors related to modes
 lessonParts:
-  - lessonpart1.yml
-  - lessonpart2.yml
-  - lessonpart3.yml
+    - lessonpart1.yml
+    - lessonpart2.yml
+    - lessonpart3.yml

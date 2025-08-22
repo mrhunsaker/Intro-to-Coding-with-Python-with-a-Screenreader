@@ -18,7 +18,7 @@ content: |+
   * Addition: 5 + 3 (Result: 8)
 
 
-  * Subtraction: 10 - 4 (Result: 6)
+  * Subtraction: 10   - 4 (Result: 6)
 
 
   * Multiplication: 7 \* 6 (Result: 42)
@@ -36,11 +36,11 @@ content: |+
 
   * Integer Division (//): Divides and returns the integer part of the quotient.
 
-    * 10 // 3 (Result: 3) - How many times does 3 fit into 10 evenly?
+    * 10 // 3 (Result: 3)   - How many times does 3 fit into 10 evenly?
 
   * Modulo (%): Returns the remainder of a division.
 
-    * 10 % 3 (Result: 1) - When 10 is divided by 3, what's left over?
+    * 10 % 3 (Result: 1)   - When 10 is divided by 3, what's left over?
 
     * Application: Useful for checking if a number is even (number % 2 == 0) or for tasks like converting total minutes into hours and remaining minutes. A.1.4 Using the math Module
 
@@ -104,4 +104,4 @@ content: |+
 
 showEditor: true
 editors:
-  - course1/unit16/lesson1/lessonpart1/calculator_playground.py
+    - course1/unit16/lesson1/lessonpart1/calculator_playground.py

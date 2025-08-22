@@ -4,4 +4,4 @@ title: Proofreading
 description: This is the final exam for comprehensively proofreading code you
   have never seen before and uses a framework you are unfamiliar with
 lessonParts:
-  - lessonpart1.yml
+    - lessonpart1.yml

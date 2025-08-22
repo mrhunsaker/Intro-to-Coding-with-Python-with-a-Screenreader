@@ -5,5 +5,5 @@ description: This lesson highlights leveraging AI tools like Microsoft CoPilot
   for efficiency, but critically emphasizes the human responsibility for
   proofreading and testing AI-generated code
 lessonParts:
-  - lessonpart1.yml
-  - lessonpart2.yml
+    - lessonpart1.yml
+    - lessonpart2.yml

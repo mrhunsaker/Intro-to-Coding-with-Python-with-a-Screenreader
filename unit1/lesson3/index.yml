@@ -12,6 +12,6 @@ description: |
 
   Details keyboard shortcuts for navigating key VS Code areas
 lessonParts:
-  - lessonpart1.yml
-  - lessonpart2.yml
-  - lessonpart3.yml
+    - lessonpart1.yml
+    - lessonpart2.yml
+    - lessonpart3.yml

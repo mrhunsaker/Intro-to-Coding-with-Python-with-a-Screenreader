@@ -1,9 +1,11 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- The Software Development Process - Zelle: Chapter 2, pages 21-22 (describing
-  "Create a Design", "Implement the Design", "Test/Debug the Program") and pages
-  35-36 (listing the steps in the "Chapter Summary").
-
+	  - Zelle: Chapter 2, pages 21-22
+  
+  
+  (describing "Create a Design", "Implement the Design", "Test/Debug the Program") and pages 35-36
+  
+  
+  (listing the steps in the "Chapter Summary").

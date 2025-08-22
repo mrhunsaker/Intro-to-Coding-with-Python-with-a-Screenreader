@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: How the input() Function Works
+  # Lesson: How the input() Function Works
 
 
   ## Getting user input and its default string type
@@ -67,8 +66,6 @@ content: |-
 
   * Calculate and print age next year (convert age to number).
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit6/lesson1/lessonpart2/Lesson5_1.py
+showEditor: true 
+editors:
+  -   course1/unit6/lesson1/lessonpart2/Lesson5_1.py

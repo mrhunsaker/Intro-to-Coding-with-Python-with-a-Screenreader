@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Implementing "Add Item" Functionality:
+  # Lesson: Implementing "Add Item" Functionality:
 
 
   * Concept: Connecting GUI input fields to Python variables. Handling button
@@ -31,8 +30,6 @@ content: |-
 
     * Once you've found the item, set the values of the edit form's input fields to the item's current data (e.g., `edit_name_input.value = selected_item.name`).
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit12/lesson3/lessonpart2/Lesson11_3.py
+showEditor: true 
+editors:
+  -   course1/unit12/lesson3/lessonpart2/Lesson11_3.py

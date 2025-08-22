@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Introduction to NiceGUI GUI):
+  # Lesson: Introduction to NiceGUI GUI):
 
 
   * Concept: Event-driven programming. How GUI elements trigger Python
@@ -47,8 +46,6 @@ content: |-
 
     * **Crucial step:** Notice the `try...except` blocks in `load_data()`. They are already set up to handle file not found or corrupted file errors. Ensure your implementation works within this robust structure.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit12/lesson1/lessonpart2/Lesson11_1.py
+showEditor: true 
+editors:
+  -   course1/unit12/lesson1/lessonpart2/Lesson11_1.py

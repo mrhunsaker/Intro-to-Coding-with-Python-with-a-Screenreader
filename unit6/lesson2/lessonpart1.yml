@@ -1,9 +1,8 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- The while Loop in Action - Zelle: Chapter 8, pages 195-197 (introducing the
-  while statement and infinite loops). - Matthes: Chapter 7, pages 116-118 (on
+  - The while Loop in Action   - Zelle: Chapter 8, pages 195-197 (introducing the
+  while statement and infinite loops).   - Matthes: Chapter 7, pages 116-118 (on
   basic while loops).
 

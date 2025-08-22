@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: lesson4
+id: lesson3
 title: "Lesson 1.3: Variables and Simple Data Types"
 description: |
   Introduces strings and numbers, using variables to store data, and basic
@@ -8,6 +8,6 @@ description: |
 
   Includes a proofreading assignment for type and name errors
 lessonParts:
-  - lessonpart1.yml
-  - lessonpart2.yml
-  - lessonpart3.yml
+    - lessonpart1.yml
+    - lessonpart2.yml
+    - lessonpart3.yml

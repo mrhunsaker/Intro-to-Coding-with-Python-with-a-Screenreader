@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Displaying and Managing Items:
+  # Lesson: Displaying and Managing Items:
 
 
   * Concept: Dynamically updating GUI elements (e.g., a list of labels or
@@ -34,8 +33,6 @@ content: |-
 
     * Remember to provide accessible feedback to the user via `ui.notify("Item deleted!", type='positive')`.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit12/lesson4/lessonpart2/Lesson11_4.py
+showEditor: true 
+editors:
+  -   course1/unit12/lesson4/lessonpart2/Lesson11_4.py

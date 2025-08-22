@@ -1,10 +1,18 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
-
-- Welcome to Computer Science - Zelle: Chapter 1, pages 1-7 (covering "The
-  Universal Machine", "Program Power", "What is Computer Science?", "Hardware
-  Basics", and "Programming Languages"). - Matthes: Chapter 1, pages 3-14
-  (general introduction to Python and programming).
-
+content: |  ## Reading
+	  - Zelle: Chapter 1, pages 1-7
+  
+  
+  (covering "The Universal Machine", "Program Power", "What is Computer Science?", "Hardware Basics", and "Programming Languages").
+  
+  
+  &#x20;   
+	  - Matthes: Chapter 1, pages 3-14
+  
+  
+  (general introduction to Python and programming).    
+	  - Zelle: Chapter 1, pages 1-7
+  
+  
+  (covering "The Universal Machine", "Program Power", "What is Computer Science?", "Hardware Basics", and "Programming Languages").

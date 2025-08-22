@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Implementing "Edit" and "Delete" Functionality:
+  # Lesson: Implementing "Edit" and "Delete" Functionality:
 
 
   * Concept: Using the selected item's data to pre-populate edit forms. Removing
@@ -39,10 +38,7 @@ content: |-
 
     * **Crucially**, be ready to perform all of these actions while a screen reader is active, explaining how the audio feedback corresponds to the actions on screen. This is the ultimate test of your accessibility focus.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit12/lesson5/lessonpart2/Lesson11_5.py
-- |-
-  course1/unit12/lesson5/lessonpart2/README.md
+showEditor: true 
+editors:
+  -   course1/unit12/lesson5/lessonpart2/Lesson11_5.py
+  -   course1/unit12/lesson5/lessonpart2/README.md

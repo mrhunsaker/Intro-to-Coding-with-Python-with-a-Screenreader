@@ -1,9 +1,9 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: |  
+   ## Activities
 
-- # Lesson: Using the Math Library
+  # Lesson: Using the Math Library
 
 
   ## Introduction to the math module (e.g., `math.pi`, `math.sqrt`).
@@ -76,8 +76,6 @@ content: |-
 
      * Purpose: Practice with `math.sqrt()` and exponentiation in a geometric context.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit3/lesson5/lessonpart2/Lesson2_5.py
+showEditor: true 
+editors:
+  -   course1/unit3/lesson5/lessonpart2/Lesson2_5.py

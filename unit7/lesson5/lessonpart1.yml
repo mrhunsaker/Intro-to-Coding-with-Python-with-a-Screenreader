@@ -1,8 +1,7 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- Arbitrary Number of Arguments - Matthes: Chapter 8, pages 146-149 (on "Passing
+  - Arbitrary Number of Arguments   - Matthes: Chapter 8, pages 146-149 (on "Passing
   an Arbitrary Number of Arguments" and "Using Arbitrary Keyword Arguments").
 

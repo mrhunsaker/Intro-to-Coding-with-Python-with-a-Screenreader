@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Input and Output Revisited
+  # Lesson: Input and Output Revisited
 
 
   ## Getting input from the user with input() and formatting output.
@@ -88,7 +87,7 @@ content: |-
   1. **Activity 2.3.1: Temperature Converter**
 
      1. Create `temp_converter.py`.
-     2. Prompt for temperature in Fahrenheit. Convert to Celsius: `C = (F - 32) * 5 / 9`.
+     2. Prompt for temperature in Fahrenheit. Convert to Celsius: `C = (F   - 32) * 5 / 9`.
      3. Print both Fahrenheit and Celsius temperatures.
      4. Prompt for temperature in Celsius. Convert to Fahrenheit: `F = C * 9 / 5 + 32`.
      5. Print both Celsius and Fahrenheit temperatures.
@@ -110,8 +109,6 @@ content: |-
 
      * Purpose: Practice with more complex numeric input and calculations.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit3/lesson3/lessonpart2/Lesson2_3.py
+showEditor: true 
+editors:
+  -   course1/unit3/lesson3/lessonpart2/Lesson2_3.py

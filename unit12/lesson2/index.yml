@@ -6,6 +6,6 @@ description: Covers designing the Python class for data items, managing
   load_data() and save_data() functions with error handling (e.g.,
   json.JSONDecodeError, FileNotFoundError)
 lessonParts:
-  - lessonpart1.yml
-  - lessonpart2.yml
-  - lessonpart3.yml
+    - lessonpart1.yml
+    - lessonpart2.yml
+    - lessonpart3.yml

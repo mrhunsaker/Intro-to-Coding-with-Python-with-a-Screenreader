@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Creating and Using a Class
+  # Lesson: Creating and Using a Class
 
 
   ## Defining a simple class with attributes and the `__init__` method.
@@ -44,17 +43,15 @@ content: |-
 
 
   1. **Activity 7.2.1: Restaurant Class**
-    - Create `restaurant.py`.
-    - Define a class `Restaurant` with attributes and methods.
-    - Create an instance and print its attributes.
+      - Create `restaurant.py`.
+      - Define a class `Restaurant` with attributes and methods.
+      - Create an instance and print its attributes.
 
   2. **Activity 7.2.2: User Class**
-    - Create `user_profile.py`.
-    - Define a class `User` with attributes.
-    - Create instances and print their details.
+      - Create `user_profile.py`.
+      - Define a class `User` with attributes.
+      - Create instances and print their details.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit8/lesson2/lessonpart2/Lesson7_2.py
+showEditor: true 
+editors:
+  -   course1/unit8/lesson2/lessonpart2/Lesson7_2.py

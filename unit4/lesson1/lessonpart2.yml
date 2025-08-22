@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Boolean Expressions and if Statements
+  # Lesson: Boolean Expressions and if Statements
 
 
   ## Introducing True/False and comparison operators. Making decisions in
@@ -103,7 +102,7 @@ content: |-
 
   | Operator | Meaning               | Example | Result (if True) |
 
-  | -------- | --------------------- | ------- | ---------------- |
+  | -------  - | --------------------  - | ------  - | ---------------  - |
 
   | ==       | Equal to              | 5 == 5  | True             |
 
@@ -117,8 +116,6 @@ content: |-
 
   | >=       | Greater than or equal | 10 >= 5 | True             |
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit4/lesson1/lessonpart2/Lesson3_1.py
+showEditor: true 
+editors:
+  -   course1/unit4/lesson1/lessonpart2/Lesson3_1.py

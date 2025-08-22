@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Looping Through Dictionaries
+  # Lesson: Looping Through Dictionaries
 
 
   ## Iterating through keys, values, and key-value pairs
@@ -27,19 +26,19 @@ content: |-
   }
 
 
-  print("--- Inventory Keys ---")
+  print("--  - Inventory Keys ---")
 
   for item_name in inventory:
      print(item_name)
 
   print("
-- --- Inventory Values ---")
+  - --  - Inventory Values ---")
 
   for count in inventory.values():
      print(count)
 
   print("
-- --- Inventory Items (Key-Value Pairs) ---")
+  - --  - Inventory Items (Key-Value Pairs) ---")
 
   for item_name, count in inventory.items():
      print(f"{item_name}: {count} in stock")
@@ -51,7 +50,7 @@ content: |-
 
   ```
 
-  --- Inventory Keys ---
+  --  - Inventory Keys ---
 
   apples
 
@@ -60,7 +59,7 @@ content: |-
   oranges
 
 
-  --- Inventory Values ---
+  --  - Inventory Values ---
 
   50
 
@@ -69,7 +68,7 @@ content: |-
   40
 
 
-  --- Inventory Items (Key-Value Pairs) ---
+  --  - Inventory Items (Key-Value Pairs) ---
 
   apples: 50 in stock
 
@@ -120,8 +119,6 @@ content: |-
 
   * Prompt for an item to "remove" and the quantity. Update and print inventory.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit5/lesson5/lessonpart2/Lesson4_5.py
+showEditor: true 
+editors:
+  -   course1/unit5/lesson5/lessonpart2/Lesson4_5.py

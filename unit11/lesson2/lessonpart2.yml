@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Building a Text-Based Adventure Game (Part 1)
+  # Lesson: Building a Text-Based Adventure Game (Part 1)
 
 
   ## Implementing rooms, player movement, and basic interactions.
@@ -35,7 +34,7 @@ content: |-
 
   while True:
      print("
-- " + room_descriptions[current_room]["description"])
+  - " + room_descriptions[current_room]["description"])
      command = input("What do you want to do? ").lower()
 
      if command in room_descriptions[current_room]["exits"]:
@@ -56,8 +55,6 @@ content: |-
 
   * Define rooms and implement movement in a text-based game.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit11/lesson2/lessonpart2/Lesson10_2.py
+showEditor: true 
+editors:
+  -   course1/unit11/lesson2/lessonpart2/Lesson10_2.py

@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: The while Loop in Action
+  # Lesson: The while Loop in Action
 
 
   ## Basic while loops for repetitive tasks
@@ -132,9 +131,9 @@ content: |-
   Loop                                                                  |
   `while` Loop                                                                |
 
-  | :------------------- |
-  :-------------------------------------------------------------------------- |
-  :-------------------------------------------------------------------------- |
+  | :------------------  - |
+  :-------------------------------------------------------------------------  - |
+  :-------------------------------------------------------------------------  - |
 
   | **Purpose**          | Definite iteration (know how many times to loop or
   iterate over a sequence) | Indefinite iteration (loop as long as a condition
@@ -152,8 +151,6 @@ content: |-
   infinite)                  | High risk of infinite loops if condition never
   becomes false                |
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit6/lesson2/lessonpart2/Lesson5_2.py
+showEditor: true 
+editors:
+  -   course1/unit6/lesson2/lessonpart2/Lesson5_2.py

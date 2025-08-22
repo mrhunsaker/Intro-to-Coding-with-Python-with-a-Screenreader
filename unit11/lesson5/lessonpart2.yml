@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Refinement and User Experience
+  # Lesson: Refinement and User Experience
 
 
   ## Making your text-based programs more user-friendly for screen reader users.
@@ -13,10 +12,8 @@ content: |-
 
 
   1. **Activity 10.5.1: Refine Your Project's User Experience**
-    - Review and improve prompts, output, formatting, and error messages for accessibility.
+      - Review and improve prompts, output, formatting, and error messages for accessibility.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit11/lesson5/lessonpart2/Lesson10_5.py
+showEditor: true 
+editors:
+  -   course1/unit11/lesson5/lessonpart2/Lesson10_5.py

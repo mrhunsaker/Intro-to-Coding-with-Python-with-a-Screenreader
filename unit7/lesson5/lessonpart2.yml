@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- Lesson: Arbitrary Number of Arguments
+  - Lesson: Arbitrary Number of Arguments
 
 
   ## Using \*args and \*\*kwargs
@@ -23,9 +22,9 @@ content: |-
 
   def make_pizza(size, *toppings):
      print(f"
-- Making a {size}-inch pizza with the following toppings:")
+  - Making a {size}-inch pizza with the following toppings:")
      for topping in toppings:
-         print(f"- {topping}")
+         print(f"  - {topping}")
 
   make_pizza(12, 'pepperoni')
 
@@ -41,16 +40,16 @@ content: |-
 
   Making a 12-inch pizza with the following toppings:
 
-  - pepperoni
+    - pepperoni
 
 
   Making a 16-inch pizza with the following toppings:
 
-  - mushrooms
+    - mushrooms
 
-  - green peppers
+    - green peppers
 
-  - extra cheese
+    - extra cheese
 
   ```
 
@@ -69,7 +68,7 @@ content: |-
                              location='princeton',
                              field='physics')
   print("
-- User Profile 1:", user_profile)
+  - User Profile 1:", user_profile)
 
 
   user_profile2 = build_profile('marie', 'curie',
@@ -77,7 +76,7 @@ content: |-
                              occupation='scientist',
                              born_year=1867)
   print("
-- User Profile 2:", user_profile2)
+  - User Profile 2:", user_profile2)
 
   ```
 
@@ -126,8 +125,6 @@ content: |-
 
   * Print assigned roles for each user.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit7/lesson5/lessonpart2/Lesson6_5.py
+showEditor: true 
+editors:
+  -   course1/unit7/lesson5/lessonpart2/Lesson6_5.py

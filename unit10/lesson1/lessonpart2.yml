@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Testing a Function
+  # Lesson: Testing a Function
 
   ## Using the unittest module for basic testing.
 
@@ -47,8 +46,6 @@ content: |-
 
   * Write and test `reverse_string(text)`.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit10/lesson1/lessonpart2/Lesson9_1.py
+showEditor: true 
+editors:
+  -   course1/unit10/lesson1/lessonpart2/Lesson9_1.py

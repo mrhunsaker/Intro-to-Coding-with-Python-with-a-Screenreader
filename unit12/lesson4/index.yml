@@ -5,6 +5,6 @@ description: Teaches dynamically updating the GUI to display all items from the
   data list, clearing existing displays, and populating UI elements (e.g.,
   ui.label, ui.card, ui.select)
 lessonParts:
-  - lessonpart1.yml
-  - lessonpart2.yml
-  - lessonpart3.yml
+    - lessonpart1.yml
+    - lessonpart2.yml
+    - lessonpart3.yml

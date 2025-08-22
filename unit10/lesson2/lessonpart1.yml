@@ -1,8 +1,7 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- Testing a Class - Matthes: Chapter 11, pages 217-220 (on "Testing a Class" and
+  - Testing a Class   - Matthes: Chapter 11, pages 217-220 (on "Testing a Class" and
   the setUp() method).
 

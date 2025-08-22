@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Inheritance
+  # Lesson: Inheritance
 
   ## Creating new classes based on existing ones.
 
@@ -51,8 +50,6 @@ content: |-
 
   * Add flavors and override describe_restaurant.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit8/lesson4/lessonpart2/Lesson7_4.py
+showEditor: true 
+editors:
+  -   course1/unit8/lesson4/lessonpart2/Lesson7_4.py

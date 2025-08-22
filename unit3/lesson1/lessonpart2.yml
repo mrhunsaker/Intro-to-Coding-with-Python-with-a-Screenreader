@@ -1,13 +1,10 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: |  
 
-- # Lesson: The Software Development Process
-
+  # Lesson: The Software Development Process
 
   ## Problem solving, design, implementation, testing.
-
 
   The software development process is a structured approach to creating
   programs. It begins with Problem Solving, which involves clearly understanding
@@ -78,8 +75,6 @@ content: |-
 
      * Accessibility: Use a text editor to document variable states and predictions. Compare with actual terminal output.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit2/lesson4/lessonpart2/lesson2_1.py
+showEditor: true 
+editors:
+  -   course1/unit2/lesson4/lessonpart2/lesson2_1.py

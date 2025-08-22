@@ -1,9 +1,9 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- More on Lists - Matthes: Chapter 3, pages 36-39 (on "Modifying Elements in a
+  - More on Lists   
+  - Matthes: Chapter 3, pages 36-39 (on "Modifying Elements in a
   List", "Adding Elements to a List" (e.g., append(), insert()), and "Removing
   Elements from a List" (del, pop(), remove())).
 

@@ -3,19 +3,17 @@ id: lessonpart3
 title: Materials
 content: |
   ## Lesson 1.2: Your First Python Program: "Hello World!"
-  - Student Materials:
-    - Outline:
-      - The print() function: its purpose and basic syntax.
-      - Writing the "Hello World!" program.
-      - Saving a Python file (.py extension).
-      - Executing the Python script from the terminal (revisiting skills from Unit 0).
-      - Understanding that print() outputs text to the terminal.
-    - Skills Checklist:
-      - [ ] I can write a print() statement in Python.
-      - [ ] I can save a Python file with the .py extension.
-      - [ ] I can execute a Python script from the terminal.
-      - [ ] I can understand that the output of print() appears in the terminal.
-#file:lessonpart3.yml
+    - Student Materials:
+      - Outline:
+        - The print() function: its purpose and basic syntax.
+        - Writing the "Hello World!" program.
+        - Saving a Python file (.py extension).
+        - Executing the Python script from the terminal (revisiting skills from Unit 0).
+        - Understanding that print() outputs text to the terminal.
+      - Skills Checklist:
+        - [ ] I can write a print() statement in Python.
+        - [ ] I can save a Python file with the .py extension.
+        - [ ] I can execute a Python script from the terminal.
+        - [ ] I can understand that the output of print() appears in the terminal.
 
-- Lesson 1.2: Your First Python Program: "Hello World!"
   

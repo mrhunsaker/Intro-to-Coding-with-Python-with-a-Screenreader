@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Writing to a File
+  # Lesson: Writing to a File
 
   ## Writing single lines and multiple lines. Appending to files.
 
@@ -13,7 +12,7 @@ content: |-
   filename = 'programming_message.txt'
   with open(filename, 'w') as file_object:
      file_object.write("I love programming in Python!
-- ")
+  - ")
   print(f"Message written to {filename}.")
   ```
 
@@ -23,9 +22,9 @@ content: |-
   filename = 'programming_message.txt'
   with open(filename, 'a') as file_object:
      file_object.write("It's a very versatile language.
-- ")
+  - ")
      file_object.write("I'm excited to learn more!
-- ")
+  - ")
   print(f"More messages appended to {filename}.")
   ```
 
@@ -43,8 +42,6 @@ content: |-
 
   * Use a while loop to log activities to `daily_log.txt`.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit9/lesson2/lessonpart2/Lesson8_2.py
+showEditor: true 
+editors:
+  -   course1/unit9/lesson2/lessonpart2/Lesson8_2.py

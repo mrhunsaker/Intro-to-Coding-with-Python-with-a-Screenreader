@@ -2,7 +2,7 @@ id: lessonpart2
 title: Lesson
 content: "## Activities\
 \
-- # Lesson: Why Learn About Classes?
+  # Lesson: Why Learn About Classes?
 
 
 ## Introduction to OOP concepts: objects, classes, encapsulation, abstraction.
@@ -37,8 +37,6 @@ a \"Pet,\" a \"Book\").
 
 * Share and discuss your ideas.\\\
   n"
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit8/lesson1/lessonpart2/Lesson7_1.py
+showEditor: true 
+editors:
+  -   course1/unit8/lesson1/lessonpart2/Lesson7_1.py

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit16
-title: Appendix A - Python for Scientific Calculation and Basic Data Visualization
+title: Appendix A   - Python for Scientific Calculation and Basic Data Visualization
 lessons:
-  - lesson1/index.yml
-  - lesson2/index.yml
+    - lesson1/index.yml
+    - lesson2/index.yml

@@ -1,9 +1,8 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- Creating and Using a Class - Zelle: Chapter 10, pages 248-254 (for example
-  class definitions like MSDie). - Matthes: Chapter 9, pages 158-162 (on
+  - Creating and Using a Class   - Zelle: Chapter 10, pages 248-254 (for example
+  class definitions like MSDie).   - Matthes: Chapter 9, pages 158-162 (on
   "Creating a Dog Class", the __init__() method, and creating instances).
 

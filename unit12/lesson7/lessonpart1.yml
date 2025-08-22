@@ -1,13 +1,9 @@
 id: lessonpart1
-title: |-
-  Final Project
-content: |-
-  ## Reading
+title: |  -  Final Project
+content: |  ## Reading
 
-- No reading available in Readings.md for Unit 11 Lesson 7.
+  - No reading available in Readings.md for Unit 11 Lesson 7.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit12/lesson7/lessonpart1/app_skeleton.py
+showEditor: true 
+editors:
+  -   course1/unit12/lesson7/lessonpart1/app_skeleton.py

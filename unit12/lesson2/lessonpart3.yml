@@ -3,10 +3,10 @@ id: lessonpart3
 title: Materials
 content: |
   ## Lesson 11.2: Data Model and Storage
-  - Student Materials:
-    - Outline:
-      - Designing the Python class (e.g., Contact, Book, Task) to represent a single item of data for the manager.
-      - Defining the attributes for this class (name, phone, email, etc.).
+    - Student Materials:
+      - Outline:
+        - Designing the Python class (e.g., Contact, Book, Task) to represent a single item of data for the manager.
+        - Defining the attributes for this class (name, phone, email, etc.).
        Review of how to manage a collection of these items in Python (a list of objects or dictionaries).
        Implementing the load_data() function to read JSON data from data.json into the all_items list.
        Implementing the save_data() function to write the all_items list to data.json.

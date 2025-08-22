@@ -35,13 +35,13 @@ content: |
   shapes, concentrate on:
 
 
-  - Variables being plotted: what the axes represent
+    - Variables being plotted: what the axes represent
 
-  - Trends: increasing, decreasing, or stable behavior
+    - Trends: increasing, decreasing, or stable behavior
 
-  - Clusters / outliers: groups of points or points that deviate significantly
+    - Clusters / outliers: groups of points or points that deviate significantly
 
-  - Comparisons: how different groups compare to one another
+    - Comparisons: how different groups compare to one another
 
 
   When describing a plot to a sighted person, translate visual features into an
@@ -63,15 +63,15 @@ content: |
   **How to interpret a line plot:**
 
 
-  - X-axis: independent variable (e.g., time)
+    - X-axis: independent variable (e.g., time)
 
-  - Y-axis: dependent variable (measured value)
+    - Y-axis: dependent variable (measured value)
 
-  - The line: value of the Y variable at each X point
-      - an upward-sloping line indicates an increasing trend
-      - a downward-sloping line indicates a decreasing trend
-      - a flat line indicates little or no change
-      - jaggedness indicates variability
+    - The line: value of the Y variable at each X point
+        - an upward-sloping line indicates an increasing trend
+        - a downward-sloping line indicates a decreasing trend
+        - a flat line indicates little or no change
+        - jaggedness indicates variability
 
   **Generating a line plot (example):**
 
@@ -126,13 +126,13 @@ content: |
   **How to interpret a histogram:**
 
 
-  - X-axis: value ranges (bins)
+    - X-axis: value ranges (bins)
 
-  - Y-axis: frequency (count) per bin
+    - Y-axis: frequency (count) per bin
 
-  - Tall bars: high concentration in that range
+    - Tall bars: high concentration in that range
 
-  - Short or absent bars: few or no values in that range
+    - Short or absent bars: few or no values in that range
 
 
   **Generating a histogram (example):**
@@ -174,15 +174,15 @@ content: |
   ### Important Considerations for Screen Reader Users
 
 
-  - Underlying data is key: provide raw lists, dictionaries or summaries that
+    - Underlying data is key: provide raw lists, dictionaries or summaries that
       a screen reader can read.
-  - Labels and titles are crucial: `plt.title()`, `plt.xlabel()`, and
+    - Labels and titles are crucial: `plt.title()`, `plt.xlabel()`, and
       `plt.ylabel()` give context that should be announced or printed.
-  - Use descriptive comments in code to explain intent and what plot features
+    - Use descriptive comments in code to explain intent and what plot features
       mean.
-  - Focus on numerical summaries: report mean, median, mode, min/max, and
+    - Focus on numerical summaries: report mean, median, mode, min/max, and
       ranges to convey distribution information.
-  - Provide alternative representations: print aggregated summaries or
+    - Provide alternative representations: print aggregated summaries or
       specific points (start, end, max with its X value, min with its X value,
       and bin counts for histograms).
 
@@ -193,4 +193,4 @@ content: |
   access to the charts.
 showEditor: true
 editors:
-  - course1/unit16/lesson2/lessonpart1/matplotlibplayground.py
+    - course1/unit16/lesson2/lessonpart1/matplotlibplayground.py

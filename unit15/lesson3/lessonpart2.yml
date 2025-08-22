@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Unit 1
+content: |+
+  # Unit 1: Foundations of Computing and Getting Started with Python
+
+
+  ## Emphasis/Resources:
+
+
+  * Console Output: Practice distinguishing between program output and
+  interpreter feedback.
+
+
+  * Reading print() output: Have them write multiple print() statements and
+  predict the output order.
+
+
+  ## Challenge Projects:
+
+
+  1. "The Jumbled Greeting":
+
+     * Scenario: You were trying to print a simple greeting, but accidentally introduced some common typos.
+
+     * Code (with errors):
+
+  ```python
+
+  prin("Hello, World"
+
+  print "My name is"
+
+  print(42)  # This one is correct
+
+  print("Nice to meet you!)"
+
+  ```
+
+
+  * Task: Identify and fix all the errors so the program runs correctly,
+  printing each statement on a new line. Focus on listening to error messages.
+
+
+showEditor: true
+editors:
+    - course1/unit15/lesson3/lessonpart2/Lesson14_3.py

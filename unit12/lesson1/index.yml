@@ -9,6 +9,6 @@ description: This unit involves building a GUI application using NiceGUI.
   drawing on the principles outlined in the curriculum's supplementary materials
   for data visualization accessibility
 lessonParts:
-  - lessonpart1.yml
-  - lessonpart2.yml
-  - lessonpart3.yml
+    - lessonpart1.yml
+    - lessonpart2.yml
+    - lessonpart3.yml

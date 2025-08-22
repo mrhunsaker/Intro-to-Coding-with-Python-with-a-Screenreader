@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Introducing Dictionaries
+  # Lesson: Introducing Dictionaries
 
 
   ## Creating, accessing, and modifying dictionaries
@@ -119,8 +118,6 @@ content: |-
   * Prompt the user to enter a term. If found, print its definition; otherwise,
   print "Term not found."
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit5/lesson4/lessonpart2/Lesson4_4.py
+showEditor: true 
+editors:
+  -   course1/unit5/lesson4/lessonpart2/Lesson4_4.py

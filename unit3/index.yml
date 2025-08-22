@@ -3,14 +3,13 @@ id: unit3
 title: "Unit 2: Writing Simple Programs and Numeric Computations"
 description: This unit explores the software development process, more complex
   numeric operations, and how to obtain input from users.
-objectives: |-
-  - Understand the software development process.
-  - Work with different numeric data types (integers, floats).
-  - Perform type conversions.
-  - Use mathematical operators and the math library.
+objectives: |  - Understand the software development process.
+    - Work with different numeric data types (integers, floats).
+    - Perform type conversions.
+    - Use mathematical operators and the math library.
 lessons:
-  - lesson1/index.yml
-  - lesson2/index.yml
-  - lesson3/index.yml
-  - lesson4/index.yml
-  - lesson5/index.yml
+    - lesson1/index.yml
+    - lesson2/index.yml
+    - lesson3/index.yml
+    - lesson4/index.yml
+    - lesson5/index.yml

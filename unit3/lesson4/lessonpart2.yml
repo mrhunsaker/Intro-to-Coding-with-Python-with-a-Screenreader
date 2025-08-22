@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Computing with Numbers
+  # Lesson: Computing with Numbers
 
 
   ## Integers, floats, and their differences. Type conversions (`int()`,
@@ -110,8 +109,6 @@ content: |-
 
      * Accessibility: Emphasize reading and interpreting error messages.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit3/lesson4/lessonpart2/Lesson2_4.py
+showEditor: true
+editors:
+  -   course1/unit3/lesson4/lessonpart2/Lesson2_4.py

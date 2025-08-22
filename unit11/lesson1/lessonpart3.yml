@@ -2,15 +2,21 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 10.1: Introduction to Classes and Objects
-  - Student Materials:
-    - Outline:
-      - What is an object: a collection of data (attributes) and functions (methods).
-      - What is a class: a blueprint for creating objects.
-      - Defining a class using class MyClass:.
-      - The __init__ method and instance attributes.
-    - Skills Checklist:
-      - [ ] I can explain the difference between a class and an object.
-      - [ ] I can define a simple class with an __init__ method.
-      - [ ] I can create an instance of a class and access its attributes.
+  #file:lessonpart3.yml
+  
+  - Lesson 10.1: Designing Your Project 
+- Student Materials: 
+	- Outline: 
+		-  The importance of project planning before coding. 
+		-  Breaking down a large problem into smaller, manageable sub-problems (modules, functions, classes). 
+		-  Defining project features and user interactions. 
+		-  Planning data structures (which lists, dictionaries, or classes will be needed). 
+		-  Designing the overall program flow. 
+		-  Thinking about accessible input/output design for screen readers. 
+	- Skills Checklist: 
+		-  [ ] I can break down a larger problem into smaller, manageable parts. 
+		-  [ ] I can identify the key features required for a project. 
+		-  [ ] I can plan which data structures will be most suitable for my project's data. 
+		-  [ ] I can outline the main steps or flow of my program. 
+		-  [ ] I can consider user interaction and feedback during the design phase.
   

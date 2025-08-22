@@ -1,8 +1,7 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- Storing Data with JSON - Matthes: Chapter 10, pages 200-204 (on "Storing Data"
+  - Storing Data with JSON   - Matthes: Chapter 10, pages 200-204 (on "Storing Data"
   and using the json module for json.dumps() and json.loads()).
 

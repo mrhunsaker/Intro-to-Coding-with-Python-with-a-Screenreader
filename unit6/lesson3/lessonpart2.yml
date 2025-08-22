@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- Lesson: Using Flags and break to Exit Loops
+  - Lesson: Using Flags and break to Exit Loops
 
   ## Controlling loop termination
 
@@ -59,8 +58,6 @@ content: |-
 
   * Print all collected names.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit6/lesson3/lessonpart2/Lesson5_3.py
+showEditor: true 
+editors:
+  -   course1/unit6/lesson3/lessonpart2/Lesson5_3.py

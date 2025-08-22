@@ -1,9 +1,7 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- Input and Output Revisited - Zelle: Chapter 2, pages 27-33 (detailing "Output
-  Statements" and "Input Statement"). - Matthes: Chapter 7, pages 114-116
-  (explaining the input() function).
+  - Input and Output Revisited   - Zelle: Chapter 2, pages 27-33 (detailing "Output Statements" and "Input Statement"). 
+    - Matthes: Chapter 7, pages 114-116  (explaining the input() function).
 

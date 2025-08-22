@@ -1,10 +1,11 @@
 id: lessonpart1
 title: Reading
-content: |-
-  ## Reading
+content: |  ## Reading
 
-- Basic String Operations - Zelle: Chapter 5, pages 99-102 (on "The String Data
+  - Basic String Operations   
+  - Zelle: Chapter 5, pages 99-102 (on "The String Data
   Type" and "Simple String Processing", including len()); pages 111-115 (on
-  "String Methods"). - Matthes: Chapter 2, pages 19-25 (on "Strings", string
+  "String Methods").  
+   - Matthes: Chapter 2, pages 19-25 (on "Strings", string
   methods like lower() and upper(), and string formatting).
 

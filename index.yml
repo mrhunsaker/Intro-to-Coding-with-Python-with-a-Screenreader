@@ -35,32 +35,32 @@ description: >
 
 
 
-      - VS Code and Screen Readers: The student will use VS Code with a screen reader (NVDA, JAWS, or VoiceOver). VS Code has excellent accessibility features, including optimized screen reader mode, accessible view (Shift+Alt+F2), and navigation shortcuts (F8/Shift+F8 for errors).
+        - VS Code and Screen Readers: The student will use VS Code with a screen reader (NVDA, JAWS, or VoiceOver). VS Code has excellent accessibility features, including optimized screen reader mode, accessible view (Shift+Alt+F2), and navigation shortcuts (F8/Shift+F8 for errors).
 
 
 
 
-      - Indentation: Python's reliance on indentation is crucial. The Python Indent and Indent Rainbow extensions in VS Code can provide visual cues, but for a screen reader user, consistent formatting and clear explanation of indentation rules are paramount. Encouraging the use of spaces (typically 4) over tabs for consistency is good practice.
+        - Indentation: Python's reliance on indentation is crucial. The Python Indent and Indent Rainbow extensions in VS Code can provide visual cues, but for a screen reader user, consistent formatting and clear explanation of indentation rules are paramount. Encouraging the use of spaces (typically 4) over tabs for consistency is good practice.
 
 
 
 
-      - Code Structure and Comments: Emphasize clear, well-commented code. Docstrings ("""Docstring here""") are excellent for describing functions and classes, and line comments (# Comment) for explaining logic.
+        - Code Structure and Comments: Emphasize clear, well-commented code. Docstrings ("""Docstring here""") are excellent for describing functions and classes, and line comments (# Comment) for explaining logic.
 
 
 
 
-      - Error Messages: Teach the student how to navigate and interpret Python error messages, as these are text-based and crucial for debugging.
+        - Error Messages: Teach the student how to navigate and interpret Python error messages, as these are text-based and crucial for debugging.
 
 
 
 
-      - Terminal Interaction: All program execution and output will be through the integrated terminal in VS Code, which is screen reader-friendly.
+        - Terminal Interaction: All program execution and output will be through the integrated terminal in VS Code, which is screen reader-friendly.
 
 
 
 
-      - No turtle() Graphics: All graphical exercises from Zelle's curriculum will be replaced with text-based alternatives or concepts from Matthes that focus on data manipulation and console output.
+        - No turtle() Graphics: All graphical exercises from Zelle's curriculum will be replaced with text-based alternatives or concepts from Matthes that focus on data manipulation and console output.
 
 
 
@@ -79,47 +79,47 @@ description: >
 
 
 
-      - Python 3 (latest stable version)
+        - Python 3 (latest stable version)
 
 
 
 
-      - VS Code (Visual Studio Code)
+        - VS Code (Visual Studio Code)
 
 
 
 
-      - A screen reader (NVDA, JAWS, or VoiceOver)
+        - A screen reader (NVDA, JAWS, or VoiceOver)
 
 
 
 
-      - Recommended VS Code Extensions:
+        - Recommended VS Code Extensions:
 
 
 
 
-          - Python (Official Microsoft extension)
+            - Python (Official Microsoft extension)
 
 
 
 
-          - Pylance (for IntelliSense, type checking)
+            - Pylance (for IntelliSense, type checking)
 
 
 
 
-          - Python Indent (for consistent indentation, though primary reliance is on good habits)
+            - Python Indent (for consistent indentation, though primary reliance is on good habits)
 
 
 
 
-          - Better Comments (for highlighted comments - may or may not be useful depending on screen reader configuration)
+            - Better Comments (for highlighted comments   - may or may not be useful depending on screen reader configuration)
 
 
 
 
-          - Code Runner (for quick execution of Python files)
+            - Code Runner (for quick execution of Python files)
 
 
 
@@ -146,17 +146,16 @@ description: >
 
 
   (3rd ed.). Franklin, Beedle & Associates.
-prerequisites: |-
-  Access to a Desktop or Laptop computer capable of accessing a
+prerequisites: |  -  Access to a Desktop or Laptop computer capable of accessing a
   browser, run a screenreader (JAWS, NVDA, WIndows Narrator, Mac OS VocieOver),
   and itnerest
 cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
 contacts:
-  - displayName: Michael Ryan Hunsaker, M.Ed., Ph.D.
+    - displayName: Michael Ryan Hunsaker, M.Ed., Ph.D.
     affiliation: Davis School District
     homePageUrl: https://github.com/mrhunsaker
 files:
-  - path: course1/unit12/lesson7/lessonpart1/app_skeleton.py
+    - path: course1/unit12/lesson7/lessonpart1/app_skeleton.py
     content: "import json\r
 
       from pathlib import Path\r
@@ -167,7 +166,7 @@ files:
 
       \r
 
-      # --- Configuration ---\r
+      # --  - Configuration ---\r
 
       \r
 
@@ -190,7 +189,7 @@ files:
 
       \r
 
-      # --- Data Model (Student will likely expand this into a class) ---\r
+      # --  - Data Model (Student will likely expand this into a class) ---\r
 
       \r
 
@@ -202,7 +201,7 @@ files:
 
       \r
 
-      # --- Helper Functions (Student will implement/complete these) ---\r
+      # --  - Helper Functions (Student will implement/complete these) ---\r
 
       \r
 
@@ -357,7 +356,7 @@ files:
 
       \r
 
-      # --- GUI Layout and Interaction (Student will primarily interact with
+      # --  - GUI Layout and Interaction (Student will primarily interact with
       these callbacks) ---\r
 
       \r
@@ -610,7 +609,7 @@ files:
       \r
 
       ui.run(title=\"Accessible Data Manager\")"
-  - path: course1/unit14/lesson2/lessonpart1/final_proofread.py
+    - path: course1/unit14/lesson2/lessonpart1/final_proofread.py
     content: "# Here is the final proofreading assignment\r
 
       \r
@@ -787,19 +786,19 @@ files:
 
       \    main_root.mainloop()"
 units:
-  - unit15/index.yml
-  - unit1/index.yml
-  - unit2/index.yml
-  - unit3/index.yml
-  - unit4/index.yml
-  - unit5/index.yml
-  - unit6/index.yml
-  - unit7/index.yml
-  - unit8/index.yml
-  - unit9/index.yml
-  - unit10/index.yml
-  - unit11/index.yml
-  - unit12/index.yml
-  - unit13/index.yml
-  - unit14/index.yml
-  - unit16/index.yml
+    - unit15/index.yml
+    - unit1/index.yml
+    - unit2/index.yml
+    - unit3/index.yml
+    - unit4/index.yml
+    - unit5/index.yml
+    - unit6/index.yml
+    - unit7/index.yml
+    - unit8/index.yml
+    - unit9/index.yml
+    - unit10/index.yml
+    - unit11/index.yml
+    - unit12/index.yml
+    - unit13/index.yml
+    - unit14/index.yml
+    - unit16/index.yml

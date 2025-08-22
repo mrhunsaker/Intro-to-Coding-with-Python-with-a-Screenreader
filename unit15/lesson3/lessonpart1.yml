@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Unit 0
+content: |+
+  # General Accessibility Tools & Strategies (Applicable Throughout)
+
+
+  * Screen Reader Configuration:
+
+    * VS Code Indent Announce/Beep: Strongly encourage students to explore their screen reader's settings within VS Code. NVDA, JAWS, and VoiceOver all have options to announce or "beep" on indentation changes. This is critical for Python.
+
+      * Resource: Direct students to search for "NVDA VS Code indentation" or "JAWS VS Code indentation" online. Provide a brief explanation of how to find these settings (e.g., "Press NVDA+N for NVDA menu, then Preferences > Settings > Document Formatting, look for 'Indentation'").
+
+    * Line Numbers & Column Numbers: Emphasize the importance of listening to line numbers and column numbers when navigating. VS Code's "Go to Line/Column" (Ctrl+G) is vital.
+
+  * VS Code Accessibility Features:
+
+    * Accessible View (Shift+Alt+F2): Reiterate its use for reviewing content that might be otherwise inaccessible (e.g., hover information, error details).
+
+    * Focus on Errors (F8 / Shift+F8): This is the primary way to jump between errors without visually scanning the code.
+
+    * "Go to Definition" (F12) / "Go to Reference" (Shift+F12): Essential for navigating codebases.
+
+  * Standard Library Documentation: Python's official documentation is generally
+  very well-structured and accessible. Teach students how to find and read it.
+
+    * Resource: Python Docs: docs.python.org/3/
+
+  * Online Code Editors with Accessibility Features: While VS Code is the
+  primary, mention Replit or other online IDEs as alternatives for quick
+  testing, as some have decent screen reader support.
+

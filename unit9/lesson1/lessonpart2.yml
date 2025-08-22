@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Reading from a File
+  # Lesson: Reading from a File
 
   ## Opening, reading, and closing files. Using with statements.
 
@@ -12,7 +11,7 @@ content: |-
   ```python
   with open('my_notes.txt', 'r') as file_object:
      contents = file_object.read()
-  print("--- Entire File Content ---")
+  print("--  - Entire File Content ---")
   print(contents)
   ```
 
@@ -21,14 +20,14 @@ content: |-
   ```python
   with open('my_notes.txt', 'r') as file_object:
      print("
-- --- File Content Line by Line ---")
+  - --  - File Content Line by Line ---")
      for line in file_object:
          print(line.strip())
 
   with open('my_notes.txt', 'r') as file_object:
      lines = file_object.readlines()
   print("
-- --- File Content as List of Lines ---")
+  - --  - File Content as List of Lines ---")
   for line in lines:
      print(line.strip())
   ```
@@ -47,8 +46,6 @@ content: |-
 
   * Read and print each line.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit9/lesson1/lessonpart2/Lesson8_1.py
+showEditor: true 
+editors:
+  -   course1/unit9/lesson1/lessonpart2/Lesson8_1.py

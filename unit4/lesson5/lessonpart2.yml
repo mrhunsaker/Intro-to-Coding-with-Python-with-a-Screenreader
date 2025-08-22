@@ -1,9 +1,8 @@
 id: lessonpart2
 title: Lesson
-content: |-
-  ## Activities
+content: | 
 
-- # Lesson: Basic String Operations
+  # Lesson: Basic String Operations
 
 
   ## Concatenation, length (`len()`), string methods (`.upper()`, `.lower()`,
@@ -115,8 +114,6 @@ content: |-
 
      * Purpose: Practice cleaning text data with `.strip()`.
 
-"showEditor": !!bool |-
-  true
-"editors":
-- |-
-  course1/unit4/lesson5/lessonpart2/Lesson3_5.py
+showEditor: true 
+editors:
+  -   course1/unit4/lesson5/lessonpart2/Lesson3_5.py
