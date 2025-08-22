@@ -2,5 +2,7 @@
 id: lessonpart1
 title: Reading
 content: >
-  Introduction to Random Numbers - Zelle: Chapter 9, pages 223-225 (on "Pseudo Random Numbers"). - Matthes: Chapter 15, pages 312-314, 320-322 (on generating random data, e.g., random walks and dice rolls, focusing on the random module rather than visualization).
-
+  Introduction to Random Numbers - Zelle: Chapter 9, pages 223-225 (on "Pseudo
+  Random Numbers"). - Matthes: Chapter 15, pages 312-314, 320-322 (on generating
+  random data, e.g., random walks and dice rolls, focusing on the random module
+  rather than visualization).

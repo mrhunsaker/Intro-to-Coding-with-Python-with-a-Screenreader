@@ -33,14 +33,19 @@ content: >+
 
   * Syntax Errors: Missing colons, parentheses, brackets, incorrect keywords.
 
+
   * Indentation Errors: Lines improperly indented (treat these as simple
   copy-paste mishaps).
 
+
   * Name Errors: Variables or functions not defined, or misspelled.
+
 
   * Attribute Errors: Trying to access a non-existent method or attribute.
 
+
   * Type Errors: Operations on incompatible data types.
+
 
   * Logical Errors: Code runs but doesn't do what's expected (e.g., wrong
   comparison, infinite loop, incorrect variable update).
@@ -133,3 +138,6 @@ content: >+
       main_root.mainloop()
   ```
 
+showEditor: true
+editors:
+  - course1/unit14/lesson2/lessonpart1/final_proofread.py

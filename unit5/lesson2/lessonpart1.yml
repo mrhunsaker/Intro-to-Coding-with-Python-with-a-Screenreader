@@ -2,5 +2,5 @@
 id: lessonpart1
 title: Reading
 content: >
-  Organizing Lists - Matthes: Chapter 3, pages 39-45 (on "Organizing a List" (sort(), sorted()) and "Printing a List in Reverse Order" (reverse(), len())).
-
+  Organizing Lists - Matthes: Chapter 3, pages 39-45 (on "Organizing a List"
+  (sort(), sorted()) and "Printing a List in Reverse Order" (reverse(), len())).

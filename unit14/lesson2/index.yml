@@ -1,5 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson2
 title: Proofreading
+description: This is the final exam for comprehensively proofreading code you
+  have never seen before and uses a framework you are unfamiliar with
 lessonParts:
   - lessonpart1.yml

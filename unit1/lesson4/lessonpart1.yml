@@ -2,4 +2,7 @@
 id: lessonpart1
 title: Reading
 content: >
-  Python Environments and Terminal Usage - Matthes: Chapter 1, pages 3-14 (for running Python in a terminal); Chapter 8, pages 149-152 (for importing modules and functions, related to package management); Chapter 11, pages 210-211 (for installing external libraries like pytest using pip).
+  Python Environments and Terminal Usage - Matthes: Chapter 1, pages 3-14 (for
+  running Python in a terminal); Chapter 8, pages 149-152 (for importing modules
+  and functions, related to package management); Chapter 11, pages 210-211 (for
+  installing external libraries like pytest using pip).

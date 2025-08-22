@@ -1,6 +1,12 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  Implementing "Edit" and "Delete" Functionality - Applies concepts from Unit 4 (Lists and Dictionaries) for data modification and removal, and Unit 6 (Functions) for structuring the logic.
+content: |+
+  ## Implementing "Edit" and "Delete" Functionality
+
+  * Applies concepts from
+
+    * Unit 4 (Lists and Dictionaries) for data modification and removal
+
+    * Unit 6 (Functions) for structuring the logic.
 

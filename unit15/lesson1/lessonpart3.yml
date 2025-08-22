@@ -3,42 +3,42 @@ id: lessonpart3
 title: Unit 3
 content: |
   #file:lessonpart3.yml
-  
+
   ## Independent Practice:
-  
+
   1. Multiple Choice: Which operator is used for checking if two values are
   equal in Python?
-  
+
   * a) =
-  
+
   * b) ==
-  
+
   * c) !=
-  
+
   * d) <
-  
+
   2. True/False: If an if condition is True, the code block under its
   corresponding else statement will also execute.
-  
+
   3. Yes/No: Can a for loop iterate over each character in a string?
-  
+
   4. Multiple Choice: What will `len("Python")` return?
-  
+
   * a) 7
-  
+
   * b) 6
-  
+
   * c) 5
-  
+
   * d) Error
-  
+
   5. True/False: The elif keyword is used when you have multiple conditions to
   check sequentially.
-  
+
   ## Potential Assessment Questions:
-  
+
   1. Multiple Choice: Consider the code:
-  
+
   ```python
      age = 15
      if age >= 18:
@@ -46,30 +46,29 @@ content: |
      else:
          print("Minor")
      ```
-  
+
   - What will be printed?
-  
+
   * a) Adult
-  
+
   * b) Minor
-  
+
   * c) Nothing
-  
+
   * d) Error
-  
+
   2. True/False: After executing `my_list = [10, 20, 30]`, `my_list[1]` refers
   to the value 10.
-  
+
   3. Yes/No: Can you use `for i in range(5):` to loop exactly 5 times?
-  
+
   4. Multiple Choice: Which of the following will correctly convert a string `s
   = "Hello"` to all lowercase?
-  
+
   * a) `s.lowercase()`
-  
+
   * b) `s.lower()`
-  
+
   * c) `lower(s)`
-  
+
   * d) `s.to_lower()`
-  
