@@ -1,519 +1,654 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: ""
-content: >+
-  # yaml-language-server:
-  $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+title: Final Skeleton
+content: >
+  # Unit 11: Capstone Project - Accessible Personal Data Manager
 
-  id: lessonpart1
 
-  title: Final Project
+  Project Goal: Students will develop a fully functional,
 
-  content: >
-    # Unit 11: Capstone Project - Accessible Personal Data Manager
+  screen-reader-accessible graphical application that allows users to manage a
 
+  collection of structured personal data (e.g., contacts, notes, simple
 
-    Project Goal: Students will develop a fully functional,
-    screen-reader-accessible graphical application that allows users to manage a
-    collection of structured personal data (e.g., contacts, notes, simple
-    inventory). The core GUI structure and initial accessibility features will be
-    provided as a skeleton, and students will implement the underlying logic, data
-    handling, and interaction.
+  inventory). The core GUI structure and initial accessibility features will be
 
+  provided as a skeleton, and students will implement the underlying logic, data
 
-    Framework Choice: NiceGUI is highly recommended over PySide6 for this capstone
-    due to its simpler event-driven model, direct Python-to-web-frontend approach,
-    and often better out-of-the-box accessibility with standard HTML elements.
-    PySide6 offers more granular control but comes with a steeper learning curve
-    for GUI layout and explicit accessibility considerations.
+  handling, and interaction.
 
 
-    ## Learning Objectives:
+  Framework Choice: NiceGUI is highly recommended over PySide6 for this capstone
 
+  due to its simpler event-driven model, direct Python-to-web-frontend approach,
 
-    - Integrate knowledge of data structures (lists, dictionaries, classes).
+  and often better out-of-the-box accessibility with standard HTML elements.
 
+  PySide6 offers more granular control but comes with a steeper learning curve
 
-    - Apply function and object-oriented programming principles.
+  for GUI layout and explicit accessibility considerations.
 
 
-    - Implement file I/O (JSON) for persistent data storage.
+  ## Learning Objectives:
 
 
-    - Understand event-driven programming within a GUI context.
+  * Integrate knowledge of data structures (lists, dictionaries, classes).
 
 
-    - Develop a user-friendly and accessible application experience.
+  * Apply function and object-oriented programming principles.
 
 
-    - Practice debugging and problem-solving in a larger project.
+  * Implement file I/O (JSON) for persistent data storage.
 
 
-    ## Project Overview: Accessible Personal Data Manager
+  * Understand event-driven programming within a GUI context.
 
 
-    The student will build a simple application to manage a list of structured
-    items. This could be a:
+  * Develop a user-friendly and accessible application experience.
 
 
-    - Contact Manager: Name, Phone, Email, Notes
+  * Practice debugging and problem-solving in a larger project.
 
 
-    - Book/Movie Tracker: Title, Author/Director, Genre, Status (Read/Watched)
+  ## Project Overview: Accessible Personal Data Manager
 
 
-    - Simple To-Do List: Task Description, Due Date, Status (Pending/Complete)
+  The student will build a simple application to manage a list of structured
 
+  items. This could be a:
 
-    - Simple Inventory: Item Name, Quantity, Location, Notes
 
+  * Contact Manager: Name, Phone, Email, Notes
 
-    The **core functionality** will include:
 
+  * Book/Movie Tracker: Title, Author/Director, Genre, Status (Read/Watched)
 
-    1 Add New Item: A form to input details for a new item.
 
+  * Simple To-Do List: Task Description, Due Date, Status (Pending/Complete)
 
-    2 View All Items: Displaying items in a clear, accessible list format.
 
+  * Simple Inventory: Item Name, Quantity, Location, Notes
 
-    3 Edit Item: Select an existing item and modify its details.
 
+  The **core functionality** will include:
 
-    4 Delete Item: Remove an item from the collection.
 
+  1 Add New Item: A form to input details for a new item.
 
-    5 Save/Load Data: Persist the data to a JSON file.
 
+  2 View All Items: Displaying items in a clear, accessible list format.
 
 
-    **Accessibility Focus**: The provided GUI skeleton will ensure that all
-    interactive elements (buttons, input fields, list items) have appropriate ARIA
-    attributes or semantic HTML tags that screen readers can interpret correctly.
-    Students will focus on ensuring their data presentation and user feedback are
-    also screen-reader-friendly.
+  3 Edit Item: Select an existing item and modify its details.
 
 
-    ## Unit 11 Lessons (Guided Implementation)
+  4 Delete Item: Remove an item from the collection.
 
 
-    These "lessons" will be less about lecturing and more about providing
-    scaffolding and guidance for the project.
-      
-    ## Assessment: Capstone Project Submission and Demonstration
+  5 Save/Load Data: Persist the data to a JSON file.
 
 
-    ### Deliverables:
+  **Accessibility Focus**: The provided GUI skeleton will ensure that all
 
+  interactive elements (buttons, input fields, list items) have appropriate ARIA
 
-    1 app.py: The complete NiceGUI application code.
+  attributes or semantic HTML tags that screen readers can interpret correctly.
 
+  Students will focus on ensuring their data presentation and user feedback are
 
-    2 data.json (example): An example JSON file demonstrating saved data.
+  also screen-reader-friendly.
 
 
-    3 README.md: A text file (Markdown) that includes:
+  ## Unit 11 Lessons (Guided Implementation)
 
-    - Project Title and Student Name.
 
-    - A brief description of the application's purpose and features.
+  These "lessons" will be less about lecturing and more about providing
 
-    - Instructions on how to run the application (e.g., python app.py).
+  scaffolding and guidance for the project.
 
-    - Instructions on how to interact with the application using a screen reader
+
+  ## Assessment: Capstone Project Submission and Demonstration
+
+
+  ### Deliverables:
+
+
+  1 app.py: The complete NiceGUI application code.
+
+
+  2 data.json (example): An example JSON file demonstrating saved data.
+
+
+  3 README.md: A text file (Markdown) that includes:
+
+
+  * Project Title and Student Name.
+
+
+  * A brief description of the application's purpose and features.
+
+
+  * Instructions on how to run the application (e.g., python app.py).
+
+
+  * Instructions on how to interact with the application using a screen reader
     (e.g., "Use Tab to navigate between elements, Enter to activate buttons,
     etc.").
 
-    - A reflection on the challenges faced and how they were overcome,
+  * A reflection on the challenges faced and how they were overcome,
     particularly concerning accessibility.
-        
-    ### Assessment Criteria:
 
+  ### Assessment Criteria:
 
-    - Functionality (60%):
 
-        - Ability to add new items with all specified attributes.
+  * Functionality (60%):
 
-    	- Correct display of all current items.
+    * Ability to add new items with all specified attributes.
 
-    	- Correct editing of existing items.
+    * Correct display of all current items.
 
-    	- Correct deletion of items.
+    * Correct editing of existing items.
 
-    	- Accurate saving and loading of data to/from data.json.
+    * Correct deletion of items.
 
-    	- No major bugs or crashes during typical usage.
+    * Accurate saving and loading of data to/from data.json.
 
-    - Code Quality & Structure (20%):
+    * No major bugs or crashes during typical usage.
 
-    	- Clear and concise Python code.
+  * Code Quality & Structure (20%):
 
-    	- Appropriate use of functions and/or classes for organization.
+    * Clear and concise Python code.
 
-    	- Meaningful variable and function names.
+    * Appropriate use of functions and/or classes for organization.
 
-    	- Adequate comments where complex logic exists.
+    * Meaningful variable and function names.
 
-    	- Proper indentation.
+    * Adequate comments where complex logic exists.
 
-    - Accessibility & User Experience (15%):
+    * Proper indentation.
 
-    	- All interactive elements are correctly labeled and navigable by a screen reader (as verified by instructor using a screen reader).
+  * Accessibility & User Experience (15%):
 
-    	- Clear and consistent user feedback (e.g., ui.notify).
+    * All interactive elements are correctly labeled and navigable by a screen reader (as verified by instructor using a screen reader).
 
-    	- Logical flow and presentation of information.
+    * Clear and consistent user feedback (e.g., ui.notify).
 
-    	- Absence of visual-only cues for critical information.
+    * Logical flow and presentation of information.
 
-    - README and Reflection (5%):
+    * Absence of visual-only cues for critical information.
 
-    	- Completeness and clarity of the README.
+  * README and Reflection (5%):
 
-    	- Thoughtful reflection on the development process and accessibility challenges.
-    Demonstration: The student will demonstrate their working application, ideally
-    sharing their screen (or describing their interaction) and navigating the GUI
-    using their preferred screen reader. They will walk through adding, viewing,
-    editing, and deleting items, as well as saving and loading data. This hands-on
-    demonstration is crucial for verifying accessibility.
+    * Completeness and clarity of the README.
 
-    Accessible GUI Skeleton for NiceGUI (app_skeleton.py)
+    * Thoughtful reflection on the development process and accessibility challenges.
+      Demonstration: The student will demonstrate their working application, ideally
+      sharing their screen (or describing their interaction) and navigating the GUI
+      using their preferred screen reader. They will walk through adding, viewing,
+      editing, and deleting items, as well as saving and loading data. This hands-on
+      demonstration is crucial for verifying accessibility.
 
+  Accessible GUI Skeleton for NiceGUI (app\_skeleton.py)
 
-    This skeleton provides the basic layout and accessibility hints. The student
-    will fill in the logic.
 
+  This skeleton provides the basic layout and accessibility hints. The student
 
-    ```python
+  will fill in the logic.
 
-    import json
 
-    from pathlib import Path
+  ```python
 
 
-    from nicegui import ui, app
+  import json
 
 
-    # --- Configuration ---
+  from pathlib import Path
 
 
-    DATA_FILE = Path("data.json")
 
+  from nicegui import ui, app
 
-    # Define the structure of your data items.
 
 
-    # For a Contact Manager:
+  # --- Configuration ---
 
 
-    ITEM_ATTRIBUTES = ["name", "phone", "email", "notes"]
 
-    ITEM_TITLE_KEY = "name" # The attribute to use as a primary identifier in
-    lists/dropdowns
+  DATA_FILE = Path("data.json")
 
 
-    # --- Data Model (Student will likely expand this into a class) ---
 
+  # Define the structure of your data items.
 
-    # This list will hold all our item dictionaries/objects in memory
 
 
-    all_items = []
+  # For a Contact Manager:
 
 
-    # --- Helper Functions (Student will implement/complete these) ---
 
+  ITEM_ATTRIBUTES = ["name", "phone", "email", "notes"]
 
-    def load_data():
 
-    """Loads items from the JSON file into all_items."""
+  ITEM_TITLE_KEY = "name" # The attribute to use as a primary identifier in
 
-    global all_items
+  lists/dropdowns
 
-    if DATA_FILE.exists():
 
-    try:
 
-    with open(DATA_FILE, "r") as f:
+  # --- Data Model (Student will likely expand this into a class) ---
 
-    loaded_data = json.load(f)
 
-    # Important: Ensure loaded data matches your expected structure
 
-    # For now, just assign. Student might add validation later.
+  # This list will hold all our item dictionaries/objects in memory
 
-    all_items = loaded_data
 
-    ui.notify("Data loaded successfully!", type='positive')
 
-    except json.JSONDecodeError:
+  all_items = []
 
-    ui.notify("Error: Could not decode data.json. Starting fresh.",
-    type='negative')
 
-    all_items = []
 
-    except Exception as e:
+  # --- Helper Functions (Student will implement/complete these) ---
 
-    ui.notify(f"An unexpected error occurred loading data: {e}", type='negative')
 
-    all_items = []
 
-    else:
+  def load_data():
 
-    ui.notify("No data file found. Starting with empty data.", type='info')
 
-    all_items = []
+  """Loads items from the JSON file into all_items."""
 
-    update_item_display() # Refresh GUI after loading
 
+  global all_items
 
-    def save_data():
 
-    """Saves the current all_items list to the JSON file."""
+  if DATA_FILE.exists():
 
-    try:
 
-    with open(DATA_FILE, "w") as f:
+  try:
 
-    json.dump(all_items, f, indent=4)
 
-    ui.notify("Data saved successfully!", type='positive')
+  with open(DATA_FILE, "r") as f:
 
-    except Exception as e:
 
-    ui.notify(f"Error saving data: {e}", type='negative')
+  loaded_data = json.load(f)
 
 
-    def add_item_logic(name_input, phone_input, email_input, notes_input):
+  # Important: Ensure loaded data matches your expected structure
 
-    """Handles adding a new item based on form inputs."""
 
-    # Student to implement:
+  # For now, just assign. Student might add validation later.
 
-    # 1. Get values from name_input.value, etc.
 
-    # 2. Basic validation (e.g., name cannot be empty).
+  all_items = loaded_data
 
-    # 3. Create a new dictionary or object for the item.
 
-    #    Example: new_item = {"name": name_input.value, "phone":
-    phone_input.value, ...}
+  ui.notify("Data loaded successfully!", type='positive')
 
-    # 4. Add new_item to the 'all_items' list.
 
-    # 5. Call update_item_display() to refresh the list view.
+  except json.JSONDecodeError:
 
-    # 6. Clear input fields: name_input.value = "", etc.
 
-    # 7. Provide feedback: ui.notify("Item added!")
+  ui.notify("Error: Could not decode data.json. Starting fresh.",
 
-    ui.notify("Add item functionality to be implemented by student.",
-    type='warning')
+  type='negative')
 
-    print("Add item clicked. Values:", name_input.value, phone_input.value) # For
-    console debugging
 
+  all_items = []
 
-    def edit_selected_item_logic(selected_item_name, name_input, phone_input,
-    email_input, notes_input):
 
-    """Handles loading selected item into form for editing."""
+  except Exception as e:
 
-    # Student to implement:
 
-    # 1. Find the item in 'all_items' that matches 'selected_item_name'.
+  ui.notify(f"An unexpected error occurred loading data: {e}", type='negative')
 
-    # 2. Populate name_input.value, phone_input.value, etc. with the item's
-    current data.
 
-    ui.notify(f"Edit item '{selected_item_name}' functionality to be
-    implemented.", type='warning')
+  all_items = []
 
 
-    def update_item_logic(selected_item_name, name_input, phone_input,
-    email_input, notes_input):
+  else:
 
-    """Handles updating the selected item with new form data."""
 
-    # Student to implement:
+  ui.notify("No data file found. Starting with empty data.", type='info')
 
-    # 1. Find the item in 'all_items' that matches 'selected_item_name'.
 
-    # 2. Update its attributes with new values from name_input.value, etc.
+  all_items = []
 
-    # 3. Call update_item_display().
 
-    # 4. Provide feedback: ui.notify("Item updated!")
+  update_item_display() # Refresh GUI after loading
 
-    ui.notify(f"Update item '{selected_item_name}' functionality to be
-    implemented.", type='warning')
 
 
-    def delete_selected_item_logic(selected_item_name):
+  def save_data():
 
-    """Handles deleting the selected item."""
 
-    # Student to implement:
+  """Saves the current all_items list to the JSON file."""
 
-    # 1. Find and remove the item from 'all_items' that matches
-    'selected_item_name'.
 
-    # 2. Call update_item_display().
+  try:
 
-    # 3. Provide feedback: ui.notify("Item deleted!")
 
-    ui.notify(f"Delete item '{selected_item_name}' functionality to be
-    implemented.", type='warning')
+  with open(DATA_FILE, "w") as f:
 
 
-    # --- GUI Layout and Interaction (Student will primarily interact with these
-    callbacks) ---
+  json.dump(all_items, f, indent=4)
 
 
-    @ui.page('/')
+  ui.notify("Data saved successfully!", type='positive')
 
-    def main_page():
 
-    # Variables to hold references to GUI elements for dynamic updates
+  except Exception as e:
 
-    global items_display_column, item_selection_dropdown,
-    current_selected_item_name
 
+  ui.notify(f"Error saving data: {e}", type='negative')
 
-    current_selected_item_name = ui.label("No item selected for edit/delete") #
-    Accessible feedback for selected item
 
 
-    with ui.header().classes('items-center'):
-        ui.label('Accessible Personal Data Manager').classes('text-h4 q-mr-md')
-        ui.button('Load Data', on_click=load_data, aria_label="Load data from file")
-        ui.button('Save Data', on_click=save_data, aria_label="Save current data to file")
+  def add_item_logic(name_input, phone_input, email_input, notes_input):
 
-    with ui.tabs().props('vertical') as tabs:
-        add_tab = ui.tab('Add New Item', icon='add', aria_label="Tab for adding new items")
-        view_tab = ui.tab('View All Items', icon='list', aria_label="Tab for viewing all items")
-        manage_tab = ui.tab('Manage Items', icon='edit', aria_label="Tab for editing and deleting items")
 
-    with ui.tab_panels(tabs, value=add_tab).classes('w-full'):
-        with ui.tab_panel(add_tab).classes('q-pa-md'):
-            ui.label('Add a New Item').classes('text-h5')
-            # Student to create appropriate input fields based on ITEM_ATTRIBUTES
-            name_input = ui.input(label="Name (required)", placeholder="Enter item name", aria_label="Enter the name for the new item").classes('w-full').props('required')
-            phone_input = ui.input(label="Phone", placeholder="Enter phone number", aria_label="Enter the phone number for the new item").classes('w-full')
-            email_input = ui.input(label="Email", placeholder="Enter email address", aria_label="Enter the email address for the new item").classes('w-full')
-            notes_input = ui.input(label="Notes", placeholder="Any additional notes", aria_label="Enter any additional notes for the new item").classes('w-full')
+  """Handles adding a new item based on form inputs."""
 
-            ui.button('Add Item',
-                      on_click=lambda: add_item_logic(name_input, phone_input, email_input, notes_input),
-                      aria_label="Add the new item to your collection")
 
-        with ui.tab_panel(view_tab).classes('q-pa-md'):
-            ui.label('Your Current Items').classes('text-h5')
-            # This column will be dynamically updated to display items
-            items_display_column = ui.column().classes('w-full')
-            # The initial call to display items when the page loads
-            ui.on('page_ready', update_item_display) # Ensures items are displayed after page is ready
+  # Student to implement:
 
-        with ui.tab_panel(manage_tab).classes('q-pa-md'):
-            ui.label('Edit or Delete Items').classes('text-h5')
-            # Dropdown for selecting an item to manage
-            item_selection_dropdown = ui.select(
-                options=[], # Options will be populated by update_item_display
-                label="Select Item to Manage",
-                on_change=lambda e: (
-                    current_selected_item_name.set_text(f"Selected: {e.value}"),
-                    edit_selected_item_logic(e.value, name_input, phone_input, email_input, notes_input)
-                ),
-                aria_label="Select an item from the list to edit or delete"
-            ).classes('w-full')
 
-            # Re-use the same input fields for editing
-            ui.separator()
-            ui.label('Edit Selected Item').classes('text-h6')
-            edit_name_input = ui.input(label="Name", aria_label="Edit the name of the selected item").classes('w-full')
-            edit_phone_input = ui.input(label="Phone", aria_label="Edit the phone number of the selected item").classes('w-full')
-            edit_email_input = ui.input(label="Email", aria_label="Edit the email address of the selected item").classes('w-full')
-            edit_notes_input = ui.input(label="Notes", aria_label="Edit the notes for the selected item").classes('w-full')
+  # 1. Get values from name_input.value, etc.
 
-            with ui.row():
-                ui.button('Update Item',
-                          on_click=lambda: update_item_logic(item_selection_dropdown.value, edit_name_input, edit_phone_input, edit_email_input, edit_notes_input),
-                          aria_label="Apply changes to the selected item")
-                ui.button('Delete Item', color='red',
-                          on_click=lambda: delete_selected_item_logic(item_selection_dropdown.value),
-                          aria_label="Delete the selected item permanently")
 
-    # This function needs to be global or passed as a parameter for
-    items_display_column.clear()
+  # 2. Basic validation (e.g., name cannot be empty).
 
-    def update_item_display():
-        """Updates the list of items displayed and the selection dropdown."""
-        items_display_column.clear()
-        if not all_items:
-            items_display_column.add(ui.label("No items to display yet. Add some on the 'Add New Item' tab!").classes('text-italic'))
-        else:
-            for i, item in enumerate(all_items):
-                # Ensure the item has a title key, otherwise use a generic label
-                display_title = item.get(ITEM_TITLE_KEY, f"Item {i+1}")
-                with items_display_column:
-                    # Creating a card for each item for better visual and screen reader grouping
-                    with ui.card().classes('w-full q-mb-md').props(f'aria-labelledby="item-title-{i}"'):
-                        ui.label(display_title).classes('text-lg font-bold').props(f'id="item-title-{i}"')
-                        # Student to iterate through all attributes to display them
-                        for key, value in item.items():
-                            ui.label(f"{key.capitalize()}: {value}").classes('text-sm')
-                        ui.separator()
-                        # Add specific accessible elements for actions on each item (optional, or use dropdown)
-                        # ui.button('Quick Edit', on_click=lambda item=item: print(f"Editing {item['name']}"), aria_label=f"Quick edit {item['name']}")
 
-        # Update the options for the dropdown in the 'Manage Items' tab
-        item_selection_dropdown.options = [item.get(ITEM_TITLE_KEY) for item in all_items if item.get(ITEM_TITLE_KEY) is not None]
-        # Clear selected value if the item is no longer in the list
-        if item_selection_dropdown.value not in item_selection_dropdown.options:
-            item_selection_dropdown.set_value(None)
-            current_selected_item_name.set_text("No item selected for edit/delete")
+  # 3. Create a new dictionary or object for the item.
 
-    # Ensure initial data is loaded when the app starts
 
+  #    Example: new_item = {"name": name_input.value, "phone":
 
-    # This will be called before ui.run()
+  phone_input.value, ...}
 
 
-    load_data()
+  # 4. Add new_item to the 'all_items' list.
 
 
-    ui.run(title="Accessible Data Manager")
+  # 5. Call update_item_display() to refresh the list view.
 
-    ```
 
+  # 6. Clear input fields: name_input.value = "", etc.
 
-    ## Setup Steps:
 
-    1 Install NiceGUI: pip install nicegui
+  # 7. Provide feedback: ui.notify("Item added!")
 
-    2 Provide app_skeleton.py: Give the student this file.
 
-    3 Explain the Code: Walk through the skeleton code, highlighting:
+  ui.notify("Add item functionality to be implemented by student.",
 
-    	- The all_items global list (where data resides in memory).
+  type='warning')
 
-    	- The placeholder helper functions (add_item_logic, edit_selected_item_logic, delete_selected_item_logic, update_item_logic).
 
-    	- The update_item_display() function, which is crucial for refreshing the UI.
+  print("Add item clicked. Values:", name_input.value, phone_input.value) # For
 
-    	- How ui.button, ui.input, ui.label, ui.select are used.
+  console debugging
 
-    	- The on_click and on_change event handlers.
 
-    	- The aria_label properties for screen reader clarity.
-    4 Emphasize Iteration: Encourage students to implement one function at a time,
-    test it thoroughly with their screen reader, and debug.
 
-    This capstone provides a challenging yet structured opportunity for students
-    to apply their full range of Python skills in a real-world, accessible
-    application context.
+  def edit_selected_item_logic(selected_item_name, name_input, phone_input,
 
+  email_input, notes_input):
+
+
+  """Handles loading selected item into form for editing."""
+
+
+  # Student to implement:
+
+
+  # 1. Find the item in 'all_items' that matches 'selected_item_name'.
+
+
+  # 2. Populate name_input.value, phone_input.value, etc. with the item's
+
+  current data.
+
+
+  ui.notify(f"Edit item '{selected_item_name}' functionality to be
+
+  implemented.", type='warning')
+
+
+
+  def update_item_logic(selected_item_name, name_input, phone_input,
+
+  email_input, notes_input):
+
+
+  """Handles updating the selected item with new form data."""
+
+
+  # Student to implement:
+
+
+  # 1. Find the item in 'all_items' that matches 'selected_item_name'.
+
+
+  # 2. Update its attributes with new values from name_input.value, etc.
+
+
+  # 3. Call update_item_display().
+
+
+  # 4. Provide feedback: ui.notify("Item updated!")
+
+
+  ui.notify(f"Update item '{selected_item_name}' functionality to be
+
+  implemented.", type='warning')
+
+
+
+  def delete_selected_item_logic(selected_item_name):
+
+
+  """Handles deleting the selected item."""
+
+
+  # Student to implement:
+
+
+  # 1. Find and remove the item from 'all_items' that matches
+
+  'selected_item_name'.
+
+
+  # 2. Call update_item_display().
+
+
+  # 3. Provide feedback: ui.notify("Item deleted!")
+
+
+  ui.notify(f"Delete item '{selected_item_name}' functionality to be
+
+  implemented.", type='warning')
+
+
+
+  # --- GUI Layout and Interaction (Student will primarily interact with these
+
+  callbacks) ---
+
+
+
+  @ui.page('/')
+
+
+  def main_page():
+
+
+  # Variables to hold references to GUI elements for dynamic updates
+
+
+  global items_display_column, item_selection_dropdown,
+
+  current_selected_item_name
+
+
+
+  current_selected_item_name = ui.label("No item selected for edit/delete") #
+
+  Accessible feedback for selected item
+
+
+
+  with ui.header().classes('items-center'):
+      ui.label('Accessible Personal Data Manager').classes('text-h4 q-mr-md')
+      ui.button('Load Data', on_click=load_data, aria_label="Load data from file")
+      ui.button('Save Data', on_click=save_data, aria_label="Save current data to file")
+
+  with ui.tabs().props('vertical') as tabs:
+      add_tab = ui.tab('Add New Item', icon='add', aria_label="Tab for adding new items")
+      view_tab = ui.tab('View All Items', icon='list', aria_label="Tab for viewing all items")
+      manage_tab = ui.tab('Manage Items', icon='edit', aria_label="Tab for editing and deleting items")
+
+  with ui.tab_panels(tabs, value=add_tab).classes('w-full'):
+      with ui.tab_panel(add_tab).classes('q-pa-md'):
+          ui.label('Add a New Item').classes('text-h5')
+          # Student to create appropriate input fields based on ITEM_ATTRIBUTES
+          name_input = ui.input(label="Name (required)", placeholder="Enter item name", aria_label="Enter the name for the new item").classes('w-full').props('required')
+          phone_input = ui.input(label="Phone", placeholder="Enter phone number", aria_label="Enter the phone number for the new item").classes('w-full')
+          email_input = ui.input(label="Email", placeholder="Enter email address", aria_label="Enter the email address for the new item").classes('w-full')
+          notes_input = ui.input(label="Notes", placeholder="Any additional notes", aria_label="Enter any additional notes for the new item").classes('w-full')
+
+          ui.button('Add Item',
+                    on_click=lambda: add_item_logic(name_input, phone_input, email_input, notes_input),
+                    aria_label="Add the new item to your collection")
+
+      with ui.tab_panel(view_tab).classes('q-pa-md'):
+          ui.label('Your Current Items').classes('text-h5')
+          # This column will be dynamically updated to display items
+          items_display_column = ui.column().classes('w-full')
+          # The initial call to display items when the page loads
+          ui.on('page_ready', update_item_display) # Ensures items are displayed after page is ready
+
+      with ui.tab_panel(manage_tab).classes('q-pa-md'):
+          ui.label('Edit or Delete Items').classes('text-h5')
+          # Dropdown for selecting an item to manage
+          item_selection_dropdown = ui.select(
+              options=[], # Options will be populated by update_item_display
+              label="Select Item to Manage",
+              on_change=lambda e: (
+                  current_selected_item_name.set_text(f"Selected: {e.value}"),
+                  edit_selected_item_logic(e.value, name_input, phone_input, email_input, notes_input)
+              ),
+              aria_label="Select an item from the list to edit or delete"
+          ).classes('w-full')
+
+          # Re-use the same input fields for editing
+          ui.separator()
+          ui.label('Edit Selected Item').classes('text-h6')
+          edit_name_input = ui.input(label="Name", aria_label="Edit the name of the selected item").classes('w-full')
+          edit_phone_input = ui.input(label="Phone", aria_label="Edit the phone number of the selected item").classes('w-full')
+          edit_email_input = ui.input(label="Email", aria_label="Edit the email address of the selected item").classes('w-full')
+          edit_notes_input = ui.input(label="Notes", aria_label="Edit the notes for the selected item").classes('w-full')
+
+          with ui.row():
+              ui.button('Update Item',
+                        on_click=lambda: update_item_logic(item_selection_dropdown.value, edit_name_input, edit_phone_input, edit_email_input, edit_notes_input),
+                        aria_label="Apply changes to the selected item")
+              ui.button('Delete Item', color='red',
+                        on_click=lambda: delete_selected_item_logic(item_selection_dropdown.value),
+                        aria_label="Delete the selected item permanently")
+
+  # This function needs to be global or passed as a parameter for
+
+  items_display_column.clear()
+
+
+  def update_item_display():
+      """Updates the list of items displayed and the selection dropdown."""
+      items_display_column.clear()
+      if not all_items:
+          items_display_column.add(ui.label("No items to display yet. Add some on the 'Add New Item' tab!").classes('text-italic'))
+      else:
+          for i, item in enumerate(all_items):
+              # Ensure the item has a title key, otherwise use a generic label
+              display_title = item.get(ITEM_TITLE_KEY, f"Item {i+1}")
+              with items_display_column:
+                  # Creating a card for each item for better visual and screen reader grouping
+                  with ui.card().classes('w-full q-mb-md').props(f'aria-labelledby="item-title-{i}"'):
+                      ui.label(display_title).classes('text-lg font-bold').props(f'id="item-title-{i}"')
+                      # Student to iterate through all attributes to display them
+                      for key, value in item.items():
+                          ui.label(f"{key.capitalize()}: {value}").classes('text-sm')
+                      ui.separator()
+                      # Add specific accessible elements for actions on each item (optional, or use dropdown)
+                      # ui.button('Quick Edit', on_click=lambda item=item: print(f"Editing {item['name']}"), aria_label=f"Quick edit {item['name']}")
+
+      # Update the options for the dropdown in the 'Manage Items' tab
+      item_selection_dropdown.options = [item.get(ITEM_TITLE_KEY) for item in all_items if item.get(ITEM_TITLE_KEY) is not None]
+      # Clear selected value if the item is no longer in the list
+      if item_selection_dropdown.value not in item_selection_dropdown.options:
+          item_selection_dropdown.set_value(None)
+          current_selected_item_name.set_text("No item selected for edit/delete")
+
+  # Ensure initial data is loaded when the app starts
+
+
+
+  # This will be called before ui.run()
+
+
+
+  load_data()
+
+
+
+  ui.run(title="Accessible Data Manager")
+
+
+  ```
+
+
+  ## Setup Steps:
+
+
+  1 Install NiceGUI: pip install nicegui
+
+
+  2 Provide app\_skeleton.py: Give the student this file.
+
+
+  3 Explain the Code: Walk through the skeleton code, highlighting:
+
+
+  ```
+
+  - The all_items global list (where data resides in memory).
+
+
+  - The placeholder helper functions (add_item_logic, edit_selected_item_logic,
+  delete_selected_item_logic, update_item_logic).
+
+
+  - The update_item_display() function, which is crucial for refreshing the UI.
+
+
+  - How ui.button, ui.input, ui.label, ui.select are used.
+
+
+  - The on_click and on_change event handlers.
+
+
+  - The aria_label properties for screen reader clarity.
+
+  ```
+
+
+  4 Emphasize Iteration: Encourage students to implement one function at a time,
+
+  test it thoroughly with their screen reader, and debug.
+
+
+  This capstone provides a challenging yet structured opportunity for students
+
+  to apply their full range of Python skills in a real-world, accessible
+
+  application context.
 showEditor: true
 editors:
   - course1/unit12/lesson7/lessonpart1/app_skeleton.py
