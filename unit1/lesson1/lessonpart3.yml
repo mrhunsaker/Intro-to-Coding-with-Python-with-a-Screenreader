@@ -2,7 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 0.1: Installing Python and Visual Studio Code   - Student Materials:
+  # Lesson 0.1: Installing Python and Visual Studio Code   
+  ## Student Materials:
     - Outline:
       - Why these tools are essential for programming.
       - Step-by-step instructions for downloading and running the Python 3 installer, with specific accessibility notes (e.g., "Add Python to PATH" checkbox).

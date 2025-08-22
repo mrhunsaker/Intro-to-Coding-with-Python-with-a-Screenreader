@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 1.3: Variables and Simple Data Types
-    - Student Materials:
+	#Lesson 1.3: Variables and Simple Data Types
+	##Student Materials:
       - Outline:
         - The concept of a variable as a container for storing information.
         - Rules for naming variables (e.g., no spaces, can't start with a number).

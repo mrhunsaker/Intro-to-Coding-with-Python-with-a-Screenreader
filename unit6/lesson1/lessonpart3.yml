@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 5.1: How the input() Function Works
-    - Student Materials:
+  # Lesson 5.1: How the input() Function Works
+  ## Student Materials:
       - Outline:
         - Recap of input() for getting user data.
         - Confirming that input() always returns a string, regardless of what the user types.

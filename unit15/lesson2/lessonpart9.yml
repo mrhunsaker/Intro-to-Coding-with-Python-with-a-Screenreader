@@ -5,7 +5,7 @@ content: |+
   # Unit 9: Testing Your Code and Introduction to Data Analysis
 
 
-  ## Lesson 9.1: Testing a Function
+	#Lesson 9.1: Testing a Function
 
 
   * Proofreading Assignment:
@@ -91,7 +91,7 @@ content: |+
   * Goal: Document a simple unit test suite.
 
 
-  ## Lesson 9.2: Testing a Class
+	#Lesson 9.2: Testing a Class
 
 
   * Proofreading Assignment:
@@ -201,7 +201,7 @@ content: |+
   * Goal: Document a class's unit tests.
 
 
-  ## Lesson 9.3: Introduction to Random Numbers
+	#Lesson 9.3: Introduction to Random Numbers
 
 
   * Proofreading Assignment:
@@ -288,7 +288,7 @@ content: |+
   * Goal: Document random number generation for a simulation.
 
 
-  ## Lesson 9.4: Analyzing Text Data
+	#Lesson 9.4: Analyzing Text Data
 
 
   * Proofreading Assignment:
@@ -383,7 +383,7 @@ content: |+
   * Goal: Document a basic word frequency analysis.
 
 
-  ## Lesson 9.5: Working with CSV Data (Text-based)
+	#Lesson 9.5: Working with CSV Data (Text-based)
 
 
   * Proofreading Assignment:

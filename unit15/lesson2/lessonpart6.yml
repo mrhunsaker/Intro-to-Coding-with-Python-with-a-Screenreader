@@ -4,7 +4,7 @@ title: Unit 6
 content: |  # Unit 6: Functions
 
 
-  ## Lesson 6.1: Defining Functions
+	#Lesson 6.1: Defining Functions
 
 
   ### Proofreading Assignment
@@ -94,7 +94,7 @@ content: |  # Unit 6: Functions
   ---
 
 
-  ## Lesson 6.2: Passing Arguments
+	#Lesson 6.2: Passing Arguments
 
 
   ### Proofreading Assignment
@@ -194,7 +194,7 @@ content: |  # Unit 6: Functions
   ---
 
 
-  ## Lesson 6.3: Return Values
+	#Lesson 6.3: Return Values
 
 
   ### Proofreading Assignment
@@ -295,7 +295,7 @@ content: |  # Unit 6: Functions
   ---
 
 
-  ## Lesson 6.4: Functions with Lists and Dictionaries
+	#Lesson 6.4: Functions with Lists and Dictionaries
 
 
   ### Proofreading Assignment
@@ -420,7 +420,7 @@ content: |  # Unit 6: Functions
   ---
 
 
-  ## Lesson 6.5: Arbitrary Number of Arguments
+	#Lesson 6.5: Arbitrary Number of Arguments
 
 
   ### Proofreading Assignment

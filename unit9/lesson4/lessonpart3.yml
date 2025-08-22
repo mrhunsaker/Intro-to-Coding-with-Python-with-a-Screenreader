@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-# Lesson 8.4: The else Block and finally Block 
-## Student Materials: 
+	#Lesson 8.4: The else Block and finally Block 
+	##Student Materials: 
 	- Outline: 
 		-  The else block in try-except: executes only if no exception occurred in the try block. 
 		-  The finally block in try-except: executes regardless of whether an exception occurred or not (useful for cleanup). 

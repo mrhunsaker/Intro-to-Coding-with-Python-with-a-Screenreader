@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 6.1: Defining Functions
-    - Student Materials:
+	#Lesson 6.1: Defining Functions
+	##Student Materials:
       - Outline:
         - The concept of code reusability and organization.
         - Syntax for defining a function using def keyword.

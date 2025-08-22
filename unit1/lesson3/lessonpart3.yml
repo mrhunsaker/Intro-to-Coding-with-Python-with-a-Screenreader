@@ -1,11 +1,11 @@
 yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-# id: lessonpart3
-# title: Materials
-# content: |
+id: lessonpart3
+title: Materials
+content: |
   file:lessonpart3.yml
   
   # Lesson 0.3: Setting Up Your VS Code Workspace 
-   - Student Materials: 
+   ## Student Materials: 
 	  - Outline: 
 		   -  How to open the Extensions View in VS Code (Ctrl + Shift + X). 
 		   -  Step-by-step for searching and installing the essential "Python" extension by Microsoft. 

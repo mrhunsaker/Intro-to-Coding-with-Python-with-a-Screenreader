@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 2.1: The Software Development Process
-    - Student Materials:
+  # Lesson 2.1: The Software Development Process
+  ## Student Materials:
       - Outline:
         - Introduction to the structured approach of building software.
         - Phases of software development:

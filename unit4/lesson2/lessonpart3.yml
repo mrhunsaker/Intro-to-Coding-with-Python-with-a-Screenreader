@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 3.2: Chained Conditionals (elif, else)
-    - Student Materials:
+  # Lesson 3.2: Chained Conditionals (elif, else)
+  ## Student Materials:
       - Outline:
         - The else statement: executing code if the if condition is False.
         - The elif statement: checking multiple conditions sequentially.

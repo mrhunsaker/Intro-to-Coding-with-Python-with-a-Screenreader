@@ -5,13 +5,13 @@ content: |+
   ## Unit 10: Project-Based Learning: Building Text-Based Applications
 
 
-  ## Lesson 10.1: Designing Your Project
+	#Lesson 10.1: Designing Your Project
 
 
   * Proofreading Assignment (No code to proofread in this conceptual lesson).
 
 
-  ## Lesson 10.2: Building a Text-Based Adventure Game (Part 1)
+	#Lesson 10.2: Building a Text-Based Adventure Game (Part 1)
 
 
   * Proofreading Assignment:
@@ -96,7 +96,7 @@ content: |+
   * Goal: Document the setup and basic description of a game room.
 
 
-  ## Lesson 10.3: Building a Text-Based Adventure Game (Part 2)
+	#Lesson 10.3: Building a Text-Based Adventure Game (Part 2)
 
 
   * Proofreading Assignment:
@@ -207,7 +207,7 @@ content: |+
   * Goal: Document basic item interaction in a game.
 
 
-  ## Lesson 10.4: Developing a Command-Line Tool
+	#Lesson 10.4: Developing a Command-Line Tool
 
 
   * Proofreading Assignment:
@@ -320,7 +320,7 @@ content: |+
   * Goal: Document core functions for a command-line tool.
 
 
-  ## Lesson 10.5: Refinement and User Experience
+	#Lesson 10.5: Refinement and User Experience
 
 
   * Proofreading Assignment:

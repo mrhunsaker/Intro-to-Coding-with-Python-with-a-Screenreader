@@ -4,41 +4,15 @@ title: Materials
 content: |
 
   # Lesson 1.1: Welcome to Computer Science
-
-
-  * Student Materials:
-
-
-  * Outline:
-
-
-  * Definition of computer science: what it studies.
-
-
-  * Distinction between hardware (physical parts) and software (programs).
-
-
-  * What is a "program" in the context of a computer?
-
-
-  * Introduction to programming languages (like Python) as a way to "talk" to
-  computers.
-
-
-  * The role of the programmer.
-
-
-  * Skills Checklist:
-
-
-  * [ ] I can define what computer science is.
-
-
-  * [ ] I can distinguish between computer hardware and software.
-
-
-  * [ ] I can explain what a computer program is.
-
-
-  * [ ] I can identify Python as a programming language.
-    
+  ## Student Materials:
+  - Outline:
+    - Definition of computer science: what it studies.
+    - Distinction between hardware (physical parts) and software (programs).
+    - What is a "program" in the context of a computer?
+    - Introduction to programming languages (like Python) as a way to "talk" to computers.
+    - The role of the programmer.
+  - Skills Checklist:
+    - [ ] I can define what computer science is.
+  - [ ] I can distinguish between computer hardware and software.
+  - [ ] I can explain what a computer program is.
+  - [ ] I can identify Python as a programming language.

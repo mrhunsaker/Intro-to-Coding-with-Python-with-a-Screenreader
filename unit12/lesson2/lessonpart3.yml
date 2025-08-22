@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 11.2: Data Model and Storage
-    - Student Materials:
+	#Lesson 11.2: Data Model and Storage
+	##Student Materials:
       - Outline:
         - Designing the Python class (e.g., Contact, Book, Task) to represent a single item of data for the manager.
         - Defining the attributes for this class (name, phone, email, etc.).

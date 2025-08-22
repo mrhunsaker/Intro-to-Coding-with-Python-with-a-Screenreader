@@ -2,17 +2,14 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 2.2: Elements of Programs: Expressions and Assignment
-
-  ### Student Materials
-
-    - **Outline:**
+  # Lesson 2.2: Elements of Programs: Expressions and Assignment
+  ## Student Materials
+    - Outline:
       - What is an "expression" in Python (something that produces a value, like `3 + 5`).
       - How Python evaluates expressions.
       - The assignment statement (`=`): storing the result of an expression into a variable.
       - Understanding variable reassignment (a variable can hold different values over time).
-
-    - **Skills Checklist:**
+    - Skills Checklist:
       - [ ] I can identify an expression in Python code.
       - [ ] I can predict the result of simple Python expressions.
       - [ ] I can explain how the assignment operator (`=`) works.

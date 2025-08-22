@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 4.1: More on Lists
-    - Student Materials:
+  # Lesson 4.1: More on Lists
+  ## Student Materials:
       - Outline:
         - Adding elements to a list:
           - .append(item): Adds to the end.

@@ -2,13 +2,13 @@
 id: lessonpart2
 title: Unit 2
 content: |+
-  ## Lesson 2.1: The Software Development Process
+	#Lesson 2.1: The Software Development Process
 
 
   * Proofreading Assignment (No code to proofread in this conceptual lesson).
 
 
-  ## Lesson 2.2: Elements of Programs: Expressions and Assignment
+	#Lesson 2.2: Elements of Programs: Expressions and Assignment
 
 
   * Proofreading Assignment:
@@ -56,7 +56,7 @@ content: |+
   crashing.
 
 
-  ## Lesson 2.3: Input and Output Revisited
+	#Lesson 2.3: Input and Output Revisited
 
 
   * Proofreading Assignment:
@@ -118,7 +118,7 @@ content: |+
   * Goal: Make the code understandable to someone reading it for the first time.
 
 
-  ## Lesson 2.4: Computing with Numbers and Type Conversions
+	#Lesson 2.4: Computing with Numbers and Type Conversions
 
 
   * Proofreading Assignment:
@@ -191,7 +191,7 @@ content: |+
   * Goal: Clearly document the temperature conversion process.
 
 
-  ## Lesson 2.5: Using the Math Library
+	#Lesson 2.5: Using the Math Library
 
 
   * Proofreading Assignment:

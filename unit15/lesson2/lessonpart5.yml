@@ -5,7 +5,7 @@ content: |+
   # Unit 5: User Input and while Loops
 
 
-  ## Lesson 5.1: How the input() Function Works
+	#Lesson 5.1: How the input() Function Works
 
 
   * Proofreading Assignment:
@@ -73,7 +73,7 @@ content: |+
 
     * Goal: Document the process of taking numeric input from the user.
 
-  ## Lesson 5.2: The while Loop in Action
+	#Lesson 5.2: The while Loop in Action
 
 
   * Proofreading Assignment:
@@ -139,7 +139,7 @@ content: |+
 
     * Goal: Document a basic countdown while loop.
 
-  ## Lesson 5.3: Using Flags and break to Exit Loops
+	#Lesson 5.3: Using Flags and break to Exit Loops
 
 
   * Proofreading Assignment:
@@ -202,7 +202,7 @@ content: |+
 
     * Goal: Document a while True loop with a break condition.
 
-  ## Lesson 5.4: Using continue in Loops
+	#Lesson 5.4: Using continue in Loops
 
 
   * Proofreading Assignment:
@@ -263,7 +263,7 @@ content: |+
 
     * Goal: Document the use of continue in a loop.
 
-  ## Lesson 5.5: Avoiding Infinite Loops
+	#Lesson 5.5: Avoiding Infinite Loops
 
 
   * Proofreading Assignment:

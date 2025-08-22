@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 9.1: Modules and Packages
-    - Student Materials:
+	#Lesson 9.1: Modules and Packages
+	##Student Materials:
       - Outline:
         - What is a module: a file containing Python definitions and statements.
         - What is a package: a directory containing modules and an __init__.py file.

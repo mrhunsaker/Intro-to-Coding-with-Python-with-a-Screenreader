@@ -3,7 +3,7 @@ id: lessonpart3
 title: Materials
 content: |
   # Lesson 3.3: Introduction to Lists 
-    # Student Materials: 
+    ## Student Materials: 
       - Outline: 
         -  What is a list: an ordered collection of items. 
         -  Creating lists using square brackets []. 

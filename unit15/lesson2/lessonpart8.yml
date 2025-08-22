@@ -5,7 +5,7 @@ content: |+
   # Unit 8: Files and Exceptions
 
 
-  ## Lesson 8.1: Reading from a File
+	#Lesson 8.1: Reading from a File
 
 
   * Proofreading Assignment:
@@ -86,7 +86,7 @@ content: |+
   ```
 
 
-  ## Lesson 8.2: Writing to a File
+	#Lesson 8.2: Writing to a File
 
 
   * Proofreading Assignment:
@@ -152,7 +152,7 @@ content: |+
   * Goal: Document writing to a file.
 
 
-  ## Lesson 8.3: Exceptions: Handling Errors
+	#Lesson 8.3: Exceptions: Handling Errors
 
 
   * Proofreading Assignment:
@@ -234,7 +234,7 @@ content: |+
   * Goal: Document robust error handling for division.
 
 
-  ## Lesson 8.4: The else Block and finally Block
+	#Lesson 8.4: The else Block and finally Block
 
 
   * Proofreading Assignment:
@@ -318,7 +318,7 @@ content: |+
   * Goal: Document the full try-except-else-finally structure.
 
 
-  ## Lesson 8.5: Storing Data with JSON
+	#Lesson 8.5: Storing Data with JSON
 
 
   * Proofreading Assignment:

@@ -5,13 +5,13 @@ content: |+
   # Unit 7: Classes and Object-Oriented Programming
 
 
-  ## Lesson 7.1: Why Learn About Classes?
+	#Lesson 7.1: Why Learn About Classes?
 
 
   * Proofreading Assignment (No code to proofread in this conceptual lesson).
 
 
-  ## Lesson 7.2: Creating and Using a Class
+	#Lesson 7.2: Creating and Using a Class
 
 
   **Proofreading Assignment:**
@@ -93,7 +93,7 @@ content: |+
   * Goal: Document a simple class with attributes and methods.
 
 
-  ## Lesson 7.3: Working with Attributes and Methods
+	#Lesson 7.3: Working with Attributes and Methods
 
 
   **Proofreading Assignment:**
@@ -192,7 +192,7 @@ content: |+
   * Goal: Document a class with mathematical methods.
 
 
-  ## Lesson 7.4: Inheritance
+	#Lesson 7.4: Inheritance
 
 
   **Proofreading Assignment:**
@@ -303,7 +303,7 @@ content: |+
   * Goal: Document a basic inheritance setup.
 
 
-  ## Lesson 7.5: Instances as Attributes
+	#Lesson 7.5: Instances as Attributes
 
 
   **Proofreading Assignment:**

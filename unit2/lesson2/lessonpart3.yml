@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 1.2: Your First Python Program: "Hello World!"
-    - Student Materials:
+  # Lesson 1.2: Your First Python Program: "Hello World!"
+    ## Student Materials:
       - Outline:
         - The print() function: its purpose and basic syntax.
         - Writing the "Hello World!" program.

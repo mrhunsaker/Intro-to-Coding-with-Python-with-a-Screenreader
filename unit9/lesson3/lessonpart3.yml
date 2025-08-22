@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-# Lesson 8.3: Exceptions: Handling Errors 
-## Student Materials: 
+	#Lesson 8.3: Exceptions: Handling Errors 
+	##Student Materials: 
 	- Outline: 
 		-  What is an "exception" (an error that occurs during program execution). 
 		-  Why handle exceptions (prevent crashes, provide graceful feedback). 

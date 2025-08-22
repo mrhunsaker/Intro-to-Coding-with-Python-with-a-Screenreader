@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 8.1: Reading from a File
-    - Student Materials:
+	#Lesson 8.1: Reading from a File
+	##Student Materials:
       - Outline:
         - The concept of persistent storage: data remaining even after the program closes.
         - Opening a file for reading ("r" mode).

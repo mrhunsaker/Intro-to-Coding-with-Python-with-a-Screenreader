@@ -2,6 +2,7 @@
 id: lessonpart3
 title: Materials
 content: |
+  # Lesson 2.3: Input and Output Revisited
   ## Student Materials:
        - Outline:
           - Using the input() function to get data from the user.

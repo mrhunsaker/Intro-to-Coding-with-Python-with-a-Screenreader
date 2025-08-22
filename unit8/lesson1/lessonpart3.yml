@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-  ## Lesson 7.1: Why Learn About Classes?
-    - Student Materials:
+	#Lesson 7.1: Why Learn About Classes?
+	##Student Materials:
       - Outline:
         - Introduction to Object-Oriented Programming (OOP) as a programming paradigm.
         - Benefits of OOP: code organization, reusability, modularity.

@@ -2,8 +2,8 @@
 id: lessonpart3
 title: Materials
 content: |
-# Lesson 4.2: Organizing Lists 
-  ## Student Materials: 
+  # Lesson 4.2: Organizing Lists 
+    ## Student Materials: 
     - Outline: 
       -  Sorting a list permanently: .sort() method. 
       - Default alphabetical/numerical ascending order. 
