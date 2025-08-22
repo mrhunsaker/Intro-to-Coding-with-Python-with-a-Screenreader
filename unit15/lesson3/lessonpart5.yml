@@ -8,11 +8,11 @@ content: |+
   ## Emphasis/Resources:
 
 
-  * List vs. Tuple vs. Dictionary: Create a table comparing their properties
+  -  List vs. Tuple vs. Dictionary: Create a table comparing their properties
   (ordered/unordered, mutable/immutable, indexed/keyed).
 
 
-  * Nested Data Structures: Explain how lists can contain dictionaries, and
+  -  Nested Data Structures: Explain how lists can contain dictionaries, and
   dictionaries can contain lists (e.g., a list of contacts, where each contact
   is a dictionary). This prepares them for JSON.
 
@@ -22,9 +22,9 @@ content: |+
 
   1. "The Missing Dictionary Key":
 
-     * Scenario: You're trying to access information from a dictionary, but you keep getting a KeyError.
+     -  Scenario: You're trying to access information from a dictionary, but you keep getting a KeyError.
 
-     * Code (with common dictionary error):
+     -  Code (with common dictionary error):
 
   ```python
 
@@ -39,7 +39,7 @@ content: |+
   ```
 
 
-  * Task: Fix the code to correctly print "Alice".
+  -  Task: Fix the code to correctly print "Alice".
 
 
   2\. "The List Manipulation Mishap":
@@ -61,6 +61,6 @@ content: |+
   ```
 
 
-  * Task: Fix the code so that "orange" is added to the list, and then the list
+  -  Task: Fix the code so that "orange" is added to the list, and then the list
   is sorted alphabetically.
 

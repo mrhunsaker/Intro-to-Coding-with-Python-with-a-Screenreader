@@ -8,25 +8,25 @@ content: |+
   ## Emphasis/Resources:
 
 
-  * Infinite Loop Debugging: How to recognize an infinite loop (program doesn't
+  -  Infinite Loop Debugging: How to recognize an infinite loop (program doesn't
   terminate, keeps printing/asking for input) and how to stop it (Ctrl+C in
   terminal).
 
 
-  * Loop Control Flow (break, continue): Use simple scenarios to explain each:
+  -  Loop Control Flow (break, continue): Use simple scenarios to explain each:
 
-    * break: "Stop immediately, I found what I needed."
+    -  break: "Stop immediately, I found what I needed."
 
-    * continue: "Skip this one, but keep going with the rest."
+    -  continue: "Skip this one, but keep going with the rest."
 
   ## Challenge Projects:
 
 
   1. "The Endless Chatbot":
 
-     * Scenario: You're building a simple chatbot that should stop when the user types "quit", but it just keeps going.
+     -  Scenario: You're building a simple chatbot that should stop when the user types "quit", but it just keeps going.
 
-     * Code (infinite loop):
+     -  Code (infinite loop):
 
   ```python
 
@@ -38,7 +38,7 @@ content: |+
   ```
 
 
-  * Task: Add the necessary code so the loop breaks when the user types "quit".
+  -  Task: Add the necessary code so the loop breaks when the user types "quit".
 
 
   2\. "The Skipping Counter":
@@ -60,5 +60,5 @@ content: |+
   ```
 
 
-  * Task: Use a continue statement to skip printing the number 3.
+  -  Task: Use a continue statement to skip printing the number 3.
 

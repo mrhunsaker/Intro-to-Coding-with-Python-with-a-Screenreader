@@ -8,11 +8,11 @@ content: |+
   ## Emphasis/Resources:
 
 
-  * Indentation Strategy for Loops/Conditionals: This is CRITICAL.
+  -  Indentation Strategy for Loops/Conditionals: This is CRITICAL.
 
-    * Verbalizing Indentation: Teach students to mentally (or verbally) say "indent level 1," "indent level 2" as they navigate.
+    -  Verbalizing Indentation: Teach students to mentally (or verbally) say "indent level 1," "indent level 2" as they navigate.
 
-    * Block Markers (Optional but helpful): Introduce the idea of using comments to visually (or audibly) mark blocks, especially for longer ones.
+    -  Block Markers (Optional but helpful): Introduce the idea of using comments to visually (or audibly) mark blocks, especially for longer ones.
 
   ```python
 
@@ -29,12 +29,12 @@ content: |+
   ```
 
 
-  * VS Code Indent Guides: Remind them of the "indent guide" lines for visual
+  -  VS Code Indent Guides: Remind them of the "indent guide" lines for visual
   users, but for screen reader users, the "indent beep/announce" is the real
   tool.
 
 
-  * Boolean Logic: Walk through truth tables for and, or, not.
+  -  Boolean Logic: Walk through truth tables for and, or, not.
 
 
   ## Challenge Projects:
@@ -42,9 +42,9 @@ content: |+
 
   1. "The Indentation Maze   - Conditional Chaos":
 
-     * Scenario: You were writing a program to check user age and access rights, but copied some code incorrectly, messing up the indentation. The program isn't behaving as expected.
+     -  Scenario: You were writing a program to check user age and access rights, but copied some code incorrectly, messing up the indentation. The program isn't behaving as expected.
 
-     * Code (with subtle indentation errors):
+     -  Code (with subtle indentation errors):
 
   ```python
 
@@ -65,7 +65,7 @@ content: |+
   ```
 
 
-  * Task: Fix the indentation so that "Welcome." is only printed when age >= 18
+  -  Task: Fix the indentation so that "Welcome." is only printed when age >= 18
   AND has\_id == "yes". Test with different age/ID combinations.
 
 
@@ -88,6 +88,6 @@ content: |+
   ```
 
 
-  * Task: Correct the indentation so that print(i) runs 5 times, and print("Loop
+  -  Task: Correct the indentation so that print(i) runs 5 times, and print("Loop
   finished.") runs only once, after the loop completes.
 

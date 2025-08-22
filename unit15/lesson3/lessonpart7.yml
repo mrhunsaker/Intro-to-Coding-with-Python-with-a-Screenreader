@@ -8,15 +8,15 @@ content: |+
   ## Emphasis/Resources:
 
 
-  * Parameters vs. Arguments: Clarify the distinction. Parameters are in the
+  -  Parameters vs. Arguments: Clarify the distinction. Parameters are in the
   function definition, arguments are the values passed when calling.
 
 
-  * Return Values: Explain that print() just displays, return sends a value back
+  -  Return Values: Explain that print() just displays, return sends a value back
   for further use.
 
 
-  * Scope: Global vs. local variables. Why modifying global variables inside
+  -  Scope: Global vs. local variables. Why modifying global variables inside
   functions is generally discouraged (side effects).
 
 
@@ -25,9 +25,9 @@ content: |+
 
   1. "The Silent Calculator Function":
 
-     * Scenario: You wrote a function to add two numbers, but it's not giving you the result you expect.
+     -  Scenario: You wrote a function to add two numbers, but it's not giving you the result you expect.
 
-     * Code (missing return):
+     -  Code (missing return):
 
   ```python
 
@@ -42,7 +42,7 @@ content: |+
   ```
 
 
-  * Task: Add the correct statement to the add function so that print(result)
+  -  Task: Add the correct statement to the add function so that print(result)
   outputs 8.
 
 
@@ -64,5 +64,5 @@ content: |+
   ```
 
 
-  * Task: Fix the function so it correctly greets "Hello, Charlie!".
+  -  Task: Fix the function so it correctly greets "Hello, Charlie!".
 

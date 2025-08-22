@@ -10,12 +10,12 @@ content: |
   ## Emphasis/Resources:
   
   
-  * Type Conversion Clarity: Re-emphasize why input() returns strings and why
+  -  Type Conversion Clarity: Re-emphasize why input() returns strings and why
   int() or float() are necessary for calculations. Use analogies like converting
   "five" (word) to 5 (number).
   
   
-  * Order of Operations: Review PEMDAS/BODMAS.
+  -  Order of Operations: Review PEMDAS/BODMAS.
   
   
   ## Challenge Projects:
@@ -23,9 +23,9 @@ content: |
   
   1. "The Mixed-Up Calculator":
   
-     * Scenario: You wanted to create a simple calculator, but some inputs are not being treated as numbers, leading to unexpected results.
+     -  Scenario: You wanted to create a simple calculator, but some inputs are not being treated as numbers, leading to unexpected results.
   
-     * Code (with errors):
+     -  Code (with errors):
   
   ```python
   
@@ -39,13 +39,13 @@ content: |
   print("Sum:", sum_result)
   
   
-  product_result = int(num1_str) * num2_str  # One part of the issue
+  product_result = int(num1_str) -  num2_str  # One part of the issue
   
   print("Product:", product_result)
   
   ```
   
   
-  * Task: Correct the code so that the sum and product are calculated
+  -  Task: Correct the code so that the sum and product are calculated
   numerically. Users should be able to enter 5 and 10 and get 15 and 50.
   
