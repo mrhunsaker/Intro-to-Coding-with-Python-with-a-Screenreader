@@ -14,7 +14,7 @@ content: |  # Unit 6: Functions
   parameters, or having indentation issues.
 
 
-  **Code to Proofread (fixed):**
+  - - Code to Proofread (fixed):- - 
 
   ```python
 
@@ -42,7 +42,7 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Errors to Find:**
+  - - Errors to Find:- - 
 
   1. SyntaxError: `def greet name:` needs `(name):`.
 
@@ -53,7 +53,7 @@ content: |  # Unit 6: Functions
   4. NameError: Resulting from the previous syntax error.
 
 
-  **Goal:** Fix all syntax and indentation errors so all functions are correctly
+  - - Goal:- -  Fix all syntax and indentation errors so all functions are correctly
   defined and callable.
 
 
@@ -66,7 +66,7 @@ content: |  # Unit 6: Functions
   Scenario: This code defines a simple greeting function.
 
 
-  **Code to Document (with improved docstring and inline comments):**
+  - - Code to Document (with improved docstring and inline comments):- - 
 
   ```python
 
@@ -84,11 +84,11 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Task:** Ensure the docstring for `display_greeting` is clear. Add an inline
+  - - Task:- -  Ensure the docstring for `display_greeting` is clear. Add an inline
   comment for the print statement and the function call.
 
 
-  **Goal:** Document a basic function definition and call.
+  - - Goal:- -  Document a basic function definition and call.
 
 
   ---
@@ -104,7 +104,7 @@ content: |  # Unit 6: Functions
   (positional vs. keyword, too many/few).
 
 
-  **Code to Proofread (fixed):**
+  - - Code to Proofread (fixed):- - 
 
   ```python
 
@@ -135,7 +135,7 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Errors to Find:**
+  - - Errors to Find:- - 
 
   1. SyntaxError: `describe_pet(pet_name="Lucy", "cat")` has a positional
   argument after a keyword.
@@ -145,7 +145,7 @@ content: |  # Unit 6: Functions
   3. TypeError: `make_shirt(...)` has too many arguments.
 
 
-  **Goal:** Fix all TypeError and SyntaxError issues by providing the correct
+  - - Goal:- -  Fix all TypeError and SyntaxError issues by providing the correct
   number and type of arguments or correcting the argument passing style.
 
 
@@ -158,7 +158,7 @@ content: |  # Unit 6: Functions
   Scenario: This code calculates the area of a rectangle.
 
 
-  **Code to Document (with improved docstring and inline comments):**
+  - - Code to Document (with improved docstring and inline comments):- - 
 
   ```python
 
@@ -173,7 +173,7 @@ content: |  # Unit 6: Functions
       Returns:
           float or int: The area of the rectangle.
       """
-      area = length * width  # Calculate area
+      area = length -  width  # Calculate area
       return area  # Return the calculated area
 
   room_area = calculate_rectangle_area(10, 5)  # Call the function with
@@ -184,11 +184,11 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Task:** Ensure the docstring is clear and explains parameters. Add inline
+  - - Task:- -  Ensure the docstring is clear and explains parameters. Add inline
   comments explaining the calculation and the function call.
 
 
-  **Goal:** Document a function with parameters and its usage.
+  - - Goal:- -  Document a function with parameters and its usage.
 
 
   ---
@@ -204,7 +204,7 @@ content: |  # Unit 6: Functions
   `return` or expecting `print()` to return.
 
 
-  **Code to Proofread (fixed):**
+  - - Code to Proofread (fixed):- - 
 
   ```python
 
@@ -218,7 +218,7 @@ content: |  # Unit 6: Functions
 
 
   def multiply_numbers(x, y):
-      return x * y
+      return x -  y
 
   product = multiply_numbers(4, 2)
 
@@ -236,7 +236,7 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Errors to Find:**
+  - - Errors to Find:- - 
 
   1. Logical Error: `add_numbers` prints but doesn't return, so `result1` will
   be None.
@@ -245,7 +245,7 @@ content: |  # Unit 6: Functions
   `final_greeting` will be None.
 
 
-  **Goal:** Modify `add_numbers` and `get_greeting` to correctly return their
+  - - Goal:- -  Modify `add_numbers` and `get_greeting` to correctly return their
   calculated values, so the print statements show the intended output.
 
 
@@ -258,7 +258,7 @@ content: |  # Unit 6: Functions
   Scenario: This code defines a function to capitalize a string and return it.
 
 
-  **Code to Document (with improved docstring and inline comments):**
+  - - Code to Document (with improved docstring and inline comments):- - 
 
   ```python
 
@@ -284,12 +284,12 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Task:** Ensure the docstring for `capitalize_string` clearly explains what
+  - - Task:- -  Ensure the docstring for `capitalize_string` clearly explains what
   it returns. Add inline comments for the return statement and the function
   call.
 
 
-  **Goal:** Document a function with a return value.
+  - - Goal:- -  Document a function with a return value.
 
 
   ---
@@ -305,7 +305,7 @@ content: |  # Unit 6: Functions
   modifications or incorrect copies are happening.
 
 
-  **Code to Proofread (fixed and explained):**
+  - - Code to Proofread (fixed and explained):- - 
 
   ```python
 
@@ -350,7 +350,7 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Explanation of Logical Errors:**
+  - - Explanation of Logical Errors:- - 
 
   1. `add_item_to_list` directly modifies `data_list` because lists are mutable
   and passed by reference.
@@ -363,7 +363,7 @@ content: |  # Unit 6: Functions
   dictionaries, use `dict.copy()`.
 
 
-  **Goal:** Explain the logical errors related to mutability. Modify
+  - - Goal:- -  Explain the logical errors related to mutability. Modify
   `append_to_copy` to use `original_list[:]` to truly create a copy. Discuss how
   to explicitly copy lists/dictionaries if the original should remain unchanged.
 
@@ -378,7 +378,7 @@ content: |  # Unit 6: Functions
   returns a new list with each number doubled.
 
 
-  **Code to Document (with improved docstring and inline comments):**
+  - - Code to Document (with improved docstring and inline comments):- - 
 
   ```python
 
@@ -396,7 +396,7 @@ content: |  # Unit 6: Functions
       """
       doubled_list = []
       for num in numbers_list:
-          doubled_list.append(num * 2)  # Double the number and add to new list
+          doubled_list.append(num -  2)  # Double the number and add to new list
       return doubled_list  # Return the new list
 
   my_nums = [1, 2, 3]
@@ -409,12 +409,12 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Task:** Ensure the docstring for `double_numbers_in_list` is clear about
+  - - Task:- -  Ensure the docstring for `double_numbers_in_list` is clear about
   input, output, and side effects. Add inline comments explaining the loop and
   appending to the new list.
 
 
-  **Goal:** Document a function that processes a list and returns a new list.
+  - - Goal:- -  Document a function that processes a list and returns a new list.
 
 
   ---
@@ -426,15 +426,15 @@ content: |  # Unit 6: Functions
   ### Proofreading Assignment
 
 
-  Scenario: You're using *args and **kwargs, but misplacing them or forgetting
+  Scenario: You're using - args and - - kwargs, but misplacing them or forgetting
   the correct number of asterisks.
 
 
-  **Code to Proofread (fixed):**
+  - - Code to Proofread (fixed):- - 
 
   ```python
 
-  def sum_all_numbers(*nums):
+  def sum_all_numbers(- nums):
       total = 0
       for num in nums:
           total += num
@@ -443,7 +443,7 @@ content: |  # Unit 6: Functions
   print(sum_all_numbers(1, 2, 3, 4))  # Correct
 
 
-  def create_profile(name, **details):
+  def create_profile(name, - - details):
       profile = {"name": name}
       for key, value in details.items():
           profile[key] = value
@@ -453,7 +453,7 @@ content: |  # Unit 6: Functions
   keyword arguments after name
 
 
-  def log_info(level, msg, **args):  # Fixed: use **args to accept arbitrary
+  def log_info(level, msg, - - args):  # Fixed: use - - args to accept arbitrary
   keyword arguments
       print(f"[{level}] {msg}   - {args}")
 
@@ -463,16 +463,16 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Errors to Find:**
+  - - Errors to Find:- - 
 
   1. SyntaxError: `create_profile` call has a positional argument after a
-  keyword argument within the `**details` part.
+  keyword argument within the `- - details` part.
 
-  2. TypeError: `log_info` function definition is missing `**` for kwargs.
+  2. TypeError: `log_info` function definition is missing `- - ` for kwargs.
 
 
-  **Goal:** Fix the SyntaxError by correcting the argument passing for
-  `create_profile`. Fix the TypeError by adding `**` to args in `log_info`'s
+  - - Goal:- -  Fix the SyntaxError by correcting the argument passing for
+  `create_profile`. Fix the TypeError by adding `- - ` to args in `log_info`'s
   definition.
 
 
@@ -486,22 +486,22 @@ content: |  # Unit 6: Functions
   ingredients and print them.
 
 
-  **Code to Document (with improved docstring and inline comments):**
+  - - Code to Document (with improved docstring and inline comments):- - 
 
   ```python
 
-  def make_salad(*ingredients):
+  def make_salad(- ingredients):
       """
       Creates a salad from an arbitrary number of ingredients.
 
       Parameters:
-          *ingredients: Any number of ingredients (as positional arguments).
+          - ingredients: Any number of ingredients (as positional arguments).
 
       Returns:
           None
       """
       print("Ingredients for your salad:")
-      for ingredient in ingredients:  # *ingredients collects all positional arguments into a tuple
+      for ingredient in ingredients:  # - ingredients collects all positional arguments into a tuple
           print(f"  - {ingredient}")
 
   make_salad("lettuce", "tomato", "cucumber", "dressing")  # Call with multiple
@@ -512,9 +512,9 @@ content: |  # Unit 6: Functions
   ```
 
 
-  **Task:** Ensure the docstring for `make_salad` clearly explains the use of
-  *ingredients. Add an inline comment explaining how *ingredients collects
+  - - Task:- -  Ensure the docstring for `make_salad` clearly explains the use of
+  - ingredients. Add an inline comment explaining how - ingredients collects
   arguments.
 
 
-  **Goal:** Document a function that uses *args.
+  - - Goal:- -  Document a function that uses - args.

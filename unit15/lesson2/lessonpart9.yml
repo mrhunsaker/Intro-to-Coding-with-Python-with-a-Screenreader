@@ -8,11 +8,11 @@ content: |+
 	#Lesson 9.1: Testing a Function
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You've written tests for a function, but some assertions are wrong or the test setup is flawed.
+    -  Scenario: You've written tests for a function, but some assertions are wrong or the test setup is flawed.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -37,21 +37,21 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * Logical Error in Test: test\_positive\_even uses assertFalse when is\_even(4) should be True.
+    -  Logical Error in Test: test\_positive\_even uses assertFalse when is\_even(4) should be True.
 
-    * Logical Error in Test: test\_odd uses assertTrue when is\_even(7) should be False.
+    -  Logical Error in Test: test\_odd uses assertTrue when is\_even(7) should be False.
 
-  * Goal: Correct the assertions in test\_positive\_even and test\_odd to
+  -  Goal: Correct the assertions in test\_positive\_even and test\_odd to
   accurately reflect the expected outcomes of is\_even.
 
 
     - Documentation Assignment:
 
-    * Scenario: This code provides unit tests for a simple addition function.
+    -  Scenario: This code provides unit tests for a simple addition function.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -83,22 +83,22 @@ content: |+
   ```
 
 
-  * Task: Ensure the docstring for add is clear. Ensure docstrings for the
+  -  Task: Ensure the docstring for add is clear. Ensure docstrings for the
   TestAddFunction class and each test method (test\_positive\_numbers, etc.)
   clearly describe their purpose. Add an inline comment for unittest.main().
 
 
-  * Goal: Document a simple unit test suite.
+  -  Goal: Document a simple unit test suite.
 
 
 	#Lesson 9.2: Testing a Class
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're testing a class, but forgetting self in assertions or setting up setUp incorrectly.
+    -  Scenario: You're testing a class, but forgetting self in assertions or setting up setUp incorrectly.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -132,23 +132,23 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * TypeError: setUp() is missing self.
+    -  TypeError: setUp() is missing self.
 
-    * NameError: self.player is not defined in setUp because self is missing.
+    -  NameError: self.player is not defined in setUp because self is missing.
 
-    * NameError: assertEqual is missing self. prefix.
+    -  NameError: assertEqual is missing self. prefix.
 
-  * Goal: Fix the TypeError in setUp. Add self. where necessary for assertEqual
+  -  Goal: Fix the TypeError in setUp. Add self. where necessary for assertEqual
   and self.player in setUp.
 
 
     - Documentation Assignment:
 
-    * Scenario: This code tests a BankAccount class.
+    -  Scenario: This code tests a BankAccount class.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -194,21 +194,21 @@ content: |+
   ```
 
 
-  * Task: Ensure docstrings are present and clear for the class, setUp, and all
+  -  Task: Ensure docstrings are present and clear for the class, setUp, and all
   test methods. Add inline comments explaining key assertions.
 
 
-  * Goal: Document a class's unit tests.
+  -  Goal: Document a class's unit tests.
 
 
 	#Lesson 9.3: Introduction to Random Numbers
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're generating random numbers, but misusing random module functions or ranges.
+    -  Scenario: You're generating random numbers, but misusing random module functions or ranges.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -250,23 +250,23 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * AttributeError: random.randfloat() should be random.random().
+    -  AttributeError: random.randfloat() should be random.random().
 
-    * TypeError: random.choice\[colors] should be random.choice(colors).
+    -  TypeError: random.choice\[colors] should be random.choice(colors).
 
-    * ValueError: random.randint(10, 9) has incorrect bounds.
+    -  ValueError: random.randint(10, 9) has incorrect bounds.
 
-  * Goal: Fix all AttributeError, TypeError, and ValueError by using the correct
+  -  Goal: Fix all AttributeError, TypeError, and ValueError by using the correct
   random functions and argument syntax.
 
 
     - Documentation Assignment:
 
-    * Scenario: This code simulates rolling a six-sided die multiple times.
+    -  Scenario: This code simulates rolling a six-sided die multiple times.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -281,21 +281,21 @@ content: |+
   ```
 
 
-  * Task: Add a docstring for the script. Add inline comments explaining
+  -  Task: Add a docstring for the script. Add inline comments explaining
   random.randint() and the purpose of the loop.
 
 
-  * Goal: Document random number generation for a simulation.
+  -  Goal: Document random number generation for a simulation.
 
 
 	#Lesson 9.4: Analyzing Text Data
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're analyzing text, but misusing string methods or counting logic.
+    -  Scenario: You're analyzing text, but misusing string methods or counting logic.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -339,21 +339,21 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * Logical Error: test\_count searches for "test." after punctuation has been removed.
+    -  Logical Error: test\_count searches for "test." after punctuation has been removed.
 
-    * TypeError: len\[text] should be len(text).
+    -  TypeError: len\[text] should be len(text).
 
-  * Goal: Fix the TypeError. Correct the logical error in test\_count by
+  -  Goal: Fix the TypeError. Correct the logical error in test\_count by
   ensuring the search term is also cleaned (e.g., cleaned\_words.count("test")).
 
 
     - Documentation Assignment:
 
-    * Scenario: This code counts the occurrences of each word in a given sentence.
+    -  Scenario: This code counts the occurrences of each word in a given sentence.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -375,22 +375,22 @@ content: |+
   ```
 
 
-  * Task: Add a docstring for the script. Add inline comments explaining the
+  -  Task: Add a docstring for the script. Add inline comments explaining the
   steps of cleaning and splitting the sentence, how the word\_counts dictionary
   is built, and the final output loop.
 
 
-  * Goal: Document a basic word frequency analysis.
+  -  Goal: Document a basic word frequency analysis.
 
 
 	#Lesson 9.5: Working with CSV Data (Text-based)
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're parsing CSV data manually, but getting incorrect splits or type conversion issues.
+    -  Scenario: You're parsing CSV data manually, but getting incorrect splits or type conversion issues.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -423,19 +423,19 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * Logical Error: `line.split(';')` uses the wrong delimiter (should be `,`). This will cause `IndexError` or `ValueError` later if not caught by `len(parts) == len(header)`.
+    -  Logical Error: `line.split(';')` uses the wrong delimiter (should be `,`). This will cause `IndexError` or `ValueError` later if not caught by `len(parts) == len(header)`.
 
-  * Goal: Change the delimiter in `line.split()` to `,`. Explain how such an
+  -  Goal: Change the delimiter in `line.split()` to `,`. Explain how such an
   error would manifest (e.g., `IndexError` when trying to access `parts[1]`).
 
 
     - Documentation Assignment:
 
-    * Scenario: This code reads a simple CSV of product inventory and prints each product and its quantity.
+    -  Scenario: This code reads a simple CSV of product inventory and prints each product and its quantity.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -466,10 +466,10 @@ content: |+
   ```
 
 
-  * Task: Add a docstring for the script. Add inline comments explaining
+  -  Task: Add a docstring for the script. Add inline comments explaining
   `strip()`, `split('\n')`, identifying the header, looping through data rows,
   splitting by comma, and type conversion for quantity.
 
 
-  * Goal: Document the process of manually parsing a CSV file.
+  -  Goal: Document the process of manually parsing a CSV file.
 

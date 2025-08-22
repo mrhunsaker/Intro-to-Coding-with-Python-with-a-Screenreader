@@ -8,20 +8,20 @@ content: |+
 	#Lesson 7.1: Why Learn About Classes?
 
 
-  * Proofreading Assignment (No code to proofread in this conceptual lesson).
+  -  Proofreading Assignment (No code to proofread in this conceptual lesson).
 
 
 	#Lesson 7.2: Creating and Using a Class
 
 
-  **Proofreading Assignment:**
+  - - Proofreading Assignment:- - 
 
 
-  * Scenario: You're defining functions, but misusing def, forgetting
+  -  Scenario: You're defining functions, but misusing def, forgetting
   parameters, or having indentation issues.
 
 
-  * Code to Proofread:
+  -  Code to Proofread:
 
 
   ```python
@@ -41,25 +41,25 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * SyntaxError: Missing colon after class Car.
+    -  SyntaxError: Missing colon after class Car.
 
-    * Logical Error: model = model in __init__ means self.model is never created.
+    -  Logical Error: model = model in __init__ means self.model is never created.
 
-    * AttributeError (or NameError depending on Python version): self.model accessed in display\_info but not defined.
+    -  AttributeError (or NameError depending on Python version): self.model accessed in display\_info but not defined.
 
-  * Goal: Fix the SyntaxError and the logical error in __init__ to correctly
+  -  Goal: Fix the SyntaxError and the logical error in __init__ to correctly
   assign self.model.
 
 
-  **Documentation Assignment:**
+  - - Documentation Assignment:- - 
 
 
-  * Scenario: This code defines a Dog class and creates a dog object.
+  -  Scenario: This code defines a Dog class and creates a dog object.
 
 
-  * Code to Document:
+  -  Code to Document:
 
 
   ```python
@@ -85,25 +85,25 @@ content: |+
   ```
 
 
-  * Task: Ensure the docstring for the Dog class explains its purpose. Ensure
+  -  Task: Ensure the docstring for the Dog class explains its purpose. Ensure
   the docstring for bark explains what it does. Add inline comments explaining
   attribute assignment in __init__ and the object creation/method call.
 
 
-  * Goal: Document a simple class with attributes and methods.
+  -  Goal: Document a simple class with attributes and methods.
 
 
 	#Lesson 7.3: Working with Attributes and Methods
 
 
-  **Proofreading Assignment:**
+  - - Proofreading Assignment:- - 
 
 
-  * Scenario: You're calling functions, but passing arguments incorrectly
+  -  Scenario: You're calling functions, but passing arguments incorrectly
   (positional vs. keyword, too many/few).
 
 
-  * Code to Proofread:
+  -  Code to Proofread:
 
 
   ```python
@@ -131,26 +131,26 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * TypeError: decrease\_power and get\_name are missing the self parameter.
+    -  TypeError: decrease\_power and get\_name are missing the self parameter.
 
-    * NameError: Inside decrease\_power, power should be self.power.
+    -  NameError: Inside decrease\_power, power should be self.power.
 
-    * NameError: Inside get\_name, name should be self.name.
+    -  NameError: Inside get\_name, name should be self.name.
 
-  * Goal: Fix all methods by adding self as the first parameter and using
+  -  Goal: Fix all methods by adding self as the first parameter and using
   self.attribute when accessing attributes.
 
 
-  **Documentation Assignment:**
+  - - Documentation Assignment:- - 
 
 
-  * Scenario: This code defines a Circle class with methods to calculate area
+  -  Scenario: This code defines a Circle class with methods to calculate area
   and circumference.
 
 
-  * Code to Document:
+  -  Code to Document:
 
 
   ```python
@@ -169,13 +169,13 @@ content: |+
           """
           Calculates the area of the circle.
           """
-          return math.pi * self.radius**2
+          return math.pi -  self.radius- - 2
 
       def calculate_circumference(self):
           """
           Calculates the circumference of the circle.
           """
-          return 2 * math.pi * self.radius
+          return 2 -  math.pi -  self.radius
 
   my_circle = Circle(5)
 
@@ -184,25 +184,25 @@ content: |+
   ```
 
 
-  * Task: Ensure docstrings for Circle, calculate\_area, and
+  -  Task: Ensure docstrings for Circle, calculate\_area, and
   calculate\_circumference are clear. Add inline comments explaining attribute
   assignment in __init__ and the calculation formulas.
 
 
-  * Goal: Document a class with mathematical methods.
+  -  Goal: Document a class with mathematical methods.
 
 
 	#Lesson 7.4: Inheritance
 
 
-  **Proofreading Assignment:**
+  - - Proofreading Assignment:- - 
 
 
-  * Scenario: You're trying to get values back from functions, but misusing
+  -  Scenario: You're trying to get values back from functions, but misusing
   return or expecting print() to return.
 
 
-  * Code to Proofread:
+  -  Code to Proofread:
 
 
   ```python
@@ -246,22 +246,22 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * Logical Error/Best Practice: In Cat's __init__, self.name = name directly assigns rather than calling super().__init__(name). While this doesn't cause an error for name, it bypasses any other initialization Animal might have. It's a common oversight.
+    -  Logical Error/Best Practice: In Cat's __init__, self.name = name directly assigns rather than calling super().__init__(name). While this doesn't cause an error for name, it bypasses any other initialization Animal might have. It's a common oversight.
 
-  * Goal: Modify Cat's __init__ to correctly use super().__init__(name) for
+  -  Goal: Modify Cat's __init__ to correctly use super().__init__(name) for
   proper inheritance. Explain why super() is preferred.
 
 
-  **Documentation Assignment:**
+  - - Documentation Assignment:- - 
 
 
-  * Scenario: This code defines a Vehicle class and a Car class that inherits
+  -  Scenario: This code defines a Vehicle class and a Car class that inherits
   from Vehicle.
 
 
-  * Code to Document:
+  -  Code to Document:
 
 
   ```python
@@ -296,24 +296,24 @@ content: |+
   ```
 
 
-  * Task: Ensure docstrings are present for both classes and their methods. Add
+  -  Task: Ensure docstrings are present for both classes and their methods. Add
   an inline comment explaining super().__init__() in the Car class.
 
 
-  * Goal: Document a basic inheritance setup.
+  -  Goal: Document a basic inheritance setup.
 
 
 	#Lesson 7.5: Instances as Attributes
 
 
-  **Proofreading Assignment:**
+  - - Proofreading Assignment:- - 
 
 
-  * Scenario: You're passing lists/dictionaries to functions, but unexpected
+  -  Scenario: You're passing lists/dictionaries to functions, but unexpected
   modifications or incorrect copies are happening.
 
 
-  * Code to Proofread:
+  -  Code to Proofread:
 
 
   ```python
@@ -346,23 +346,23 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * TypeError: get\_engine\_fuel is missing self.
+    -  TypeError: get\_engine\_fuel is missing self.
 
-    * AttributeError: If previous error fixed, self.engine.start is missing () for the method call.
+    -  AttributeError: If previous error fixed, self.engine.start is missing () for the method call.
 
-  * Goal: Fix the TypeError by adding self to get\_engine\_fuel. Fix the
+  -  Goal: Fix the TypeError by adding self to get\_engine\_fuel. Fix the
   AttributeError by adding () to self.engine.start.
 
 
-  **Documentation Assignment:**
+  - - Documentation Assignment:- - 
 
 
-  * Scenario: This code models a Book that has an Author.
+  -  Scenario: This code models a Book that has an Author.
 
 
-  * Code to Document:
+  -  Code to Document:
 
 
   ```python
@@ -399,10 +399,10 @@ content: |+
   ```
 
 
-  * Task: Ensure docstrings for both classes and their methods are clear. Add an
+  -  Task: Ensure docstrings for both classes and their methods are clear. Add an
   inline comment explaining the composition in Book.__init__ and how
   self.author.get\_name() accesses the nested object's method.
 
 
-  * Goal: Document a class demonstrating composition.
+  -  Goal: Document a class demonstrating composition.
 

@@ -8,11 +8,11 @@ content: |+
 	#Lesson 8.1: Reading from a File
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're trying to read from a file, but common errors like FileNotFoundError or incorrect method usage are occurring.
+    -  Scenario: You're trying to read from a file, but common errors like FileNotFoundError or incorrect method usage are occurring.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -46,23 +46,23 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * FileNotFoundError: For non\_existent\_file.txt.
+    -  FileNotFoundError: For non\_existent\_file.txt.
 
-    * Logical Error: f.readline() only reads one line. The intention was likely to read all.
+    -  Logical Error: f.readline() only reads one line. The intention was likely to read all.
 
-    * AttributeError: f.readall() is not a valid method (should be f.read() or f.readlines()).
+    -  AttributeError: f.readall() is not a valid method (should be f.read() or f.readlines()).
 
-  * Goal: Handle the FileNotFoundError with a try-except block. Correct the
+  -  Goal: Handle the FileNotFoundError with a try-except block. Correct the
   logical error to read all lines. Fix the AttributeError.
 
 
     - Documentation Assignment:
 
-    * Scenario: This code reads the entire content of a file named sample.txt.
+    -  Scenario: This code reads the entire content of a file named sample.txt.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -89,11 +89,11 @@ content: |+
 	#Lesson 8.2: Writing to a File
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're writing to files, but using the wrong modes or forgetting newlines.
+    -  Scenario: You're writing to files, but using the wrong modes or forgetting newlines.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -117,23 +117,23 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * UnsupportedOperation: open("output.txt", "r") cannot be used for writing.
+    -  UnsupportedOperation: open("output.txt", "r") cannot be used for writing.
 
-    * Logical Error: open("log.txt", "w") will overwrite. It should be "a" for appending if multiple calls are intended to add.
+    -  Logical Error: open("log.txt", "w") will overwrite. It should be "a" for appending if multiple calls are intended to add.
 
-    * Logical Error: log\_file.write("Second log entry.") is missing a newline, so it will append on the same line.
+    -  Logical Error: log\_file.write("Second log entry.") is missing a newline, so it will append on the same line.
 
-  * Goal: Fix the UnsupportedOperation by changing the file mode. Change the
+  -  Goal: Fix the UnsupportedOperation by changing the file mode. Change the
   log.txt open mode to append. Add a newline character to the second log entry.
 
 
     - Documentation Assignment:
 
-    * Scenario: This code writes two lines to a new file called my\_notes.txt.
+    -  Scenario: This code writes two lines to a new file called my\_notes.txt.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -145,21 +145,21 @@ content: |+
   ```
 
 
-  * Task: Add a docstring for the script. Add inline comments explaining the "w"
+  -  Task: Add a docstring for the script. Add inline comments explaining the "w"
   mode and the use of \n.
 
 
-  * Goal: Document writing to a file.
+  -  Goal: Document writing to a file.
 
 
 	#Lesson 8.3: Exceptions: Handling Errors
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're trying to handle exceptions, but either not catching the right one, or the try-except block is placed incorrectly.
+    -  Scenario: You're trying to handle exceptions, but either not catching the right one, or the try-except block is placed incorrectly.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -195,23 +195,23 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * Logical Error: First try-except block catches ValueError for a ZeroDivisionError.
+    -  Logical Error: First try-except block catches ValueError for a ZeroDivisionError.
 
-    * Logical Error: Second try-except block catches ZeroDivisionError for a FileNotFoundError.
+    -  Logical Error: Second try-except block catches ZeroDivisionError for a FileNotFoundError.
 
-    * Logical Error: Third try-except block places the int() conversion outside the try, so ValueError won't be caught correctly.
+    -  Logical Error: Third try-except block places the int() conversion outside the try, so ValueError won't be caught correctly.
 
-  * Goal: Correctly identify and handle ZeroDivisionError and FileNotFoundError.
+  -  Goal: Correctly identify and handle ZeroDivisionError and FileNotFoundError.
   Move the int() conversion into the try block for the third scenario.
 
 
     - Documentation Assignment:
 
-    * Scenario: This code attempts a division and handles a potential ZeroDivisionError.
+    -  Scenario: This code attempts a division and handles a potential ZeroDivisionError.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -227,21 +227,21 @@ content: |+
   ```
 
 
-  * Task: Add a docstring for the script. Add inline comments explaining the try
+  -  Task: Add a docstring for the script. Add inline comments explaining the try
   block, each except block, and the specific errors they catch.
 
 
-  * Goal: Document robust error handling for division.
+  -  Goal: Document robust error handling for division.
 
 
 	#Lesson 8.4: The else Block and finally Block
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're using else and finally with try-except, but they're not always placed or behaving as expected.
+    -  Scenario: You're using else and finally with try-except, but they're not always placed or behaving as expected.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -277,22 +277,22 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * Logical Error: In safe\_divide, the else and finally are not properly aligned with the try block in Python syntax. They are part of the try-except construct.
+    -  Logical Error: In safe\_divide, the else and finally are not properly aligned with the try block in Python syntax. They are part of the try-except construct.
 
-    * NameError: In the file handling scenario, if FileNotFoundError occurs, f is never assigned, so f.close() in finally will raise a NameError.
+    -  NameError: In the file handling scenario, if FileNotFoundError occurs, f is never assigned, so f.close() in finally will raise a NameError.
 
-  * Goal: Correct the indentation and placement of else and finally in
+  -  Goal: Correct the indentation and placement of else and finally in
   safe\_divide. Modify the file handling finally block to only close f if it was
   successfully opened (e.g., by initializing f = None before the try).
 
 
     - Documentation Assignment:
 
-    * Scenario: This code attempts to open and read a file, always printing a completion message.
+    -  Scenario: This code attempts to open and read a file, always printing a completion message.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -311,21 +311,21 @@ content: |+
   ```
 
 
-  * Task: Add a docstring for the script. Add inline comments for the try,
+  -  Task: Add a docstring for the script. Add inline comments for the try,
   except, else, and finally blocks, explaining when each block executes.
 
 
-  * Goal: Document the full try-except-else-finally structure.
+  -  Goal: Document the full try-except-else-finally structure.
 
 
 	#Lesson 8.5: Storing Data with JSON
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're trying to save and load data using JSON, but common mistakes with the json module or file handling are occurring.
+    -  Scenario: You're trying to save and load data using JSON, but common mistakes with the json module or file handling are occurring.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
   ```python
 
@@ -368,21 +368,21 @@ content: |+
   ```
 
 
-  * Errors to Find:
+  -  Errors to Find:
 
-    * Logical/Best Practice: When writing JSON, it's better to use json.dump(data, file\_object) directly, rather than json.dumps() and then f.write(). Also, f.write(json.dumps(data\_to\_save)) won't add a newline, so if you append later, it'll be on the same line.
+    -  Logical/Best Practice: When writing JSON, it's better to use json.dump(data, file\_object) directly, rather than json.dumps() and then f.write(). Also, f.write(json.dumps(data\_to\_save)) won't add a newline, so if you append later, it'll be on the same line.
 
-    * Logical Error: The except block for bad\_data.json catches ValueError when it should catch json.JSONDecodeError.
+    -  Logical Error: The except block for bad\_data.json catches ValueError when it should catch json.JSONDecodeError.
 
-  * Goal: Change f.write(json.dumps(...)) to json.dump(data\_to\_save, f).
+  -  Goal: Change f.write(json.dumps(...)) to json.dump(data\_to\_save, f).
   Change the exception type for bad\_data.json to json.JSONDecodeError.
 
 
     - Documentation Assignment:
 
-    * Scenario: This code saves a list of dictionaries (representing contacts) to a JSON file and then loads it back.
+    -  Scenario: This code saves a list of dictionaries (representing contacts) to a JSON file and then loads it back.
 
-    * Code to Document:
+    -  Code to Document:
 
   ```python
 
@@ -412,9 +412,9 @@ content: |+
   ```
 
 
-  * Task: Add a docstring for the script. Add inline comments explaining
+  -  Task: Add a docstring for the script. Add inline comments explaining
   json.dump() with the indent argument, and json.load().
 
 
-  * Goal: Document saving and loading structured data with JSON.
+  -  Goal: Document saving and loading structured data with JSON.
 

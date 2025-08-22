@@ -8,11 +8,11 @@ content: |+
   ### Lesson 4.1: More on Lists
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're trying to modify a list, but you're making mistakes with methods or indexing.
+    -  Scenario: You're trying to modify a list, but you're making mistakes with methods or indexing.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
     ```python
     my_list = [10, 20, 30, 40, 50]
@@ -36,19 +36,19 @@ content: |+
     print(my_list)
     ```
 
-    * Errors to Find:
+    -  Errors to Find:
 
       1. AttributeError: my\_list.add() (should be append()).
       2. IndexError: del my\_list\[len(my\_list)] tries to delete beyond the list's bounds.
       3. ValueError: my\_list.remove(99) if 99 is not in the list.
 
-    * Goal: Fix the AttributeError and IndexError. Handle the potential ValueError with a try-except block, printing a message if the item isn't found.
+    -  Goal: Fix the AttributeError and IndexError. Handle the potential ValueError with a try-except block, printing a message if the item isn't found.
 
-  * Documentation Assignment:
+  -  Documentation Assignment:
 
-    * Scenario: This code demonstrates several ways to modify a list.
+    -  Scenario: This code demonstrates several ways to modify a list.
 
-    * Code to Document:
+    -  Code to Document:
 
     ```python
     shopping_list = ["milk", "bread"]
@@ -58,18 +58,18 @@ content: |+
     print(shopping_list)
     ```
 
-    * Task: Add a docstring explaining the list modifications. Add inline comments for append(), insert(), and del to explain what each line does.
+    -  Task: Add a docstring explaining the list modifications. Add inline comments for append(), insert(), and del to explain what each line does.
 
-    * Goal: Document common list modification methods.
+    -  Goal: Document common list modification methods.
 
   ### Lesson 4.2: Organizing Lists
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're trying to sort and reverse lists, but misusing methods or forgetting argument names.
+    -  Scenario: You're trying to sort and reverse lists, but misusing methods or forgetting argument names.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
     ```python
     names = ["Charlie", "Bob", "Alice"]
@@ -88,19 +88,19 @@ content: |+
     print(length_of_list)
     ```
 
-    * Errors to Find:
+    -  Errors to Find:
 
       1. TypeError: names.sort(True) (should be reverse=True).
       2. TypeError or AttributeError: original\_numbers.reverse needs ().
       3. TypeError: len\[numbers] should be len(numbers).
 
-    * Goal: Fix all errors so the list sorting and reversing operations work correctly.
+    -  Goal: Fix all errors so the list sorting and reversing operations work correctly.
 
-  * Documentation Assignment:
+  -  Documentation Assignment:
 
-    * Scenario: This code sorts a list of scores and prints it in both ascending and descending order.
+    -  Scenario: This code sorts a list of scores and prints it in both ascending and descending order.
 
-    * Code to Document:
+    -  Code to Document:
 
     ```python
     scores = [95, 80, 75, 90]
@@ -110,18 +110,18 @@ content: |+
     print("Descending:", scores)
     ```
 
-    * Task: Add a docstring explaining the sorting operations. Add inline comments explaining what each sort() call does.
+    -  Task: Add a docstring explaining the sorting operations. Add inline comments explaining what each sort() call does.
 
-    * Goal: Document in-place list sorting.
+    -  Goal: Document in-place list sorting.
 
   ### Lesson 4.3: Tuples: Immutable Lists
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're using tuples, but trying to modify them or using incorrect syntax.
+    -  Scenario: You're using tuples, but trying to modify them or using incorrect syntax.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
     ```python
     coordinates = (10, 20, 30] # SyntaxError: mixed parentheses and brackets
@@ -138,18 +138,18 @@ content: |+
         print(coord)
     ```
 
-    * Errors to Find:
+    -  Errors to Find:
 
       1. SyntaxError: coordinates definition uses mixed brackets.
       2. TypeError: coordinates\[1] = 25 attempts to modify an immutable tuple.
 
-    * Goal: Fix the SyntaxError and explain why the TypeError occurs, then comment out the line causing the TypeError.
+    -  Goal: Fix the SyntaxError and explain why the TypeError occurs, then comment out the line causing the TypeError.
 
-  * Documentation Assignment:
+  -  Documentation Assignment:
 
-    * Scenario: This code defines a tuple of weekdays and prints them.
+    -  Scenario: This code defines a tuple of weekdays and prints them.
 
-    * Code to Document:
+    -  Code to Document:
 
     ```python
     weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
@@ -157,18 +157,18 @@ content: |+
         print(day)
     ```
 
-    * Task: Add a docstring explaining what a tuple is and its purpose in this code. Add an inline comment for the for loop explaining its function.
+    -  Task: Add a docstring explaining what a tuple is and its purpose in this code. Add an inline comment for the for loop explaining its function.
 
-    * Goal: Document tuple creation and iteration.
+    -  Goal: Document tuple creation and iteration.
 
   ### Lesson 4.4: Introducing Dictionaries
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're working with dictionaries, but making mistakes with curly braces, keys, or access.
+    -  Scenario: You're working with dictionaries, but making mistakes with curly braces, keys, or access.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
     ```python
     person = {"name": "Alice", "age": 25 # Missing closing curly brace
@@ -186,18 +186,18 @@ content: |+
     print(person)
     ```
 
-    * Errors to Find:
+    -  Errors to Find:
 
       1. SyntaxError: person dictionary is missing a closing curly brace.
       2. NameError: person\[Name] should use a string literal "name".
 
-    * Goal: Fix the syntax error and the NameError so dictionary operations are correct.
+    -  Goal: Fix the syntax error and the NameError so dictionary operations are correct.
 
-  * Documentation Assignment:
+  -  Documentation Assignment:
 
-    * Scenario: This code defines a dictionary for a student's profile and prints some of its details.
+    -  Scenario: This code defines a dictionary for a student's profile and prints some of its details.
 
-    * Code to Document:
+    -  Code to Document:
 
     ```python
     student_profile = {
@@ -211,18 +211,18 @@ content: |+
     print(f"Updated GPA: {student_profile['gpa']}")
     ```
 
-    * Task: Add a docstring explaining what a dictionary is and its use here. Add inline comments explaining how to access data, and how to update a value.
+    -  Task: Add a docstring explaining what a dictionary is and its use here. Add inline comments explaining how to access data, and how to update a value.
 
-    * Goal: Document dictionary creation, access, and modification.
+    -  Goal: Document dictionary creation, access, and modification.
 
   ### Lesson 4.5: Looping Through Dictionaries
 
 
-  * Proofreading Assignment:
+  -  Proofreading Assignment:
 
-    * Scenario: You're trying to loop through dictionary keys, values, or items, but common errors are occurring.
+    -  Scenario: You're trying to loop through dictionary keys, values, or items, but common errors are occurring.
 
-    * Code to Proofread:
+    -  Code to Proofread:
 
     ```python
     inventory = {"apple": 10, "banana": 5, "orange": 8}
@@ -242,18 +242,18 @@ content: |+
         print(key) # This will print values, not keys
     ```
 
-    * Errors to Find:
+    -  Errors to Find:
 
       1. AttributeError: inventory.value() should be inventory.values().
       2. TypeError or AttributeError: inventory.items needs ().
 
-    * Goal: Fix the AttributeError and TypeError. Discuss the logical error for extra credit.
+    -  Goal: Fix the AttributeError and TypeError. Discuss the logical error for extra credit.
 
-  * Documentation Assignment:
+  -  Documentation Assignment:
 
-    * Scenario: This code iterates through a dictionary of product prices.
+    -  Scenario: This code iterates through a dictionary of product prices.
 
-    * Code to Document:
+    -  Code to Document:
 
     ```python
     product_prices = {
@@ -265,7 +265,7 @@ content: |+
         print(f"The {product} costs ${price}.")
     ```
 
-    * Task: Add a docstring for the script. Add inline comments explaining the use of .items() and how product and price variables are assigned in the loop.
+    -  Task: Add a docstring for the script. Add inline comments explaining the use of .items() and how product and price variables are assigned in the loop.
 
-    * Goal: Document iterating through dictionary items.
+    -  Goal: Document iterating through dictionary items.
 
