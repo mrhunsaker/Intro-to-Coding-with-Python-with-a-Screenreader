@@ -13,6 +13,5 @@ description: |
 
   Covers installing Python packages using pip
 lessonParts:
-    - lessonpart1.yml
-    - lessonpart2.yml
-    - lessonpart3.yml
+  - lessonpart1.yml
+  - lessonpart3.yml

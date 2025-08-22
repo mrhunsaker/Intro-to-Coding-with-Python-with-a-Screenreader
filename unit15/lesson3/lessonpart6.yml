@@ -1,16 +1,21 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart6
 title: Unit 5
-content: |+
+content: >+
   # Unit 5: User Input and while Loops
+
 
 
   ## Emphasis/Resources:
 
 
+
   -  Infinite Loop Debugging: How to recognize an infinite loop (program doesn't
+
   terminate, keeps printing/asking for input) and how to stop it (Ctrl+C in
+
   terminal).
+
 
 
   -  Loop Control Flow (break, continue): Use simple scenarios to explain each:
@@ -22,6 +27,7 @@ content: |+
   ## Challenge Projects:
 
 
+
   1. "The Endless Chatbot":
 
      -  Scenario: You're building a simple chatbot that should stop when the user types "quit", but it just keeps going.
@@ -29,6 +35,7 @@ content: |+
      -  Code (infinite loop):
 
   ```python
+
 
   while True:
       message = input("Say something: ")
@@ -38,7 +45,9 @@ content: |+
   ```
 
 
+
   -  Task: Add the necessary code so the loop breaks when the user types "quit".
+
 
 
   2. "The Skipping Counter":
@@ -50,7 +59,9 @@ content: |+
 
   ```python
 
+
   count = 0
+
 
   while count < 5:
       count += 1
@@ -60,8 +71,9 @@ content: |+
   ```
 
 
+
   -  Task: Use a continue statement to skip printing the number 3.
 
 showEditor: true
 editors:
-    - course1/unit15/lesson3/lessonpart2/Lesson14_3.py
+  - course1/unit15/lesson3/lessonpart2/Lesson14_3.py

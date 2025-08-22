@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >+
   # Lesson 5.5: Avoiding Infinite Loops 
+
   ## Student Materials: 
     - Outline: 
       -  Recap: What an infinite loop is (a loop that never ends). 

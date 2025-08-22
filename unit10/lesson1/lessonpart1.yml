@@ -1,8 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
-
+content: |
+  
   - Testing a Function   - Zelle: Chapter 9, pages 236-237 (specifically "Unit
   Testing").   - Matthes: Chapter 11, pages 209-217 (on "Testing Your Code" and
   "Testing a Function" with unittest).
-

@@ -1,17 +1,22 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: >
+  
   # Lesson: Building a Text-Based Adventure Game (Part 1)
+
 
 
   ## Implementing rooms, player movement, and basic interactions.
 
 
+
   ## Example 10.2.1: Room Definition and Movement (Pseudocode)
 
 
+
   ```python
+
 
   room_descriptions = {
      "start_room": {
@@ -29,7 +34,9 @@ content: |
   }
 
 
+
   current_room = "start_room"
+
 
 
   while True:
@@ -47,14 +54,16 @@ content: |
   ```
 
 
+
   ## Activities
+
 
 
   1. **Activity 10.2.1: Build Your House Adventure**
 
 
-  * Define rooms and implement movement in a text-based game.
 
-showEditor: true 
+  * Define rooms and implement movement in a text-based game.
+showEditor: true
 editors:
-  -   course1/unit11/lesson2/lessonpart2/Lesson10_2.py
+  - course1/unit11/lesson2/lessonpart2/Lesson10_2.py

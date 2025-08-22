@@ -1,9 +1,9 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: |  -  Final Project
-content: |  ## Reading
-
+title: ""
+content: |
+  
   - No reading available in Readings.md for Unit 11 Lesson 7.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit12/lesson7/lessonpart1/app_skeleton.py
+  - course1/unit12/lesson7/lessonpart1/app_skeleton.py

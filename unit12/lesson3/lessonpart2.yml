@@ -1,12 +1,16 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: >
+  
   # Lesson: Implementing "Add Item" Functionality:
 
 
+
   * Concept: Connecting GUI input fields to Python variables. Handling button
+
   clicks.
+
 
 
   * **Task 1: Complete the** **`update_item_display()`** **function.**
@@ -29,7 +33,6 @@ content: |
     * Use the `selected_item_name` to find the corresponding item in your `all_items` list.
 
     * Once you've found the item, set the values of the edit form's input fields to the item's current data (e.g., `edit_name_input.value = selected_item.name`).
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit12/lesson3/lessonpart2/Lesson11_3.py
+  - course1/unit12/lesson3/lessonpart2/Lesson11_3.py

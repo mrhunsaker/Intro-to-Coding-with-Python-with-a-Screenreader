@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 3.5: Basic String Operations 
     ## Student Materials: 
       - Outline: 
@@ -21,4 +21,3 @@ content: |
         -  [ ] I can remove extra spaces from the beginning or end of a string using .strip(). 
         -  [ ] I can replace specific parts of a string using .replace(). 
         -  [ ] I understand that string methods create new strings rather than changing the original.
-  

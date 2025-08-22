@@ -1,15 +1,19 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart8
 title: Unit 7
-content: |+
+content: >+
   # Unit 7: Classes and Object-Oriented Programming
+
 
 
   ## Emphasis/Resources:
 
 
+
   * Analogy: Use real-world analogies for classes and objects (e.g., "cookie
+
   cutter" for class, "cookies" for objects; "car blueprint" for class,
+
   "individual cars" for objects).
 
     * self parameter: Explain self as the reference to the current instance of the object.
@@ -17,6 +21,7 @@ content: |+
     * Method Calls: Differentiate between calling a function and calling a method on an object.
 
   ## Challenge Projects:
+
 
 
   1. "The Uninitialized Object":
@@ -27,6 +32,7 @@ content: |+
 
   ```python
 
+
   class Pet:
       # Missing __init__ method
 
@@ -35,13 +41,18 @@ content: |+
 
   my_pet = Pet("Fido", "Dog") # Error here
 
+
   my_pet.make_sound()
+
 
   ```
 
 
+
   * Task: Add an __init__ method to the Pet class that takes name and species as
+
   parameters and assigns them to instance attributes.
+
 
 
   2. "The Attribute Assignment Error":
@@ -54,6 +65,7 @@ content: |+
 
   ```python
 
+
   class Car:
       def __init__(self, make, model):
           self.make = make
@@ -65,15 +77,19 @@ content: |+
 
   my_car = Car("Toyota", "Camry")
 
+
   my_car.accelerate(50)
+
 
   print(my_car.speed) # Will print 0
 
+
   ```
+
 
 
   * Task: Fix the accelerate method so that it correctly updates
 
 showEditor: true
 editors:
-    - course1/unit15/lesson3/lessonpart2/Lesson14_3.py
+  - course1/unit15/lesson3/lessonpart2/Lesson14_3.py

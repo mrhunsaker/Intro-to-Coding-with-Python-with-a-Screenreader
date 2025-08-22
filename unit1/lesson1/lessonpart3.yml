@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 0.1: Installing Python and Visual Studio Code   
+
   ## Student Materials:
     - Outline:
       - Why these tools are essential for programming.
@@ -17,4 +18,3 @@ content: |
       - [ ] I can open my computer's system terminal (Command Prompt/PowerShell/Terminal).
       - [ ] I can verify Python's installation by running python3 --version in the terminal.
       - [ ] I can verify VS Code's installation by running code --version in the terminal.
-  

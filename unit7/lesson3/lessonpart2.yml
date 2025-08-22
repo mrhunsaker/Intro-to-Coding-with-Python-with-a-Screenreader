@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   # Lesson: Return Values
 
   ## Functions that produce a result
@@ -51,7 +52,6 @@ content: |
   * Return the largest number.
 
   * Call and print the result.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit7/lesson3/lessonpart2/Lesson6_3.py
+  - course1/unit7/lesson3/lessonpart2/Lesson6_3.py

@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   # Lesson: Tuples: Immutable Lists
 
 
@@ -91,7 +92,6 @@ content: |
 
 
   * Create a new tuple for a different color and print it.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit5/lesson3/lessonpart2/Lesson4_3.py
+  - course1/unit5/lesson3/lessonpart2/Lesson4_3.py

@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   # Lesson: How the input() Function Works
 
 
@@ -65,7 +66,6 @@ content: |
 
 
   * Calculate and print age next year (convert age to number).
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit6/lesson1/lessonpart2/Lesson5_1.py
+  - course1/unit6/lesson1/lessonpart2/Lesson5_1.py

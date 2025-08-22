@@ -5,6 +5,6 @@ description: Covers pre-populating edit forms with selected item data, updating
   changes, removing items, and refreshing the display, all with accessible
   feedback
 lessonParts:
-    - lessonpart1.yml
-    - lessonpart2.yml
-    - lessonpart3.yml
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

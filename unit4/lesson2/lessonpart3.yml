@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 3.2: Chained Conditionals (elif, else)
+
   ## Student Materials:
       - Outline:
         - The else statement: executing code if the if condition is False.
@@ -16,4 +17,3 @@ content: |
         - [ ] I can use the or operator to combine conditions where at least one must be true.
         - [ ] I can use the not operator to negate a Boolean expression.
         - [ ] I can write code that makes decisions based on multiple conditions.
-  

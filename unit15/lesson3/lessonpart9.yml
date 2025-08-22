@@ -1,23 +1,31 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart9
 title: Unit 8
-content: |+
+content: >+
   # Unit 8: Files and Exceptions
+
 
 
   ## Emphasis/Resources:
 
 
+
   * with open(...): Stress the importance of the with statement for automatic
+
   file closing.
 
 
+
   * Common Exceptions: List common exceptions (FileNotFoundError, ValueError,
+
   ZeroDivisionError, KeyError, IndexError) and their causes.
 
 
+
   * JSON Structure: Explain JSON as key-value pairs and arrays, relating it
+
   directly to Python dictionaries and lists. Provide examples of simple JSON
+
   files and how they map to Python data.
 
     * Resource: json.org (visual, but concepts can be explained audibly). Focus on the examples and the "object" and "array" definitions.
@@ -25,6 +33,7 @@ content: |+
     * Strategy: Provide small, simple JSON files for them to json.load() and print specific parts of the resulting Python data structure.
 
   ## Challenge Projects:
+
 
 
   1. "The Missing File Reader":
@@ -35,7 +44,9 @@ content: |+
 
   ```python
 
+
   # names.txt might not exist
+
 
   with open("names.txt", "r") as f:
       for line in f:
@@ -43,15 +54,20 @@ content: |+
   ```
 
 
+
   * Task: Wrap the file reading code in a try-except block to gracefully handle
+
   a FileNotFoundError. If the file doesn't exist, print a friendly message like
+
   "Names file not found."
+
 
 
   2. "The Broken JSON Loader":
 
     - Scenario: You saved some data to a JSON file, but when you try to load it,
   you get a json.JSONDecodeError. This might happen if the file was manually
+
   edited incorrectly.
 
     - Code (corrupted JSON simulated):
@@ -59,13 +75,18 @@ content: |+
 
   ```python
 
+
   # Imagine data.json looks like this (missing closing bracket):
+
 
   # {"item1": 10, "item2": 20
 
+
   import json
 
+
   DATA_FILE = "corrupted_data.json" # Student will be given this file
+
 
 
   try:
@@ -77,6 +98,7 @@ content: |+
   ```
 
 
+
   * Task:
 
     1. Correct the (simulated) error in corrupted_data.json to make it valid JSON (e.g., add } if missing, fix misplaced commas, ensure strings are double-quoted).
@@ -84,4 +106,4 @@ content: |+
 
 showEditor: true
 editors:
-    - course1/unit15/lesson3/lessonpart2/Lesson14_3.py
+  - course1/unit15/lesson3/lessonpart2/Lesson14_3.py

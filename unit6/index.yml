@@ -3,12 +3,12 @@ id: unit6
 title: "Unit 5: User Input and while Loops"
 description: This unit focuses on obtaining diverse input from users and
   controlling program execution through indefinite loops.
-objectives: |  -    - Receive diverse input from users.
-      - Implement indefinite loops using `while` statements.
-      - Control `while` loop execution with `break` and `continue`.
+objectives: |
+  - Implement indefinite loops using `while` statements.
+  - Control `while` loop execution with `break` and `continue`.
 lessons:
-    - lesson1/index.yml
-    - lesson2/index.yml
-    - lesson3/index.yml
-    - lesson4/index.yml
-    - lesson5/index.yml
+  - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml

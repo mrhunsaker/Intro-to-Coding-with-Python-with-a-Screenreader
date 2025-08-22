@@ -1,26 +1,35 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart10
 title: Unit 9
-content: |+
+content: >+
   # Unit 9: Testing Your Code and Introduction to Data Analysis
+
 
 
   ## Emphasis/Resources:
 
 
+
   * Test-Driven Development (TDD) Concept (briefly): The idea of writing tests
+
   before the code to guide development.
 
 
+
   * assert methods: Familiarize them with assertEqual, assertTrue, assertFalse,
+
   assertIsNone.
 
 
+
   * Randomness limitations: Explain that "random" in programming is
+
   pseudo-random.
 
 
+
   ## Challenge Projects:
+
 
 
   1. "The Flawed Test Case":
@@ -31,7 +40,9 @@ content: |+
 
   ```python
 
+
   import unittest
+
 
 
   def is_even(number):
@@ -43,21 +54,29 @@ content: |+
   ```
 
 
+
   * Task: Correct the assertion in test_positive_even so that it correctly
+
   passes if is_even(4) returns True.
+
 
 
   2. "The Word Counter Bug":
 
 
+
   * Scenario: You're trying to count words in a sentence, but your counter isn't
+
   quite right, especially with punctuation.
+
 
 
   * Code (simple word counter with bug):
 
 
+
   ```python
+
 
   def count_words(text):
       words = text.split(" ")
@@ -65,18 +84,24 @@ content: |+
 
   sentence = "Hello world! How are you?"
 
+
   print(f"Word count: {count_words(sentence)}") # Will count "world!" as a word
+
 
   ```
 
 
+
   * Task: Modify the count_words function to handle punctuation (e.g., using
+
   text.replace() or regular expressions if introduced, or simply teaching a more
+
   robust split strategy for a basic level). A simple fix might be to remove
+
   common punctuation before splitting.
 
     * Hint: text.replace('!', '').replace('?', '') etc. before splitting.
 
 showEditor: true
 editors:
-    - course1/unit15/lesson3/lessonpart2/Lesson14_3.py
+  - course1/unit15/lesson3/lessonpart2/Lesson14_3.py

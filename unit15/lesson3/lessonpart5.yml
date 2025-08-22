@@ -1,23 +1,31 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart5
 title: Unit 4
-content: |+
+content: >+
   # Unit 4: Data Structures: Lists and Dictionaries
+
 
 
   ## Emphasis/Resources:
 
 
+
   -  List vs. Tuple vs. Dictionary: Create a table comparing their properties
+
   (ordered/unordered, mutable/immutable, indexed/keyed).
 
 
+
   -  Nested Data Structures: Explain how lists can contain dictionaries, and
+
   dictionaries can contain lists (e.g., a list of contacts, where each contact
+
   is a dictionary). This prepares them for JSON.
 
 
+
   ## Challenge Projects:
+
 
 
   1. "The Missing Dictionary Key":
@@ -28,18 +36,23 @@ content: |+
 
   ```python
 
+
   student = {
       "name": "Alice",
       "grade": "A",
       "age": 16
   }
 
+
   print(student["Name"]) # Incorrect key casing
+
 
   ```
 
 
+
   -  Task: Fix the code to correctly print "Alice".
+
 
 
   2. "The List Manipulation Mishap":
@@ -52,18 +65,24 @@ content: |+
 
   ```python
 
+
   my_fruits = ["apple", "banana"]
+
 
   my_fruits.sort("orange") # Incorrect usage of sort()
 
+
   print(my_fruits)
+
 
   ```
 
 
+
   -  Task: Fix the code so that "orange" is added to the list, and then the list
+
   is sorted alphabetically.
 
 showEditor: true
 editors:
-    - course1/unit15/lesson3/lessonpart2/Lesson14_3.py
+  - course1/unit15/lesson3/lessonpart2/Lesson14_3.py

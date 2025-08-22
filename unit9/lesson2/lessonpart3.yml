@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 8.2: Writing to a File 
+
   ## Student Materials: 
     - Outline: 
       -  Opening a file for writing ("w" mode) and appending ("a" mode). 

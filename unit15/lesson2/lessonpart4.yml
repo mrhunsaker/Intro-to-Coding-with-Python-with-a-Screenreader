@@ -1,11 +1,13 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart4
 title: Unit 4
-content: |+
+content: >+
   ## Unit 4: Data Structures: Lists and Dictionaries
 
 
+
   ### Lesson 4.1: More on Lists
+
 
 
   -  Proofreading Assignment:
@@ -65,6 +67,7 @@ content: |+
   ### Lesson 4.2: Organizing Lists
 
 
+
   -  Proofreading Assignment:
 
     -  Scenario: You're trying to sort and reverse lists, but misusing methods or forgetting argument names.
@@ -117,6 +120,7 @@ content: |+
   ### Lesson 4.3: Tuples: Immutable Lists
 
 
+
   -  Proofreading Assignment:
 
     -  Scenario: You're using tuples, but trying to modify them or using incorrect syntax.
@@ -162,6 +166,7 @@ content: |+
     -  Goal: Document tuple creation and iteration.
 
   ### Lesson 4.4: Introducing Dictionaries
+
 
 
   -  Proofreading Assignment:
@@ -216,6 +221,7 @@ content: |+
     -  Goal: Document dictionary creation, access, and modification.
 
   ### Lesson 4.5: Looping Through Dictionaries
+
 
 
   -  Proofreading Assignment:

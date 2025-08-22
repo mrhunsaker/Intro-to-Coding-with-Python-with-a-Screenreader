@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Unit 3
-content: |
+content: |+
   # Unit 3: Basic String Operations
-  
+
   ## Independent Practice:
 
   1. Multiple Choice: Which operator is used for checking if two values are

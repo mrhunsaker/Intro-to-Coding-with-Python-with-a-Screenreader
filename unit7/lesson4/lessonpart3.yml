@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >+
   # Lesson 6.4: Functions with Lists and Dictionaries 
+
   ## Student Materials: 
     - Outline: 
       -  Passing lists as arguments to functions. 

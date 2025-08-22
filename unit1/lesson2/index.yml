@@ -10,6 +10,6 @@ description: |
   "Say all" or "Beeps") in NVDA, JAWS, and VoiceOver, which is critical for
   Python's reliance on indentation
 lessonParts:
-    - lessonpart1.yml
-    - lessonpart2.yml
-    - lessonpart3.yml
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

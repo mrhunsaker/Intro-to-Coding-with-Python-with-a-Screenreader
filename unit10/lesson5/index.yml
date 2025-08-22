@@ -9,6 +9,6 @@ description: |
   Includes proofreading and documentation assignments, focusing on incorrect
   delimiters
 lessonParts:
-    - lessonpart1.yml
-    - lessonpart2.yml
-    - lessonpart3.yml
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

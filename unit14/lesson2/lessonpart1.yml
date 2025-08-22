@@ -1,64 +1,92 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: |  -  Final
-content: |  ## Reading
-
+title: ""
+content: >
+  
   # Final Exam: GUI Project Proofreading and Documentation (Extended Version)
+
 
 
   ## Instructions:
 
 
+
   You are provided with an extended Python GUI project using the tkinter
+
   library. Your task is to proofread and correct all errors in the code.
+
   Additionally, you must add informative docstrings to all functions and
+
   classes, and inline comments to explain key parts of the code.
+
 
   Your corrected code should:
 
 
+
   1. Run without errors.
 
+
   2. Function as intended (i.e., display a window with a button and a label,
+
   update the label when the button is clicked, manage an entry field, and handle
+
   a second, simpler window).
+
 
   3. Be well-documented with clear docstrings and inline comments.
 
+
   4. Adhere to good Python practices, especially regarding indentation (fix any
+
   that look like copy-paste mishaps).
+
 
 
   Common Error Types to Look For:
 
 
+
   * Syntax Errors: Missing colons, parentheses, brackets, incorrect keywords.
 
 
+
   * Indentation Errors: Lines improperly indented (treat these as simple
+
   copy-paste mishaps).
+
 
 
   * Name Errors: Variables or functions not defined, or misspelled.
 
 
+
   * Attribute Errors: Trying to access a non-existent method or attribute.
+
 
 
   * Type Errors: Operations on incompatible data types.
 
 
+
   * Logical Errors: Code runs but doesn't do what's expected (e.g., wrong
+
   comparison, infinite loop, incorrect variable update).
+
 
 
   ```python
 
+
   import tkinter as tk
+
 
   from tkinter import messagebox
 
 
+
   # Class for the secondary window
+
 
   class SecondaryWindow:
       def __init__(self, parent_window):
@@ -74,6 +102,7 @@ content: |  ## Reading
           self.child_window.destroy()
 
   # Class for the main application window
+
 
   class MyGUIApp:
       def __init__(root_window): # Missing self parameter
@@ -132,12 +161,12 @@ content: |  ## Reading
 
   # Main part of the script
 
+
   if __name__ = '__main__': # SyntaxError: assignment instead of comparison
       main_root = tk.Tk()
       app_instance = MyGUIApp(main_root)
       main_root.mainloop()
   ```
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit14/lesson2/lessonpart1/final_proofread.py
+  - course1/unit14/lesson2/lessonpart1/final_proofread.py

@@ -1,23 +1,30 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: >
+  
   # Lesson: Functions with Lists and Dictionaries
+
 
 
   ## Passing data structures to functions
 
 
+
   Functions can process lists and dictionaries.
+
 
 
   ## Explicit Examples
 
 
+
   ## Example 6.4.1: Processing a List of Names
 
 
+
   ```python
+
 
   def print_names(names_list):
      print("--  - Names List ---")
@@ -27,50 +34,71 @@ content: |
 
   students = ["Maria", "David", "Sophia"]
 
+
   print_names(students)
+
 
 
   students.append("Liam")
 
+
   print_names(students)
 
+
   ```
+
 
 
   Expected Output:
 
 
+
   ```
+
 
   --  - Names List ---
 
+
   Maria
+
 
   David
 
+
   Sophia
+
 
   ------------------
 
+
   --  - Names List ---
+
 
   Maria
 
+
   David
 
+
   Sophia
+
 
   Liam
 
+
   ------------------
 
+
   ```
+
 
 
   ## Example 6.4.2: Updating a User Profile Dictionary
 
 
+
   ```python
+
 
   def update_profile(profile, new_city):
      profile["city"] = new_city
@@ -78,67 +106,90 @@ content: |
 
   user_data = {"name": "Olivia", "age": 14, "grade": "8th"}
 
+
   print("Original profile:", user_data)
+
 
 
   update_profile(user_data, "New York")
 
+
   print("Profile after update:", user_data)
 
+
   ```
+
 
 
   Expected Output:
 
 
+
   ```
+
 
   Original profile: {'name': 'Olivia', 'age': 14, 'grade': '8th'}
 
+
   Profile updated for Olivia. New city: New York
 
+
   Profile after update: {'name': 'Olivia', 'age': 14, 'grade': '8th', 'city':
+
   'New York'}
 
+
   ```
+
 
 
   ## Activities
 
 
+
   1. **Activity 6.4.1: Process Messages**
+
 
 
   * Create `message_processor.py`.
 
 
+
   * Create a list of messages.
+
 
 
   * Define `display_messages(messages)` to print each message.
 
 
+
   * (Challenge) Define `send_messages(messages_to_send, sent_messages)` to move
+
   messages and print both lists.
+
 
 
   1. **Activity 6.4.2: Album Collection**
 
 
+
   * Create `album_collection.py`.
+
 
 
   * Define `make_album(artist_name, album_title)`.
 
 
+
   * Return a dictionary.
+
 
 
   * Call and print album dictionaries.
 
 
-  * (Challenge) Print a formatted list of all albums.
 
-showEditor: true 
+  * (Challenge) Print a formatted list of all albums.
+showEditor: true
 editors:
-  -   course1/unit7/lesson4/lessonpart2/Lesson6_4.py
+  - course1/unit7/lesson4/lessonpart2/Lesson6_4.py

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 1.2: Your First Python Program: "Hello World!"
     ## Student Materials:
       - Outline:
@@ -15,5 +15,3 @@ content: |
         - [ ] I can save a Python file with the .py extension.
         - [ ] I can execute a Python script from the terminal.
         - [ ] I can understand that the output of print() appears in the terminal.
-
-  

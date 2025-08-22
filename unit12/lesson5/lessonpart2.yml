@@ -1,12 +1,16 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: >
+  
   # Lesson: Implementing "Edit" and "Delete" Functionality:
 
 
+
   * Concept: Using the selected item's data to pre-populate edit forms. Removing
+
   items from the list.
+
 
 
   * **Task 1: Write the** **`README.md`** **file.**
@@ -37,8 +41,7 @@ content: |
     * Use the `Load Data` and `Save Data` buttons to show persistence.
 
     * **Crucially**, be ready to perform all of these actions while a screen reader is active, explaining how the audio feedback corresponds to the actions on screen. This is the ultimate test of your accessibility focus.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit12/lesson5/lessonpart2/Lesson11_5.py
-  -   course1/unit12/lesson5/lessonpart2/README.md
+  - course1/unit12/lesson5/lessonpart2/Lesson11_5.py
+  - course1/unit12/lesson5/lessonpart2/README.md

@@ -1,57 +1,82 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: >
+  
   # Lesson: Boolean Expressions and if Statements
 
 
+
   ## Introducing True/False and comparison operators. Making decisions in
+
   programs.
 
 
+
   Boolean expressions are statements that evaluate to either True or False.
+
   These expressions are formed using comparison operators, which are used to
+
   compare values. Common comparison operators include `==` (equal to), `!=` (not
+
   equal to), `<` (less than), `>` (greater than), `<=` (less than or equal to),
+
   and `>=` (greater than or equal to). `if` statements enable a program to
+
   execute different blocks of code based on whether a given condition is True or
+
   False. Indentation is critically important in Python, as it defines the code
+
   block that belongs to the if statement.
+
 
 
   ## Explicit Examples
 
 
+
   ## Example 3.1.1: Simple Age Check
+
 
 
   ```python
 
+
   age = 15
+
 
   if age >= 18:
       print("You are old enough to vote.")
   print("Program finished.") # This line runs regardless of the if condition
 
+
   ```
+
 
 
   Expected Output:
 
 
+
   ```
+
 
   Program finished.
 
+
   ```
+
 
 
   ## Example 3.1.2: Password Length Check
 
 
+
   ```python
 
+
   password = "mysecret"
+
 
   if len(password) < 8:
       print("Weak password: Password must be at least 8 characters long.")
@@ -60,17 +85,23 @@ content: |
   ```
 
 
+
   Expected Output:
 
 
+
   ```
+
 
   Weak password: Password must be at least 8 characters long.
 
+
   ```
 
 
+
   ## Activities
+
 
 
   1. **Activity 3.1.1: Number Comparison Game**
@@ -100,22 +131,29 @@ content: |
   ## Key Table: Unit 3: Common Comparison Operators
 
 
+
   | Operator | Meaning               | Example | Result (if True) |
+
 
   | -------  - | --------------------  - | ------  - | ---------------  - |
 
+
   | ==       | Equal to              | 5 == 5  | True             |
+
 
   | !=       | Not equal to          | 5 != 10 | True             |
 
+
   | <        | Less than             | 5 < 10  | True             |
+
 
   | >        | Greater than          | 10 > 5  | True             |
 
+
   | <=       | Less than or equal to | 5 <= 5  | True             |
 
-  | >=       | Greater than or equal | 10 >= 5 | True             |
 
-showEditor: true 
+  | >=       | Greater than or equal | 10 >= 5 | True             |
+showEditor: true
 editors:
-  -   course1/unit4/lesson1/lessonpart2/Lesson3_1.py
+  - course1/unit4/lesson1/lessonpart2/Lesson3_1.py

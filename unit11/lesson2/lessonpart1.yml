@@ -1,8 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
-
+content: |
+  
   - Building a Text-Based Adventure Game (Part 1)   - Matthes: Chapter 6, pages
   105-111 (on "Nesting" lists and dictionaries for representing complex game
   structures).
-

@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   # Lesson: Reading from a File
 
   ## Opening, reading, and closing files. Using with statements.
@@ -45,7 +46,6 @@ content: |
   * Create `guest_book.txt` and `guest_book_reader.py`.
 
   * Read and print each line.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit9/lesson1/lessonpart2/Lesson8_1.py
+  - course1/unit9/lesson1/lessonpart2/Lesson8_1.py

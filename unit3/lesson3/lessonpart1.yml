@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
-
-  - Input and Output Revisited   - Zelle: Chapter 2, pages 27-33 (detailing "Output Statements" and "Input Statement"). 
+content: >
+  
+  - Input and Output Revisited   - Zelle: Chapter 2, pages 27-33 (detailing
+  "Output Statements" and "Input Statement"). 
     - Matthes: Chapter 7, pages 114-116  (explaining the input() function).
-

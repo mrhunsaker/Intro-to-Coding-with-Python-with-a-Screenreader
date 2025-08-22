@@ -1,7 +1,9 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
+content: >
+  
+  - Storing Data with JSON   - Matthes: Chapter 10, pages 200-204 (on "Storing
+  Data"
 
-  - Storing Data with JSON   - Matthes: Chapter 10, pages 200-204 (on "Storing Data"
   and using the json module for json.dumps() and json.loads()).
-

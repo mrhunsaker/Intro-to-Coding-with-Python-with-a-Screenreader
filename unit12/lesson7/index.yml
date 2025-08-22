@@ -20,4 +20,4 @@ description: |
   4. Delete item: remove an item from the collection.
   5. Save/load data: persist the data to a JSON file.
 lessonParts:
-    - lessonpart1.yml
+  - lessonpart1.yml

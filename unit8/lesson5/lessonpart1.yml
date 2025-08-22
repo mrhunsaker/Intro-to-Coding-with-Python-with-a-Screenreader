@@ -1,9 +1,13 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
+content: >
+  
+  - Instances as Attributes   - Zelle: Chapter 10, pages 262-263 (on
+  "Encapsulating
 
-  - Instances as Attributes   - Zelle: Chapter 10, pages 262-263 (on "Encapsulating
   Useful Abstractions"); Chapter 11, pages 296-299 (on "Designing with Lists and
-  Classes" for composition example).   - Matthes: Chapter 9, pages 170-172
-  (specifically "Instances as Attributes").
 
+  Classes" for composition example).   - Matthes: Chapter 9, pages 170-172
+
+  (specifically "Instances as Attributes").

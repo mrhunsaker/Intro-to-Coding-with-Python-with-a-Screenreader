@@ -1,8 +1,11 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
+content: >
+  
+  - Designing Your Project   - Zelle: Chapter 9, pages 225-235 (on "Top-Down
+  Design"
 
-  - Designing Your Project   - Zelle: Chapter 9, pages 225-235 (on "Top-Down Design"
   and "Summary of the Design Process").   - Matthes: Part II: Projects, pages
-  225-226 (overview of project-based learning).
 
+  225-226 (overview of project-based learning).

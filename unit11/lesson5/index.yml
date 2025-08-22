@@ -9,6 +9,6 @@ description: |
   Includes proofreading assignment for logical flaws and unhandled edge cases in
   input validation
 lessonParts:
-    - lessonpart1.yml
-    - lessonpart2.yml
-    - lessonpart3.yml
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

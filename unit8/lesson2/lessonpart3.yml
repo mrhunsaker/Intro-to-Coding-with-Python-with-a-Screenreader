@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >+
   # Lesson 7.2: Creating and Using a Class 
+
   ## Student Materials: 
     - Outline: 
       -  Syntax for defining a simple class using the class keyword. 

@@ -3,12 +3,12 @@ id: unit10
 title: "Unit 9: Testing Your Code and Introduction to Data Analysis"
 description: This unit introduces the crucial practice of testing code to ensure
   its correctness and explores basic text-based data analysis techniques.
-objectives: |  -    - Write simple unit tests for functions and classes.
-    - Understand the basics of data generation and manipulation.
-    - Explore text-based data analysis concepts.
+objectives: |
+  - Understand the basics of data generation and manipulation.
+  - Explore text-based data analysis concepts.
 lessons:
-    - lesson1/index.yml
-    - lesson2/index.yml
-    - lesson3/index.yml
-    - lesson4/index.yml
-    - lesson5/index.yml
+  - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml

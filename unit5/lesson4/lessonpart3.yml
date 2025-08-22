@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 4.4: Introducing Dictionaries 
+
   ## Student Materials: 
     - Outline: 
       -  What is a dictionary: an unordered collection of key-value pairs. 

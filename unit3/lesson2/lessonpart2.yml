@@ -1,78 +1,110 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |  # Lesson: Elements of Programs: Expressions and Assignment
-
+content: >
+  
 
   ## Understanding how Python evaluates expressions and assigns values to
+
   variables.
 
 
+
   In Python, expressions are segments of code that produce a value, such as `5 +
+
   3`, `"Hello" + "World"`, or `age * 2`. Assignment uses the `=` operator to
+
   store the result of an expression into a variable.
+
 
 
   ## Explicit Examples
 
 
+
   ## Example 2.2.1: Expression Evaluation
+
 
 
   ```python
 
+
   result1 = 10 / 2 + 3  # 10 / 2 is 5, then 5 + 3 is 8
+
 
   print("Result 1:", result1)
 
 
+
   message = "Python" + " " + "is fun!" # Strings are joined together
+
 
   print("Message:", message)
 
+
   ```
+
 
 
   Expected Output:
 
 
+
   ```
+
 
   Result 1: 8.0
 
+
   Message: Python is fun!
 
+
   ```
+
 
 
   ## Example 2.2.2: Reassigning Variables
 
 
+
   ```python
+
 
   score = 50
 
+
   print("Initial score:", score)
+
 
   score = score + 20 # score becomes 50 + 20 = 70
 
+
   print("New score:", score)
 
+
   ```
+
 
 
   Expected Output:
 
 
+
   ```
+
 
   Initial score: 50
 
+
   New score: 70
+
 
   ```
 
 
+
   ## Activities
+
 
 
   1. **Activity 2.2.1: Predict the Output**
@@ -103,8 +135,6 @@ content: |  # Lesson: Elements of Programs: Expressions and Assignment
      * Purpose: Deepen understanding of expression evaluation and variable assignment order.
 
      * Accessibility: Type predictions and compare with actual output in the terminal.
-
-
 showEditor: true
 editors:
-    - course1/unit3/lesson2/lessonpart2/Lesson2_2.py
+  - course1/unit3/lesson2/lessonpart2/Lesson2_2.py

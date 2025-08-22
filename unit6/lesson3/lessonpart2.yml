@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   - Lesson: Using Flags and break to Exit Loops
 
   ## Controlling loop termination
@@ -57,7 +58,6 @@ content: |
   * Add names to the list.
 
   * Print all collected names.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit6/lesson3/lessonpart2/Lesson5_3.py
+  - course1/unit6/lesson3/lessonpart2/Lesson5_3.py

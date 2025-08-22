@@ -9,6 +9,6 @@ description: |
 
   Focuses on json.JSONDecodeError and best practices for writing JSON to files
 lessonParts:
-    - lessonpart1.yml
-    - lessonpart2.yml
-    - lessonpart3.yml
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml

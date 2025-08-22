@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   # Lesson: Introducing Dictionaries
 
 
@@ -117,7 +118,6 @@ content: |
 
   * Prompt the user to enter a term. If found, print its definition; otherwise,
   print "Term not found."
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit5/lesson4/lessonpart2/Lesson4_4.py
+  - course1/unit5/lesson4/lessonpart2/Lesson4_4.py

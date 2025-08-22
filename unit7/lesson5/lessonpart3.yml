@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >+
   # Lesson 6.5: Arbitrary Number of Arguments 
+
   ## Student Materials: 
     - Outline: 
       -  Using *args to accept an arbitrary number of positional arguments (they are collected into a tuple). 

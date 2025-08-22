@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >+
   # Lesson 9.5: Working with CSV Data (Text-based) 
+
   ## Student Materials: 
     - Outline: 
       -  Introduction to CSV (Comma Separated Values) as a common tabular data format. 

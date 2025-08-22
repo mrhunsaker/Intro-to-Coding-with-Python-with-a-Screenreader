@@ -1,12 +1,9 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  
-
+content: |+
+  
   ## Reading
 
 
-	- Zelle: Chapter 7, pages 165-173   (introducing "Decision Structures", if statements, and "Conditions"); 
-   Chapter 8, pages 204-205 (on "Boolean Operators").
-  
-   
-	- Matthes: Chapter 5, pages 71-78 (covering if statements and "Conditional Tests").
+  	

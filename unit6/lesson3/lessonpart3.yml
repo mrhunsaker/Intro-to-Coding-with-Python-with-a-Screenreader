@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >+
   # Lesson 5.3: Using Flags and break to Exit Loops 
+
   ## Student Materials: 
     - Outline: 
       -  Using a "flag" variable (a Boolean variable) to control while loop execution. 

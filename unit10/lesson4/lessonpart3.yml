@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 9.4: Analyzing Text Data 
+
   ## Student Materials: 
     - Outline: 
       -  Basic text analysis goals: counting words, characters, specific phrases. 

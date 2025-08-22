@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >+
   
   ## Unit 0 Completion Checklist
     - [ ] Python 3 is installed and python3 --version works in your system terminal.

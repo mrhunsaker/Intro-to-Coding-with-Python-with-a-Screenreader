@@ -1,62 +1,85 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: >
+  
   # Lesson: The while Loop in Action
+
 
 
   ## Basic while loops for repetitive tasks
 
 
+
   A `while` loop continues as long as a condition is True.
+
 
 
   ## Explicit Examples
 
 
+
   ## Example 5.2.1: Simple Counter
+
 
 
   ```python
 
+
   count = 1
+
 
   while count <= 5:
      print(count)
      count += 1
   print("Counting finished!")
 
+
   ```
+
 
 
   Expected Output:
 
 
+
   ```
+
 
   1
 
+
   2
+
 
   3
 
+
   4
+
 
   5
 
+
   Counting finished!
 
+
   ```
+
 
 
   ## Example 5.2.2: User Input Loop (Sentinel Value)
 
 
+
   ```python
+
 
   prompt = "Enter a message, or type 'quit' to exit: "
 
+
   message = ""
+
 
 
   while message != 'quit':
@@ -65,26 +88,36 @@ content: |
          print(f"You said: {message}")
   print("Goodbye!")
 
+
   ```
+
 
 
   Expected Output:
 
 
+
   ```
+
 
   Enter a message, or type 'quit' to exit: Hello
 
+
   You said: Hello
+
 
   Enter a message, or type 'quit' to exit: quit
 
+
   Goodbye!
+
 
   ```
 
 
+
   ## Activities
+
 
 
   1. **Activity 5.2.1: Number Accumulator**
@@ -114,43 +147,73 @@ content: |
   # Key Table: Unit 5: `for` vs. `while` Loop Comparison
 
 
+
   This table clearly differentiates between `for` and `while` loops, which can
+
   often be a source of confusion for beginners. For screen reader users,
+
   presenting these distinctions side-by-side in a structured format
+
   significantly aids in understanding when to choose one loop type over the
+
   other. It reinforces the core concept of definite versus indefinite iteration.
+
   Students often struggle with determining the appropriate use case for `for`
+
   versus `while` loops. A comparative table directly addresses this common point
+
   of confusion by highlighting their primary characteristics and typical
+
   applications. This structured comparison makes it easier to grasp the nuances
+
   and helps students develop a mental model for selecting the most suitable
+
   control flow mechanism, which is a critical skill in programming.
 
 
+
   | Feature              | `for`
+
   Loop                                                                  |
+
   `while` Loop                                                                |
 
+
   | :------------------  - |
-  :-------------------------------------------------------------------------  - |
-  :-------------------------------------------------------------------------  - |
+
+  :-------------------------------------------------------------------------  -
+  |
+
+  :-------------------------------------------------------------------------  -
+  |
+
 
   | **Purpose**          | Definite iteration (know how many times to loop or
+
   iterate over a sequence) | Indefinite iteration (loop as long as a condition
+
   is true)                  |
 
+
   | **When to Use**      | Iterating over lists, strings, ranges; fixed number
+
   of repetitions          | Repeating until a specific condition is met; user
+
   input loops               |
 
+
   | **Control Variable** | Loop variable automatically takes on values from
+
   sequence                   | Must be manually updated within the loop to
+
   eventually make condition false |
 
-  | **Risk**             | Less prone to infinite loops (unless sequence is
-  infinite)                  | High risk of infinite loops if condition never
-  becomes false                |
 
-showEditor: true 
+  | **Risk**             | Less prone to infinite loops (unless sequence is
+
+  infinite)                  | High risk of infinite loops if condition never
+
+  becomes false                |
+showEditor: true
 editors:
-  -   course1/unit6/lesson2/lessonpart2/Lesson5_2.py
+  - course1/unit6/lesson2/lessonpart2/Lesson5_2.py

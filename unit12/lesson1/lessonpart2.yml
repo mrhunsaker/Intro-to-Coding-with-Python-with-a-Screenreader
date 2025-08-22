@@ -1,22 +1,32 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: >
+  
   # Lesson: Introduction to NiceGUI GUI):
 
 
+
   * Concept: Event-driven programming. How GUI elements trigger Python
+
   functions.
 
 
+
   * Skeleton Overview: Walkthrough of the provided app.py skeleton, explaining
+
   the basic ui.button, ui.input, ui.label, and ui.column/ui.row elements.
+
   Explain the ui.run() function.
 
 
+
   * Accessibility in GUI: Discuss how the skeleton uses basic elements that are
+
   inherently accessible and how proper labels and feedback are crucial.
+
   Demonstrate interacting with the skeleton using a screen reader.
+
 
 
   * **Task 1: Understand the Skeleton.**
@@ -45,7 +55,6 @@ content: |
     * In `load_data()`, use `json.load()` to read data from `data.json`.
 
     * **Crucial step:** Notice the `try...except` blocks in `load_data()`. They are already set up to handle file not found or corrupted file errors. Ensure your implementation works within this robust structure.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit12/lesson1/lessonpart2/Lesson11_1.py
+  - course1/unit12/lesson1/lessonpart2/Lesson11_1.py

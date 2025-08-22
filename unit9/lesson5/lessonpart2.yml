@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   # Lesson: Storing Data with JSON
 
   ## Using the json module to store and retrieve Python data structures.
@@ -56,7 +57,6 @@ content: |
   * Create `contacts.py`.
 
   * Manage contacts with JSON file.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit9/lesson5/lessonpart2/Lesson8_5.py
+  - course1/unit9/lesson5/lessonpart2/Lesson8_5.py

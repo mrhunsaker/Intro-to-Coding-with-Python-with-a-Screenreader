@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 7.4: Inheritance 
+
   ## Student Materials: 
     - Outline: 
       -  The concept of inheritance: creating a new class (child/subclass) based on an existing one (parent/superclass). 
@@ -17,4 +18,3 @@ content: |
       -  [ ] I can use super().__init__() to properly initialize inherited attributes. 
       -  [ ] I can add new attributes and methods to a child class. 
       -  [ ] I can override a parent method in a child class.
-  

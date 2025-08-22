@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 5.2: The while Loop in Action 
+
   ## Student Materials: 
     - Outline: 
       -  Introduction to while loops: repeating code as long as a condition is true. 

@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   # Lesson: More on Lists
 
 
@@ -133,7 +134,6 @@ content: |
 
 
   * Use `del` to empty the list. Print the empty list.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit5/lesson1/lessonpart2/Lesson4_1.py
+  - course1/unit5/lesson1/lessonpart2/Lesson4_1.py

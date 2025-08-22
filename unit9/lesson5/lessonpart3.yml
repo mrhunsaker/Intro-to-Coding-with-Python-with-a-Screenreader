@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >+
   # Lesson 8.5: Storing Data with JSON 
+
   ## Student Materials: 
     - Outline: 
       -  Introduction to JSON (JavaScript Object Notation) as a common format for data exchange. 

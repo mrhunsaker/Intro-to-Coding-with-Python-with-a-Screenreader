@@ -1,21 +1,4 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
-	#Lesson 8.1: Reading from a File
-	##Student Materials:
-      - Outline:
-        - The concept of persistent storage: data remaining even after the program closes.
-        - Opening a file for reading ("r" mode).
-        - The with open(...) statement: ensures files are automatically closed.
-        - Reading the entire content of a file (.read()).
-        - Reading line by line (.readline(), or iterating directly over the file object).
-        - Reading all lines into a list (.readlines()).
-        - Removing newline characters (.strip()).
-      - Skills Checklist:
-        - [ ] I can explain why persistent storage is important.
-        - [ ] I can open a file for reading using with open().
-        - [ ] I can read the entire content of a file into a string.
-        - [ ] I can read a file line by line using a for loop.
-        - [ ] I can remove leading/trailing whitespace, including newlines, from strings using .strip().
-  
+content: "\t\n"

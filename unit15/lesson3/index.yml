@@ -1,23 +1,27 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson3
 title: Supplementary Materials and Challenge Projects for Visually Impaired Students
-objectives: >  -  These materials aim to:
+objectives: >
+  
+  - Emphasize Difficult Concepts: Provide deeper dives and alternative
+  explanations. 
 
-  - Emphasize Difficult Concepts: Provide deeper dives and alternative explanations. 
+  - Provide Additional Resources: Point to accessible external tools or
+  documentation.
 
-  - Provide Additional Resources: Point to accessible external tools or documentation.
+  - Address Accessibility Challenges: Specifically tackle issues like
+  indentation for screen reader users.
 
-  - Address Accessibility Challenges: Specifically tackle issues like indentation for screen reader users.
-
-  - Offer Targeted Practice: Create scenarios that mimic real-world debugging without visual aids.
+  - Offer Targeted Practice: Create scenarios that mimic real-world debugging
+  without visual aids.
 lessonParts:
-    - lessonpart1.yml
-    - lessonpart2.yml
-    - lessonpart3.yml
-    - lessonpart4.yml
-    - lessonpart5.yml
-    - lessonpart6.yml
-    - lessonpart7.yml
-    - lessonpart8.yml
-    - lessonpart9.yml
-    - lessonpart10.yml
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml
+  - lessonpart4.yml
+  - lessonpart5.yml
+  - lessonpart6.yml
+  - lessonpart7.yml
+  - lessonpart8.yml
+  - lessonpart9.yml
+  - lessonpart10.yml

@@ -5,5 +5,5 @@ description: This lesson explains the importance of version control (like Git)
   for tracking changes, reverting to previous states, experimenting without
   fear, and identifying the source of errors (e.g., from AI or careless pasting)
 lessonParts:
-    - lessonpart1.yml
-    - lessonpart2.yml
+  - lessonpart1.yml
+  - lessonpart2.yml

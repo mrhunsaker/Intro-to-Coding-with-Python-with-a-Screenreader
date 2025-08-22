@@ -8,5 +8,5 @@ description: |
   Discusses the integral role for git and version control for mders coding and
   program development
 lessons:
-    - lesson1/index.yml
-    - lesson2/index.yml
+  - lesson1/index.yml
+  - lesson2/index.yml

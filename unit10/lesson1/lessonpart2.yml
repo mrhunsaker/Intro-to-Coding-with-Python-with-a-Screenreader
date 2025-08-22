@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   # Lesson: Testing a Function
 
   ## Using the unittest module for basic testing.
@@ -45,7 +46,6 @@ content: |
   1. **Activity 9.1.2: String Reverser Test**
 
   * Write and test `reverse_string(text)`.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit10/lesson1/lessonpart2/Lesson9_1.py
+  - course1/unit10/lesson1/lessonpart2/Lesson9_1.py

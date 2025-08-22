@@ -1,8 +1,11 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
+content: >
+  
+  - Return Values   - Zelle: Chapter 6, pages 147-151 (on "Getting Results from
+  a
 
-  - Return Values   - Zelle: Chapter 6, pages 147-151 (on "Getting Results from a
   Function" and "Functions That Return Values").   - Matthes: Chapter 8, pages
-  137-142 (on "Return Values" and "Returning a Simple Value").
 
+  137-142 (on "Return Values" and "Returning a Simple Value").

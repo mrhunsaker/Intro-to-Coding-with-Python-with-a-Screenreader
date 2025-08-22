@@ -4,12 +4,12 @@ title: "Unit 8: Files and Exceptions"
 description: This unit covers how to interact with text files for reading and
   writing data, how to handle common programming errors gracefully using
   exceptions, and how to store and load data using JSON.
-objectives: |  -    - Read from and write to text files.
-    - Handle common programming errors (exceptions).
-    - Store and load data using JSON.
+objectives: |
+  - Handle common programming errors (exceptions).
+  - Store and load data using JSON.
 lessons:
-    - lesson1/index.yml
-    - lesson2/index.yml
-    - lesson3/index.yml
-    - lesson4/index.yml
-    - lesson5/index.yml
+  - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml

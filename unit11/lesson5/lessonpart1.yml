@@ -1,9 +1,13 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
-
+content: >
+  
   - Refinement and User Experience   - Zelle: Chapter 2, pages 27-28 (on "Output
-  Statements"); Chapter 7, pages 177-179 (on "Handling Exceptional Cases" for
-  robust input).   - Matthes: Chapter 7, pages 114-115 (on writing clear prompts);
-  Chapter 10, pages 192-199 (for graceful error handling).
 
+  Statements"); Chapter 7, pages 177-179 (on "Handling Exceptional Cases" for
+
+  robust input).   - Matthes: Chapter 7, pages 114-115 (on writing clear
+  prompts);
+
+  Chapter 10, pages 192-199 (for graceful error handling).

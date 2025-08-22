@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: | 
-
+content: |
+  
   # Lesson: Using continue in Loops
 
   ## Skipping parts of an iteration
@@ -48,7 +49,6 @@ content: |
   * Start with a list of sandwich orders.
 
   * Use a while loop and `continue` to skip "pastrami".
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit6/lesson4/lessonpart2/Lesson5_4.py
+  - course1/unit6/lesson4/lessonpart2/Lesson5_4.py

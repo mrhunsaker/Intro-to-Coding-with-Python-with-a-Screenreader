@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 2.1: The Software Development Process
+
   ## Student Materials:
       - Outline:
         - Introduction to the structured approach of building software.
@@ -17,4 +18,3 @@ content: |
         - [ ] I can describe the purpose of the software development process.
         - [ ] I can list and briefly explain the main phases of software development.
         - [ ] I understand that problem-solving and design happen before writing code.
-  

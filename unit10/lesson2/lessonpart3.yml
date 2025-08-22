@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 9.2: Testing a Class 
+
   ## Student Materials: 
     - Outline: 
       -  Applying unit testing principles to classes. 
@@ -14,4 +15,3 @@ content: |
       -  [ ] I can create an object of the class being tested within a test method. 
       -  [ ] I can test the attributes and methods of an object. 
       -  [ ] I can use the setUp() method to prepare my tests.
-  

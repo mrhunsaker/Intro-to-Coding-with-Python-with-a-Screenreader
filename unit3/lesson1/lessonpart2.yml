@@ -1,35 +1,59 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |  
-
+content: >
+  
   # Lesson: The Software Development Process
+
 
   ## Problem solving, design, implementation, testing.
 
+
   The software development process is a structured approach to creating
+
   programs. It begins with Problem Solving, which involves clearly understanding
+
   the problem that needs to be addressed. This includes defining the goal,
+
   identifying the available information, and determining the required output.
+
   Next is Design, where the plan for solving the problem is formulated. This
+
   often involves outlining the steps the program will take, identifying
+
   necessary variables, and considering how the program will interact with the
+
   user, often expressed through pseudocode or simple step-by-step lists.
+
   Implementation is the stage where the actual Python code is written based on
+
   the developed design. Finally, Testing involves verifying that the program
+
   functions correctly, produces accurate results, and handles various inputs as
+
   expected.
 
+
   For example, consider the problem of calculating the area of a rectangle. The
+
   Problem Solving phase would identify the need for length and width as input
+
   and the desired output as the calculated area. The Design phase might outline
+
   steps such as "GET length and width from user," "MULTIPLY length by width,"
+
   and "PRINT the result." The Implementation would involve writing the Python
+
   code for this calculation. During Testing, one would test with known values,
+
   such as length 5 and width 2 (expecting an area of 10), and length 0 and width
+
   10 (expecting an area of 0), to ensure accuracy.
 
 
+
   ## Activities
+
 
 
   1. **Activity 2.1.1: Planning a Tip Calculator**
@@ -74,7 +98,6 @@ content: |
      * Purpose: Develop a mental model of program execution and variable states.
 
      * Accessibility: Use a text editor to document variable states and predictions. Compare with actual terminal output.
-
-showEditor: true 
+showEditor: true
 editors:
-  -   course1/unit2/lesson4/lessonpart2/lesson2_1.py
+  - course1/unit2/lesson4/lessonpart2/lesson2_1.py

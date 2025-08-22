@@ -1,57 +1,12 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |  -  Now let's configure VS Code itself for Python development.
+content: >+
   
   ## A. Installing Essential Extensions
-  
-  Extensions add powerful features to VS Code. 1. Open the Extensions View: Press Ctrl + Shift + X (Windows/Linux) or Command + Shift + X (macOS). 2. Search and Install Python Extension: 
-	  - In the search box, type Python and press Enter. 
-	  - The first result should be "Python" by Microsoft. This is the official and most important Python extension. Navigate to it and activate the "Install" button. 
-	  - Listen for "Installing..." and then "Installed". 3. Search and Install Pylance (Optional but Recommended): 
-	  - In the search box, type Pylance and press Enter. 
-	  - This is a language server that provides excellent IntelliSense (code completion, suggestions), type checking, and error highlighting. 
-	  - Navigate to it and activate "Install". 4. Other Potentially Useful Extensions (Install as needed): 
-	  - Code Runner: (Optional) Allows you to run code files with a single shortcut (e.g., Ctrl+Alt+N). Can be convenient for quick tests, but we'll also use the integrated terminal. 
-		  -  Note: Ensure its configuration is set to use python3 if you have multiple Python versions. B. Creating Your First Workspace Folder:
-  
-  It's good practice to organize your Python projects in dedicated folders. 1. Create a new folder: 
-	  - Windows: Open File Explorer (Windows Key + E). Navigate to "Documents" or "Desktop". Press Ctrl + Shift + N to create a new folder. Type PythonProjects and press Enter. 
-	  - macOS: Open Finder. Navigate to "Documents" or "Desktop". Press Command + Shift + N to create a new folder. Type PythonProjects and press Enter. 
-	  - Linux: Open your file manager. Navigate to your home directory or "Documents". Create a new folder named PythonProjects. 2. Open the folder in VS Code: 
-	  - Method 1 (Recommended): Open your terminal. Navigate to the newly created folder (e.g., cd Documents/PythonProjects). Then type code . (that's code followed by a space and a dot) and press Enter. This will open VS Code with that folder as the workspace. 
-	  - Method 2 (From within VS Code): Launch VS Code. Press Ctrl + K, Ctrl + O (or Command + K, Command + O on macOS) to "Open Folder". Navigate through your file system to select your PythonProjects folder and activate "Select Folder". C. Navigating the VS Code Interface with a Screen Reader:
-  
-  ## Once VS Code is open with your folder
-  1. Activity Bar (Left Sidebar): This vertical bar contains icons for Explorer, Search, Source Control, Extensions, etc.
-      
-	  - Shortcut: Ctrl + Shift + E for Explorer, Ctrl + Shift + F for Search, etc. Or Ctrl+B to toggle the sidebar itself.
-      
-	  - Navigation: Use Tab/Shift+Tab to move between activity bar items if the sidebar is focused.
-  2. Explorer (File Explorer): This is where you see your project files and folders.
-      
-	  - Shortcut: Ctrl + Shift + E. If you don't hear it, the sidebar might be collapsed (Ctrl+B to toggle).
-      
-	  - Navigation: Use Up/Down arrow keys to move between files/folders. Enter to open a file. Right Arrow to expand a folder, Left Arrow to collapse.
-  3. Editor Group: This is the main area where you write code.
-      
-	  - Focus: Ctrl + 1 (usually, for the first editor group). Or Tab from other panes.
-      
-	  - Navigation: Arrow keys for character/line navigation. Ctrl + Left/Right Arrow for word by word. Home/End for line start/end. Ctrl + Home/End for document start/end.
-  4. Panel (Bottom Panel): This area can host the Terminal, Output, Problems, Debug Console.
-      
-	  - Toggle Panel: Ctrl + J (or Command + J on macOS). Repeatedly pressing Ctrl+J can cycle through panel visibility.
-      
-	  - Navigate within Panel: Ctrl + 1 to Ctrl + 5 (or Command + 1 to Command + 5) might select different tabs within the panel (e.g., Ctrl+~ is often for terminal).
-      
-	  - Problems View: Ctrl + Shift + M. This lists errors and warnings. Use F8 to jump to the next error, Shift+F8 to jump to the previous. This is a crucial debugging tool!
-  5. Command Palette: Your best friend for finding commands!
-      
-	  - Shortcut: Ctrl + Shift + P (or Command + Shift + P on macOS).
-      
-	  - Usage: Type part of a command (e.g., "Python Select Interpreter", "Toggle Screen Reader") and press Enter.
 
-  
-showEditor: true
-editors:
-    - course1/unit1/lesson3/lessonpart2/Lesson0_3.py
+
+  Extensions add powerful features to VS Code. 1. Open the Extensions View:
+  Press Ctrl + Shift + X (Windows/Linux) or Command + Shift + X (macOS). 2.
+  Search and Install Python Extension: 
+  	  

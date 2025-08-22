@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: |
+content: >
   # Lesson 7.5: Instances as Attributes 
+
   ## Student Materials: 
     - Outline: 
       -  The concept of "composition": one class containing an instance of another class as an attribute. 

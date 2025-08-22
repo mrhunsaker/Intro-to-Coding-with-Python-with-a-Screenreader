@@ -4,13 +4,13 @@ title: "Unit 7: Classes and Object-Oriented Programming"
 description: This unit introduces the fundamental concepts of Object-Oriented
   Programming (OOP) in Python, focusing on defining and using classes,
   attributes, methods, and inheritance.
-objectives: |  -    - Understand the basics of Object-Oriented Programming (OOP).
-    - Define and instantiate classes.
-    - Work with attributes and methods.
-    - Understand inheritance.
+objectives: |
+  - Define and instantiate classes.
+  - Work with attributes and methods.
+  - Understand inheritance.
 lessons:
-    - lesson1/index.yml
-    - lesson2/index.yml
-    - lesson3/index.yml
-    - lesson4/index.yml
-    - lesson5/index.yml
+  - lesson1/index.yml
+  - lesson2/index.yml
+  - lesson3/index.yml
+  - lesson4/index.yml
+  - lesson5/index.yml

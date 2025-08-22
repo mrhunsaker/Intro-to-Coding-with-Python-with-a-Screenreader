@@ -1,7 +1,10 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
+content: >
+  
+  - Inheritance   - Zelle: Chapter 12, pages 351-352 (specifically
+  "Inheritance").   -  Matthes: Chapter 9, pages 167-170 (on "Inheritance",
+  __init__() for child
 
-  - Inheritance   - Zelle: Chapter 12, pages 351-352 (specifically "Inheritance").   -  Matthes: Chapter 9, pages 167-170 (on "Inheritance", __init__() for child
   classes, and overriding methods).
-

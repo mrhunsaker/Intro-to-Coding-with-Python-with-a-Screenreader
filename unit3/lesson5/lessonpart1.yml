@@ -1,7 +1,7 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |  ## Reading
-
+content: |
+  
   - Using the Math Library   - Zelle: Chapter 3, pages 49-51 (introducing "The
   Python math library" and "Some math library functions").
-

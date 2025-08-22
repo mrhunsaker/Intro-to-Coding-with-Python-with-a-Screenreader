@@ -193,4 +193,4 @@ content: |
   access to the charts.
 showEditor: true
 editors:
-    - course1/unit16/lesson2/lessonpart1/matplotlibplayground.py
+  - course1/unit16/lesson2/lessonpart1/matplotlibplayground.py
