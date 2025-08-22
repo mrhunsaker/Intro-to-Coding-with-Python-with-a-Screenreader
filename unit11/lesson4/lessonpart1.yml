@@ -1,3 +1,6 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
+content: >
+  Developing a Command-Line Tool ◦ Zelle: Chapter 11, pages 301-306 (on "Case Study: Python Calculator" as an example of designing an application as an object). ◦ Matthes: Chapter 7, pages 113-128 (for interactive programs with loops and user input); Chapter 8, pages 129-154 (for defining and using functions for modularity); Chapter 10, pages 183-206 (for file I/O and exception handling for persistence).
+

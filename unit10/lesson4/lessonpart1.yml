@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: ""
+content: >
+  Analyzing Text Data ◦ Zelle: Chapter 11, pages 310-315 (on "Example Program: Word Frequency"). ◦ Matthes: Chapter 10, pages 196-199 (on "Analyzing Text" and counting words); Chapter 15, page 322 (general data generation concepts for text).

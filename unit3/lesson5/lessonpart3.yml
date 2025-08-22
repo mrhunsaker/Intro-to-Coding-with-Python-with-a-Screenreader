@@ -1,3 +1,42 @@
+ # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Materials
+content: >-
+  Lesson 2.5: Using the Math Library
+    • Student Materials:
+      ◦ Outline:
+        ▪ The concept of modules in Python: reusable code collections.
+        ▪ How to import a module (e.g., import math).
+        ▪ Accessing functions and constants within the math module using dot notation (e.g., math.pi, math.sqrt()).
+        ▪ Common math functions: math.sqrt(), math.pow(), math.ceil(), math.floor().
+        ▪ Application: Solving simple geometric or scientific problems.
+      ◦ Skills Checklist:
+        ▪ [ ] I can explain what a Python module is.
+        ▪ [ ] I can import the math module into my program.
+        ▪ [ ] I can use math.pi and math.e constants.
+        ▪ [ ] I can calculate the square root of a number using math.sqrt().
+        ▪ [ ] I can use math.pow() for exponentiation.
+        ▪ [ ] I can use math.ceil() to round up and math.floor() to round down.
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
+content: >-
+  Lesson 1.3: Variables and Simple Data Types
+    • Student Materials:
+      ◦ Outline:
+        ▪ The concept of a variable as a container for storing information.
+        ▪ Rules for naming variables (e.g., no spaces, can't start with a number).
+        ▪ Introduction to string data type (text, enclosed in quotes).
+        ▪ Introduction to integer data type (whole numbers).
+        ▪ Introduction to float data type (numbers with decimal points).
+        ▪ Assigning values to variables using the = operator.
+        ▪ Using print() to display variable values.
+        ▪ Performing simple arithmetic operations (+, -, *, /) with numbers.
+      ◦ Skills Checklist:
+        ▪ [ ] I can define what a variable is in programming.
+        ▪ [ ] I can create a valid variable name in Python.
+        ▪ [ ] I can assign a string value to a variable.
+        ▪ [ ] I can assign an integer value to a variable.
+        ▪ [ ] I can assign a float value to a variable.
+        ▪ [ ] I can use print() to display the value of a variable.
+        ▪ [ ] I can perform basic addition, subtraction, multiplication, and division with numbers in Python.

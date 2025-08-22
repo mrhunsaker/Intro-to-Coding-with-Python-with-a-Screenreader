@@ -1,0 +1,14 @@
+ # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Materials
+content: >-
+  Lesson 13.2: Working with External Libraries
+      • Student Materials:
+          ◦ Outline:
+              ▪ Finding and installing third-party packages using pip.
+              ▪ Reading package documentation and API references.
+              ▪ Basic troubleshooting: reading error messages and searching for solutions.
+          ◦ Skills Checklist:
+              ▪ [ ] I can install a package using pip.
+              ▪ [ ] I can read documentation for a package.
+              ▪ [ ] I can troubleshoot common installation errors.

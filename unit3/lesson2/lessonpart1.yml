@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: ""
+content: >
+  Elements of Programs: Expressions and Assignment ◦ Zelle: Chapter 2, pages 24-26 (on "Names" and "Expressions").

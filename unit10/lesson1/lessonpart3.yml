@@ -1,3 +1,16 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
+content: >-
+  Lesson 9.1: Modules and Packages
+    • Student Materials:
+      ◦ Outline:
+        ▪ What is a module: a file containing Python definitions and statements.
+        ▪ What is a package: a directory containing modules and an __init__.py file.
+        ▪ Using import to bring modules into your code.
+        ▪ The difference between import module and from module import name.
+        ▪ Exploring the Python standard library.
+      ◦ Skills Checklist:
+        ▪ [ ] I can import a module using import module.
+        ▪ [ ] I can import specific names using from module import name.
+        ▪ [ ] I can find documentation for modules in the Python standard library.

@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: ""
+content: >
+  Exceptions: Handling Errors ◦ Zelle: Chapter 7, pages 177-179 (on "Handling Exceptional Cases"). ◦ Matthes: Chapter 10, pages 192-199 (on "Exceptions" and try-except blocks).

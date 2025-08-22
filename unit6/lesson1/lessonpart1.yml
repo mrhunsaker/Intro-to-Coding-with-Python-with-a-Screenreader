@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: ""
+content: >
+  How the input() Function Works ◦ Zelle: Chapter 2, pages 30-33 (on the input() statement). ◦ Matthes: Chapter 7, pages 114-116 (on the input() function and numerical input).

@@ -1,3 +1,24 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
+content: >-
+  Lesson 11.5: Implementing "Edit" and "Delete" Functionality
+    • Student Materials:
+      ◦ Outline:
+        ▪ Implementing edit_selected_item_logic():
+          • Finding the selected item in all_items based on the dropdown's value.
+             Populating the "Edit Selected Item" input fields with the chosen item's data.
+        ▪ Implementing update_item_logic() for the "Update Item" button:
+             Finding the selected item.
+             Updating its attributes with new values from the edit input fields.
+             Calling update_item_display() and providing feedback.
+         Implementing delete_selected_item_logic() for the "Delete Item" button:
+             Finding and removing the selected item from all_items.
+             Calling update_item_display() and providing feedback.
+     Skills Checklist:
+         [ ] I can retrieve the currently selected item from the ui.select dropdown.
+         [ ] I can find a specific item in the all_items list based on its unique identifier.
+         [ ] I can pre-populate input fields with data from a selected item for editing.
+         [ ] I can update an item's attributes based on new input values.
+         [ ] I can remove a selected item from the all_items list.
+         [ ] I can ensure all edit and delete actions refresh the display and provide accessible notifications. 

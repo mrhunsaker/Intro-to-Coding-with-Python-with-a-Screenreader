@@ -1,0 +1,15 @@
+ # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Materials
+content: >-
+  Lesson 12.2: Using SQL from Python
+      • Student Materials:
+          ◦ Outline:
+              ▪ Using sqlite3.Cursor to execute SQL statements.
+              ▪ Parameterized queries to avoid SQL injection.
+              ▪ Fetching results with fetchone() and fetchall().
+              ▪ Committing changes and closing the connection.
+          ◦ Skills Checklist:
+              ▪ [ ] I can execute SQL statements from Python using sqlite3.
+              ▪ [ ] I can use parameterized queries to safely include values.
+              ▪ [ ] I can fetch and iterate over query results.
