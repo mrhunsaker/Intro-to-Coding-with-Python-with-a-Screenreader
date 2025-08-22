@@ -610,6 +610,182 @@ files:
       \r
 
       ui.run(title=\"Accessible Data Manager\")"
+  - path: course1/unit14/lesson2/lessonpart1/final_proofread.py
+    content: "# Here is the final proofreading assignment\r
+
+      \r
+
+      import tkinter as tk\r
+
+      from tkinter import messagebox\r
+
+      \r
+
+      # Class for the secondary window\r
+
+      class SecondaryWindow:\r
+
+      \    def __init__(self, parent_window):\r
+
+      \        self.child_window = tk.Toplevel(parent_window)\r
+
+      \        self.child_window.title(\"Secondary Window\")\r
+
+      \        self.child_window.geometry(\"200x100\")\r
+
+      \        self.child_window.transient(parent_window) # Set parent for
+      proper closing\r
+
+      \r
+
+      \        self.close_button = tk.Button(self.child_window, text=\"Close
+      Me\", command=self.close_window)\r
+
+      \        self.close_button.pack(pady=10)\r
+
+      \r
+
+      \    def close_window(self):\r
+
+      \        self.child_window.destroy()\r
+
+      \r
+
+      # Class for the main application window\r
+
+      class MyGUIApp:\r
+
+      \    def __init__(root_window): # Missing self parameter\r
+
+      \        root_window.title(\"Advanced GUI App\")\r
+
+      \        root_window.geometry(\"400x300\")\r
+
+      \r
+
+      \        # Counter for button clicks\r
+
+      \        self.click_count = 0\r
+
+      \r
+
+      \        # Label to display messages\r
+
+      \        self.message_label = tk.Label(root_window, text=\"Hello,
+      Tkinter!\", font=(\"Arial\", 14))\r
+
+      \        self.message_label.pack(pady=20)\r
+
+      \r
+
+      \        # Entry field for user input\r
+
+      \        self.user_input_entry = tk.Entry(root_window, width=30)\r
+
+      \        self.user_input_entry.pack(pady=10)\r
+
+      \r
+
+      \        # Button to trigger an action\r
+
+      \        self.my_button = tk.Button(root_window, text=\"Click Me!\")\r
+
+      \        self.my_button.config(command=self.on_button_click) # Using
+      config\r
+
+      \        self.my_button.pack()\r
+
+      \r
+
+      \        # Button to display content from entry\r
+
+      \        self.display_button = tk.Button(root_window, text=\"Display
+      Input\")\r
+
+      \        self.display_button.config(command=self.display_entry_content)\r
+
+      \        self.display_button.pack(pady=5)\r
+
+      \r
+
+      \        # Button to open a new window\r
+
+      \        self.new_window_button = tk.Button(root_window, text=\"Open New
+      Window\")\r
+
+      \        self.new_window_button.config(command=self.open_secondary_window\
+      ()) # Calling method instead of referencing\r
+
+      \        self.new_window_button.pack(pady=5)\r
+
+      \r
+
+      \        # Another label for status\r
+
+      \        self.status_label = tk.Label(root_window, text=\"Status: Ready\",
+      fg=\"blue\")\r
+
+      \        self.status_label.pack(pady=15)\r
+
+      \r
+
+      \    def on_button_click(): # Missing self parameter\r
+
+      \        self.click_count += 1\r
+
+      \        current_text = self.message_label[\"text\"] # Accessing text
+      attribute with brackets\r
+
+      \        new_text = \"Button clicked \" + self.click_count + \" times!\" #
+      TypeError: string + int\r
+
+      \        self.message_label.config(text=new_text)\r
+
+      \        self.status_label.config(text=\"Status: Clicked!\")\r
+
+      \        messagebox.showinfo(\"Action Info\", \"Main button was
+      pressed.\")\r
+
+      \r
+
+      \    def display_entry_content(self):\r
+
+      \        entered_text = self.user_input_entry.get()\r
+
+      \        if entered_text = \"\": # Assignment instead of comparison\r
+
+      \            self.status_label.config(text=\"Status: Input is Empty!\",
+      fg=\"red\")\r
+
+      \        else:\r
+
+      \            self.status_label.config(text=f\"Status: Displaying
+      '{entered_text}'\", fg=\"green\")\r
+
+      \            print(f\"User entered: {entered_text}\") # Debug print\r
+
+      \r
+
+      \        def open_secondary_window(self): # Incorrect indentation, also a
+      method of MyGUIApp\r
+
+      \            new_win = SecondaryWindow(self.root) # NameError: 'root' not
+      an attribute of self\r
+
+      \            new_win.child_window.lift() # Bring new window to front\r
+
+      \r
+
+      # Main part of the script\r
+
+      if __name__ = '__main__': # SyntaxError: assignment instead of
+      comparison\r
+
+      \    main_root = tk.Tk()\r
+
+      \    app_instance = MyGUIApp(main_root)\r
+
+      \    main_root.mainloop()"
 units:
   - unit15/index.yml
   - unit1/index.yml

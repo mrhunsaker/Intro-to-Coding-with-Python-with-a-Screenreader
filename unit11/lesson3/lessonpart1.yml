@@ -2,5 +2,7 @@
 id: lessonpart1
 title: Reading
 content: >
-  Building a Text-Based Adventure Game (Part 2) - Matthes: Chapter 6, pages 105-111 (for advanced data structuring with nested lists/dictionaries); Chapter 7, pages 118-123 (for user input, loops, and flags for game state management).
-
+  Building a Text-Based Adventure Game (Part 2) - Matthes: Chapter 6, pages
+  105-111 (for advanced data structuring with nested lists/dictionaries);
+  Chapter 7, pages 118-123 (for user input, loops, and flags for game state
+  management).
