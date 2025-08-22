@@ -1,14 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: ""
-content: >
-  
+title: Final Proofreading
+content: >+
   # Final Exam: GUI Project Proofreading and Documentation (Extended Version)
 
 
-
   ## Instructions:
-
 
 
   You are provided with an extended Python GUI project using the tkinter
@@ -23,57 +20,39 @@ content: >
   Your corrected code should:
 
 
-
   1. Run without errors.
 
 
   2. Function as intended (i.e., display a window with a button and a label,
-
-  update the label when the button is clicked, manage an entry field, and handle
-
-  a second, simpler window).
-
+     update the label when the button is clicked, manage an entry field, and handle
+     a second, simpler window).
 
   3. Be well-documented with clear docstrings and inline comments.
 
 
   4. Adhere to good Python practices, especially regarding indentation (fix any
-
-  that look like copy-paste mishaps).
-
-
+     that look like copy-paste mishaps).
 
   Common Error Types to Look For:
-
 
 
   * Syntax Errors: Missing colons, parentheses, brackets, incorrect keywords.
 
 
-
   * Indentation Errors: Lines improperly indented (treat these as simple
-
-  copy-paste mishaps).
-
-
+    copy-paste mishaps).
 
   * Name Errors: Variables or functions not defined, or misspelled.
-
 
 
   * Attribute Errors: Trying to access a non-existent method or attribute.
 
 
-
   * Type Errors: Operations on incompatible data types.
 
 
-
   * Logical Errors: Code runs but doesn't do what's expected (e.g., wrong
-
-  comparison, infinite loop, incorrect variable update).
-
-
+    comparison, infinite loop, incorrect variable update).
 
   ```python
 
@@ -167,6 +146,7 @@ content: >
       app_instance = MyGUIApp(main_root)
       main_root.mainloop()
   ```
+
 showEditor: true
 editors:
   - course1/unit14/lesson2/lessonpart1/final_proofread.py

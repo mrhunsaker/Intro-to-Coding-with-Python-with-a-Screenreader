@@ -13,7 +13,6 @@ description: |
   and often better out-of-the-box accessibility with standard HTML elements.
   PySide6 offers more granular control but comes with a steeper learning curve
   for GUI layout and explicit accessibility considerations.
-objectives: ""
 lessons:
   - lesson7/index.yml
   - lesson1/index.yml
