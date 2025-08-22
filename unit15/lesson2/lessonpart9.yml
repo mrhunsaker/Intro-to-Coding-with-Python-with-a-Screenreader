@@ -1,0 +1,475 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart9
+title: Unit 9
+content: >+
+  # Unit 9: Testing Your Code and Introduction to Data Analysis
+
+
+  ## Lesson 9.1: Testing a Function
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You've written tests for a function, but some assertions are wrong or the test setup is flawed.
+
+    * Code to Proofread:
+
+  ```python
+
+  import unittest
+
+
+  def is_even(number):
+      return number % 2 == 0
+
+  class TestEvenNumbers(unittest.TestCase):
+      def test_positive_even(self):
+          self.assertFalse(is_even(4)) # This assertion is incorrect!
+
+      def test_negative_even(self):
+          self.assertTrue(is_even(-2)) # Correct
+
+      def test_odd(self):
+          self.assertTrue(is_even(7)) # This assertion is incorrect!
+
+      def test_zero(self):
+          self.assertNotEqual(is_even(0), False) # Correct, but perhaps assert True is clearer
+  ```
+
+
+  * Errors to Find:
+
+    * Logical Error in Test: test\_positive\_even uses assertFalse when is\_even(4) should be True.
+
+    * Logical Error in Test: test\_odd uses assertTrue when is\_even(7) should be False.
+
+  * Goal: Correct the assertions in test\_positive\_even and test\_odd to
+  accurately reflect the expected outcomes of is\_even.
+
+
+  - Documentation Assignment:
+
+    * Scenario: This code provides unit tests for a simple addition function.
+
+    * Code to Document:
+
+  ```python
+
+  import unittest
+
+
+  def add(a, b):
+      """Adds two numbers together."""
+      return a + b
+
+  class TestAddFunction(unittest.TestCase):
+      """
+      Tests the add() function for various scenarios.
+      """
+      def test_positive_numbers(self):
+          """Test with two positive numbers."""
+          self.assertEqual(add(2, 3), 5)
+
+      def test_negative_numbers(self):
+          """Test with two negative numbers."""
+          self.assertEqual(add(-1, -5), -6)
+
+      def test_zero(self):
+          """Test with zero."""
+          self.assertEqual(add(0, 7), 7)
+
+  if __name__ == '__main__':
+      unittest.main()
+  ```
+
+
+  * Task: Ensure the docstring for add is clear. Ensure docstrings for the
+  TestAddFunction class and each test method (test\_positive\_numbers, etc.)
+  clearly describe their purpose. Add an inline comment for unittest.main().
+
+
+  * Goal: Document a simple unit test suite.
+
+
+  ## Lesson 9.2: Testing a Class
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're testing a class, but forgetting self in assertions or setting up setUp incorrectly.
+
+    * Code to Proofread:
+
+  ```python
+
+  import unittest
+
+
+  class Player:
+      def __init__(self, name, health):
+          self.name = name
+          self.health = health
+
+      def take_damage(self, amount):
+          self.health -= amount
+          if self.health < 0:
+              self.health = 0
+
+  class TestPlayer(unittest.TestCase):
+      def setUp(): # Missing self parameter
+          self.player = Player("Hero", 100) # NameError: self not defined
+
+      def test_initial_health(self):
+          assertEqual(self.player.health, 100) # Missing self. prefix
+
+      def test_take_damage(self):
+          self.player.take_damage(20)
+          self.assertEqual(self.player.health, 80) # Correct
+
+      def test_health_does_not_go_below_zero(self):
+          self.player.take_damage(150)
+          self.assertEqual(self.player.health, 0) # Correct
+  ```
+
+
+  * Errors to Find:
+
+    * TypeError: setUp() is missing self.
+
+    * NameError: self.player is not defined in setUp because self is missing.
+
+    * NameError: assertEqual is missing self. prefix.
+
+  * Goal: Fix the TypeError in setUp. Add self. where necessary for assertEqual
+  and self.player in setUp.
+
+
+  - Documentation Assignment:
+
+    * Scenario: This code tests a BankAccount class.
+
+    * Code to Document:
+
+  ```python
+
+  import unittest
+
+
+  class BankAccount:
+      """
+      A simple bank account class.
+      """
+      def __init__(self, initial_balance):
+          self.balance = initial_balance
+
+      def deposit(self, amount):
+          self.balance += amount
+
+      def withdraw(self, amount):
+          if self.balance >= amount:
+              self.balance -= amount
+              return True
+          return False
+
+  class TestBankAccount(unittest.TestCase):
+      """
+      Tests the BankAccount class.
+      """
+      def setUp(self):
+          """Set up a fresh account for each test."""
+          self.account = BankAccount(100)
+
+      def test_deposit(self):
+          """Test depositing money."""
+          self.account.deposit(50)
+          self.assertEqual(self.account.balance, 150)
+
+      def test_withdraw_sufficient_funds(self):
+          """Test withdrawing with enough funds."""
+          self.assertTrue(self.account.withdraw(30))
+          self.assertEqual(self.account.balance, 70)
+
+  if __name__ == '__main__':
+      unittest.main()
+  ```
+
+
+  * Task: Ensure docstrings are present and clear for the class, setUp, and all
+  test methods. Add inline comments explaining key assertions.
+
+
+  * Goal: Document a class's unit tests.
+
+
+  ## Lesson 9.3: Introduction to Random Numbers
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're generating random numbers, but misusing random module functions or ranges.
+
+    * Code to Proofread:
+
+  ```python
+
+  import random
+
+
+  # Generating a random integer
+
+  rand_int = random.randint(1, 10) # Correct
+
+  print(f"Random integer: {rand_int}")
+
+
+  # Generating a random float
+
+  rand_float = random.randfloat() # AttributeError: 'module' object has no
+  attribute 'randfloat'
+
+  print(f"Random float: {rand_float}")
+
+
+  # Choosing from a list
+
+  colors = ["red", "green", "blue"]
+
+  chosen_color = random.choice[colors] # TypeError: choice() takes no keyword
+  arguments
+
+  print(f"Chosen color: {chosen_color}")
+
+
+  # Logical error: range for randint
+
+  always_ten = random.randint(10, 9) # This will raise ValueError because lower
+  bound is > upper bound
+
+  print(f"Always ten: {always_ten}")
+
+  ```
+
+
+  * Errors to Find:
+
+    * AttributeError: random.randfloat() should be random.random().
+
+    * TypeError: random.choice\[colors] should be random.choice(colors).
+
+    * ValueError: random.randint(10, 9) has incorrect bounds.
+
+  * Goal: Fix all AttributeError, TypeError, and ValueError by using the correct
+  random functions and argument syntax.
+
+
+  - Documentation Assignment:
+
+    * Scenario: This code simulates rolling a six-sided die multiple times.
+
+    * Code to Document:
+
+  ```python
+
+  import random
+
+
+  print("Rolling a 6-sided die 5 times:")
+
+  for _ in range(5): # Loop 5 times
+      roll = random.randint(1, 6) # Generate a random integer between 1 and 6
+      print(f"Roll: {roll}")
+  ```
+
+
+  * Task: Add a docstring for the script. Add inline comments explaining
+  random.randint() and the purpose of the loop.
+
+
+  * Goal: Document random number generation for a simulation.
+
+
+  ## Lesson 9.4: Analyzing Text Data
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're analyzing text, but misusing string methods or counting logic.
+
+    * Code to Proofread:
+
+  ```python
+
+  text = "Hello world. This is a test. Hello again."
+
+
+  # Counting words
+
+  words = text.split(" ") # Correct
+
+  word_count = len(words)
+
+  print(f"Word count: {word_count}")
+
+
+  # Counting specific word (case sensitive)
+
+  hello_count = words.count("Hello") # Correct, but case sensitive
+
+  print(f"Count of 'Hello': {hello_count}")
+
+
+  # Trying to remove punctuation and count
+
+  cleaned_text = text.replace(".", "").replace(",", "").lower()
+
+  cleaned_words = cleaned_text.split() # Correct, splits by whitespace
+
+  test_count = cleaned_words.count("test.") # Logical error: 'test.' won't be in
+  cleaned_words
+
+  print(f"Count of 'test': {test_count}")
+
+
+  # Counting characters
+
+  char_count = len[text] # TypeError: len() takes a single argument
+
+  print(f"Character count: {char_count}")
+
+  ```
+
+
+  * Errors to Find:
+
+    * Logical Error: test\_count searches for "test." after punctuation has been removed.
+
+    * TypeError: len\[text] should be len(text).
+
+  * Goal: Fix the TypeError. Correct the logical error in test\_count by
+  ensuring the search term is also cleaned (e.g., cleaned\_words.count("test")).
+
+
+  - Documentation Assignment:
+
+    * Scenario: This code counts the occurrences of each word in a given sentence.
+
+    * Code to Document:
+
+  ```python
+
+  sentence = "The quick brown fox jumps over the lazy dog dog."
+
+  words = sentence.lower().replace(".", "").split() # Convert to lowercase,
+  remove punctuation, split into words
+
+
+  word_counts = {}
+
+  for word in words:
+      word_counts[word] = word_counts.get(word, 0) + 1 # Increment count for each word, defaulting to 0
+
+  print("Word Frequencies:")
+
+  for word, count in word_counts.items():
+      print(f"'{word}': {count}")
+  ```
+
+
+  * Task: Add a docstring for the script. Add inline comments explaining the
+  steps of cleaning and splitting the sentence, how the word\_counts dictionary
+  is built, and the final output loop.
+
+
+  * Goal: Document a basic word frequency analysis.
+
+
+  ## Lesson 9.5: Working with CSV Data (Text-based)
+
+
+  * Proofreading Assignment:
+
+    * Scenario: You're parsing CSV data manually, but getting incorrect splits or type conversion issues.
+
+    * Code to Proofread:
+
+  ```python
+
+  # Assume 'grades.csv' exists with content:
+
+  # Name,Math,Science
+
+  # Alice,90,85
+
+  # Bob,75,92
+
+  # Charlie,100,88
+
+  file_content = """Name,Math,Science
+
+
+  Alice,90,85 Bob,75,92 Charlie,100,88"""
+      lines = file_content.split('\n')
+      header = lines[0].split(',') # Correct
+
+      for line in lines[1:]:
+          parts = line.split(';') # Incorrect delimiter for split
+          if len(parts) == len(header): # This condition might hide the error if len is same
+              name = parts[0]
+              math_grade = int(parts[1])
+              science_grade = float(parts[2]) # Correct conversion
+              print(f"Name: {name}, Math: {math_grade}, Science: {science_grade}")
+          else:
+              print(f"Skipping malformed line: {line}")
+  ```
+
+
+  * Errors to Find:
+
+    * Logical Error: `line.split(';')` uses the wrong delimiter (should be `,`). This will cause `IndexError` or `ValueError` later if not caught by `len(parts) == len(header)`.
+
+  * Goal: Change the delimiter in `line.split()` to `,`. Explain how such an
+  error would manifest (e.g., `IndexError` when trying to access `parts[1]`).
+
+
+  - Documentation Assignment:
+
+    * Scenario: This code reads a simple CSV of product inventory and prints each product and its quantity.
+
+    * Code to Document:
+
+  ```python
+
+  # Assume 'inventory.csv' exists with content:
+
+  # Product,Quantity
+
+  # Apple,100
+
+  # Banana,50
+
+  # Orange,75
+
+
+  file_content = """Product,Quantity
+
+
+  Apple,100 Banana,50 Orange,75"""
+      lines = file_content.strip().split('\n') # Read all lines and split
+      header = lines[0].split(',') # Get header (Product, Quantity)
+
+      print(f"--- {header[0]} | {header[1]} ---") # Print header
+      for line in lines[1:]: # Iterate over data rows, skipping header
+          parts = line.split(',') # Split each line by comma
+          product_name = parts[0]
+          quantity = int(parts[1]) # Convert quantity to integer
+          print(f"{product_name} | {quantity}")
+  ```
+
+
+  * Task: Add a docstring for the script. Add inline comments explaining
+  `strip()`, `split('\n')`, identifying the header, looping through data rows,
+  splitting by comma, and type conversion for quantity.
+
+
+  * Goal: Document the process of manually parsing a CSV file.
+

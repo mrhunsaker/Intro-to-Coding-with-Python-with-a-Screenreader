@@ -1,0 +1,68 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart7
+title: Unit 6
+content: >+
+  # Unit 6: Functions
+
+
+  ## Emphasis/Resources:
+
+
+  * Parameters vs. Arguments: Clarify the distinction. Parameters are in the
+  function definition, arguments are the values passed when calling.
+
+
+  * Return Values: Explain that print() just displays, return sends a value back
+  for further use.
+
+
+  * Scope: Global vs. local variables. Why modifying global variables inside
+  functions is generally discouraged (side effects).
+
+
+  ## Challenge Projects:
+
+
+  1. "The Silent Calculator Function":
+
+     * Scenario: You wrote a function to add two numbers, but it's not giving you the result you expect.
+
+     * Code (missing return):
+
+  ```python
+
+  def add(a, b):
+      total = a + b
+      # Missing return statement
+
+  result = add(5, 3)
+
+  print(result)
+
+  ```
+
+
+  * Task: Add the correct statement to the add function so that print(result)
+  outputs 8.
+
+
+  2\. "The Confused Greeter Function":
+
+  \- Scenario: Your greeting function isn't using the correct parameter name,
+  leading to an error.
+
+  \- Code (parameter mismatch):
+
+
+  ```python
+
+  def greet_user(username):
+      print(f"Hello, {name}!") # 'name' is not defined in this scope
+
+  greet_user("Charlie")
+
+  ```
+
+
+  * Task: Fix the function so it correctly greets "Hello, Charlie!".
+

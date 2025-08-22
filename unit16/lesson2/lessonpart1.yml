@@ -1,5 +1,125 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Lesson
-content: >
-  No reading available in Readings.md for Unit 15 Lesson 2.
+content: |
+    ## Introduction to Data Visualization with Matplotlib
+
+    Matplotlib is a powerful library for creating static, interactive, and
+    animated visualizations in Python. For visually impaired students, understanding
+    the purpose and interpretation of plots is paramount even if the visual output
+    isn't directly perceived. We will focus on how data points contribute to a
+    plot's story and what trends or patterns the plot highlights.
+
+    **Installation:**
+
+    ```text
+    pip install matplotlib
+    ```
+
+    ### Understanding Plots: The "Why" and "What"
+
+    Every plot tells a story about data. Instead of focusing on colors or exact
+    shapes, concentrate on:
+
+    - Variables being plotted: what the axes represent
+    - Trends: increasing, decreasing, or stable behavior
+    - Clusters / outliers: groups of points or points that deviate significantly
+    - Comparisons: how different groups compare to one another
+
+    When describing a plot to a sighted person, translate visual features into an
+    interpretation of the underlying data.
+
+    ### Basic Line Plots
+
+    A line plot connects data points with a line, typically showing how one
+    variable changes relative to another (often over time).
+
+    **Purpose:** show trends and changes over a continuous range.
+
+    **How to interpret a line plot:**
+
+    - X-axis: independent variable (e.g., time)
+    - Y-axis: dependent variable (measured value)
+    - The line: value of the Y variable at each X point
+        - an upward-sloping line indicates an increasing trend
+        - a downward-sloping line indicates a decreasing trend
+        - a flat line indicates little or no change
+        - jaggedness indicates variability
+
+    **Generating a line plot (example):**
+
+    ```python
+    import matplotlib.pyplot as plt
+
+    # Data: temperature over hours
+    hours = [1, 2, 3, 4, 5, 6, 7, 8]
+    temperatures = [18, 19, 20, 22, 23, 21, 20, 19]
+
+    plt.figure(figsize=(8, 5))
+    plt.plot(hours, temperatures, linestyle='-', marker='o', color='blue')
+    plt.title('Hourly Temperature Readings')
+    plt.xlabel('Hour of Day')
+    plt.ylabel('Temperature (°C)')
+    plt.grid(True)
+    plt.show()
+    ```
+
+    **Interpreting the example:** the line starts at 18°C at hour 1, rises to a
+    peak of 23°C at hour 5, then declines to 19°C by hour 8.
+
+    ### Basic Histograms
+
+    A histogram visualizes the distribution of a single numerical variable by
+    grouping values into bins and counting how many points fall into each bin.
+
+    **Purpose:** show frequency of value ranges in a dataset (for example, test
+    score ranges).
+
+    **How to interpret a histogram:**
+
+    - X-axis: value ranges (bins)
+    - Y-axis: frequency (count) per bin
+    - Tall bars: high concentration in that range
+    - Short or absent bars: few or no values in that range
+
+    **Generating a histogram (example):**
+
+    ```python
+    import matplotlib.pyplot as plt
+    import random
+
+    test_scores = [random.randint(50, 100) for _ in range(100)]
+    plt.figure(figsize=(8, 5))
+    plt.hist(test_scores, bins=10, color='green', edgecolor='black')
+    plt.title('Distribution of Test Scores')
+    plt.xlabel('Test Score Range')
+    plt.ylabel('Number of Students (Frequency)')
+    plt.grid(axis='y', alpha=0.75)
+    plt.show()
+    ```
+
+    **Interpreting the example:** look for which bins are tallest to determine the
+    most common score ranges; a skew to the right or left indicates concentration
+    toward higher or lower scores respectively.
+
+    ### Important Considerations for Screen Reader Users
+
+    - Underlying data is key: provide raw lists, dictionaries or summaries that
+        a screen reader can read.
+    - Labels and titles are crucial: `plt.title()`, `plt.xlabel()`, and
+        `plt.ylabel()` give context that should be announced or printed.
+    - Use descriptive comments in code to explain intent and what plot features
+        mean.
+    - Focus on numerical summaries: report mean, median, mode, min/max, and
+        ranges to convey distribution information.
+    - Provide alternative representations: print aggregated summaries or
+        specific points (start, end, max with its X value, min with its X value,
+        and bin counts for histograms).
+
+    By emphasizing data, labels, and the story the plot tells, visually impaired
+    students can understand data visualization concepts without direct visual
+    access to the charts.
+  
+showEditor: true
+editors:
+  - course1/unit16/lesson2/lessonpart1/matplotlibplayground.py

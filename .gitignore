@@ -1,2 +1,4 @@
 scripts/
 *.bak
+*.tmp
+extrafiles/

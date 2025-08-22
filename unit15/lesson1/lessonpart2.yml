@@ -71,6 +71,7 @@ content: >+
 
      * d) Error
 
+
 showEditor: true
 editors:
   - course1/unit15/lesson1/lessonpart2/Lesson14_1.py
