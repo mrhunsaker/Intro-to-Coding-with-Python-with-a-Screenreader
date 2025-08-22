@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  Lesson: Arbitrary Number of Arguments
+content: |-
+  ## Activities
+
+- Lesson: Arbitrary Number of Arguments
 
 
   ## Using \*args and \*\*kwargs
@@ -21,7 +22,8 @@ content: >+
   ```python
 
   def make_pizza(size, *toppings):
-     print(f"\nMaking a {size}-inch pizza with the following toppings:")
+     print(f"
+- Making a {size}-inch pizza with the following toppings:")
      for topping in toppings:
          print(f"- {topping}")
 
@@ -66,14 +68,16 @@ content: >+
   user_profile = build_profile('albert', 'einstein',
                              location='princeton',
                              field='physics')
-  print("\nUser Profile 1:", user_profile)
+  print("
+- User Profile 1:", user_profile)
 
 
   user_profile2 = build_profile('marie', 'curie',
                              city='warsaw',
                              occupation='scientist',
                              born_year=1867)
-  print("\nUser Profile 2:", user_profile2)
+  print("
+- User Profile 2:", user_profile2)
 
   ```
 
@@ -122,7 +126,8 @@ content: >+
 
   * Print assigned roles for each user.
 
-
-showEditor: true
-editors:
-  - course1/unit7/lesson5/lessonpart2/Lesson6_5.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit7/lesson5/lessonpart2/Lesson6_5.py

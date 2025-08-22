@@ -1,6 +1,8 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  Using continue in Loops - Matthes: Chapter 7, page 122 (on the continue
+content: |-
+  ## Reading
+
+- Using continue in Loops - Matthes: Chapter 7, page 122 (on the continue
   statement).
+

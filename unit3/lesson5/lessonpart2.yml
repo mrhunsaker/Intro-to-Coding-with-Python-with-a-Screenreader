@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Using the Math Library
+content: |-
+  ## Activities
+
+- # Lesson: Using the Math Library
 
 
   ## Introduction to the math module (e.g., `math.pi`, `math.sqrt`).
@@ -75,7 +76,8 @@ content: >+
 
      * Purpose: Practice with `math.sqrt()` and exponentiation in a geometric context.
 
-
-showEditor: true
-editors:
-  - course1/unit3/lesson5/lessonpart2/Lesson2_5.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit3/lesson5/lessonpart2/Lesson2_5.py

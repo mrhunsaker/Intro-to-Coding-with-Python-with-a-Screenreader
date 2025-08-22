@@ -1,18 +1,19 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: >-
-  Lesson 3.1: Boolean Expressions and if Statements
-    - Student Materials:
-      - Outline:
-        - Introduction to Boolean values: True and False.
-        - Comparison operators: == (equal to), != (not equal to), < (less than), > (greater than), <= (less than or equal to), >= (greater than or equal to).
-        - What is a Boolean expression (an expression that evaluates to True or False).
-        - The if statement: executing code only if a condition is True.
-        - Understanding the indentation of the code block under if.
-      - Skills Checklist:
-        - [ ] I can identify True and False as Boolean values.
-        - [ ] I can use comparison operators to create Boolean expressions.
-        - [ ] I can write a basic if statement.
-        - [ ] I can correctly indent the code block belonging to an if statement.
-        - [ ] I can predict whether an if block will execute based on its condition.
+content: |
+  ## Lesson 3.1: Boolean Expressions and if Statements
+  - Student Materials:
+    - Outline:
+      - Introduction to Boolean values: True and False.
+      - Comparison operators: == (equal to), != (not equal to), < (less than), > (greater than), <= (less than or equal to), >= (greater than or equal to).
+      - What is a Boolean expression (an expression that evaluates to True or False).
+      - The if statement: executing code only if a condition is True.
+      - Understanding the indentation of the code block under if.
+    - Skills Checklist:
+      - [ ] I can identify True and False as Boolean values.
+      - [ ] I can use comparison operators to create Boolean expressions.
+      - [ ] I can write a basic if statement.
+      - [ ] I can correctly indent the code block belonging to an if statement.
+      - [ ] I can predict whether an if block will execute based on its condition.
+  

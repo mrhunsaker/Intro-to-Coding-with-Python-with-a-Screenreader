@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: The Software Development Process
+content: |-
+  ## Activities
+
+- # Lesson: The Software Development Process
 
 
   ## Problem solving, design, implementation, testing.
@@ -77,6 +78,8 @@ content: >+
 
      * Accessibility: Use a text editor to document variable states and predictions. Compare with actual terminal output.
 
-showEditor: true
-editors:
-  - course1/unit2/lesson4/lessonpart2/lesson2_1.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit2/lesson4/lessonpart2/lesson2_1.py

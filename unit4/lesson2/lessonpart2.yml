@@ -1,116 +1,119 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Chained Conditionals (elif, else)
+content: "## Activities\
+\
+- # Lesson: Chained Conditionals (elif, else)
 
 
-  ## Handling multiple conditions.
+## Handling multiple conditions.
 
 
-  The `else` statement provides an alternative block of code to execute if the
-  initial `if` condition evaluates to False. The `elif` (short for "else if")
-  statement allows for checking multiple conditions in sequence. Only one code
-  block—the first one whose condition evaluates to True—will be executed.
+The `else` statement provides an alternative block of code to execute if the
+initial `if` condition evaluates to False. The `elif` (short for \"else if\")
+statement allows for checking multiple conditions in sequence. Only one code
+block\u2014the first one whose condition evaluates to True\u2014will be executed.
 
 
-  ## Explicit Examples
+## Explicit Examples
 
 
-  ## Example 3.2.1: Simple Grade Checker
+## Example 3.2.1: Simple Grade Checker
 
 
-  ```python
+```python
 
-  score = 85
+score = 85
 
-  if score >= 90:
-      print("Grade: A")
-  elif score >= 80:
-      print("Grade: B")
-  else:
-      print("Grade: C or lower")
-  ```
-
-
-  Expected Output:
+if score >= 90:
+    print(\"Grade: A\")
+elif score >= 80:
+    print(\"Grade: B\")
+else:
+    print(\"Grade: C or lower\")
+```
 
 
-  ```
-
-  Grade: B
-
-  ```
+Expected Output:
 
 
-  ## Example 3.2.2: Stages of Life
+```
+
+Grade: B
+
+```
 
 
-  ```python
-
-  age = 25
-
-  if age < 2:
-      print("You are a baby.")
-  elif age < 4:
-      print("You are a toddler.")
-  elif age < 13:
-      print("You are a kid.")
-  elif age < 20:
-      print("You are a teenager.")
-  else:
-      print("You are an adult.")
-  ```
+## Example 3.2.2: Stages of Life
 
 
-  Expected Output:
+```python
+
+age = 25
+
+if age < 2:
+    print(\"You are a baby.\")
+elif age < 4:
+    print(\"You are a toddler.\")
+elif age < 13:
+    print(\"You are a kid.\")
+elif age < 20:
+    print(\"You are a teenager.\")
+else:
+    print(\"\
+  You are an adult.\")
+```
 
 
-  ```
-
-  You are an adult.
-
-  ```
+Expected Output:
 
 
-  ## Activities
+```
+
+You are an adult.
+
+```
 
 
-  1. **Activity 3.2.1: Movie Ticket Pricing**
-
-     1. Create `movie_tickets.py`.
-     2. Prompt the user to enter their age.
-     3. Implement ticket pricing rules using if-elif-else:
-
-        * Age 0-5: Free
-
-        * Age 6-12: $7
-
-        * Age 13-64: $12
-
-        * Age 65+: $5
-     4. Print the calculated ticket price.
-
-     * Purpose: Practice with chained conditionals.
-
-  2. **Activity 3.2.2: Favorite Fruit Checker**
-
-     1. Create `fruit_checker.py`.
-     2. Prompt the user to enter their favorite fruit.
-     3. Use if-elif-else to provide a specific response:
-
-        * If "apple": print "Apples are crisp and delicious!"
-
-        * If "banana": print "Bananas are great for smoothies!"
-
-        * If "orange": print "Oranges are full of Vitamin C!"
-
-        * Otherwise: print "That's an interesting choice!"
-     4. Handle case sensitivity using `.lower()`.
-
-     * Purpose: Practice chained conditionals and string methods.
+## Activities
 
 
-showEditor: true
-editors:
-  - course1/unit4/lesson2/lessonpart2/Lesson3_2.py
+1. **Activity 3.2.1: Movie Ticket Pricing**
+
+   1. Create `movie_tickets.py`.
+   2. Prompt the user to enter their age.
+   3. Implement ticket pricing rules using if-elif-else:
+
+      * Age 0-5: Free
+
+      * Age 6-12: $7
+
+      * Age 13-64: $12
+
+      * Age 65+: $5
+   4. Print the calculated ticket price.
+
+   * Purpose: Practice with chained conditionals.
+
+2. **Activity 3.2.2: Favorite Fruit Checker**
+
+   1. Create `fruit_checker.py`.
+   2. Prompt the user to enter their favorite fruit.
+   3. Use if-elif-else to provide a specific response:
+
+      * If \"apple\": print \"Apples are crisp and delicious!\"
+
+      * If \"banana\": print \"Bananas are great for smoothies!\"
+
+      * If \"orange\": print \"Oranges are full of Vitamin C!\"
+
+      * Otherwise: print \"That's an interesting choice!\"
+   4. Handle case sensitivity using `.lower()`.
+
+   *\
+  \ Purpose: Practice chained conditionals and string methods.\
+"
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit4/lesson2/lessonpart2/Lesson3_2.py

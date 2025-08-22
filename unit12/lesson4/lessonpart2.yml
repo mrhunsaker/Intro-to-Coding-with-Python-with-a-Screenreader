@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Displaying and Managing Items:
+content: |-
+  ## Activities
+
+- # Lesson: Displaying and Managing Items:
 
 
   * Concept: Dynamically updating GUI elements (e.g., a list of labels or
@@ -10,7 +11,7 @@ content: >+
 
 
   * NiceGUI Approach: Using ui.column or ui.row with clear() and
-  add\_card()/add\_label() in a loop to display items.
+  add_card()/add_label() in a loop to display items.
 
 
   * **Task 1: Implement the** **`update_item_logic()`** **function.**
@@ -33,7 +34,8 @@ content: >+
 
     * Remember to provide accessible feedback to the user via `ui.notify("Item deleted!", type='positive')`.
 
-
-showEditor: true
-editors:
-  - course1/unit12/lesson4/lessonpart2/Lesson11_4.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit12/lesson4/lessonpart2/Lesson11_4.py

@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Input and Output Revisited
+content: |-
+  ## Activities
+
+- # Lesson: Input and Output Revisited
 
 
   ## Getting input from the user with input() and formatting output.
@@ -109,7 +110,8 @@ content: >+
 
      * Purpose: Practice with more complex numeric input and calculations.
 
-
-showEditor: true
-editors:
-  - course1/unit3/lesson3/lessonpart2/Lesson2_3.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit3/lesson3/lessonpart2/Lesson2_3.py

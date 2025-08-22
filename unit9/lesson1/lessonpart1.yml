@@ -1,7 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  Reading from a File - Zelle: Chapter 5, pages 125-127 (on "File Processing"
+content: |-
+  ## Reading
+
+- Reading from a File - Zelle: Chapter 5, pages 125-127 (on "File Processing"
   and "Simple File Processing"). - Matthes: Chapter 10, pages 184-189 (on
   "Reading from a File" and working with file contents).
+

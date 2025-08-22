@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Boolean Expressions and if Statements
+content: |-
+  ## Activities
+
+- # Lesson: Boolean Expressions and if Statements
 
 
   ## Introducing True/False and comparison operators. Making decisions in
@@ -116,7 +117,8 @@ content: >+
 
   | >=       | Greater than or equal | 10 >= 5 | True             |
 
-
-showEditor: true
-editors:
-  - course1/unit4/lesson1/lessonpart2/Lesson3_1.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit4/lesson1/lessonpart2/Lesson3_1.py

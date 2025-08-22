@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |+
-  # Lesson: Writing to a File
+content: |-
+  ## Activities
+
+- # Lesson: Writing to a File
 
   ## Writing single lines and multiple lines. Appending to files.
 
@@ -11,7 +12,8 @@ content: |+
   ```python
   filename = 'programming_message.txt'
   with open(filename, 'w') as file_object:
-     file_object.write("I love programming in Python!\n")
+     file_object.write("I love programming in Python!
+- ")
   print(f"Message written to {filename}.")
   ```
 
@@ -20,8 +22,10 @@ content: |+
   ```python
   filename = 'programming_message.txt'
   with open(filename, 'a') as file_object:
-     file_object.write("It's a very versatile language.\n")
-     file_object.write("I'm excited to learn more!\n")
+     file_object.write("It's a very versatile language.
+- ")
+     file_object.write("I'm excited to learn more!
+- ")
   print(f"More messages appended to {filename}.")
   ```
 
@@ -39,7 +43,8 @@ content: |+
 
   * Use a while loop to log activities to `daily_log.txt`.
 
-
-showEditor: true
-editors:
-  - course1/unit9/lesson2/lessonpart2/Lesson8_2.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit9/lesson2/lessonpart2/Lesson8_2.py

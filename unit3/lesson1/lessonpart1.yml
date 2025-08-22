@@ -1,7 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  The Software Development Process - Zelle: Chapter 2, pages 21-22 (describing
+content: |-
+  ## Reading
+
+- The Software Development Process - Zelle: Chapter 2, pages 21-22 (describing
   "Create a Design", "Implement the Design", "Test/Debug the Program") and pages
   35-36 (listing the steps in the "Chapter Summary").
+

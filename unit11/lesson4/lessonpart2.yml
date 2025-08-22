@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Developing a Command-Line Tool
+content: |-
+  ## Activities
+
+- # Lesson: Developing a Command-Line Tool
 
 
   ## Creating a utility that performs a specific task.
@@ -44,7 +45,8 @@ content: >+
      if not todos:
          print("No tasks in your list.")
          return
-     print("\n--- Your To-Do List ---")
+     print("
+- --- Your To-Do List ---")
      for i, task in enumerate(todos):
          status = "[X]" if task["completed"] else "[ ]"
          print(f"{i + 1}. {status} {task['description']}")
@@ -62,7 +64,8 @@ content: >+
          print("Please enter a valid number.")
 
   def main_menu():
-     print("\n--- To-Do List Menu ---")
+     print("
+- --- To-Do List Menu ---")
      print("1. Add Task")
      print("2. View Tasks")
      print("3. Mark Task Complete")
@@ -115,7 +118,8 @@ content: >+
 
   * Implement a calculator with history and error handling.
 
-
-showEditor: true
-editors:
-  - course1/unit11/lesson4/lessonpart2/Lesson10_4.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit11/lesson4/lessonpart2/Lesson10_4.py

@@ -1,8 +1,10 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: Units 0-1
-content: >+
-  # Unit 0: Foundations of Computing and Getting Started with Python
+title: |-
+  Units 0-1
+content: |-
+  ## Reading
+
+- # Unit 0: Foundations of Computing and Getting Started with Python
 
 
   ## Independent Practice:
@@ -32,8 +34,8 @@ content: >+
      * c) To display text on the screen.
 
      * d) To create a new program file.
-  5. True/False: my\_name = "Alice" assigns the string "Alice" to the variable
-  my\_name.
+  5. True/False: my_name = "Alice" assigns the string "Alice" to the variable
+  my_name.
 
 
   ## Potential Assessment Questions:
@@ -56,11 +58,11 @@ content: >+
 
   4. Multiple Choice: Which of the following is a valid Python variable name?
 
-     * a) 1st\_number
+     * a) 1st_number
 
      * b) my-variable
 
-     * c) total\_count
+     * c) total_count
 
      * d) for
 

@@ -1,8 +1,10 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: Final
-content: >+
-  # Final Exam: GUI Project Proofreading and Documentation (Extended Version)
+title: |-
+  Final
+content: |-
+  ## Reading
+
+- # Final Exam: GUI Project Proofreading and Documentation (Extended Version)
 
 
   ## Instructions:
@@ -138,6 +140,8 @@ content: >+
       main_root.mainloop()
   ```
 
-showEditor: true
-editors:
-  - course1/unit14/lesson2/lessonpart1/final_proofread.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit14/lesson2/lessonpart1/final_proofread.py

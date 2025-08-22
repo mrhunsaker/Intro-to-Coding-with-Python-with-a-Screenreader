@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Organizing Lists
+content: |-
+  ## Activities
+
+- # Lesson: Organizing Lists
 
 
   ## Sorting lists (`sort()`, `sorted()`) and reversing order
@@ -93,7 +94,8 @@ content: >+
 
   * Use `.sort()` to permanently sort the list.
 
-
-showEditor: true
-editors:
-  - course1/unit5/lesson2/lessonpart2/Lesson4_2.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit5/lesson2/lessonpart2/Lesson4_2.py

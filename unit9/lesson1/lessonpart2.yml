@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |+
-  # Lesson: Reading from a File
+content: |-
+  ## Activities
+
+- # Lesson: Reading from a File
 
   ## Opening, reading, and closing files. Using with statements.
 
@@ -19,13 +20,15 @@ content: |+
 
   ```python
   with open('my_notes.txt', 'r') as file_object:
-     print("\n--- File Content Line by Line ---")
+     print("
+- --- File Content Line by Line ---")
      for line in file_object:
          print(line.strip())
 
   with open('my_notes.txt', 'r') as file_object:
      lines = file_object.readlines()
-  print("\n--- File Content as List of Lines ---")
+  print("
+- --- File Content as List of Lines ---")
   for line in lines:
      print(line.strip())
   ```
@@ -44,7 +47,8 @@ content: |+
 
   * Read and print each line.
 
-
-showEditor: true
-editors:
-  - course1/unit9/lesson1/lessonpart2/Lesson8_1.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit9/lesson1/lessonpart2/Lesson8_1.py

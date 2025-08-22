@@ -1,6 +1,8 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  The else Block and finally Block - Matthes: Chapter 10, pages 194-195 (on the
+content: |-
+  ## Reading
+
+- The else Block and finally Block - Matthes: Chapter 10, pages 194-195 (on the
   else and finally blocks).
+

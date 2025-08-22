@@ -1,5 +1,8 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: Accessibility Tools and Tips
-content: |
-  No reading available in Readings.md for Unit 0 Lesson 5.
+title: |-
+  Accessibility Tools and Tips
+content: |-
+  ## Reading
+
+- No reading available in Readings.md for Unit 0 Lesson 5.
+

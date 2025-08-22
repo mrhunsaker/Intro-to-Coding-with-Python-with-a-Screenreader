@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Introducing Dictionaries
+content: |-
+  ## Activities
+
+- # Lesson: Introducing Dictionaries
 
 
   ## Creating, accessing, and modifying dictionaries
@@ -91,13 +92,13 @@ content: >+
 
 
   * Create a dictionary called `my_book` with keys: "title", "author",
-  "publication\_year", "genre".
+  "publication_year", "genre".
 
 
   * Print each piece of information.
 
 
-  * Add a new entry for "number\_of\_pages". Print the updated dictionary.
+  * Add a new entry for "number_of_pages". Print the updated dictionary.
 
 
   * Change the "genre". Print the dictionary again.
@@ -118,7 +119,8 @@ content: >+
   * Prompt the user to enter a term. If found, print its definition; otherwise,
   print "Term not found."
 
-
-showEditor: true
-editors:
-  - course1/unit5/lesson4/lessonpart2/Lesson4_4.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit5/lesson4/lessonpart2/Lesson4_4.py

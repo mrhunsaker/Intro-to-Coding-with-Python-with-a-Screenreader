@@ -1,6 +1,8 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  Displaying and Managing Items - Applies concepts from Unit 4 (Lists and
+content: |-
+  ## Reading
+
+- Displaying and Managing Items - Applies concepts from Unit 4 (Lists and
   Dictionaries) and Unit 6 (Functions) for data manipulation and display logic.
+

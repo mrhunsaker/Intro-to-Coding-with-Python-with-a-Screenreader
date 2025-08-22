@@ -1,12 +1,10 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: >
+content: |
   ## Lesson 2.2: Elements of Programs: Expressions and Assignment
 
-
   ### Student Materials
-
 
   - **Outline:**
     - What is an "expression" in Python (something that produces a value, like `3 + 5`).

@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |+
-  # Lesson: Iterating with for Loops
+content: |-
+  ## Activities
+
+- # Lesson: Iterating with for Loops
 
   ## Looping through sequences like strings and lists.
 
@@ -91,7 +92,8 @@ content: |+
 
      * Purpose: Practice iterating through a string.
 
-
-showEditor: true
-editors:
-  - course1/unit4/lesson4/lessonpart2/Lesson3_4.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit4/lesson4/lessonpart2/Lesson3_4.py

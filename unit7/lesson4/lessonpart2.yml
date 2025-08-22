@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Functions with Lists and Dictionaries
+content: |-
+  ## Activities
+
+- # Lesson: Functions with Lists and Dictionaries
 
 
   ## Passing data structures to functions
@@ -139,7 +140,8 @@ content: >+
 
   * (Challenge) Print a formatted list of all albums.
 
-
-showEditor: true
-editors:
-  - course1/unit7/lesson4/lessonpart2/Lesson6_4.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit7/lesson4/lessonpart2/Lesson6_4.py

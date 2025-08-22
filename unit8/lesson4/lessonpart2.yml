@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |+
-  # Lesson: Inheritance
+content: |-
+  ## Activities
+
+- # Lesson: Inheritance
 
   ## Creating new classes based on existing ones.
 
@@ -48,9 +49,10 @@ content: |+
 
   * Create IceCreamStand inheriting from Restaurant.
 
-  * Add flavors and override describe\_restaurant.
+  * Add flavors and override describe_restaurant.
 
-
-showEditor: true
-editors:
-  - course1/unit8/lesson4/lessonpart2/Lesson7_4.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit8/lesson4/lessonpart2/Lesson7_4.py

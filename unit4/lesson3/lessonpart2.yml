@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Introduction to Lists
+content: |-
+  ## Activities
+
+- # Lesson: Introduction to Lists
 
 
   ## Creating, accessing, and modifying lists.
@@ -96,7 +97,8 @@ content: >+
 
      * Purpose: Practice managing collections with lists.
 
-
-showEditor: true
-editors:
-  - course1/unit4/lesson3/lessonpart2/Lesson3_3.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit4/lesson3/lessonpart2/Lesson3_3.py

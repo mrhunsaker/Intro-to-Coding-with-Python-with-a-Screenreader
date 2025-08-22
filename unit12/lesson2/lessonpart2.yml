@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Data Model and Storage:
+content: |-
+  ## Activities
+
+- # Lesson: Data Model and Storage:
 
 
   * Concept: Designing a Python class to represent a single data item (e.g.,
@@ -26,7 +27,8 @@ content: >+
       * Call `update_item_display()` to refresh the view of all items. This function is not yet complete, but you'll need to call it now to set up your workflow.
       * Provide a success notification: `ui.notify("Item added successfully!", type='positive')`.
 
-
-showEditor: true
-editors:
-  - course1/unit12/lesson2/lessonpart2/Lesson11_2.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit12/lesson2/lessonpart2/Lesson11_2.py

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart9
 title: Unit 9
-content: >+
+content: |+
   # Unit 9: Testing Your Code and Introduction to Data Analysis
 
 
@@ -41,17 +41,17 @@ content: >+
   ## Potential Assessment Questions:
 
 
-  1. Multiple Choice: You have a function add\_numbers(a, b) that should return
+  1. Multiple Choice: You have a function add_numbers(a, b) that should return
   the sum of a and b. Which assertion would you use in a unittest to check if
-  add\_numbers(2, 3) returns 5?&#x20;
+  add_numbers(2, 3) returns 5?&#x20;
 
-     * a) self.assertFalse(add\_numbers(2, 3) == 5)&#x20;
+     * a) self.assertFalse(add_numbers(2, 3) == 5)&#x20;
 
-     * b) self.assertEqual(add\_numbers(2, 3), 5)&#x20;
+     * b) self.assertEqual(add_numbers(2, 3), 5)&#x20;
 
-     * c) self.assertTrue(add\_numbers(2, 3) != 5)&#x20;
+     * c) self.assertTrue(add_numbers(2, 3) != 5)&#x20;
 
-     * d) self.assertNotEqual(add\_numbers(2, 3), 5)
+     * d) self.assertNotEqual(add_numbers(2, 3), 5)
   2. True/False: To test a class, you typically create an instance of the class
   in your test method and then call its methods.
 

@@ -1,15 +1,16 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: >-
-  Lesson 10.1: Introduction to Classes and Objects
-    - Student Materials:
-      - Outline:
-        - What is an object: a collection of data (attributes) and functions (methods).
-        - What is a class: a blueprint for creating objects.
-        - Defining a class using class MyClass:.
-        - The __init__ method and instance attributes.
-      - Skills Checklist:
-        - [ ] I can explain the difference between a class and an object.
-        - [ ] I can define a simple class with an __init__ method.
-        - [ ] I can create an instance of a class and access its attributes.
+content: |
+  ## Lesson 10.1: Introduction to Classes and Objects
+  - Student Materials:
+    - Outline:
+      - What is an object: a collection of data (attributes) and functions (methods).
+      - What is a class: a blueprint for creating objects.
+      - Defining a class using class MyClass:.
+      - The __init__ method and instance attributes.
+    - Skills Checklist:
+      - [ ] I can explain the difference between a class and an object.
+      - [ ] I can define a simple class with an __init__ method.
+      - [ ] I can create an instance of a class and access its attributes.
+  

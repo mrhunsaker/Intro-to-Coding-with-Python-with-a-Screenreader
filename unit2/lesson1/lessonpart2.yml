@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Welcome to Computer Science
+content: |-
+  ## Activities
+
+- # Lesson: Welcome to Computer Science
 
 
   ## What is computer science? Hardware vs. Software. The role of programming.
@@ -50,6 +51,8 @@ content: >+
 
      * Accessibility: Type answers or discuss verbally.
 
-showEditor: true
-editors:
-  - course1/unit2/lesson1/lessonpart2/Lesson1_1.txt
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit2/lesson1/lessonpart2/Lesson1_1.txt

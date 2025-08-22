@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Working with Attributes and Methods
+content: |-
+  ## Activities
+
+- # Lesson: Working with Attributes and Methods
 
 
   ## Accessing attributes and calling methods. Modifying attributes directly and
@@ -67,7 +68,8 @@ content: >+
 
   * Define a class with deposit and withdraw methods.
 
-
-showEditor: true
-editors:
-  - course1/unit8/lesson3/lessonpart2/Lesson7_3.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit8/lesson3/lessonpart2/Lesson7_3.py

@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: Building a Text-Based Adventure Game (Part 1)
+content: |-
+  ## Activities
+
+- # Lesson: Building a Text-Based Adventure Game (Part 1)
 
 
   ## Implementing rooms, player movement, and basic interactions.
@@ -33,7 +34,8 @@ content: >+
 
 
   while True:
-     print("\n" + room_descriptions[current_room]["description"])
+     print("
+- " + room_descriptions[current_room]["description"])
      command = input("What do you want to do? ").lower()
 
      if command in room_descriptions[current_room]["exits"]:
@@ -54,7 +56,8 @@ content: >+
 
   * Define rooms and implement movement in a text-based game.
 
-
-showEditor: true
-editors:
-  - course1/unit11/lesson2/lessonpart2/Lesson10_2.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit11/lesson2/lessonpart2/Lesson10_2.py

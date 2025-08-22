@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  Enter your content here# Lesson: Variables and Simple Data Types
+content: |-
+  ## Activities
+
+- Enter your content here# Lesson: Variables and Simple Data Types
 
 
   ## Introducing strings and numbers. Using variables to store data. Basic
@@ -136,6 +137,8 @@ content: >+
   | float (Floating-point) | Numbers with decimals  | 3.14, 9.99, 0.0   | +, -,
   \*, /                        |
 
-showEditor: true
-editors:
-  - course1/unit2/lesson4/lessonpart2/lesson1_3.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit2/lesson4/lessonpart2/lesson1_3.py

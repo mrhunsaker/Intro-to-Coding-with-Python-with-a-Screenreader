@@ -1,6 +1,8 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  Organizing Lists - Matthes: Chapter 3, pages 39-45 (on "Organizing a List"
+content: |-
+  ## Reading
+
+- Organizing Lists - Matthes: Chapter 3, pages 39-45 (on "Organizing a List"
   (sort(), sorted()) and "Printing a List in Reverse Order" (reverse(), len())).
+

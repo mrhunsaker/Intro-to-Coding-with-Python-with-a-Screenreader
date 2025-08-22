@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |+
-  # Lesson: Storing Data with JSON
+content: |-
+  ## Activities
+
+- # Lesson: Storing Data with JSON
 
   ## Using the json module to store and retrieve Python data structures.
 
@@ -33,7 +34,8 @@ content: |+
   try:
      with open(filename, 'r') as f:
          loaded_settings = json.load(f)
-     print(f"\nSuccessfully loaded settings from {filename}:")
+     print(f"
+- Successfully loaded settings from {filename}:")
      print(f"Username: {loaded_settings['username']}")
      print(f"Theme: {loaded_settings['theme']}")
      print(f"Notifications: {loaded_settings['notifications_on']}")
@@ -56,7 +58,8 @@ content: |+
 
   * Manage contacts with JSON file.
 
-
-showEditor: true
-editors:
-  - course1/unit9/lesson5/lessonpart2/Lesson8_5.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit9/lesson5/lessonpart2/Lesson8_5.py

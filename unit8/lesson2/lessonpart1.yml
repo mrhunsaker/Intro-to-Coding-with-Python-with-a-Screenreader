@@ -1,7 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  Creating and Using a Class - Zelle: Chapter 10, pages 248-254 (for example
+content: |-
+  ## Reading
+
+- Creating and Using a Class - Zelle: Chapter 10, pages 248-254 (for example
   class definitions like MSDie). - Matthes: Chapter 9, pages 158-162 (on
   "Creating a Dog Class", the __init__() method, and creating instances).
+

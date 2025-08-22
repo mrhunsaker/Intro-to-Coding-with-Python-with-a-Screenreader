@@ -1,7 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  Working with Attributes and Methods - Zelle: Chapter 10, pages 254-256 (on
+content: |-
+  ## Reading
+
+- Working with Attributes and Methods - Zelle: Chapter 10, pages 254-256 (on
   MSDie class and calling methods). - Matthes: Chapter 9, pages 162-166 (on
   "Working with Attributes and Methods", accessing and modifying attributes).
+

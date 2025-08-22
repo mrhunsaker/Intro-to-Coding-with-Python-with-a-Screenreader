@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |+
-  # Lesson: Analyzing Text Data
+content: |-
+  ## Activities
+
+- # Lesson: Analyzing Text Data
 
   ## Counting words, frequency analysis, and basic string processing.
 
@@ -36,7 +37,8 @@ content: |+
      else:
          word_frequencies[word] = 1
 
-  print("\nWord Frequencies:")
+  print("
+- Word Frequencies:")
   for word, count in word_frequencies.items():
      print(f"'{word}': {count}")
   ```
@@ -51,7 +53,8 @@ content: |+
 
   * Count vowels and consonants in a sentence.
 
-
-showEditor: true
-editors:
-  - course1/unit10/lesson4/lessonpart2/Lesson9_4.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit10/lesson4/lessonpart2/Lesson9_4.py

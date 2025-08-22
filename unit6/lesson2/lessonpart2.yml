@@ -1,8 +1,9 @@
-# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >+
-  # Lesson: The while Loop in Action
+content: |-
+  ## Activities
+
+- # Lesson: The while Loop in Action
 
 
   ## Basic while loops for repetitive tasks
@@ -151,7 +152,8 @@ content: >+
   infinite)                  | High risk of infinite loops if condition never
   becomes false                |
 
-
-showEditor: true
-editors:
-  - course1/unit6/lesson2/lessonpart2/Lesson5_2.py
+"showEditor": !!bool |-
+  true
+"editors":
+- |-
+  course1/unit6/lesson2/lessonpart2/Lesson5_2.py
