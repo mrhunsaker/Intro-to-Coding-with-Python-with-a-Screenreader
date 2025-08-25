@@ -434,3 +434,6 @@ content: >+
 
   * Goal: Document string cleaning and transformation.
 
+showEditor: true
+editors:
+  - course1/proofreading.py

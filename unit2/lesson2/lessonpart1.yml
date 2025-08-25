@@ -1,4 +1,10 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: "\t \ \n"
+content: >+
+  - Zelle: Chapter 1, pages 7-13 (covering "The Magic of Python" and "Inside a
+  Python Program").
+
+  - Matthes: Chapter 1, pages 3-14 (for writing, saving, and running a basic
+  print() statement).
+

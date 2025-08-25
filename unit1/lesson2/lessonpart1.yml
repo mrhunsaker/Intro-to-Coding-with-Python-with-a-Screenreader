@@ -1,9 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: >
-  
-  - Configuring Your Screen Reader for VS Code 
-    - Matthes: Appendix B, pages 469-476 (for detailed information on text editors and IDEs, including VS
-  Code); 
-    - Matthes: Appendix C, pages 477-482 (for general guidance on getting help and finding documentation, which would include screen reader specific settings).
+content: >+
+  * Matthes: Appendix B, pages 469-476 (for detailed information on text editors
+  and IDEs, including VS
+    Code);
+
+  * Matthes: Appendix C, pages 477-482 (for general guidance on getting help and
+  finding documentation, which would include screen reader specific settings).
+

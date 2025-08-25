@@ -1,13 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >
-  
-
+content: >+
   ## Understanding how Python evaluates expressions and assigns values to
-
   variables.
-
 
 
   In Python, expressions are segments of code that produce a value, such as `5 +
@@ -17,13 +13,10 @@ content: >
   store the result of an expression into a variable.
 
 
-
   ## Explicit Examples
 
 
-
   ## Example 2.2.1: Expression Evaluation
-
 
 
   ```python
@@ -45,9 +38,7 @@ content: >
   ```
 
 
-
   Expected Output:
-
 
 
   ```
@@ -62,9 +53,7 @@ content: >
   ```
 
 
-
   ## Example 2.2.2: Reassigning Variables
-
 
 
   ```python
@@ -85,9 +74,7 @@ content: >
   ```
 
 
-
   Expected Output:
-
 
 
   ```
@@ -102,9 +89,7 @@ content: >
   ```
 
 
-
   ## Activities
-
 
 
   1. **Activity 2.2.1: Predict the Output**
@@ -135,6 +120,56 @@ content: >
      * Purpose: Deepen understanding of expression evaluation and variable assignment order.
 
      * Accessibility: Type predictions and compare with actual output in the terminal.
+
 showEditor: true
 editors:
   - course1/unit3/lesson2/lessonpart2/Lesson2_2.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: |-
+          What will be the output of the following Python code snippet?
+
+          ```python
+          x = 7
+          y = x * 2
+          x = x + 1
+          print('X is:', x)
+          print('Y is:', y)
+          ```
+        options:
+          - id: "1"
+            value: |-
+              X is: 8
+              Y is: 14
+            explanation: The variable x is incremented by 1 after y is calculated, so x
+              becomes 8 and y remains 14.
+            isCorrect: true
+          - id: "2"
+            value: |-
+              X is: 7
+              Y is: 14
+            explanation: This is incorrect because x is incremented by 1 after y is
+              calculated.
+          - id: "3"
+            value: |-
+              X is: 8
+              Y is: 16
+            explanation: This is incorrect because y is calculated as 7 * 2 before x is
+              incremented.
+          - id: "4"
+            value: |-
+              X is: 7
+              Y is: 16
+            explanation: This is incorrect because x is incremented by 1 after y is
+              calculated, and y is calculated as 7 * 2.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how Python handles variable reassignment. Why does changing
+          the value of a variable after it has been used in an expression not
+          affect the previously computed result? Provide an example to support
+          your explanation.

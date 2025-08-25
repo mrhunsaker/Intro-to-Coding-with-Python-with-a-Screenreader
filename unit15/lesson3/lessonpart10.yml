@@ -5,36 +5,24 @@ content: >+
   # Unit 9: Testing Your Code and Introduction to Data Analysis
 
 
-
   ## Emphasis/Resources:
 
 
-
   * Test-Driven Development (TDD) Concept (briefly): The idea of writing tests
-
-  before the code to guide development.
-
-
+    before the code to guide development.
 
   * assert methods: Familiarize them with assertEqual, assertTrue, assertFalse,
-
-  assertIsNone.
-
-
+    assertIsNone.
 
   * Randomness limitations: Explain that "random" in programming is
-
-  pseudo-random.
-
-
+    pseudo-random.
 
   ## Challenge Projects:
 
 
-
   1. "The Flawed Test Case":
 
-     * Scenario: You wrote a test for your is_even function, but the test isn't correctly checking for the expected outcome.
+     * Scenario: You wrote a test for your is\_even function, but the test isn't correctly checking for the expected outcome.
 
      * Code (incorrect assertion):
 
@@ -54,25 +42,16 @@ content: >+
   ```
 
 
+  * Task: Correct the assertion in test\_positive\_even so that it correctly
+    passes if is\_even(4) returns True.
 
-  * Task: Correct the assertion in test_positive_even so that it correctly
-
-  passes if is_even(4) returns True.
-
-
-
-  2. "The Word Counter Bug":
-
+  1. "The Word Counter Bug":
 
 
   * Scenario: You're trying to count words in a sentence, but your counter isn't
-
-  quite right, especially with punctuation.
-
-
+    quite right, especially with punctuation.
 
   * Code (simple word counter with bug):
-
 
 
   ```python
@@ -91,14 +70,10 @@ content: >+
   ```
 
 
-
-  * Task: Modify the count_words function to handle punctuation (e.g., using
-
-  text.replace() or regular expressions if introduced, or simply teaching a more
-
-  robust split strategy for a basic level). A simple fix might be to remove
-
-  common punctuation before splitting.
+  * Task: Modify the count\_words function to handle punctuation (e.g., using
+    text.replace() or regular expressions if introduced, or simply teaching a more
+    robust split strategy for a basic level). A simple fix might be to remove
+    common punctuation before splitting.
 
     * Hint: text.replace('!', '').replace('?', '') etc. before splitting.
 

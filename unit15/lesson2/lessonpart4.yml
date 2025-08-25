@@ -381,3 +381,6 @@ content: >+
 
   * Goal: Document iterating through dictionary items.
 
+showEditor: true
+editors:
+  - course1/proofreading.py

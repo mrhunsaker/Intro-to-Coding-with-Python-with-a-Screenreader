@@ -66,3 +66,6 @@ content: >+
   * **Goal:** Correct all errors so the program runs without crashing and prints
   the concatenation and the correct result.
 
+showEditor: true
+editors:
+  - course1/proofreading.py

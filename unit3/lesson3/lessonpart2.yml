@@ -1,14 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >
-  
+content: >+
   # Lesson: Input and Output Revisited
 
 
-
   ## Getting input from the user with input() and formatting output.
-
 
 
   The `input()` function pauses program execution and waits for the user to type
@@ -20,13 +17,10 @@ content: >
   output.
 
 
-
   ## Explicit Examples
 
 
-
   ## Example 2.3.1: Basic Input
-
 
 
   ```python
@@ -44,9 +38,7 @@ content: >
   ```
 
 
-
   Expected Console Interaction:
-
 
 
   ```
@@ -61,9 +53,7 @@ content: >
   ```
 
 
-
   ## Example 2.3.2: Numeric Input and Calculation
-
 
 
   ```python
@@ -95,9 +85,7 @@ content: >
   ```
 
 
-
   Expected Console Interaction:
-
 
 
   ```
@@ -115,17 +103,19 @@ content: >
   ```
 
 
-
   ## Activities
-
 
 
   1. **Activity 2.3.1: Temperature Converter**
 
      1. Create `temp_converter.py`.
+
      2. Prompt for temperature in Fahrenheit. Convert to Celsius: `C = (F   - 32) * 5 / 9`.
+
      3. Print both Fahrenheit and Celsius temperatures.
+
      4. Prompt for temperature in Celsius. Convert to Fahrenheit: `F = C * 9 / 5 + 32`.
+
      5. Print both Celsius and Fahrenheit temperatures.
 
      * Purpose: Practice with input(), type conversion, and arithmetic.
@@ -133,6 +123,7 @@ content: >
   2. **Activity 2.3.2: Future Value Calculator**
 
      1. Create `future_value.py`.
+
      2. Prompt for:
 
         * Initial investment amount
@@ -140,10 +131,62 @@ content: >
         * Annual interest rate
 
         * Number of years
+
      3. Calculate future value: `future_value = initial_investment * (1 + annual_rate) ** num_years`
+
      4. Print all inputs and the calculated future value.
 
      * Purpose: Practice with more complex numeric input and calculations.
+
 showEditor: true
 editors:
   - course1/unit3/lesson3/lessonpart2/Lesson2_3.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the purpose of using the int() function when working with user
+          input in Python?
+        options:
+          - id: "1"
+            value: To convert a string input into an integer for mathematical operations.
+            explanation: The int() function is used to convert a string input into an
+              integer, allowing for mathematical operations.
+            isCorrect: true
+          - id: "2"
+            value: To display the input value in the console.
+            explanation: Displaying the input value in the console is done using the print()
+              function, not int().
+          - id: "3"
+            value: To pause the program execution until the user provides input.
+            explanation: Pausing program execution for user input is done using the input()
+              function.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What does the input() function return when used in a Python program?
+        options:
+          - id: "1"
+            value: A string
+            explanation: The input() function always returns user input as a string.
+            isCorrect: true
+          - id: "2"
+            value: An integer
+            explanation: The input() function does not automatically convert input to an
+              integer.
+          - id: "3"
+            value: A float
+            explanation: The input() function does not automatically convert input to a
+              float.
+          - id: "4"
+            value: A boolean
+            explanation: The input() function does not return a boolean value.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how using f-strings for formatting output can enhance the
+          readability and user-friendliness of your programs. Provide an example
+          of a situation where clear output formatting is crucial.

@@ -1,14 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >
-  
+content: >+
   # Lesson: Welcome to Computer Science
 
 
-
   ## What is computer science? Hardware vs. Software. The role of programming.
-
 
 
   Computer science encompasses more than just writing code; it involves
@@ -36,7 +33,6 @@ content: >
   computer can interpret and execute.
 
 
-
   For example, imagine a task like baking cookies. The oven, mixing bowls, and
 
   ingredients are comparable to computer hardware. The cookie recipe functions
@@ -52,9 +48,7 @@ content: >
   audible speech.
 
 
-
   ## Activities
-
 
 
   1. **Activity 1.1.1: "Human Computer" Role-Play**
@@ -72,6 +66,60 @@ content: >
      * Purpose: Reinforce the distinction between hardware and software.
 
      * Accessibility: Type answers or discuss verbally.
+
 showEditor: true
 editors:
   - course1/unit2/lesson1/lessonpart2/Lesson1_1.txt
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which of the following best describes the role of software in a
+          computer system?
+        options:
+          - id: "1"
+            value: Software provides instructions for the hardware to perform specific
+              tasks.
+            explanation: Software consists of instructions that direct the hardware on what
+              actions to perform.
+            isCorrect: true
+          - id: "2"
+            value: Software is the physical component of a computer that can be touched.
+            explanation: Hardware, not software, refers to the physical components of a
+              computer.
+          - id: "3"
+            value: Software is a type of hardware that stores data.
+            explanation: Software is not hardware; it is a set of instructions for the
+              hardware.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which of the following best illustrates the relationship between
+          hardware and software using the kitchen analogy?
+        options:
+          - id: "1"
+            value: The stove and refrigerator are hardware, while the cookie recipe is
+              software.
+            explanation: The stove and refrigerator represent physical components, while the
+              recipe provides instructions.
+            isCorrect: true
+          - id: "2"
+            value: The cookie recipe is hardware, while the stove and refrigerator are
+              software.
+            explanation: The cookie recipe is not a physical component; it provides
+              instructions, making it software.
+          - id: "3"
+            value: The mixing bowls and ingredients are software, while the cookie recipe is
+              hardware.
+            explanation: Mixing bowls and ingredients are physical components, not
+              instructions, making them hardware.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the kitchen analogy used to describe hardware and software.
+          How does this analogy help you understand the relationship between
+          hardware and software in a computer system? Can you think of another
+          analogy that might help explain this concept to someone else?

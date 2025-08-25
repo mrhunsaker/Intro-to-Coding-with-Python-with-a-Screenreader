@@ -218,3 +218,6 @@ content: >+
 
   * **Goal:** Clearly document the calculation of the hypotenuse.
 
+showEditor: true
+editors:
+  - course1/proofreading.py

@@ -2,23 +2,109 @@
 id: lessonpart2
 title: Lesson
 content: >+
-  This lesson covers the initial software installation. Pay close attention to
-  the instructions for your operating system.
+  # Unit 0.1 Installing Python and Visual Studio Code
+
+
+  This lesson covers the initial software installation. Pay close attention
+  to   the instructions for your operating system.
 
 
   A. Installing Python 3
-
 
   Python is the programming language we will use. It's important to install
   Python 3.
 
 
-  1. Open your web browser: Navigate to <https://www.python.org/downloads/>. 2.
-  Locate the latest Python 3 release: The website usually prominently displays a
-  button like "Download Python 3.x.x". Activate this link. 3. Run the Installer:
-      - Windows:
-        -  Locate the downloaded .exe file (usually in your Downloads folder). Activate it.
-        -  CRUCIAL STEP: When the installer window appears, the very first thing you must do is check the "Add Python to PATH" checkbox. This is incredibly important for making Python accessible from your terminal later. Use Tab to navigate through the options until you hear this checkbox, and press Spacebar to check it.
-        -  Then, navigate to "Install Now" (or "Customize installation" if you prefer to change the install location, but "Install Now" is fine for most) and activate it.
-        -  Follow any further prompts. Once finished, activate "Close". 
-  	    
+  1. Open your web browser: Navigate to <https://www.python.org/downloads/>.
+
+  2. Locate the latest Python 3 release: The website usually prominently
+  displays a button like "Download Python 3.x.x". Activate this link.
+
+  3. Run the Installer:
+
+     * Windows:
+
+       * Locate the downloaded .exe file (usually in your Downloads folder). Activate it.
+
+       * CRUCIAL STEP: When the installer window appears, the very first thing you must do is check the "Add Python to PATH" checkbox. This is incredibly important for making Python accessible from your terminal later. Use Tab to navigate through the options until you hear this checkbox, and press Spacebar to check it.
+
+       * Then, navigate to "Install Now" (or "Customize installation" if you prefer to change the install location, but "Install Now" is fine for most) and activate it.
+
+       * Follow any further prompts. Once finished, activate "Close".
+
+     * macOS:
+
+       * Locate the downloaded .pkg file. Activate it.
+
+       * The standard macOS installer will open. Activate "Continue" through the steps.
+
+       * Agree to the license terms. Choose the installation location (default is usually fine).
+
+       * Enter your administrator password when prompted.
+
+       * Activate "Install" and then "Close" when finished.
+
+     * Linux:
+
+       * Python 3 is often pre-installed on modern Linux distributions. You can verify by opening a terminal (Ctrl+Alt+T usually) and typing python3 --version and pressing Enter.
+
+       * If not installed, use your distribution's package manager. For Debian/Ubuntu-based systems: sudo apt update sudo apt install python3 sudo apt install python3-pip (for pip, which we'll use later)
+  4. Verify Python Installation (Crucial!):
+
+     * Open a terminal:
+
+     * Windows: Press Windows Key + R, type cmd (for Command Prompt) or powershell (for PowerShell), and press Enter.
+
+     * macOS: Press Command + Spacebar to open Spotlight, type terminal, and press Enter.
+
+     * Linux: Press Ctrl+Alt+T or search for "Terminal" in your applications.
+
+     * In the terminal, type: python3 --version and press Enter.
+
+     * Listen for the output: You should hear something like "Python 3.10.12" (the version number will vary). If you get an error like "command not found," go back and ensure "Add Python to PATH" was checked on Windows, or that Python 3 is properly installed on macOS/Linux.
+
+     * Also check pip: pip3 --version and Enter. Pip is Python's package installer.
+
+  B. Installing Visual Studio Code (VS Code) VS Code is our powerful code
+  editor.
+
+
+  1. Open your web browser: Navigate
+  to  <https://code.visualstudio.com/download>.
+
+  2. Locate the installer for your OS: Activate the download link for Windows,
+  macOS, or Linux (e.g., .deb for Debian/Ubuntu, .rpm for Fedora/RHEL).
+
+  3. Run the Installer:
+
+     * Windows:
+
+       * Activate the downloaded .exe file.
+
+       * Accept the license agreement.
+
+       * CRUCIAL STEP: On the "Select Additional Tasks" screen, check all checkboxes for "Add 'Open with Code' action to Windows Explorer context menu", "Add 'Open with Code' action to directory context menu", and "Add to PATH". This last one is vital.
+
+       * Activate "Next" and then "Install".
+
+       * Activate "Finish" (uncheck "Launch Visual Studio Code" for now, we'll configure it first).
+
+     * macOS:
+
+       * Locate the downloaded .zip file. It usually unzips automatically.
+
+       * Drag the "Visual Studio Code" application from your Downloads folder to your "Applications" folder.
+
+     * Linux:
+
+       * For .deb (Debian/Ubuntu): Open your terminal and navigate to your Downloads folder (e.g., cd Downloads). Then run: sudo dpkg -i code\_\*.deb (replace \* with the version number). You might need to run sudo apt install -f if there are dependency issues.
+
+       * For .rpm (Fedora/RHEL): Navigate to Downloads and run: sudo dnf install code\_\*.rpm
+
+       * The flatpak is fine, but I tend to avoid it as there are more complication in setting it up
+  4. Verify VS Code Installation (Optional but good):
+
+     * Open your terminal (Command Prompt/PowerShell/Terminal).
+
+     * Type code --version and press Enter. You should hear the version number of VS Code.
+

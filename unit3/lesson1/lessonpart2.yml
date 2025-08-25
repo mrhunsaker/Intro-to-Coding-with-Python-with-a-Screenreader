@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >
-  
+content: >+
   # Lesson: The Software Development Process
 
 
@@ -51,9 +50,7 @@ content: >
   10 (expecting an area of 0), to ensure accuracy.
 
 
-
   ## Activities
-
 
 
   1. **Activity 2.1.1: Planning a Tip Calculator**
@@ -98,6 +95,62 @@ content: >
      * Purpose: Develop a mental model of program execution and variable states.
 
      * Accessibility: Use a text editor to document variable states and predictions. Compare with actual terminal output.
+
 showEditor: true
 editors:
   - course1/unit2/lesson4/lessonpart2/lesson2_1.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which phase of the software development process involves writing the
+          actual Python code based on the developed design?
+        options:
+          - id: "1"
+            value: Problem Solving
+            explanation: Problem Solving involves understanding the problem and defining the
+              goal.
+          - id: "2"
+            value: Design
+            explanation: Design involves planning the solution, often using pseudocode.
+          - id: "3"
+            value: Implementation
+            explanation: Implementation is the phase where the actual Python code is
+              written.
+            isCorrect: true
+          - id: "4"
+            value: Testing
+            explanation: Testing involves verifying the program's functionality and
+              accuracy.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which phase of the software development process involves verifying that
+          the program functions correctly and handles various inputs as
+          expected?
+        options:
+          - id: "1"
+            value: Testing
+            explanation: Testing involves verifying the program's functionality and
+              accuracy.
+            isCorrect: true
+          - id: "2"
+            value: Design
+            explanation: Design involves planning the steps and structure of the program.
+          - id: "3"
+            value: Implementation
+            explanation: Implementation is the phase where the actual code is written.
+          - id: "4"
+            value: Problem Solving
+            explanation: Problem Solving involves understanding the problem and defining the
+              goal.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the importance of the design phase in the software
+          development process. How does creating a detailed plan before coding
+          help ensure the success of a program, especially when considering
+          accessibility for visually impaired users?

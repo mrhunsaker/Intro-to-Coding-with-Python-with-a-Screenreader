@@ -298,3 +298,6 @@ content: >+
   * **Goal:** Document the concept and handling of an intentional infinite loop
   for demonstration.
 
+showEditor: true
+editors:
+  - course1/proofreading.py

@@ -342,3 +342,6 @@ content: >+
 
   * **Goal:** Document a function that uses \*args.
 
+showEditor: true
+editors:
+  - course1/proofreading.py
