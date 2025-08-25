@@ -1,6 +1,9 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson2
 title: Proofreading and Documentation Assignments
+description: One of the most effective ways to build effective coding skills is
+  to learn how to proofread and annotate code to understand something novel and
+  to build discernment of code-related patterns and structures.
 objectives: >2
       
   - Develop Proofreading Skills: Train students to identify common syntax and
