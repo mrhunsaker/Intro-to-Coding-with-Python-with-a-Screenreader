@@ -1,9 +1,10 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson1
 title: "Lesson 4.1: More on Lists"
-description: |
+description: >-
   Details adding elements (.append(), .insert()) and removing elements (del,
   .pop(), .remove()) from lists
+
 
 
   Includes proofreading and documentation assignments, focusing on

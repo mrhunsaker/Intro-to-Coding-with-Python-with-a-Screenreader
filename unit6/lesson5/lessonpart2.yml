@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: Avoiding Infinite Loops
 
   ## Common pitfalls and how to prevent them
@@ -20,7 +19,9 @@ content: |
      # count += 1  # MISSING!
   print("Finished!")
   ```
+
   Expected Output:
+
   ```
   1
   1
@@ -37,7 +38,9 @@ content: |
      count += 1
   print("Finished!")
   ```
+
   Expected Output:
+
   ```
   1
   2
@@ -50,8 +53,75 @@ content: |
   ## Activities
 
   1. **Activity 5.5.1: Spot the Infinite Loop**
-      - Create `loop_debug.py`.
-      - Examine code snippets and identify/fix infinite loops.
+
+     * Create `loop_debug.py`.
+
+     * Examine code snippets and identify/fix infinite loops.
+
 showEditor: true
 editors:
   - course1/unit6/lesson5/lessonpart2/Lesson5_5.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is a common cause of an infinite loop in Python?
+        options:
+          - id: "1"
+            value: A condition that never becomes False.
+            explanation: An infinite loop occurs when the loop's condition never evaluates
+              to False.
+            isCorrect: true
+          - id: "2"
+            value: Using a 'for' loop instead of a 'while' loop.
+            explanation: The type of loop does not inherently cause an infinite loop; it's
+              the condition that matters.
+          - id: "3"
+            value: Printing output inside the loop.
+            explanation: Printing output does not cause an infinite loop; it's the loop
+              condition that must change.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is a key step to prevent an infinite loop in a `while` loop?
+        options:
+          - id: "1"
+            value: Ensure the loop condition eventually becomes False.
+            explanation: The loop must have a condition that will eventually evaluate to
+              False to terminate.
+            isCorrect: true
+          - id: "2"
+            value: Use a `for` loop instead of a `while` loop.
+            explanation: Using a `for` loop does not inherently prevent infinite loops; the
+              loop logic must still be correct.
+          - id: "3"
+            value: Remove all conditions from the loop.
+            explanation: Removing conditions will not prevent infinite loops and will likely
+              cause errors.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is a common mistake that can lead to an infinite loop in Python?
+        options:
+          - id: "1"
+            value: Forgetting to update the loop variable within the loop.
+            explanation: If the loop variable is not updated, the loop condition may never
+              become False.
+            isCorrect: true
+          - id: "2"
+            value: Using a `for` loop instead of a `while` loop.
+            explanation: Using a `for` loop does not inherently cause an infinite loop.
+          - id: "3"
+            value: Including a `print` statement inside the loop.
+            explanation: A `print` statement does not affect the loop's condition.
+  - id: "4"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the process of identifying and correcting an infinite loop.
+          How did understanding the loop's condition and increment help you
+          resolve the issue? What strategies can you apply to ensure your loops
+          function correctly in future projects?

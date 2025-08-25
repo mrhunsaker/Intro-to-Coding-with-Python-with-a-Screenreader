@@ -2,17 +2,29 @@
 id: lessonpart3
 title: Materials
 content: >+
-  # Lesson 6.2: Passing Arguments 
+  # Lesson 6.2: Passing Arguments
 
-  ## Student Materials: 
-    - Outline: 
-      -  Distinction between parameters (in definition) and arguments (values passed during call). 
-      -  Positional arguments: arguments are matched to parameters by their order. 
-      -  Keyword arguments: specifying arguments by parameter name (order doesn't matter). 
-      -  When to use positional vs. keyword arguments. 
-    - Skills Checklist: 
-      -  [ ] I can differentiate between a parameter and an argument. 
-      -  [ ] I can pass arguments to a function using positional order. 
-      -  [ ] I can pass arguments to a function using keyword arguments. 
-      -  [ ] I can choose the appropriate method for passing arguments based on the situation.
-    
+
+  ## Student Materials:
+
+
+  * Outline:
+
+    * Distinction between parameters (in definition) and arguments (values passed during call).
+
+    * Positional arguments: arguments are matched to parameters by their order.
+
+    * Keyword arguments: specifying arguments by parameter name (order doesn't matter).
+
+    * When to use positional vs. keyword arguments.
+
+  * Skills Checklist:
+
+    * [ ] I can differentiate between a parameter and an argument.
+
+    * [ ] I can pass arguments to a function using positional order.
+
+    * [ ] I can pass arguments to a function using keyword arguments.
+
+    * [ ] I can choose the appropriate method for passing arguments based on the situation.
+

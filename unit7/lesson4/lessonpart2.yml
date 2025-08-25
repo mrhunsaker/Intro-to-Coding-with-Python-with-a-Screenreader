@@ -1,26 +1,20 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >
-  
+content: >+
   # Lesson: Functions with Lists and Dictionaries
-
 
 
   ## Passing data structures to functions
 
 
-
   Functions can process lists and dictionaries.
-
 
 
   ## Explicit Examples
 
 
-
   ## Example 6.4.1: Processing a List of Names
-
 
 
   ```python
@@ -48,9 +42,7 @@ content: >
   ```
 
 
-
   Expected Output:
-
 
 
   ```
@@ -92,9 +84,7 @@ content: >
   ```
 
 
-
   ## Example 6.4.2: Updating a User Profile Dictionary
-
 
 
   ```python
@@ -120,9 +110,7 @@ content: >
   ```
 
 
-
   Expected Output:
-
 
 
   ```
@@ -142,54 +130,128 @@ content: >
   ```
 
 
-
   ## Activities
-
 
 
   1. **Activity 6.4.1: Process Messages**
 
+     * Create `message_processor.py`.
 
+     * Create a list of messages.
 
-  * Create `message_processor.py`.
+     * Define `display_messages(messages)` to print each message.
 
+     * (Challenge) Define `send_messages(messages_to_send, sent_messages)` to move
+       messages and print both lists.
 
+  2. **Activity 6.4.2: Album Collection**
 
-  * Create a list of messages.
+     * Create `album_collection.py`.
 
+     * Define `make_album(artist_name, album_title)`.
 
+     * Return a dictionary.
 
-  * Define `display_messages(messages)` to print each message.
+     * Call and print album dictionaries.
 
+     * (Challenge) Print a formatted list of all albums.
 
-
-  * (Challenge) Define `send_messages(messages_to_send, sent_messages)` to move
-
-  messages and print both lists.
-
-
-
-  1. **Activity 6.4.2: Album Collection**
-
-
-
-  * Create `album_collection.py`.
-
-
-
-  * Define `make_album(artist_name, album_title)`.
-
-
-
-  * Return a dictionary.
-
-
-
-  * Call and print album dictionaries.
-
-
-
-  * (Challenge) Print a formatted list of all albums.
 showEditor: true
 editors:
   - course1/unit7/lesson4/lessonpart2/Lesson6_4.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What happens to the original list when you pass it to a function and
+          modify it within the function?
+        options:
+          - id: "1"
+            value: The original list remains unchanged.
+            explanation: Lists are mutable, so changes within the function affect the
+              original list.
+          - id: "2"
+            value: The original list is modified.
+            explanation: Lists are mutable, so modifications within the function alter the
+              original list.
+            isCorrect: true
+          - id: "3"
+            value: A new list is created with the modifications.
+            explanation: Unless explicitly copied, the original list is modified, not a new
+              one created.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What will be the output of the function `update_profile` when called
+          with the dictionary `user_data` and the new city 'New York'?
+        options:
+          - id: "1"
+            value: "Original profile: {'name': 'Olivia', 'age': 14, 'grade': '8th'}; Profile
+              updated for Olivia. New city: New York; Profile after update:
+              {'name': 'Olivia', 'age': 14, 'grade': '8th', 'city': 'New York'}"
+            explanation: The function modifies the original dictionary by adding the new
+              city.
+            isCorrect: true
+          - id: "2"
+            value: "Original profile: {'name': 'Olivia', 'age': 14, 'grade': '8th'}; Profile
+              updated for Olivia. New city: New York; Profile after update:
+              {'name': 'Olivia', 'age': 14, 'grade': '8th'}"
+            explanation: The function actually updates the dictionary with the new city.
+          - id: "3"
+            value: "Original profile: {'name': 'Olivia', 'age': 14, 'grade': '8th'}; Profile
+              updated for Olivia. New city: New York; Profile after update:
+              {'name': 'Olivia', 'age': 14, 'grade': '8th', 'city': 'Los
+              Angeles'}"
+            explanation: The city is updated to 'New York', not 'Los Angeles'.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What will be the output of the function `print_names` after adding
+          'Liam' to the `students` list?
+        options:
+          - id: "1"
+            value: |-
+              --  - Names List ---
+              Maria
+              David
+              Sophia
+              ------------------
+              --  - Names List ---
+              Maria
+              David
+              Sophia
+              Liam
+              ------------------
+            explanation: The function prints the list of names, and after adding 'Liam', it
+              includes him in the output.
+            isCorrect: true
+          - id: "2"
+            value: |-
+              --  - Names List ---
+              Maria
+              David
+              Sophia
+              Liam
+              ------------------
+            explanation: This output only shows the list after 'Liam' is added, missing the
+              initial print.
+          - id: "3"
+            value: |-
+              --  - Names List ---
+              Maria
+              David
+              Sophia
+              Liam
+              Liam
+              ------------------
+            explanation: This output incorrectly repeats 'Liam' twice.
+  - id: "4"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how passing a list or dictionary to a function can lead to
+          unexpected modifications. How can you prevent these changes if you
+          want to maintain the original data structure unchanged?

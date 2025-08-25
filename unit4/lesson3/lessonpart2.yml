@@ -1,23 +1,17 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: Introduction to Lists
 
-
   ## Creating, accessing, and modifying lists.
-
 
   Lists in Python are ordered collections of items, enclosed in square brackets.
   Elements are accessed by their index (zero-indexed).
 
-
   ## Explicit Examples
 
-
   ## Example 3.3.1: Creating and Accessing a List
-
 
   ```python
 
@@ -31,9 +25,7 @@ content: |
 
   ```
 
-
   Expected Output:
-
 
   ```
 
@@ -45,9 +37,7 @@ content: |
 
   ```
 
-
   ## Example 3.3.2: Modifying List Elements
-
 
   ```python
 
@@ -61,9 +51,7 @@ content: |
 
   ```
 
-
   Expected Output:
-
 
   ```
 
@@ -73,16 +61,18 @@ content: |
 
   ```
 
-
   ## Activities
-
 
   1. **Activity 3.3.1: My Top 3 Hobbies**
 
      1. Create `my_hobbies.py`.
+
      2. Create a list named hobbies with three favorite hobbies.
+
      3. Print the entire list.
+
      4. Print your second hobby.
+
      5. Change your third hobby and print the updated list.
 
      * Purpose: Practice list creation, indexing, and modification.
@@ -90,12 +80,100 @@ content: |
   2. **Activity 3.3.2: Guest List (Basic)**
 
      1. Create `guest_list.py`.
+
      2. Create a list of 3-4 people to invite to dinner.
+
      3. Print personalized invitations.
+
      4. Remove one guest and add a new one.
+
      5. Print new invitations.
 
      * Purpose: Practice managing collections with lists.
+
 showEditor: true
 editors:
   - course1/unit4/lesson3/lessonpart2/Lesson3_3.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the correct way to access the third element in a list named
+          'colors' in Python?
+        options:
+          - id: "1"
+            value: colors[2]
+            explanation: In Python, lists are zero-indexed, so the third element is accessed
+              with index 2.
+            isCorrect: true
+          - id: "2"
+            value: colors[3]
+            explanation: Index 3 would access the fourth element, not the third.
+          - id: "3"
+            value: colors[1]
+            explanation: Index 1 accesses the second element, not the third.
+          - id: "4"
+            value: colors[-1]
+            explanation: Index -1 accesses the last element in the list.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: |-
+          What will be the output of the following code snippet?
+
+          ```python
+          fruits = ['apple', 'banana', 'cherry']
+          fruits[1] = 'grape'
+          print(fruits)
+          ```
+        options:
+          - id: "1"
+            value: "['apple', 'grape', 'cherry']"
+            explanation: The second element 'banana' is replaced with 'grape'.
+            isCorrect: true
+          - id: "2"
+            value: "['apple', 'banana', 'cherry']"
+            explanation: The list is modified, so 'banana' is replaced with 'grape'.
+          - id: "3"
+            value: "['grape', 'banana', 'cherry']"
+            explanation: Only the second element is changed, not the first.
+          - id: "4"
+            value: "['apple', 'cherry', 'grape']"
+            explanation: The order of elements is not changed, only 'banana' is replaced
+              with 'grape'.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: |-
+          What will be the output of the following code snippet?
+
+          ```python
+          colors = ['red', 'blue', 'green', 'yellow']
+          print(colors[2])
+          ```
+        options:
+          - id: "1"
+            value: green
+            explanation: The third element in the list 'colors' is 'green', accessed by
+              index 2.
+            isCorrect: true
+          - id: "2"
+            value: blue
+            explanation: The element 'blue' is at index 1, not index 2.
+          - id: "3"
+            value: yellow
+            explanation: The element 'yellow' is at index 3, not index 2.
+          - id: "4"
+            value: red
+            explanation: The element 'red' is at index 0, not index 2.
+  - id: "4"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how using lists can help organize and manage data in a
+          program. Can you think of a real-world scenario where using a list
+          would be beneficial? Describe the scenario and how you would use a
+          list to handle the data.

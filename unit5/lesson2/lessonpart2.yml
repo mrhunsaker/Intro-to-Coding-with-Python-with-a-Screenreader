@@ -1,25 +1,19 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: Organizing Lists
 
-
   ## Sorting lists (`sort()`, `sorted()`) and reversing order
-
 
   Python offers multiple ways to organize lists. The `.sort()` method
   permanently sorts the list, directly modifying the original list. The
   `sorted()` function returns a new sorted list, leaving the original list
   unchanged. The `.reverse()` method permanently reverses the order of elements.
 
-
   ## Explicit Examples
 
-
   ## Example 4.2.1: Sorting and Reversing
-
 
   ```python
 
@@ -48,9 +42,7 @@ content: |
 
   ```
 
-
   Expected Output:
-
 
   ```
 
@@ -66,33 +58,74 @@ content: |
 
   ```
 
-
   ## Activities
-
 
   1. **Activity 4.2.1: World Tour Sorter**
 
+     * Create `world_tour.py`.
 
-  * Create `world_tour.py`.
+     * Create a list of 5-7 countries.
 
+     * Print the original list.
 
-  * Create a list of 5-7 countries.
+     * Use `sorted()` to print a new list in alphabetical order, but keep the
+       original unchanged.
 
+     * Use `sorted(..., reverse=True)` for reverse alphabetical order.
 
-  * Print the original list.
+     * Use `.reverse()` to change the order in place.
 
+     * Use `.sort()` to permanently sort the list.
 
-  * Use `sorted()` to print a new list in alphabetical order, but keep the
-  original unchanged.
-
-
-  * Use `sorted(..., reverse=True)` for reverse alphabetical order.
-
-
-  * Use `.reverse()` to change the order in place.
-
-
-  * Use `.sort()` to permanently sort the list.
 showEditor: true
 editors:
   - course1/unit5/lesson2/lessonpart2/Lesson4_2.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which method permanently sorts a list in Python, modifying the original
+          list?
+        options:
+          - id: "1"
+            value: .sort()
+            explanation: The .sort() method permanently sorts the list in place.
+            isCorrect: true
+          - id: "2"
+            value: sorted()
+            explanation: The sorted() function returns a new sorted list, leaving the
+              original unchanged.
+          - id: "3"
+            value: .reverse()
+            explanation: The .reverse() method reverses the order of elements but does not
+              sort them.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which method in Python returns a new sorted list without modifying the
+          original list?
+        options:
+          - id: "1"
+            value: sort()
+            explanation: The sort() method sorts the list in place, modifying the original
+              list.
+          - id: "2"
+            value: sorted()
+            explanation: The sorted() function returns a new sorted list, leaving the
+              original list unchanged.
+            isCorrect: true
+          - id: "3"
+            value: reverse()
+            explanation: The reverse() method reverses the order of elements in the list in
+              place.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the different methods for organizing lists in Python. How do
+          the behaviors of `sort()`, `sorted()`, and `reverse()` differ, and in
+          what scenarios might you choose one method over the others? Consider
+          how these methods affect the original list and the implications for
+          data manipulation in your programs.

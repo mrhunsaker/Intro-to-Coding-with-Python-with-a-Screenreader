@@ -1,23 +1,17 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: Tuples: Immutable Lists
 
-
   ## Understanding when to use tuples and their properties
-
 
   Tuples are similar to lists but are immutable. They are defined using
   parentheses and are useful for storing data that should not be altered.
 
-
   ## Explicit Examples
 
-
   ## Example 4.3.1: Creating and Accessing a Tuple
-
 
   ```python
 
@@ -31,9 +25,7 @@ content: |
 
   ```
 
-
   Expected Output:
-
 
   ```
 
@@ -45,9 +37,7 @@ content: |
 
   ```
 
-
   ## Example 4.3.2: Attempting to Modify a Tuple (Error)
-
 
   ```python
 
@@ -59,9 +49,7 @@ content: |
 
   ```
 
-
   Expected Output (Error):
-
 
   ```
 
@@ -69,29 +57,65 @@ content: |
 
   ```
 
-
   ## Activities
-
 
   1. **Activity 4.3.1: RGB Color Tuple**
 
+     * Create `rgb_color.py`.
 
-  * Create `rgb_color.py`.
+     * Create a tuple called `red_color = (255, 0, 0)`.
 
+     * Print the entire tuple.
 
-  * Create a tuple called `red_color = (255, 0, 0)`.
+     * Print the value for the 'blue' component.
 
+     * Attempt to change the first value and observe the error.
 
-  * Print the entire tuple.
+     * Create a new tuple for a different color and print it.
 
-
-  * Print the value for the 'blue' component.
-
-
-  * Attempt to change the first value and observe the error.
-
-
-  * Create a new tuple for a different color and print it.
 showEditor: true
 editors:
   - course1/unit5/lesson3/lessonpart2/Lesson4_3.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What will happen if you try to modify an element in a tuple in Python?
+        options:
+          - id: "1"
+            value: The element will be successfully modified.
+            explanation: Tuples are immutable, so their elements cannot be modified.
+          - id: "2"
+            value: A TypeError will be raised.
+            explanation: Attempting to modify a tuple element results in a TypeError because
+              tuples are immutable.
+            isCorrect: true
+          - id: "3"
+            value: The tuple will automatically convert to a list.
+            explanation: Tuples do not convert to lists; they remain immutable.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is a key characteristic of a tuple in Python?
+        options:
+          - id: "1"
+            value: Tuples are immutable, meaning their elements cannot be changed after
+              creation.
+            explanation: Tuples are immutable, so any attempt to modify them will result in
+              a TypeError.
+            isCorrect: true
+          - id: "2"
+            value: Tuples are mutable, allowing elements to be added or removed.
+            explanation: Tuples are immutable, unlike lists, which are mutable.
+          - id: "3"
+            value: Tuples must contain only numeric data types.
+            explanation: Tuples can contain any data type, not just numeric.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on a scenario where using a tuple would be more beneficial than
+          a list. Consider the properties of immutability and how they might
+          affect data integrity in your example.

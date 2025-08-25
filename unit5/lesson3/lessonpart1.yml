@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
-  
-  - Tuples: Immutable Lists   
-  - Matthes: Chapter 4, pages 65-67 (specifically
-  "Tuples").
+content: |+
+  * Matthes: Chapter 4, pages 65-67 (specifically
+    "Tuples").
+

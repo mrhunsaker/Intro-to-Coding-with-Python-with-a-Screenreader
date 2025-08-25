@@ -1,23 +1,17 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
-  - Lesson: Arbitrary Number of Arguments
-
+content: |+
+  # Lesson: Arbitrary Number of Arguments
 
   ## Using \*args and \*\*kwargs
-
 
   Use `*args` for arbitrary positional arguments and `**kwargs` for arbitrary
   keyword arguments.
 
-
   ## Explicit Examples
 
-
   ## Example 6.5.1: Using \*args for Multiple Toppings
-
 
   ```python
 
@@ -33,9 +27,7 @@ content: |
 
   ```
 
-
   Expected Output:
-
 
   ```
 
@@ -54,9 +46,7 @@ content: |
 
   ```
 
-
   ## Example 6.5.2: Using \*\*kwargs for User Profile Details
-
 
   ```python
 
@@ -81,9 +71,7 @@ content: |
 
   ```
 
-
   Expected Output:
-
 
   ```
 
@@ -96,35 +84,92 @@ content: |
 
   ```
 
-
   ## Activities
-
 
   1. **Activity 6.5.1: Car Information**
 
+     * Create `car_info.py`.
 
-  * Create `car_info.py`.
+     * Write `make_car(manufacturer, model_name, **kwargs)`.
 
+     * Return a dictionary.
 
-  * Write `make_car(manufacturer, model_name, **kwargs)`.
+     * Call and print results.
 
+  2. **Activity 6.5.2: User Permissions**
 
-  * Return a dictionary.
+     * Create `user_permissions.py`.
 
+     * Define `assign_roles(username, *roles)`.
 
-  * Call and print results.
+     * Print assigned roles for each user.
 
-
-  1. **Activity 6.5.2: User Permissions**
-
-
-  * Create `user_permissions.py`.
-
-
-  * Define `assign_roles(username, *roles)`.
-
-
-  * Print assigned roles for each user.
 showEditor: true
 editors:
   - course1/unit7/lesson5/lessonpart2/Lesson6_5.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the purpose of using *args in a Python function?
+        options:
+          - id: "1"
+            value: To allow the function to accept an arbitrary number of positional
+              arguments.
+            explanation: "*args allows a function to accept any number of positional
+              arguments."
+            isCorrect: true
+          - id: "2"
+            value: To allow the function to accept an arbitrary number of keyword arguments.
+            explanation: "**kwargs is used for accepting arbitrary keyword arguments, not
+              *args."
+          - id: "3"
+            value: To specify default values for function parameters.
+            explanation: Default values are specified using the parameter=value syntax, not
+              *args.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the purpose of using **kwargs in a Python function?
+        options:
+          - id: "1"
+            value: To accept an arbitrary number of keyword arguments.
+            explanation: "**kwargs allows a function to accept any number of keyword
+              arguments."
+            isCorrect: true
+          - id: "2"
+            value: To accept an arbitrary number of positional arguments.
+            explanation: "*args is used for accepting arbitrary positional arguments, not
+              **kwargs."
+          - id: "3"
+            value: To define default values for function parameters.
+            explanation: Default values are defined using parameter assignment, not
+              **kwargs.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the expected output when calling make_pizza(14, 'olives',
+          'ham', 'pineapple')?
+        options:
+          - id: "1"
+            value: "Making a 14-inch pizza with the following toppings: - olives - ham -
+              pineapple"
+            explanation: This output correctly lists the size and toppings using *args.
+            isCorrect: true
+          - id: "2"
+            value: "Making a 14-inch pizza with the following toppings: - olives, ham,
+              pineapple"
+            explanation: Each topping should be printed on a separate line.
+          - id: "3"
+            value: Making a pizza with olives, ham, pineapple
+            explanation: The size of the pizza is missing in this output.
+  - id: "4"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how using *args and **kwargs can enhance the flexibility of
+          your functions. Can you think of a scenario in your own projects where
+          these might be particularly useful?

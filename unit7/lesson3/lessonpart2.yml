@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: Return Values
 
   ## Functions that produce a result
@@ -35,23 +34,50 @@ content: |
 
   1. **Activity 6.3.1: Product Calculator Function**
 
-  * Create `product_calc.py`.
+     * Create `product_calc.py`.
 
-  * Write a function `calculate_product(a, b)`.
+     * Write a function `calculate_product(a, b)`.
 
-  * Return the product.
+     * Return the product.
 
-  * Call and print the result.
+     * Call and print the result.
 
-  1. **Activity 6.3.2: Largest Number in List Function**
+  2. **Activity 6.3.2: Largest Number in List Function**
 
-  * Create `largest_number.py`.
+     * Create `largest_number.py`.
 
-  * Write a function `find_largest(numbers)`.
+     * Write a function `find_largest(numbers)`.
 
-  * Return the largest number.
+     * Return the largest number.
 
-  * Call and print the result.
+     * Call and print the result.
+
 showEditor: true
 editors:
   - course1/unit7/lesson3/lessonpart2/Lesson6_3.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the purpose of the return statement in a function?
+        options:
+          - id: "1"
+            value: To send a value back to the caller of the function.
+            explanation: The return statement is used to send a value back to the caller.
+            isCorrect: true
+          - id: "2"
+            value: To print the result of the function to the console.
+            explanation: Printing is done using the print() function, not return.
+          - id: "3"
+            value: To define the parameters of the function.
+            explanation: Parameters are defined in the function's signature, not with
+              return.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the difference between using `return` and `print()` in a
+          function. Why is it important to use `return` when you want to get a
+          value back from a function, and how does this affect the way you can
+          use the function's result in your program?

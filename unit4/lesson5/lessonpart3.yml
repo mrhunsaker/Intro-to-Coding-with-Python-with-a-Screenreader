@@ -1,23 +1,30 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Materials
-content: >
-  # Lesson 3.5: Basic String Operations 
-    ## Student Materials: 
-      - Outline: 
-        -  Concatenating strings using the + operator. 
-        -  Finding the length of a string using len(). 
-        -  Common string methods: 
-          - .upper(): Converts to uppercase. 
-          - .lower(): Converts to lowercase. 
-          - .strip(): Removes leading/trailing whitespace. 
-          - .replace(old, new): Replaces occurrences of a substring. 
-        -  Understanding that string methods return a new string, they don't modify the original string in place. 
-      - Skills Checklist: 
-        -  [ ] I can combine two or more strings using concatenation. 
-        -  [ ] I can find the length of a string using len(). 
-        -  [ ] I can convert a string to all uppercase using .upper(). 
-        -  [ ] I can convert a string to all lowercase using .lower(). 
-        -  [ ] I can remove extra spaces from the beginning or end of a string using .strip(). 
-        -  [ ] I can replace specific parts of a string using .replace(). 
-        -  [ ] I understand that string methods create new strings rather than changing the original.
+content: >+
+  # Lesson 3.5: Basic String Operations
+
+
+  ## Student Materials:
+
+
+
+  - Outline: 
+    -  Concatenating strings using the + operator. 
+    -  Finding the length of a string using len(). 
+    -  Common string methods: 
+      - .upper(): Converts to uppercase. 
+      - .lower(): Converts to lowercase. 
+      - .strip(): Removes leading/trailing whitespace. 
+      - .replace(old, new): Replaces occurrences of a substring. 
+    -  Understanding that string methods return a new string, they don't modify the original string in place. 
+  - Skills Checklist: 
+    -  [ ] I can combine two or more strings using concatenation. 
+    -  [ ] I can find the length of a string using len(). 
+    -  [ ] I can convert a string to all uppercase using .upper(). 
+    -  [ ] I can convert a string to all lowercase using .lower(). 
+    -  [ ] I can remove extra spaces from the beginning or end of a string using .strip(). 
+    -  [ ] I can replace specific parts of a string using .replace(). 
+    -  [ ] I understand that string methods create new strings rather than changing the original.
+
+

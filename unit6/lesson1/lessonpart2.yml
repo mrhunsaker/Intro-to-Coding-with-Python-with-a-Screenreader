@@ -1,23 +1,17 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: How the input() Function Works
 
-
   ## Getting user input and its default string type
-
 
   The `input()` function always reads user input as a string. Use type
   conversion functions for numeric input.
 
-
   ## Explicit Examples
 
-
   ## Example 5.1.1: Input Type Demonstration
-
 
   ```python
 
@@ -35,9 +29,7 @@ content: |
 
   ```
 
-
   Expected Output:
-
 
   ```
 
@@ -49,23 +41,69 @@ content: |
 
   ```
 
-
   ## Activities
-
 
   1. **Activity 5.1.1: Simple Survey**
 
+     * Create `simple_survey.py`.
 
-  * Create `simple_survey.py`.
+     * Prompt for name, favorite color, age.
 
+     * Print all collected information.
 
-  * Prompt for name, favorite color, age.
+     * Calculate and print age next year (convert age to number).
 
-
-  * Print all collected information.
-
-
-  * Calculate and print age next year (convert age to number).
 showEditor: true
 editors:
   - course1/unit6/lesson1/lessonpart2/Lesson5_1.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What type does the input() function return by default?
+        options:
+          - id: "1"
+            value: String
+            explanation: The input() function always returns user input as a string.
+            isCorrect: true
+          - id: "2"
+            value: Integer
+            explanation: The input() function does not return an integer by default; it
+              returns a string.
+          - id: "3"
+            value: Float
+            explanation: The input() function does not return a float by default; it returns
+              a string.
+          - id: "4"
+            value: Boolean
+            explanation: The input() function does not return a boolean by default; it
+              returns a string.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What will happen if you try to add a number to the result of the
+          input() function without converting it?
+        options:
+          - id: "1"
+            value: It will result in a TypeError.
+            explanation: The input() function returns a string, and adding a number to a
+              string without conversion causes a TypeError.
+            isCorrect: true
+          - id: "2"
+            value: It will automatically convert the string to a number.
+            explanation: Python does not automatically convert strings to numbers; explicit
+              conversion is required.
+          - id: "3"
+            value: It will concatenate the number to the string.
+            explanation: Concatenation occurs only between strings, not between strings and
+              numbers.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the process of using the input() function and type
+          conversion in Python. How does understanding the default string type
+          of input() and the need for type conversion help you avoid common
+          errors in your programs?

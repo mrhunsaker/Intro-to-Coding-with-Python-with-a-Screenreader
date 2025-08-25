@@ -2,13 +2,21 @@
 id: lessonpart3
 title: Materials
 content: >+
-  # Lesson 5.4: Using continue in Loops 
+  # Lesson 5.4: Using continue in Loops
 
-  ## Student Materials: 
-    - Outline: 
-      -  The continue statement: skipping the rest of the current iteration and moving to the next iteration of the loop. 
-      -  When to use continue (e.g., processing certain items but skipping others based on a condition). 
-    - Skills Checklist: 
-      -  [ ] I can use the continue statement to skip the rest of the current loop iteration. 
-      -  [ ] I can identify scenarios where continue would be useful.
-    
+
+  ## Student Materials:
+
+
+  * Outline:
+
+    * The continue statement: skipping the rest of the current iteration and moving to the next iteration of the loop.
+
+    * When to use continue (e.g., processing certain items but skipping others based on a condition).
+
+  * Skills Checklist:
+
+    * [ ] I can use the continue statement to skip the rest of the current loop iteration.
+
+    * [ ] I can identify scenarios where continue would be useful.
+

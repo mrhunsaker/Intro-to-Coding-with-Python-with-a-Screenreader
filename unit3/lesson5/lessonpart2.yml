@@ -1,5 +1,149 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
+content: >+
+  # Lesson: Using the Math Library
+
+
+  ## Introduction to the math module (e.g., `math.pi`, `math.sqrt`).
+
+
+  The `math` module in Python is a collection of useful mathematical tools and
+  constants. Import it using `import math`.
+
+
+  ## Explicit Examples
+
+
+  ## Example 2.5.1: Using math.pi and math.sqrt()
+
+
+  ```python
+
+
+  import math # This line brings in the math module
+
+  radius = 5
+
+  area = math.pi * radius ** 2
+
+  print(f"The area of a circle with radius {radius} is: {area:.2f}") # .2f
+
+  formats to 2 decimal places
+
+  number = 81
+
+  square_root = math.sqrt(number)
+
+  print(f"The square root of {number} is: {square_root}")
+
+  ```
+
+
+  Expected Output:
+
+
+  ```
+
+  The area of a circle with radius 5 is: 78.54
+
+
+  The square root of 81 is: 9.0
+
+  ```
+
+
   ## Activities
+
+
+  1. **Activity 2.5.1: Circle Calculator**
+
+     1. Create `circle_calc.py`.
+     2. Import the math module.
+     3. Prompt for radius.
+     4. Calculate area (`math.pi * radius ** 2`) and circumference (`2 * math.pi * radius`).
+     5. Print both, formatted to two decimal places.
+
+     * Purpose: Practice with math module functions and constants.
+  2. **Activity 2.5.2: Distance Finder**
+
+     1. Create `distance_finder.py`.
+     2. Import the math module.
+     3. Prompt for two numbers: x and y.
+     4. Calculate distance from origin: `distance = math.sqrt(x**2 + y**2)`.
+     5. Print the distance, formatted to two decimal places.
+
+     * Purpose: Practice with `math.sqrt()` and exponentiation in a geometric context.
+
+showEditor: true
+editors:
+  - course1/unit3/lesson5/lessonpart2/lesson2_5.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which function from the math module is used to calculate the square
+          root of a number?
+        options:
+          - id: "1"
+            value: math.sqrt
+            explanation: math.sqrt is the function used to calculate the square root of a
+              number.
+            isCorrect: true
+          - id: "2"
+            value: math.pow
+            explanation: math.pow is used for exponentiation, not for calculating square
+              roots.
+          - id: "3"
+            value: math.pi
+            explanation: math.pi is a constant representing the value of pi, not a function
+              for square roots.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the correct way to import the math module in Python?
+        options:
+          - id: "1"
+            value: import math
+            explanation: This is the correct syntax to import the math module in Python.
+            isCorrect: true
+          - id: "2"
+            value: include math
+            explanation: Python uses 'import' to include modules, not 'include'.
+          - id: "3"
+            value: require 'math'
+            explanation: The 'require' keyword is not used in Python for importing modules.
+          - id: "4"
+            value: use math
+            explanation: The 'use' keyword is not used in Python for importing modules.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which function from the math module is used to calculate the area of a
+          circle given its radius?
+        options:
+          - id: "1"
+            value: math.pi
+            explanation: math.pi is a constant representing the value of π, not a function.
+          - id: "2"
+            value: math.sqrt
+            explanation: math.sqrt is used to calculate the square root of a number.
+          - id: "3"
+            value: math.pow
+            explanation: math.pow is used to raise a number to a power.
+          - id: "4"
+            value: No specific function; use math.pi in the formula math.pi * radius ** 2
+            explanation: The area of a circle is calculated using the formula math.pi *
+              radius ** 2.
+            isCorrect: true
+  - id: "4"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how using the math module in Python can simplify complex
+          mathematical calculations. How does importing and using functions like
+          math.sqrt() and constants like math.pi enhance your ability to write
+          efficient and readable code?

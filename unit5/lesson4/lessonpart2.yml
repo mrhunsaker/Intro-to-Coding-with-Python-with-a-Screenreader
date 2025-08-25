@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: >+
   # Lesson: Introducing Dictionaries
 
 
@@ -20,6 +19,7 @@ content: |
 
   ```python
 
+
   student_profile = {
      "name": "Emily",
      "age": 13,
@@ -27,11 +27,15 @@ content: |
      "favorite_subject": "Science"
   }
 
+
   print("Student Profile:", student_profile)
+
 
   print("Student's name:", student_profile["name"])
 
+
   print("Student's age:", student_profile["age"])
+
 
   ```
 
@@ -41,12 +45,17 @@ content: |
 
   ```
 
+
   Student Profile: {'name': 'Emily', 'age': 13, 'grade': '7th',
+
   'favorite_subject': 'Science'}
+
 
   Student's name: Emily
 
+
   Student's age: 13
+
 
   ```
 
@@ -56,14 +65,19 @@ content: |
 
   ```python
 
+
   student_profile["city"] = "Springfield"
+
 
   print("After adding city:", student_profile)
 
 
+
   student_profile["favorite_subject"] = "Math"
 
+
   print("After changing subject:", student_profile)
+
 
   ```
 
@@ -73,11 +87,16 @@ content: |
 
   ```
 
+
   After adding city: {'name': 'Emily', 'age': 13, 'grade': '7th',
+
   'favorite_subject': 'Science', 'city': 'Springfield'}
 
+
   After changing subject: {'name': 'Emily', 'age': 13, 'grade': '7th',
+
   'favorite_subject': 'Math', 'city': 'Springfield'}
+
 
   ```
 
@@ -87,37 +106,82 @@ content: |
 
   1. **Activity 4.4.1: Book Information Dictionary**
 
+     * Create `book_info.py`.
 
-  * Create `book_info.py`.
+     * Create a dictionary called `my_book` with keys: "title", "author",
+       "publication\_year", "genre".
 
+     * Print each piece of information.
 
-  * Create a dictionary called `my_book` with keys: "title", "author",
-  "publication_year", "genre".
+     * Add a new entry for "number\_of\_pages". Print the updated dictionary.
 
+     * Change the "genre". Print the dictionary again.
 
-  * Print each piece of information.
+  2. **Activity 4.4.2: Simple Glossary**
 
+     * Create `simple_glossary.py`.
 
-  * Add a new entry for "number_of_pages". Print the updated dictionary.
+     * Create a dictionary with five programming terms and definitions.
 
+     * Print each term and its definition.
 
-  * Change the "genre". Print the dictionary again.
+     * Prompt the user to enter a term. If found, print its definition; otherwise,
+       print "Term not found."
 
-
-  1. **Activity 4.4.2: Simple Glossary**
-
-
-  * Create `simple_glossary.py`.
-
-
-  * Create a dictionary with five programming terms and definitions.
-
-
-  * Print each term and its definition.
-
-
-  * Prompt the user to enter a term. If found, print its definition; otherwise,
-  print "Term not found."
 showEditor: true
 editors:
   - course1/unit5/lesson4/lessonpart2/Lesson4_4.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the correct way to add a new key-value pair to an existing
+          dictionary in Python?
+        options:
+          - id: "1"
+            value: Use the append() method with the key and value.
+            explanation: The append() method is not used for dictionaries; it is used for
+              lists.
+          - id: "2"
+            value: Assign a value to a new key using the dictionary's name and the key in
+              square brackets.
+            explanation: This is the correct way to add a new key-value pair to a
+              dictionary.
+            isCorrect: true
+          - id: "3"
+            value: Use the add() method with the key and value.
+            explanation: The add() method does not exist for dictionaries.
+          - id: "4"
+            value: Use the insert() method with the key and value.
+            explanation: The insert() method is not applicable to dictionaries.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the correct way to modify the value of an existing key in a
+          Python dictionary?
+        options:
+          - id: "1"
+            value: Use the assignment operator with the key, like `dictionary[key] =
+              new_value`.
+            explanation: This is the correct way to update the value of an existing key in a
+              dictionary.
+            isCorrect: true
+          - id: "2"
+            value: "Use the `update()` method with the key-value pair, like
+              `dictionary.update({key: new_value})`."
+            explanation: While `update()` can add or modify entries, using the assignment
+              operator is more direct for modifying a single key.
+          - id: "3"
+            value: Use the `append()` method with the key-value pair.
+            explanation: The `append()` method is not used with dictionaries; it is used
+              with lists.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how using dictionaries can help organize data in a program
+          you are interested in creating. What are some potential key-value
+          pairs you might use, and how would they enhance the functionality of
+          your program?

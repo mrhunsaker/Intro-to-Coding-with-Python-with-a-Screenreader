@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: >+
   # Lesson: Looping Through Dictionaries
 
 
@@ -20,6 +19,7 @@ content: |
 
   ```python
 
+
   inventory = {
      "apples": 50,
      "bananas": 30,
@@ -27,19 +27,25 @@ content: |
   }
 
 
+
   print("--  - Inventory Keys ---")
+
 
   for item_name in inventory:
      print(item_name)
 
   print("
+
   - --  - Inventory Values ---")
+
 
   for count in inventory.values():
      print(count)
 
   print("
+
   - --  - Inventory Items (Key-Value Pairs) ---")
+
 
   for item_name, count in inventory.items():
      print(f"{item_name}: {count} in stock")
@@ -51,31 +57,44 @@ content: |
 
   ```
 
+
   --  - Inventory Keys ---
+
 
   apples
 
+
   bananas
+
 
   oranges
 
 
+
   --  - Inventory Values ---
+
 
   50
 
+
   30
+
 
   40
 
 
+
   --  - Inventory Items (Key-Value Pairs) ---
+
 
   apples: 50 in stock
 
+
   bananas: 30 in stock
 
+
   oranges: 40 in stock
+
 
   ```
 
@@ -85,40 +104,77 @@ content: |
 
   1. **Activity 4.5.1: Favorite Languages Report**
 
+     * Create `fav_languages.py`.
 
-  * Create `fav_languages.py`.
+     * Create a dictionary of student names and favorite programming languages.
 
+     * Loop through the dictionary to print each student's name and favorite
+       language.
 
-  * Create a dictionary of student names and favorite programming languages.
+     * Loop through values to print all favorite languages.
 
+     * (Challenge) Print a list of unique favorite languages.
 
-  * Loop through the dictionary to print each student's name and favorite
-  language.
+  2. **Activity 4.5.2: Simple Inventory System**
 
+     * Create `simple_inventory.py`.
 
-  * Loop through values to print all favorite languages.
+     * Start with an inventory dictionary.
 
+     * Print the current inventory.
 
-  * (Challenge) Print a list of unique favorite languages.
+     * Prompt the user for an item to "add" and the quantity. Update and print
+       inventory.
 
+     * Prompt for an item to "remove" and the quantity. Update and print inventory.
 
-  1. **Activity 4.5.2: Simple Inventory System**
-
-
-  * Create `simple_inventory.py`.
-
-
-  * Start with an inventory dictionary.
-
-
-  * Print the current inventory.
-
-
-  * Prompt the user for an item to "add" and the quantity. Update and print
-  inventory.
-
-
-  * Prompt for an item to "remove" and the quantity. Update and print inventory.
 showEditor: true
 editors:
   - course1/unit5/lesson5/lessonpart2/Lesson4_5.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which method would you use to iterate through both keys and values in a
+          dictionary?
+        options:
+          - id: "1"
+            value: .items()
+            explanation: The .items() method returns key-value pairs, allowing iteration
+              through both keys and values.
+            isCorrect: true
+          - id: "2"
+            value: .keys()
+            explanation: The .keys() method only returns the keys of the dictionary.
+          - id: "3"
+            value: .values()
+            explanation: The .values() method only returns the values of the dictionary.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which method would you use to iterate through only the values in a
+          dictionary?
+        options:
+          - id: "1"
+            value: .values()
+            explanation: The .values() method is used to iterate through the values in a
+              dictionary.
+            isCorrect: true
+          - id: "2"
+            value: .keys()
+            explanation: The .keys() method is used to iterate through the keys in a
+              dictionary.
+          - id: "3"
+            value: .items()
+            explanation: The .items() method is used to iterate through key-value pairs in a
+              dictionary.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how using the .keys(), .values(), and .items() methods can
+          help you efficiently manage and manipulate data in a dictionary. How
+          might these methods be useful in a real-world application, such as
+          managing an inventory system or tracking user preferences?

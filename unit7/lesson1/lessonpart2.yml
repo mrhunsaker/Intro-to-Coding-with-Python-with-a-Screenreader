@@ -1,23 +1,17 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: Defining Functions
 
-
   ## Creating reusable blocks of code
-
 
   Functions are named blocks of code designed to perform a specific task. They
   are defined using `def`.
 
-
   ## Explicit Examples
 
-
   ## Example 6.1.1: Simple Greeting Function
-
 
   ```python
 
@@ -31,10 +25,8 @@ content: |
 
   ```
 
-
   Expected Output:
 
-
   ```
 
   Hello, Python programmer!
@@ -42,10 +34,8 @@ content: |
   Hello, Python programmer!
 
   ```
-
 
   ## Example 6.1.2: Function with a Parameter
-
 
   ```python
 
@@ -59,9 +49,7 @@ content: |
 
   ```
 
-
   Expected Output:
-
 
   ```
 
@@ -71,38 +59,69 @@ content: |
 
   ```
 
-
   ## Activities
-
 
   1. **Activity 6.1.1: My Favorite Book Function**
 
+     * Create `favorite_book.py`.
 
-  * Create `favorite_book.py`.
+     * Define a function `favorite_book(title)`.
 
+     * Print a message with the book title.
 
-  * Define a function `favorite_book(title)`.
+     * Call the function.
 
+  2. **Activity 6.1.2: T-Shirt Message**
 
-  * Print a message with the book title.
+     * Create `tshirt_maker.py`.
 
+     * Define a function `make_tshirt(size, message)`.
 
-  * Call the function.
+     * Print a summary.
 
+     * Call the function with positional and keyword arguments.
 
-  1. **Activity 6.1.2: T-Shirt Message**
-
-
-  * Create `tshirt_maker.py`.
-
-
-  * Define a function `make_tshirt(size, message)`.
-
-
-  * Print a summary.
-
-
-  * Call the function with positional and keyword arguments.
 showEditor: true
 editors:
   - course1/unit7/lesson1/lessonpart2/Lesson6_1.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the correct way to define a function in Python?
+        options:
+          - id: "1"
+            value: Use the keyword 'def' followed by the function name and parentheses.
+            explanation: Functions in Python are defined using the 'def' keyword.
+            isCorrect: true
+          - id: "2"
+            value: Use the keyword 'function' followed by the function name and parentheses.
+            explanation: Python uses 'def' to define functions, not 'function'.
+          - id: "3"
+            value: Use the keyword 'define' followed by the function name and parentheses.
+            explanation: The correct keyword to define a function in Python is 'def'.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the purpose of the 'def' keyword in Python?
+        options:
+          - id: "1"
+            value: To define a function.
+            explanation: The 'def' keyword is used to define a function in Python.
+            isCorrect: true
+          - id: "2"
+            value: To print a message to the console.
+            explanation: The 'print' function is used to display messages, not 'def'.
+          - id: "3"
+            value: To declare a variable.
+            explanation: Variables are declared by assigning a value to a name, not using
+              'def'.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how defining functions can improve the organization and
+          readability of your code. How might using functions change the way you
+          approach writing a program?

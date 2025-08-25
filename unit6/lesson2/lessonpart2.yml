@@ -1,26 +1,20 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >
-  
+content: >+
   # Lesson: The while Loop in Action
-
 
 
   ## Basic while loops for repetitive tasks
 
 
-
   A `while` loop continues as long as a condition is True.
-
 
 
   ## Explicit Examples
 
 
-
   ## Example 5.2.1: Simple Counter
-
 
 
   ```python
@@ -38,9 +32,7 @@ content: >
   ```
 
 
-
   Expected Output:
-
 
 
   ```
@@ -67,9 +59,7 @@ content: >
   ```
 
 
-
   ## Example 5.2.2: User Input Loop (Sentinel Value)
-
 
 
   ```python
@@ -92,9 +82,7 @@ content: >
   ```
 
 
-
   Expected Output:
-
 
 
   ```
@@ -115,9 +103,7 @@ content: >
   ```
 
 
-
   ## Activities
-
 
 
   1. **Activity 5.2.1: Number Accumulator**
@@ -147,7 +133,6 @@ content: >
   # Key Table: Unit 5: `for` vs. `while` Loop Comparison
 
 
-
   This table clearly differentiates between `for` and `while` loops, which can
 
   often be a source of confusion for beginners. For screen reader users,
@@ -171,49 +156,96 @@ content: >
   control flow mechanism, which is a critical skill in programming.
 
 
-
   | Feature              | `for`
-
   Loop                                                                  |
-
   `while` Loop                                                                |
 
-
-  | :------------------  - |
-
-  :-------------------------------------------------------------------------  -
-  |
-
-  :-------------------------------------------------------------------------  -
-  |
-
+  | :------------------- |
+  :-------------------------------------------------------------------------- |
+  :-------------------------------------------------------------------------- |
 
   | **Purpose**          | Definite iteration (know how many times to loop or
-
   iterate over a sequence) | Indefinite iteration (loop as long as a condition
-
   is true)                  |
 
-
   | **When to Use**      | Iterating over lists, strings, ranges; fixed number
-
   of repetitions          | Repeating until a specific condition is met; user
-
   input loops               |
 
-
   | **Control Variable** | Loop variable automatically takes on values from
-
   sequence                   | Must be manually updated within the loop to
-
   eventually make condition false |
 
-
   | **Risk**             | Less prone to infinite loops (unless sequence is
-
   infinite)                  | High risk of infinite loops if condition never
-
   becomes false                |
+
 showEditor: true
 editors:
   - course1/unit6/lesson2/lessonpart2/Lesson5_2.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is a key difference between a 'for' loop and a 'while' loop?
+        options:
+          - id: "1"
+            value: A 'for' loop is used for definite iteration, while a 'while' loop is used
+              for indefinite iteration.
+            explanation: A 'for' loop iterates a known number of times, whereas a 'while'
+              loop continues as long as a condition is true.
+            isCorrect: true
+          - id: "2"
+            value: A 'for' loop requires manual updating of the control variable, while a
+              'while' loop does not.
+            explanation: A 'while' loop requires manual updating of the control variable to
+              avoid infinite loops.
+          - id: "3"
+            value: A 'for' loop is more prone to infinite loops than a 'while' loop.
+            explanation: A 'while' loop is more prone to infinite loops if the condition
+              never becomes false.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is a potential risk when using a `while` loop?
+        options:
+          - id: "1"
+            value: The loop may become infinite if the condition never becomes false.
+            explanation: A `while` loop can become infinite if the condition is never
+              updated to become false.
+            isCorrect: true
+          - id: "2"
+            value: The loop variable is automatically updated.
+            explanation: In a `while` loop, the loop variable must be manually updated.
+          - id: "3"
+            value: It is only used for iterating over sequences.
+            explanation: "`while` loops are used for indefinite iteration, not just for
+              sequences."
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the purpose of a `while` loop in Python?
+        options:
+          - id: "1"
+            value: To perform definite iteration over a sequence.
+            explanation: This describes the purpose of a `for` loop, not a `while` loop.
+          - id: "2"
+            value: To repeat a block of code as long as a condition is true.
+            explanation: A `while` loop continues executing as long as its condition remains
+              true.
+            isCorrect: true
+          - id: "3"
+            value: To iterate over a list with a fixed number of repetitions.
+            explanation: This is a characteristic of a `for` loop, which is used for
+              definite iteration.
+  - id: "4"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the examples provided in this lesson. How does the use of a
+          `while` loop in the 'User Input Loop' example help manage user
+          interaction compared to a `for` loop? Consider the nature of user
+          input and the need for indefinite iteration in your response.

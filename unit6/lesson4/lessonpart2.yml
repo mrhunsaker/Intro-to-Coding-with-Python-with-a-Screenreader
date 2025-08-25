@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: Using continue in Loops
 
   ## Skipping parts of an iteration
@@ -36,19 +35,73 @@ content: |
 
   1. **Activity 5.4.1: Skip the Vowels**
 
-  * Create `skip_vowels.py`.
+     * Create `skip_vowels.py`.
 
-  * Prompt for a word or phrase.
+     * Prompt for a word or phrase.
 
-  * Use a for loop to print only consonants.
+     * Use a for loop to print only consonants.
 
-  1. **Activity 5.4.2: Deli Order (No Pastrami)**
+  2. **Activity 5.4.2: Deli Order (No Pastrami)**
 
-  * Create `deli_order.py`.
+     * Create `deli_order.py`.
 
-  * Start with a list of sandwich orders.
+     * Start with a list of sandwich orders.
 
-  * Use a while loop and `continue` to skip "pastrami".
+     * Use a while loop and `continue` to skip "pastrami".
+
 showEditor: true
 editors:
   - course1/unit6/lesson4/lessonpart2/Lesson5_4.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What does the `continue` statement do in a loop?
+        options:
+          - id: "1"
+            value: It skips the rest of the current iteration and moves to the next
+              iteration.
+            explanation: The `continue` statement skips the rest of the current iteration
+              and proceeds to the next iteration of the loop.
+            isCorrect: true
+          - id: "2"
+            value: It exits the loop completely.
+            explanation: Exiting the loop completely is done using the `break` statement,
+              not `continue`.
+          - id: "3"
+            value: It pauses the loop until a condition is met.
+            explanation: Pausing the loop until a condition is met is not the function of
+              `continue`.
+          - id: "4"
+            value: It restarts the loop from the beginning.
+            explanation: Restarting the loop from the beginning is not the function of
+              `continue`.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the purpose of the `continue` statement in a loop?
+        options:
+          - id: "1"
+            value: To skip the rest of the current iteration and move to the next iteration.
+            explanation: The `continue` statement skips the rest of the current iteration
+              and proceeds to the next iteration.
+            isCorrect: true
+          - id: "2"
+            value: To exit the loop entirely.
+            explanation: Exiting the loop entirely is done using the `break` statement, not
+              `continue`.
+          - id: "3"
+            value: To pause the loop until a condition is met.
+            explanation: Pausing the loop until a condition is met is not the function of
+              the `continue` statement.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how the `continue` statement can be used to improve the
+          efficiency of a loop. Can you think of a scenario in a real-world
+          application where skipping certain iterations might be beneficial?
+          Describe the scenario and how you would implement it using a
+          `continue` statement.

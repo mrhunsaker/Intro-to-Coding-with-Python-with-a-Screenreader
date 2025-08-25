@@ -1,16 +1,12 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: >
-  
+content: >+
   # Lesson: Boolean Expressions and if Statements
 
 
-
-  ## Introducing True/False and comparison operators. Making decisions in
-
-  programs.
-
+  ## Introducing True/False and comparison operators. Making decisions
+  in programs.
 
 
   Boolean expressions are statements that evaluate to either True or False.
@@ -30,13 +26,10 @@ content: >
   block that belongs to the if statement.
 
 
-
   ## Explicit Examples
 
 
-
   ## Example 3.1.1: Simple Age Check
-
 
 
   ```python
@@ -53,9 +46,7 @@ content: >
   ```
 
 
-
   Expected Output:
-
 
 
   ```
@@ -67,9 +58,7 @@ content: >
   ```
 
 
-
   ## Example 3.1.2: Password Length Check
-
 
 
   ```python
@@ -85,9 +74,7 @@ content: >
   ```
 
 
-
   Expected Output:
-
 
 
   ```
@@ -99,15 +86,15 @@ content: >
   ```
 
 
-
   ## Activities
-
 
 
   1. **Activity 3.1.1: Number Comparison Game**
 
      1. Create `compare_numbers.py`.
+
      2. Prompt the user to enter two numbers.
+
      3. Using if statements and comparison operators, print a message indicating:
 
         * If the first number is greater than the second.
@@ -115,6 +102,7 @@ content: >
         * If the two numbers are equal.
 
         * If the first number is less than the second.
+
      4. Run the program multiple times with various pairs of numbers.
 
      * Purpose: Practice with if statements and comparison operators using user input.
@@ -122,8 +110,11 @@ content: >
   2. **Activity 3.1.2: Password Strength Checker (Basic)**
 
      1. Create `password_checker.py`.
+
      2. Prompt the user to enter a password.
+
      3. Use an if statement to check if the password's length is 8 or more characters.
+
      4. If the condition is met, print "Strong password!". Otherwise, print "Weak password: Must be at least 8 characters."
 
      * Purpose: Apply if statements to a practical scenario.
@@ -131,29 +122,88 @@ content: >
   ## Key Table: Unit 3: Common Comparison Operators
 
 
+  | Boolean Operator | Description                          | Example          |
+  Result  |
+
+  | :--------------- | :----------------------------------- | :--------------- |
+  :------ |
+
+  | `and`            | True if both operands are true       | `True and False` |
+  `False` |
+
+  | `or`             | True if at least one operand is true | `True or False`  |
+  `True`  |
+
+  | `not`            | Inverts the truth value              | `not True`       |
+  `False` |
+
 
   | Operator | Meaning               | Example | Result (if True) |
 
-
-  | -------  - | --------------------  - | ------  - | ---------------  - |
-
+  | -------- | --------------------- | ------- | ---------------- |
 
   | ==       | Equal to              | 5 == 5  | True             |
 
-
   | !=       | Not equal to          | 5 != 10 | True             |
-
 
   | <        | Less than             | 5 < 10  | True             |
 
-
   | >        | Greater than          | 10 > 5  | True             |
-
 
   | <=       | Less than or equal to | 5 <= 5  | True             |
 
-
   | >=       | Greater than or equal | 10 >= 5 | True             |
+
 showEditor: true
 editors:
   - course1/unit4/lesson1/lessonpart2/Lesson3_1.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which of the following statements about Python's if statements is true?
+        options:
+          - id: "1"
+            value: Indentation is used to define the block of code that belongs to the if
+              statement.
+            explanation: Correct! Indentation is crucial in Python to define code blocks.
+            isCorrect: true
+          - id: "2"
+            value: Python's if statements do not require indentation.
+            explanation: Incorrect. Indentation is required to define the block of code for
+              the if statement.
+          - id: "3"
+            value: An if statement can only evaluate expressions that are always True.
+            explanation: Incorrect. An if statement evaluates expressions that can be either
+              True or False.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which of the following comparison operators is used to check if two
+          values are not equal in Python?
+        options:
+          - id: "1"
+            value: "!="
+            explanation: The '!=' operator is used to check if two values are not equal.
+            isCorrect: true
+          - id: "2"
+            value: ==
+            explanation: The '==' operator is used to check if two values are equal.
+          - id: "3"
+            value: \<
+            explanation: The '\<' operator is used to check if one value is less than
+              another.
+          - id: "4"
+            value: \>=
+            explanation: The '\>=' operator is used to check if one value is greater than or
+              equal to another.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how using if statements and comparison operators can help
+          make decisions in a program. Can you think of a real-world scenario
+          where you might use these concepts to solve a problem? Describe the
+          scenario and how you would implement it using Python.

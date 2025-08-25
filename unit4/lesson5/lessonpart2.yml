@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: >+
   # Lesson: Basic String Operations
 
 
-  ## Concatenation, length (`len()`), string methods (`.upper()`, `.lower()`,
-  `.strip()`).
+  ## Concatenation, length (`len()`), string methods (`.upper()`,
+  `.lower()`, `.strip()`).
 
 
   Concatenation joins strings with `+`. `len()` returns the number of
+
   characters. String methods perform actions on strings.
 
 
@@ -22,17 +22,24 @@ content: |
 
   ```python
 
+
   message = "  Hello Python  "
+
 
   print(f"Original: '{message}'")
 
+
   print(f"Length: {len(message)}")
+
 
   print(f"Uppercase: '{message.upper()}'")
 
+
   print(f"Lowercase: '{message.lower()}'")
 
+
   print(f"Stripped: '{message.strip()}'")
+
 
   ```
 
@@ -42,15 +49,21 @@ content: |
 
   ```
 
+
   Original: '  Hello Python  '
+
 
   Length: 16
 
+
   Uppercase: '  HELLO PYTHON  '
+
 
   Lowercase: '  hello python  '
 
+
   Stripped: 'Hello Python'
+
 
   ```
 
@@ -60,22 +73,31 @@ content: |
 
   ```python
 
+
   first_name = "Alice"
+
 
   last_name = "Smith"
 
+
   full_name = first_name + " " + last_name
+
 
   print(f"Full name: {full_name}")
 
 
+
   greeting = "Welcome"
+
 
   language = "Python"
 
+
   combined = f"{greeting} to {language}!"
 
+
   print(combined)
+
 
   ```
 
@@ -85,9 +107,12 @@ content: |
 
   ```
 
+
   Full name: Alice Smith
 
+
   Welcome to Python!
+
 
   ```
 
@@ -98,9 +123,13 @@ content: |
   1. **Activity 3.5.1: Name Formatter**
 
      1. Create `name_formatter.py`.
+
      2. Prompt for first and last name.
+
      3. Print full name.
+
      4. Print full name in uppercase.
+
      5. Print total number of characters in full name.
 
      * Purpose: Practice string concatenation, `.upper()`, and `len()`.
@@ -108,12 +137,84 @@ content: |
   2. **Activity 3.5.2: Quote Stripper**
 
      1. Create `quote_stripper.py`.
+
      2. Store a famous quote with extra spaces/newlines.
+
      3. Print the original quote.
+
      4. Print the quote after `.strip()`.
+
      5. Discuss why `.strip()` is useful for user input.
 
      * Purpose: Practice cleaning text data with `.strip()`.
+
 showEditor: true
 editors:
   - course1/unit4/lesson5/lessonpart2/Lesson3_5.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which string method would you use to remove leading and trailing spaces
+          from a string?
+        options:
+          - id: "1"
+            value: .strip()
+            explanation: .strip() removes leading and trailing spaces from a string.
+            isCorrect: true
+          - id: "2"
+            value: .upper()
+            explanation: .upper() converts all characters in a string to uppercase.
+          - id: "3"
+            value: .lower()
+            explanation: .lower() converts all characters in a string to lowercase.
+          - id: "4"
+            value: .replace()
+            explanation: .replace() substitutes occurrences of a substring within a string.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which string method would you use to convert all characters in a string
+          to lowercase?
+        options:
+          - id: "1"
+            value: .lower()
+            explanation: The .lower() method converts all characters in a string to
+              lowercase.
+            isCorrect: true
+          - id: "2"
+            value: .upper()
+            explanation: The .upper() method converts all characters in a string to
+              uppercase.
+          - id: "3"
+            value: .strip()
+            explanation: The .strip() method removes leading and trailing spaces from a
+              string.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which string method would you use to join two strings together?
+        options:
+          - id: "1"
+            value: Concatenation using '+'
+            explanation: Concatenation using '+' is the correct method to join two strings.
+            isCorrect: true
+          - id: "2"
+            value: .strip()
+            explanation: .strip() is used to remove leading and trailing spaces, not to join
+              strings.
+          - id: "3"
+            value: .upper()
+            explanation: .upper() is used to convert a string to uppercase, not to join
+              strings.
+  - id: "4"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how using string methods like `.strip()`, `.upper()`, and
+          `.lower()` can improve the user experience in a program. Provide an
+          example of a situation where these methods would be particularly
+          useful.

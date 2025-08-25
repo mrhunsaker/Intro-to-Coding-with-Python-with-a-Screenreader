@@ -1,8 +1,10 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Reading
-content: |
-  
-  - Avoiding Infinite Loops   - Zelle: Chapter 8, pages 196-197 (specifically
-  "Infinite Loop").   - Matthes: Chapter 7, page 123 (on "Avoiding Infinite
-  Loops").
+content: |+
+  * Zelle: Chapter 8, pages 196-197 (specifically
+    "Infinite Loop").   
+
+  * Matthes: Chapter 7, page 123 (on "Avoiding Infinite
+    Loops").
+

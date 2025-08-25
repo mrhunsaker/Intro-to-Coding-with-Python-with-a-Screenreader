@@ -1,18 +1,20 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: >+
   # Lesson: Computing with Numbers
 
 
-  ## Integers, floats, and their differences. Type conversions (`int()`,
-  `float()`, `str()`).
+  ## Integers, floats, and their differences. Type conversions
+  (`int()`, `float()`, `str()`).
 
 
   This lesson reinforces the distinction between integers (whole numbers) and
+
   floats (numbers with decimal points). Explicit type conversion is necessary
+
   when performing mathematical operations on user input, as `input()` always
+
   returns a string.
 
 
@@ -24,28 +26,41 @@ content: |
 
   ```python
 
+
   # Demonstrating type conversions
+
 
   num_str = "123"
 
+
   num_int = int(num_str)
 
+
   print(f"String '{num_str}' converted to integer: {num_int}, type:
+
   {type(num_int)}")
+
 
 
   num_float = float(num_str)
 
+
   print(f"String '{num_str}' converted to float: {num_float}, type:
+
   {type(num_float)}")
+
 
 
   my_number = 42
 
+
   my_text = str(my_number)
 
+
   print(f"Integer {my_number} converted to string: '{my_text}', type:
+
   {type(my_text)}")
+
 
   ```
 
@@ -55,11 +70,15 @@ content: |
 
   ```
 
+
   String '123' converted to integer: 123, type: <class 'int'>
+
 
   String '123' converted to float: 123.0, type: <class 'float'>
 
+
   Integer 42 converted to string: '42', type: <class 'str'>
+
 
   ```
 
@@ -69,9 +88,12 @@ content: |
 
   ```python
 
+
   # This code will cause an error!
 
+
   # print("My age is " + 14) # Cannot combine string and integer directly with +
+
 
   ```
 
@@ -81,7 +103,9 @@ content: |
 
   ```
 
+
   TypeError: can only concatenate str (not "int") to str
+
 
   ```
 
@@ -92,9 +116,13 @@ content: |
   1. **Activity 2.4.1: Mixed Bag Calculator**
 
      1. Create `mixed_calc.py`.
+
      2. Prompt for age.
+
      3. Prompt for weight (decimal).
+
      4. Prompt for a short phrase.
+
      5. Attempt these operations (comment out lines that error and explain why):
 
         * Add age and weight.
@@ -104,11 +132,81 @@ content: |
         * Combine phrase with string version of age.
 
         * Attempt to add phrase and age directly (should error).
+
      6. Print results of successful operations, clearly labeled.
 
      * Purpose: Practice type conversion and compatibility issues.
 
      * Accessibility: Emphasize reading and interpreting error messages.
+
 showEditor: true
 editors:
   - course1/unit3/lesson4/lessonpart2/Lesson2_4.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the result of converting the string '123' to a float in Python?
+        options:
+          - id: "1"
+            value: "123.0"
+            explanation: Converting the string '123' to a float results in 123.0.
+            isCorrect: true
+          - id: "2"
+            value: "123"
+            explanation: 123 is the result of converting the string '123' to an integer, not
+              a float.
+          - id: "3"
+            value: "'123.0'"
+            explanation: "'123.0' is a string representation, not the result of a float
+              conversion."
+          - id: "4"
+            value: Error
+            explanation: Converting '123' to a float does not cause an error.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What will be the result of attempting to add a string and an integer
+          directly in Python?
+        options:
+          - id: "1"
+            value: A TypeError will occur.
+            explanation: Python cannot concatenate a string and an integer directly.
+            isCorrect: true
+          - id: "2"
+            value: The integer will be automatically converted to a string.
+            explanation: Python does not automatically convert integers to strings for
+              concatenation.
+          - id: "3"
+            value: The operation will succeed and return a string.
+            explanation: The operation will fail because Python requires explicit type
+              conversion.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What will be the result of converting the string '456' to an integer in
+          Python?
+        options:
+          - id: "1"
+            value: "456, type: \\<class 'int'\\>"
+            explanation: The string '456' is successfully converted to the integer 456.
+            isCorrect: true
+          - id: "2"
+            value: "456.0, type: \\<class 'float'\\>"
+            explanation: Converting to an integer does not result in a float.
+          - id: "3"
+            value: "'456', type: \\<class 'str'\\>"
+            explanation: The type remains a string if no conversion is performed.
+          - id: "4"
+            value: "Error: cannot convert string to integer"
+            explanation: Python can convert a numeric string to an integer without error.
+  - id: "4"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the importance of type conversion when working with user
+          input in Python. Why is it necessary to convert input data types, and
+          how can this practice prevent errors in your programs?

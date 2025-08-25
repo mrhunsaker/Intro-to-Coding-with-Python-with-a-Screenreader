@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: Iterating with for Loops
 
   ## Looping through sequences like strings and lists.
@@ -70,7 +69,9 @@ content: |
   1. **Activity 3.4.1: My Favorite Things**
 
      1. Create `favorite_things.py`.
+
      2. Create a list of five favorite things.
+
      3. Use a for loop to print a sentence for each item.
 
      * Purpose: Practice iterating through a list.
@@ -78,8 +79,11 @@ content: |
   2. **Activity 3.4.2: Countdown Timer**
 
      1. Create `countdown.py`.
+
      2. Prompt for a starting number.
+
      3. Use a for loop with range() to count down to 1.
+
      4. Print "Blast off!" after the loop.
 
      * Purpose: Practice for loops with range().
@@ -87,10 +91,99 @@ content: |
   3. **Activity 3.4.3: Character by Character**
 
      1. Create `char_printer.py`.
+
      2. Prompt for a word or phrase.
+
      3. Use a for loop to print each character on a new line.
 
      * Purpose: Practice iterating through a string.
+
 showEditor: true
 editors:
   - course1/unit4/lesson4/lessonpart2/Lesson3_4.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the purpose of using a for loop in Python?
+        options:
+          - id: "1"
+            value: To repeat a block of code for each item in a sequence.
+            explanation: A for loop is used to iterate over sequences like lists and
+              strings.
+            isCorrect: true
+          - id: "2"
+            value: To execute code only once.
+            explanation: A for loop is used for iteration, not single execution.
+          - id: "3"
+            value: To handle errors in a program.
+            explanation: Error handling is done using try-except blocks, not for loops.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which function is used to generate a sequence of numbers in a for loop?
+        options:
+          - id: "1"
+            value: range()
+            explanation: The range() function generates a sequence of numbers.
+            isCorrect: true
+          - id: "2"
+            value: list()
+            explanation: The list() function creates a list, not a sequence of numbers.
+          - id: "3"
+            value: string()
+            explanation: The string() function does not exist in Python for generating
+              sequences.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: |-
+          What will be the output of the following code snippet?
+
+          ```python
+          for i in range(3):
+              print(f"Number: {i}")
+          print("Loop complete.")
+          ```
+        options:
+          - id: "1"
+            value: |-
+              Number: 0
+              Number: 1
+              Number: 2
+              Loop complete.
+            explanation: The range(3) generates numbers 0, 1, and 2, and the loop prints
+              each number followed by 'Loop complete.'
+            isCorrect: true
+          - id: "2"
+            value: |-
+              Number: 1
+              Number: 2
+              Number: 3
+              Loop complete.
+            explanation: The range(3) starts from 0, not 1.
+          - id: "3"
+            value: |-
+              Number: 0
+              Number: 1
+              Number: 2
+            explanation: The loop is followed by a print statement that outputs 'Loop
+              complete.'
+          - id: "4"
+            value: |-
+              Number: 0
+              Number: 1
+              Number: 2
+              Number: 3
+              Loop complete.
+            explanation: The range(3) generates numbers up to 2, not 3.
+  - id: "4"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on how using a for loop to iterate through a list or string can
+          simplify repetitive tasks in programming. Can you think of a
+          real-world scenario where this technique might be useful?

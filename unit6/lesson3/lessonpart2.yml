@@ -1,9 +1,8 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
-  - Lesson: Using Flags and break to Exit Loops
+content: |+
+  # Lesson: Using Flags and break to Exit Loops
 
   ## Controlling loop termination
 
@@ -39,25 +38,69 @@ content: |
 
   1. **Activity 5.3.1: Pizza Toppings Order**
 
-  * Create `pizza_toppings.py`.
+     * Create `pizza_toppings.py`.
 
-  * Use a while loop to prompt for toppings (or 'quit').
+     * Use a while loop to prompt for toppings (or 'quit').
 
-  * Use `break` to exit.
+     * Use `break` to exit.
 
-  * Print confirmation and final message.
+     * Print confirmation and final message.
 
-  1. **Activity 5.3.2: User Name Collector**
+  2. **Activity 5.3.2: User Name Collector**
 
-  * Create `name_collector.py`.
+     * Create `name_collector.py`.
 
-  * Initialize an empty list `names`.
+     * Initialize an empty list `names`.
 
-  * Use a while loop to prompt for names (or 'done').
+     * Use a while loop to prompt for names (or 'done').
 
-  * Add names to the list.
+     * Add names to the list.
 
-  * Print all collected names.
+     * Print all collected names.
+
 showEditor: true
 editors:
   - course1/unit6/lesson3/lessonpart2/Lesson5_3.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the purpose of a flag variable in a loop?
+        options:
+          - id: "1"
+            value: To signal when to stop the loop.
+            explanation: A flag variable is used to control the loop's execution by
+              indicating when it should terminate.
+            isCorrect: true
+          - id: "2"
+            value: To immediately exit the loop.
+            explanation: The 'break' statement is used to immediately exit the loop, not a
+              flag variable.
+          - id: "3"
+            value: To count the number of iterations.
+            explanation: A counter variable, not a flag, is typically used to count
+              iterations.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the role of the 'break' statement in a loop?
+        options:
+          - id: "1"
+            value: It immediately exits the loop when executed.
+            explanation: The 'break' statement is used to exit the loop immediately.
+            isCorrect: true
+          - id: "2"
+            value: It pauses the loop execution temporarily.
+            explanation: The 'break' statement does not pause the loop; it exits it.
+          - id: "3"
+            value: It restarts the loop from the beginning.
+            explanation: The 'break' statement does not restart the loop; it exits it.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the examples provided in this lesson. How do the use of flag
+          variables and the 'break' statement differ in controlling loop
+          termination? Which method do you find more intuitive, and why?

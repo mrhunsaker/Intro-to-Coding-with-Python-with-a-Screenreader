@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
 title: Lesson
-content: |
-  
+content: |+
   # Lesson: Passing Arguments
 
   ## Positional arguments, keyword arguments
@@ -39,13 +38,64 @@ content: |
 
   1. **Activity 6.2.1: City and Country**
 
-  * Create `city_country.py`.
+     * Create `city_country.py`.
 
-  * Define a function `describe_city(city, country)`.
+     * Define a function `describe_city(city, country)`.
 
-  * Print a sentence.
+     * Print a sentence.
 
-  * Call the function three times, using keyword arguments at least once.
+     * Call the function three times, using keyword arguments at least once.
+
 showEditor: true
 editors:
   - course1/unit7/lesson2/lessonpart2/Lesson6_2.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is the main difference between positional and keyword arguments in
+          Python?
+        options:
+          - id: "1"
+            value: Positional arguments are passed based on their position in the function
+              call, while keyword arguments are passed by explicitly naming each
+              parameter.
+            explanation: Positional arguments rely on the order of parameters, whereas
+              keyword arguments specify the parameter names.
+            isCorrect: true
+          - id: "2"
+            value: Positional arguments can only be used with built-in functions, while
+              keyword arguments can be used with user-defined functions.
+            explanation: Both positional and keyword arguments can be used with user-defined
+              functions.
+          - id: "3"
+            value: Keyword arguments must always be used in combination with positional
+              arguments.
+            explanation: Keyword arguments can be used independently of positional
+              arguments.
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What is a key advantage of using keyword arguments in Python functions?
+        options:
+          - id: "1"
+            value: They allow arguments to be passed in any order.
+            explanation: Keyword arguments allow you to specify arguments by name, making
+              the order irrelevant.
+            isCorrect: true
+          - id: "2"
+            value: They automatically check for data types.
+            explanation: Keyword arguments do not perform automatic type checking.
+          - id: "3"
+            value: They improve the performance of the function.
+            explanation: Keyword arguments do not inherently improve function performance.
+  - id: "3"
+    questions:
+      - id: "1"
+        type: reflection
+        content: Reflect on the use of positional and keyword arguments in Python. How
+          do these concepts help in making your code more readable and
+          maintainable, especially when working with functions that have
+          multiple parameters?
