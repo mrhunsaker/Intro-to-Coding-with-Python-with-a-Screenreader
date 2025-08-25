@@ -1,0 +1,375 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart10
+title: Unit 10
+content: >+
+  ### **Unit 10: Project-Based Learning: Building Text-Based Applications**
+
+
+  #### **Lesson 10.1: Designing Your Project**
+
+
+  * **Proofreading Assignment (No code to proofread in this conceptual
+  lesson).**
+
+
+  #### **Lesson 10.2: Building a Text-Based Adventure Game (Part 1)**
+
+
+  * **Proofreading Assignment:**
+
+
+  - **Scenario:** You're setting up your game's rooms and movement, but making
+  dictionary access or conditional errors.
+
+  - **Code to Proofread:**\
+    rooms = {\
+        "start": {"description": "You are in a dimly lit cave.", "exits": {"north": "forest", "east": "river"}},\
+        "forest": {"description": "You are in a dense forest.", "exits": {"south": "start"}},\
+        "river": {"description": "A river flows quickly here.", "exits": {"west": "start"}\
+        # Missing closing curly brace for 'river' room and for 'rooms' dictionary\
+    }\
+    \
+    current\_room = "start"\
+    \
+    while True:\
+        room\_info = rooms\[current\_room]\
+        print(room\_info\["desc"]) # KeyError: 'desc' instead of 'description'\
+        print("Exits:", list(room\_info\["exits"].keys()))\
+    \
+        command = input("What do you do? ").lower()\
+        if command in room\_info\["exits"]:\
+            current\_room = room\_info.exits\[command] # AttributeError: 'dict' object has no attribute 'exits'\
+        elif command == "quit":\
+            break\
+        else:\
+            print("Invalid command.")\
+
+  - **Errors to Find:**
+
+
+  1. SyntaxError: Missing closing curly brace(s) for the river room and the
+  rooms dictionary.
+
+  2. KeyError: room\_info\["desc"] should be room\_info\["description"].
+
+  3. AttributeError: room\_info.exits\[command] should be
+  room\_info\["exits"]\[command].
+
+
+  * **Goal:** Fix all SyntaxError, KeyError, and AttributeError issues.
+
+
+  - **Documentation Assignment:**
+
+
+  * **Scenario:** This code sets up a simple game room and allows the player to
+  look around.
+
+  * **Code to Document:**\
+    game\_rooms = {\
+        "hall": {\
+            "description": "You are in a grand hall with high ceilings.",\
+            "exits": {"north": "kitchen", "south": "garden"}\
+        }\
+    }\
+    player\_location = "hall"\
+    \
+    print(f"Current location: {player\_location}")\
+    current\_room\_details = game\_rooms\[player\_location]\
+    print(current\_room\_details\["description"])\
+    print(f"Available exits: {', '.join(current\_room\_details\['exits'].keys())}")\
+
+  * **Task:** Add a **docstring** explaining the structure of game\_rooms. Add
+  **inline comments** for player\_location, accessing room details, and
+  displaying the description and exits.
+
+  * **Goal:** Document the setup and basic description of a game room.
+
+
+  #### **Lesson 10.3: Building a Text-Based Adventure Game (Part 2)**
+
+
+  * **Proofreading Assignment:**
+
+
+  - **Scenario:** You're adding inventory and item interaction to your game, but
+  mismanaging list/dictionary operations or conditional logic.
+
+  - **Code to Proofread:**\
+    rooms = {\
+        "start": {"description": "A dark cave.", "items": \["torch", "rock"], "exits": {"north": "forest"}},\
+        "forest": {"description": "A dense forest.", "items": \[], "exits": {"south": "start"}}\
+    }\
+    player\_inventory = \[]\
+    current\_room = "start"\
+    \
+    while True:\
+        room\_items = rooms\[current\_room]\["items"]\
+        print(f"You see: {', '.join(room\_items) if room\_items else 'nothing'}.")\
+        command = input("Action? ").lower().split()\
+    \
+        if len(command) < 2:\
+            print("Need more info.")\
+            continue\
+    \
+        action = command\[0]\
+        item\_name = command\[1]\
+    \
+        if action == "take":\
+            if item\_name in room\_items:\
+                room\_items.remove(item\_name) # This modifies the original room\_items in dict\
+                player\_inventory.append(item\_name)\
+                print(f"You took the {item\_name}.")\
+            else:\
+                print("That item is not here.")\
+        elif action == "drop":\
+            if item\_name in player\_inventory:\
+                player\_inventory.remove(item\_name)\
+                rooms\[current\_room]\["items"].add(item\_name) # AttributeError: 'list' object has no attribute 'add'\
+                print(f"You dropped the {item\_name}.")\
+            else:\
+                print("You don't have that item.")\
+        elif action == "go":\
+            if item\_name in rooms\[current\_room]\["exits"]:\
+                current\_room = rooms\[current\_room]\["exits"]\[item\_name]\
+            else:\
+                print("You can't go that way.")\
+        else:\
+            print("Unknown command.")\
+        print(f"Your inventory: {', '.join(player\_inventory) if player\_inventory else 'empty'}.")\
+
+  - **Errors to Find:**
+
+
+  1. AttributeError: rooms\[current\_room]\["items"].add(item\_name) should be
+  append() because it's a list.
+
+
+  * **Goal:** Fix the AttributeError. Explain that list.add() is not a method
+  and list.append() should be used.
+
+
+  - **Documentation Assignment:**
+
+
+  * **Scenario:** This code simulates picking up and dropping an item in a
+  simple game.
+
+  * **Code to Document:**\
+    current\_room\_items = \["key", "map"]\
+    player\_inventory = \[]\
+    \
+    item\_to\_take = "key"\
+    if item\_to\_take in current\_room\_items:\
+        current\_room\_items.remove(item\_to\_take)\
+        player\_inventory.append(item\_to\_take)\
+        print(f"You took the {item\_to\_take}.")\
+    else:\
+        print("Item not found in room.")\
+    \
+    print(f"Room items now: {current\_room\_items}")\
+    print(f"Your inventory: {player\_inventory}")\
+    \
+    item\_to\_drop = "map"\
+    if item\_to\_drop in player\_inventory:\
+        player\_inventory.remove(item\_to\_drop)\
+        current\_room\_items.append(item\_to\_drop)\
+        print(f"You dropped the {item\_to\_drop}.")\
+    else:\
+        print("Item not in your inventory.")\
+
+  * **Task:** Add a **docstring** for the script. Add **inline comments**
+  explaining the "take" and "drop" logic, including list .remove() and .append()
+  methods.
+
+  * **Goal:** Document basic item interaction in a game.
+
+
+  #### **Lesson 10.4: Developing a Command-Line Tool**
+
+
+  * **Proofreading Assignment:**
+
+
+  - **Scenario:** You're building a to-do list tool, but persistence is broken
+  due to incorrect JSON handling or file modes.
+
+  - **Code to Proofread:**\
+    import json\
+    \
+    TODOS\_FILE = "todos.json"\
+    \
+    def load\_todos():\
+        try:\
+            with open(TODOS\_FILE, "r") as f:\
+                return json.load(f)\
+        except FileNotFoundError:\
+            return \[]\
+        except json.JSONDecodeError:\
+            print("Warning: Corrupted todos.json, starting with empty list.")\
+            return \[]\
+    \
+    def save\_todos(todos):\
+        with open(TODOS\_FILE, "a") as f: # Should be "w" to overwrite, not append\
+            json.dump(todos, f, indent=4)\
+    \
+    todos = load\_todos()\
+    \
+    while True:\
+        print("\n--- To-Do List ---")\
+        print("1. Add To-Do")\
+        print("2. View To-Dos")\
+        print("3. Save and Quit")\
+        choice = input("Enter choice: ")\
+    \
+        if choice == "1":\
+            task = input("Enter new task: ")\
+            todos.append(task)\
+            print("Task added.")\
+        elif choice == "2":\
+            if not todos:\
+                print("No to-dos yet.")\
+            for i, task in enumerate(todos):\
+                print(f"{i+1}. {task}")\
+        elif choice == "3":\
+            save\_todos(todos)\
+            break\
+        else:\
+            print("Invalid choice.")\
+
+  - **Errors to Find:**
+
+
+  1. Logical Error: save\_todos uses "a" mode for writing JSON. This will append
+  the *entire JSON structure* to the file, creating invalid JSON. It should be
+  "w" to overwrite.
+
+
+  * **Goal:** Correct the file mode in save\_todos to "w" and explain why
+  appending JSON directly can lead to corrupted files.
+
+
+  - **Documentation Assignment:**
+
+
+  * **Scenario:** This code provides the core functions for a simple contact
+  manager: adding and viewing contacts.
+
+  * **Code to Document:**\
+    contacts = \[]\
+    \
+    def add\_contact(name, phone):\
+        """Adds a new contact to the global contacts list."""\
+        new\_contact = {"name": name, "phone": phone}\
+        contacts.append(new\_contact)\
+        print(f"Contact '{name}' added.")\
+    \
+    def view\_contacts():\
+        """Displays all contacts currently stored."""\
+        if not contacts:\
+            print("No contacts available.")\
+            return\
+    \
+        print("\n--- Your Contacts ---")\
+        for i, contact in enumerate(contacts):\
+            print(f"{i+1}. Name: {contact\['name']}, Phone: {contact\['phone']}")\
+    \
+    \# Main loop (simplified for documentation)\
+    add\_contact("Alice", "123-4567")\
+    add\_contact("Bob", "987-6543")\
+    view\_contacts()\
+
+  * **Task:** Add **docstrings** for add\_contact (explaining parameters and
+  action) and view\_contacts (explaining its display logic). Add **inline
+  comments** explaining dictionary creation and list appending in add\_contact,
+  and the enumerate loop in view\_contacts.
+
+  * **Goal:** Document core functions for a command-line tool.
+
+
+  #### **Lesson 10.5: Refinement and User Experience**
+
+
+  * **Proofreading Assignment:**
+
+
+  - **Scenario:** You're adding input validation and better error messages, but
+  there are logical flaws or unhandled edge cases.
+
+  - **Code to Proofread:**\
+    def get\_positive\_number(prompt):\
+        while True:\
+            try:\
+                num\_str = input(prompt)\
+                num = int(num\_str)\
+                if num > 0:\
+                    return num\
+                else:\
+                    print("Please enter a positive number.")\
+            except ValueError:\
+                print("Invalid input. Please enter a whole number.")\
+            # Missing handling for empty input, which also raises ValueError\
+            # or for just pressing Enter\
+    def main():\
+        age = get\_positive\_number("Enter your age: ")\
+        print(f"You entered age: {age}")\
+    \
+        # Example of trying to use an invalid choice\
+        print("\nMenu: A. Option A, B. Option B")\
+        choice = input("Select an option (A/B): ").upper()\
+        if choice == "A":\
+            print("Option A selected.")\
+        elif choice == "B":\
+            print("Option B selected.")\
+        else:\
+            pass # This doesn't inform the user of an invalid choice\
+    main()\
+
+  - **Errors to Find:**
+
+
+  1. Logical Error: get\_positive\_number has an except ValueError but doesn't
+  explicitly handle empty input or just hitting Enter, which would re-raise
+  ValueError or enter an infinite loop if not handled correctly.
+
+  2. Logical Error: In main, the else: pass for invalid menu choice doesn't
+  provide feedback to the user.
+
+
+  * **Goal:** Modify get\_positive\_number to ensure int() conversion happens
+  *before* num > 0 check. For the else: pass in main, replace pass with a
+  meaningful message to the user.
+
+
+  - **Documentation Assignment:**
+
+
+  * **Scenario:** This code asks for a user's age and provides feedback,
+  ensuring the input is a valid positive number.
+
+  * **Code to Document:**\
+    def get\_valid\_age():\
+        """\
+        Prompts the user for their age and ensures it's a positive integer.\
+        Continues prompting until valid input is received.\
+        """\
+        while True:\
+            try:\
+                age\_str = input("Please enter your age: ")\
+                age = int(age\_str)\
+                if age > 0:\
+                    return age\
+                else:\
+                    print("Age must be a positive number. Please try again.")\
+            except ValueError:\
+                print("Invalid input. Please enter a whole number.")\
+    \
+    user\_age = get\_valid\_age()\
+    print(f"Your age is: {user\_age}")\
+
+  * **Task:** Ensure the **docstring** for get\_valid\_age is thorough
+  (explaining its purpose, input, output, and behavior). Add **inline comments**
+  within the try and except blocks explaining their roles in validation.
+
+  * **Goal:** Document robust user input validation with clear feedback.
+

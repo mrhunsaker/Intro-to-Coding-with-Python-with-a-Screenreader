@@ -21,8 +21,10 @@ content: >+
   - **Scenario:** You're trying to perform some calculations and store results,
   but Python is complaining about syntax or undefined variables.
 
+
   - **Code to Proofread:**
-    ```
+
+    ```python
     x = 10
     y = x + 5
     print(y)
@@ -37,8 +39,6 @@ content: >+
     current_score = 50
     current_score += 10 # This line is correct
     print(current_score)
-
-
     ```
 
   * **Goal:** Fix the NameError and SyntaxError so the program runs without
@@ -54,8 +54,10 @@ content: >+
   - **Scenario:** You're building a small program to greet the user, but
   something's off with the input or output formatting.
 
+
   - **Code to Proofread:**
-    ```
+
+    ```python
     name = input("Enter your name: ")
     age = input("Enter your age") # Missing colon/space
 
@@ -76,16 +78,20 @@ content: >+
   * **Scenario:** The following code works, but it's not clear what each part
   does or what the overall purpose is.
 
+
   * **Code to Document:**
-    ```
+
+    ```python
     user_name = input("What is your name? ")
     user_city = input("Which city are you from? ")
     print(f"Hello, {user_name} from {user_city}!")
 
     ```
+
   * **Task:** Add a **docstring** for the entire script (at the very top)
   describing its purpose. Add **inline comments** explaining what each input()
   line does and what the print() statement achieves.
+
 
   * **Goal:** Make the code understandable to someone reading it for the first
   time.
@@ -100,8 +106,10 @@ content: >+
   - **Scenario:** You're trying to create a simple calculator, but type issues
   and operator precedence are causing incorrect results or crashes.
 
+
   - **Code to Proofread:**
-    ```
+
+    ```python
     num_str1 = input("Enter first number: ")
     num_str2 = input("Enter second number: ")
 
@@ -128,17 +136,21 @@ content: >+
 
   * **Scenario:** This code converts temperatures, but it's not well-explained.
 
+
   * **Code to Document:**
-    ```
+
+    ```python
     celsius_str = input("Enter temperature in Celsius: ")
     celsius_float = float(celsius_str)
     fahrenheit = (celsius_float * 9/5) + 32
     print(f"{celsius_float}°C is {fahrenheit}°F")
 
     ```
+
   * **Task:** Add a **docstring** to explain the script's overall function. Add
   **inline comments** explaining each step: input, conversion, calculation, and
   output.
+
 
   * **Goal:** Clearly document the temperature conversion process.
 
@@ -152,8 +164,10 @@ content: >+
   - **Scenario:** You're using the math module, but you're making mistakes with
   importing, function calls, or arguments.
 
+
   - **Code to Proofread:**
-    ```
+
+    ```python
     import math
 
     value = 64
@@ -185,8 +199,10 @@ content: >+
   * **Scenario:** The following code calculates the hypotenuse of a right
   triangle.
 
+
   * **Code to Document:**
-    ```
+
+    ```python
     import math
 
     side_a = 3
@@ -194,9 +210,11 @@ content: >+
     hypotenuse = math.sqrt(math.pow(side_a, 2) + math.pow(side_b, 2))
     print(f"The hypotenuse is: {hypotenuse}")
     ```
+
   * **Task:** Add a **docstring** explaining the script's purpose (using
   Pythagorean theorem). Add **inline comments** for the import, variable
   definitions, and the hypotenuse calculation line.
+
 
   * **Goal:** Clearly document the calculation of the hypotenuse.
 

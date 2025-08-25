@@ -22,12 +22,15 @@ content: >+
   common mistakes. Your screen reader might point out "unexpected character" or
   "unmatched parenthesis" errors.
 
+
   - **Code to Proofread:**
-    ```
+
+    ```python
     print("Hello World"
     print "My name is Python")
     print("Nice to meet you!"
     ```
+
   - **Goal:** Fix all syntax errors so the program runs and prints three lines
   of output.
 
@@ -42,8 +45,10 @@ content: >+
   calculation, but there are typos. Listen carefully for error messages related
   to names not being defined or syntax errors.
 
+
   - **Code to Proofread:**
-    ```
+
+    ```python
     greeting = "Hi there"
     name = "Alex"
     print(greeting + name)

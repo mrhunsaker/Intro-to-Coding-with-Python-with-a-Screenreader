@@ -1,8 +1,345 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart7
 title: Unit 7
-content: |+
+content: >+
   # Unit 7: Classes and Object-Oriented Programming
 
 
-  	
+  ### **Unit 7: Classes and Object-Oriented Programming**
+
+
+  #### **Lesson 7.1: Why Learn About Classes?**
+
+
+  * **Proofreading Assignment (No code to proofread in this conceptual
+  lesson).**
+
+
+  #### **Lesson 7.2: Creating and Using a Class**
+
+
+  * **Proofreading Assignment:**
+
+
+  - **Scenario:** You're defining a class and creating objects, but syntax
+  errors or self issues are popping up.
+
+  - **Code to Proofread:**\
+    class Car: # Missing colon\
+        def \_\_init\_\_(self, make, model):\
+            self.make = make\
+            model = model # This 'model' is a local variable, not an attribute\
+    \
+        def display\_info(self):\
+            print(f"Make: {self.make}, Model: {self.model}") # NameError: self.model not defined\
+    \
+    my\_car = Car("Toyota", "Camry")\
+    my\_car.display\_info()\
+
+  - **Errors to Find:**
+
+
+  1. SyntaxError: Missing colon after class Car.
+
+  2. Logical Error: model = model in \_\_init\_\_ means self.model is never
+  created.
+
+  3. AttributeError (or NameError depending on Python version): self.model
+  accessed in display\_info but not defined.
+
+
+  * **Goal:** Fix the SyntaxError and the logical error in \_\_init\_\_ to
+  correctly assign self.model.
+
+
+  - **Documentation Assignment:**
+
+
+  * **Scenario:** This code defines a Dog class and creates a dog object.
+
+  * **Code to Document:**\
+    class Dog:\
+        """\
+        Represents a dog with a name and age.\
+        """\
+        def \_\_init\_\_(self, name, age):\
+            self.name = name\
+            self.age = age\
+    \
+        def bark(self):\
+            """\
+            Makes the dog bark.\
+            """\
+            print(f"{self.name} says Woof!")\
+    \
+    my\_dog = Dog("Buddy", 3)\
+    my\_dog.bark()\
+
+  * **Task:** Ensure the **docstring** for the Dog class explains its purpose.
+  Ensure the **docstring** for bark explains what it does. Add **inline
+  comments** explaining attribute assignment in \_\_init\_\_ and the object
+  creation/method call.
+
+  * **Goal:** Document a simple class with attributes and methods.
+
+
+  #### **Lesson 7.3: Working with Attributes and Methods**
+
+
+  * **Proofreading Assignment:**
+
+
+  - **Scenario:** You're trying to access or modify attributes and call methods,
+  but often forget self. or confuse local variables.
+
+  - **Code to Proofread:**\
+    class Robot:\
+        def \_\_init\_\_(self, name):\
+            self.name = name\
+            self.power = 100\
+    \
+        def decrease\_power(amount): # Missing self parameter\
+            power -= amount # NameError: power not defined\
+            print(f"{self.name} power is now {self.power}") # AttributeError: self not defined\
+    \
+        def get\_name(): # Missing self parameter\
+            return name # NameError: name not defined\
+    \
+    my\_robot = Robot("R2D2")\
+    print(my\_robot.name)\
+    my\_robot.decrease\_power(10)\
+    print(my\_robot.get\_name())\
+
+  - **Errors to Find:**
+
+
+  1. TypeError: decrease\_power and get\_name are missing the self parameter.
+
+  2. NameError: Inside decrease\_power, power should be self.power.
+
+  3. NameError: Inside get\_name, name should be self.name.
+
+
+  * **Goal:** Fix all methods by adding self as the first parameter and using
+  self.attribute when accessing attributes.
+
+
+  - **Documentation Assignment:**
+
+
+  * **Scenario:** This code defines a Circle class with methods to calculate
+  area and circumference.
+
+  * **Code to Document:**\
+    import math\
+    \
+    class Circle:\
+        """\
+        Represents a circle and provides methods for calculations.\
+        """\
+        def \_\_init\_\_(self, radius):\
+            self.radius = radius\
+    \
+        def calculate\_area(self):\
+            """\
+            Calculates the area of the circle.\
+            """\
+            return math.pi \* self.radius\*\*2\
+    \
+        def calculate\_circumference(self):\
+            """\
+            Calculates the circumference of the circle.\
+            """\
+            return 2 \* math.pi \* self.radius\
+    \
+    my\_circle = Circle(5)\
+    print(f"Area: {my\_circle.calculate\_area()}")\
+
+  * **Task:** Ensure **docstrings** for Circle, calculate\_area, and
+  calculate\_circumference are clear. Add **inline comments** explaining
+  attribute assignment in \_\_init\_\_ and the calculation formulas.
+
+  * **Goal:** Document a class with mathematical methods.
+
+
+  #### **Lesson 7.4: Inheritance**
+
+
+  * **Proofreading Assignment:**
+
+
+  - **Scenario:** You're implementing inheritance, but common mistakes with
+  super() or attribute access are causing issues.
+
+  - **Code to Proofread:**\
+    class Animal:\
+        def \_\_init\_\_(self, name):\
+            self.name = name\
+    \
+        def speak(self):\
+            return "Unknown sound"\
+    \
+    class Dog(Animal):\
+        def \_\_init\_\_(self, name, breed):\
+            super().\_\_init\_\_(name)\
+            self.breed = breed\
+    \
+        def speak(self):\
+            return "Woof!"\
+    \
+    class Cat(Animal):\
+        def \_\_init\_\_(self, name, color):\
+            self.name = name # Forgetting super().\_\_init\_\_()\
+            self.color = color\
+    \
+        def speak(self):\
+            return "Meow!"\
+    \
+    my\_dog = Dog("Buddy", "Golden Retriever")\
+    print(my\_dog.speak())\
+    \
+    my\_cat = Cat("Whiskers", "black")\
+    print(my\_cat.speak())\
+    print(my\_cat.name) # This will work, but it's not ideal for inheritance\
+    print(my\_dog.breed)\
+
+  - **Errors to Find:**
+
+
+  1. Logical Error/Best Practice: In Cat's \_\_init\_\_, self.name = name
+  directly assigns rather than calling super().\_\_init\_\_(name). While this
+  doesn't cause an *error* for name, it bypasses any other initialization Animal
+  might have. It's a common oversight.
+
+
+  * **Goal:** Modify Cat's \_\_init\_\_ to correctly use
+  super().\_\_init\_\_(name) for proper inheritance. Explain *why* super() is
+  preferred.
+
+
+  - **Documentation Assignment:**
+
+
+  * **Scenario:** This code defines a Vehicle class and a Car class that
+  inherits from Vehicle.
+
+  * **Code to Document:**\
+    class Vehicle:\
+        """\
+        A generic class to represent a vehicle.\
+        """\
+        def \_\_init\_\_(self, brand):\
+            self.brand = brand\
+    \
+        def get\_brand(self):\
+            """Returns the brand of the vehicle."""\
+            return self.brand\
+    \
+    class Car(Vehicle):\
+        """\
+        Represents a car, inheriting from Vehicle.\
+        """\
+        def \_\_init\_\_(self, brand, model):\
+            super().\_\_init\_\_(brand) # Initialize parent class\
+            self.model = model\
+    \
+        def get\_model(self):\
+            """Returns the model of the car."""\
+            return self.model\
+    \
+    my\_car = Car("Toyota", "Camry")\
+    print(f"Brand: {my\_car.get\_brand()}, Model: {my\_car.get\_model()}")\
+
+  * **Task:** Ensure **docstrings** are present for both classes and their
+  methods. Add an **inline comment** explaining super().\_\_init\_\_() in the
+  Car class.
+
+  * **Goal:** Document a basic inheritance setup.
+
+
+  #### **Lesson 7.5: Instances as Attributes**
+
+
+  * **Proofreading Assignment:**
+
+
+  - **Scenario:** You're using composition, but misremembering how to access
+  attributes of the nested object.
+
+  - **Code to Proofread:**\
+    class Engine:\
+        def \_\_init\_\_(self, fuel\_type):\
+            self.fuel\_type = fuel\_type\
+    \
+        def start(self):\
+            return f"Engine running on {self.fuel\_type}."\
+    \
+    class Car:\
+        def \_\_init\_\_(self, make, model, engine\_type):\
+            self.make = make\
+            self.model = model\
+            self.engine = Engine(engine\_type) # Correct composition\
+    \
+        def get\_engine\_fuel(): # Missing self parameter\
+            return self.engine.fuel\_type # AttributeError: self not defined\
+    \
+        def car\_start\_sound(self):\
+            return self.engine.start # Missing parentheses for method call\
+    \
+    my\_car = Car("Honda", "Civic", "Gasoline")\
+    print(f"Car engine fuel: {my\_car.get\_engine\_fuel()}")\
+    print(f"Car starts: {my\_car.car\_start\_sound()}")\
+
+  - **Errors to Find:**
+
+
+  1. TypeError: get\_engine\_fuel is missing self.
+
+  2. AttributeError: If previous error fixed, self.engine.start is missing ()
+  for the method call.
+
+
+  * **Goal:** Fix the TypeError by adding self to get\_engine\_fuel. Fix the
+  AttributeError by adding () to self.engine.start.
+
+
+  - **Documentation Assignment:**
+
+
+  * **Scenario:** This code models a Book that *has a* Author.
+
+  * **Code to Document:**\
+    class Author:\
+        """\
+        Represents an author with a name.\
+        """\
+        def \_\_init\_\_(self, name):\
+            self.name = name\
+    \
+        def get\_name(self):\
+            """Returns the author's name."""\
+            return self.name\
+    \
+    class Book:\
+        """\
+        Represents a book with a title and an Author instance.\
+        """\
+        def \_\_init\_\_(self, title, author\_name):\
+            self.title = title\
+            self.author = Author(author\_name) # Composition: Book 'has a' Author\
+    \
+        def get\_book\_info(self):\
+            """Returns information about the book and its author."""\
+            return f"'{self.title}' by {self.author.get\_name()}"\
+    \
+    author1 = Author("Jane Austen")\
+    book1 = Book("Pride and Prejudice", author1.name)\
+    print(book1.get\_book\_info())\
+
+  * **Task:** Ensure **docstrings** for both classes and their methods are
+  clear. Add an **inline comment** explaining the composition in
+  Book.\_\_init\_\_ and how self.author.get\_name() accesses the nested object's
+  method.
+
+  * **Goal:** Document a class demonstrating composition.
+
