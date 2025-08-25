@@ -24,6 +24,7 @@ content: >+
   - **Scenario:** You're defining a class and creating objects, but syntax
   errors or self issues are popping up.
 
+
   - **Code to Proofread:**\
     class Car: # Missing colon\
         def \_\_init\_\_(self, make, model):\
@@ -34,7 +35,7 @@ content: >+
             print(f"Make: {self.make}, Model: {self.model}") # NameError: self.model not defined\
     \
     my\_car = Car("Toyota", "Camry")\
-    my\_car.display\_info()\
+    my\_car.display\_info()\\
 
   - **Errors to Find:**
 
@@ -57,6 +58,7 @@ content: >+
 
   * **Scenario:** This code defines a Dog class and creates a dog object.
 
+
   * **Code to Document:**\
     class Dog:\
         """\
@@ -73,12 +75,13 @@ content: >+
             print(f"{self.name} says Woof!")\
     \
     my\_dog = Dog("Buddy", 3)\
-    my\_dog.bark()\
+    my\_dog.bark()\\
 
   * **Task:** Ensure the **docstring** for the Dog class explains its purpose.
   Ensure the **docstring** for bark explains what it does. Add **inline
   comments** explaining attribute assignment in \_\_init\_\_ and the object
   creation/method call.
+
 
   * **Goal:** Document a simple class with attributes and methods.
 
@@ -91,6 +94,7 @@ content: >+
 
   - **Scenario:** You're trying to access or modify attributes and call methods,
   but often forget self. or confuse local variables.
+
 
   - **Code to Proofread:**\
     class Robot:\
@@ -108,7 +112,7 @@ content: >+
     my\_robot = Robot("R2D2")\
     print(my\_robot.name)\
     my\_robot.decrease\_power(10)\
-    print(my\_robot.get\_name())\
+    print(my\_robot.get\_name())\\
 
   - **Errors to Find:**
 
@@ -129,6 +133,7 @@ content: >+
 
   * **Scenario:** This code defines a Circle class with methods to calculate
   area and circumference.
+
 
   * **Code to Document:**\
     import math\
@@ -153,11 +158,12 @@ content: >+
             return 2 \* math.pi \* self.radius\
     \
     my\_circle = Circle(5)\
-    print(f"Area: {my\_circle.calculate\_area()}")\
+    print(f"Area: {my\_circle.calculate\_area()}")\\
 
   * **Task:** Ensure **docstrings** for Circle, calculate\_area, and
   calculate\_circumference are clear. Add **inline comments** explaining
   attribute assignment in \_\_init\_\_ and the calculation formulas.
+
 
   * **Goal:** Document a class with mathematical methods.
 
@@ -170,6 +176,7 @@ content: >+
 
   - **Scenario:** You're implementing inheritance, but common mistakes with
   super() or attribute access are causing issues.
+
 
   - **Code to Proofread:**\
     class Animal:\
@@ -201,7 +208,7 @@ content: >+
     my\_cat = Cat("Whiskers", "black")\
     print(my\_cat.speak())\
     print(my\_cat.name) # This will work, but it's not ideal for inheritance\
-    print(my\_dog.breed)\
+    print(my\_dog.breed)\\
 
   - **Errors to Find:**
 
@@ -222,6 +229,7 @@ content: >+
 
   * **Scenario:** This code defines a Vehicle class and a Car class that
   inherits from Vehicle.
+
 
   * **Code to Document:**\
     class Vehicle:\
@@ -248,11 +256,12 @@ content: >+
             return self.model\
     \
     my\_car = Car("Toyota", "Camry")\
-    print(f"Brand: {my\_car.get\_brand()}, Model: {my\_car.get\_model()}")\
+    print(f"Brand: {my\_car.get\_brand()}, Model: {my\_car.get\_model()}")\\
 
   * **Task:** Ensure **docstrings** are present for both classes and their
   methods. Add an **inline comment** explaining super().\_\_init\_\_() in the
   Car class.
+
 
   * **Goal:** Document a basic inheritance setup.
 
@@ -265,6 +274,7 @@ content: >+
 
   - **Scenario:** You're using composition, but misremembering how to access
   attributes of the nested object.
+
 
   - **Code to Proofread:**\
     class Engine:\
@@ -288,7 +298,7 @@ content: >+
     \
     my\_car = Car("Honda", "Civic", "Gasoline")\
     print(f"Car engine fuel: {my\_car.get\_engine\_fuel()}")\
-    print(f"Car starts: {my\_car.car\_start\_sound()}")\
+    print(f"Car starts: {my\_car.car\_start\_sound()}")\\
 
   - **Errors to Find:**
 
@@ -307,6 +317,7 @@ content: >+
 
 
   * **Scenario:** This code models a Book that *has a* Author.
+
 
   * **Code to Document:**\
     class Author:\
@@ -334,12 +345,13 @@ content: >+
     \
     author1 = Author("Jane Austen")\
     book1 = Book("Pride and Prejudice", author1.name)\
-    print(book1.get\_book\_info())\
+    print(book1.get\_book\_info())\\
 
   * **Task:** Ensure **docstrings** for both classes and their methods are
   clear. Add an **inline comment** explaining the composition in
   Book.\_\_init\_\_ and how self.author.get\_name() accesses the nested object's
   method.
+
 
   * **Goal:** Document a class demonstrating composition.
 
